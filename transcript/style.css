@@ -20,17 +20,17 @@ body.transcript-on #page3 div[data-character] {
 body.transcript-on div[data-character="butcher"] {
   padding-right: 75px;
   text-align: right;
-  background: url("images/avatar-butcher.png") right top no-repeat;
+  background: url("./images/avatar-butcher.png") right top no-repeat;
   background-size: 75px; }
 body.transcript-on div[data-character="cop"] {
   padding-left: 75px;
-  background: url("images/avatar-cop.png") left top no-repeat; }
+  background: url("./images/avatar-cop.png") left top no-repeat; }
 body.transcript-on div[data-character="wordgirl"] {
   padding-left: 75px;
-  background: url("images/avatar-wordgirl.png") left top no-repeat; }
+  background: url("./images/avatar-wordgirl.png") left top no-repeat; }
 body.transcript-on div[data-character="narator"] {
   padding-left: 75px;
-  background: url("images/avatar-narator.png") left top no-repeat; }
+  background: url("./images/avatar-narator.png") left top no-repeat; }
 body.transcript-on .transcript-lines {
   width: 60%;
   height: auto;
@@ -75,7 +75,7 @@ div[data-character] {
   position: absolute; }
 
 #page3 {
-  background: url("images/page3.png") left center no-repeat;
+  background: url("./images/page3.png") left center no-repeat;
   background-size: cover;
   position: relative; }
   #page3 [tabindex='1'] {
