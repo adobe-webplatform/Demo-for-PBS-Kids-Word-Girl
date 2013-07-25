@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Auto-transcript with CSS Regions</title>
+  <link rel="stylesheet" href="style.css" media="all" />
+</head>
+<body>
+  
+  <header>
+    <button>Toggle auto-transcript</button>
+  </header>
+  
+  <div id="transcript">
+    <h2>Transcript</h2>
+    <div class="transcript-lines"></div>
+  </div>
+  
+  <article>
+    <section id="page3">
+      <div data-character="cop" tabindex=1>Hold it right there, fella!</div>
+      <div data-character="butcher" tabindex=2>Fella? No, no... I'm <em>The Butcher</em>! And I'm here to stealize this ancient diamond here!</div>
+      <div data-character="cop" tabindex=3>The word isn't <strong>"stealize"</strong>. It's <strong>"steal"</strong>. And besides, that's not an ancient diamond.</div>
+
+      <div data-character="butcher" tabindex=4>It's not?</div>
+      <div data-character="cop" tabindex=5>Nope. It's an ancient zirconia. That's an ancient diamond over there.</div>
+
+      <div data-character="butcher" tabindex=6>Oh. Well, I'll take it anyway. It's all spargly!</div>
+      <div data-character="cop" tabindex=7>The workd is <strong>"sparkly"</strong>, not "spargly".</div>
+
+      <div data-character="narator" tabindex=8>Meanwhile, in the spaceship lair of Wordgirl and Captain Huggy Face...</div>
+      <div data-character="wordgirl"tabindex=9>A robbery? At the museum? C'mon, Huggy.</div>
+      <div data-character="wordgirl"tabindex=10><em>Worrrrd up!</em></div>
+    </section>
+  </article>
+  
+  <script>
+
+  function toggleTranscript(){
+    document.body.classList.toggle('transcript-on')
+  }
+  
+  var toggle = document.querySelector('header button')
+  toggle.addEventListener('click', toggleTranscript)
+  
+  </script>
+</body>
+</html>
