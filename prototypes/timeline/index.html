@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Timeline</title>
+  <style>
+  
+  body{
+    font-family: Helvetica, arial, sans-serif;
+  }
+  
+  form{
+    width: 580px;
+    margin: 2rem auto 1rem;
+  }
+  
+  input{
+    width: 100%;
+  }
+  
+  .page{
+    width: 580px;
+    height: 855px;
+    margin: 0 auto;
+    background-image: url(images/layer_3.jpg);
+    position: relative;
+  }    
+  
+  .page .layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+  }
+  
+  #layer1{
+    background-image: url(images/layer_1.jpg);
+    z-index: 1;
+  }      
+  
+  #layer2{
+    background-image: url(images/layer_2.jpg);
+  }
+  
+  </style>
+</head>
+<body>
+  <form action="">
+    <h1>Timeline</h1>
+    <p>Drag the slider to see how the graphics evolved.</p>
+    <input type="range" value="0" min="0" max="200" />
+  </form>
+  <div class="page">
+    <div class="layer" id="layer1"></div>
+    <div class="layer" id="layer2"></div>
+  </div>
+  
+  <script>
+  
+  var layers = document.querySelectorAll('.layer')
+  var control = document.querySelector('input[type="range"]')
+  control.addEventListener('change', function(e){
+    var value = e.target.value / 100
+    layers.item(0).style.opacity = value - 1 
+    layers.item(1).style.opacity = value 
+  })
+  
+  </script>
+</body>
+</html>
