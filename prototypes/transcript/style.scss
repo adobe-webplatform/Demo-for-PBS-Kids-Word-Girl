@@ -25,6 +25,10 @@ body.transcript-on{
     min-height: 100px;
   }
   
+  div[data-character]{
+    text-align: left;
+  }
+  
   div[data-character="butcher"]{
     padding-right: 75px;
     text-align: right;
@@ -98,9 +102,16 @@ section{
 }
 
 div[data-character]{
-  font-size: 1.1em;
+  font-size: 1em;
+  font-family:  patrick-hand, "Comic Sans MS", sans-serif;
   text-transform: uppercase;
+  text-align: center;
   position: absolute;
+}
+
+/* custom styles when font is available */
+.wf-patrickhand-n4-active div[data-character]{
+  font-size: 1.25em;
 }
 
 #page3{

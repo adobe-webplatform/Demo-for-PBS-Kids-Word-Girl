@@ -17,6 +17,8 @@ body.transcript-on #page3 div[data-character] {
   -webkit-shape-inside: none;
   background-size: 75px;
   min-height: 100px; }
+body.transcript-on div[data-character] {
+  text-align: left; }
 body.transcript-on div[data-character="butcher"] {
   padding-right: 75px;
   text-align: right;
@@ -70,9 +72,15 @@ section {
   height: 1943px; }
 
 div[data-character] {
-  font-size: 1.1em;
+  font-size: 1em;
+  font-family: patrick-hand, "Comic Sans MS", sans-serif;
   text-transform: uppercase;
+  text-align: center;
   position: absolute; }
+
+/* custom styles when font is available */
+.wf-patrickhand-n4-active div[data-character] {
+  font-size: 1.25em; }
 
 #page3 {
   background: url("./images/page3.png") left center no-repeat;
