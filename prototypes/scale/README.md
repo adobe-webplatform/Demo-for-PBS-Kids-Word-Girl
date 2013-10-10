@@ -1,0 +1,1 @@
+Check scale of slides on various screen / device dimensions.
