@@ -1,0 +1,170 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../sass/screen.scss */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+/* line 18, ../sass/screen.scss */
+#canvas-view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 26, ../sass/screen.scss */
+#dom-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* line 35, ../sass/screen.scss */
+#dom-view {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 41, ../sass/screen.scss */
+.title {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+  font-family: butcherman-caps, sans-serif;
+  font-size: 7em;
+  stroke-width: 2px;
+  stroke: black;
+  letter-spacing: -0.2em;
+}
+/* line 52, ../sass/screen.scss */
+.title text {
+  -webkit-transform: translateY(90px);
+  -moz-transform: translateY(90px);
+  -ms-transform: translateY(90px);
+  -o-transform: translateY(90px);
+  transform: translateY(90px);
+}
+
+/* line 57, ../sass/screen.scss */
+.clak {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-family: sue-ellen-francisco, sans-serif;
+  font-size: 7em;
+  fill: #bfe0b8;
+  stroke-width: 4px;
+  stroke: black;
+}
+
+/* line 68, ../sass/screen.scss */
+.grr {
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  font-family: creepster, sans-serif;
+  font-size: 5em;
+  fill: #feea60;
+  stroke-width: 4px;
+  stroke: black;
+}
+
+/* line 79, ../sass/screen.scss */
+.frame {
+  position: absolute;
+}
+
+/* line 83, ../sass/screen.scss */
+.bubble {
+  position: absolute;
+  font-size: 1.5rem;
+  padding: 0.75em;
+}
+
+/* line 89, ../sass/screen.scss */
+.bubble--square {
+  font-family: permanent-marker, sans-serif;
+  background: white;
+  border: 3px solid black;
+}
+
+/* line 95, ../sass/screen.scss */
+.bubble--round {
+  padding: .5em;
+  border: 3px solid black;
+  border-radius: 50%;
+  font-family: gochi-hand, sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  -webkit-shape-inside: ellipse(50%, 50%, 50%, 50%);
+  background: white;
+}
+
+/* line 106, ../sass/screen.scss */
+.bubble-yellow {
+  background: #fffbd2;
+}
+
+/* line 110, ../sass/screen.scss */
+#bubble-one {
+  top: 40px;
+  left: 40px;
+  width: 260px;
+}
+
+/* line 116, ../sass/screen.scss */
+#bubble-two {
+  top: 40px;
+  left: 40px;
+  width: 120px;
+  height: 60px;
+}
+
+/* line 123, ../sass/screen.scss */
+#bubble-three {
+  top: 40px;
+  left: 40px;
+  width: 140px;
+  height: 70px;
+}
+
+/* line 131, ../sass/screen.scss */
+#bubble-four {
+  top: -30px;
+  left: 0px;
+  width: 200px;
+  height: 140px;
+}
+
+/* line 138, ../sass/screen.scss */
+#bubble-five {
+  top: 100px;
+  left: 160px;
+  width: 200px;
+  height: 150px;
+}
+
+/* line 145, ../sass/screen.scss */
+#credits {
+  position: absolute;
+  top: 140px;
+  right: 20px;
+  width: 250px;
+  font-family: permanent-marker, sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+}
