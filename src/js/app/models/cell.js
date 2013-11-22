@@ -45,8 +45,10 @@ define(function (require) {
         },
 
         center: function () {
-            var _x = (window.innerWidth / 2) - ((this.get('w') / 2) + this.get('x') * Vars.get('scale')),
-                _y = (window.innerHeight / 2) - ((this.get('h') / 2) + this.get('y') * Vars.get('scale'));
+            //var _x = (window.innerWidth / 2) - ((this.get('w') / 2) + this.get('x') * Vars.get('scale')),
+            //    _y = (window.innerHeight / 2) - ((this.get('h') / 2) + this.get('y') * Vars.get('scale'));
+            var _x = (window.innerWidth / 2) - ((this.get('w') / 2) + this.get('x')),
+                _y = (window.innerHeight / 2) - ((this.get('h') / 2) + this.get('y'));
 
             return {x: _x, y: _y};
         }

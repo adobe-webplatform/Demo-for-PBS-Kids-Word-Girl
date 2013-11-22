@@ -117,6 +117,7 @@ define(function (require) {
 
                 this.delta += 1;
 
+                //check for accelerometer and use this
                 for (i = 0; i < this.stars.length; i += 1) {
                     this.stars[i].x = Math.sin(this.delta / 30) * this.stars[i].scale * 10;     
                     this.stars[i].y = Math.cos(this.delta / 30) * this.stars[i].scale * 10;     
@@ -128,9 +129,13 @@ define(function (require) {
 
                 this.delta = 0;
 
-                //this.layers[0].scale = 1;
-                //this.layers[2].scale = 0.5;
-                
+                for (i = 0; i < this.stars.length; i += 1) {
+                    this.stars[i].x = Math.sin(this.delta / 30) * this.stars[i].scale * 10;     
+                    this.stars[i].y = Math.cos(this.delta / 30) * this.stars[i].scale * 10;     
+                }
+
+                this.layers[2].y = Math.sin(this.delta / 30) * 30;
+
             }
         }, 
 

@@ -90,15 +90,18 @@ define(function (require) {
         },
 
         handle_TOUCHEND: function (e) {
-            var point;
+            var point,
+                destCell = this.cells.at(Vars.get('currentFrame'));
 
             if (this.prevTouchPos) {
                 this.navigateFrames(this.prevTouchPos.x, this.touchDelta.x);
             }
 
-            point = this.cells.at(Vars.get('currentFrame')).center();
+            //this.checkScale();
+
+            point = destCell.center();
             Anim.to(this.position, 0.5, {
-                x: point.x, 
+                x: point.x,
                 y: point.y
             }, {
                 onComplete: function () {
@@ -117,9 +120,9 @@ define(function (require) {
                 path = camera.path;
 
             //mousewheel
-            if (e.wheelDeltaY % 120 === 0) {
-                return;
-            }
+            //if (e.wheelDeltaY % 120 === 0) {
+            //    return;
+            //}
 
             this.animating = false;
 
@@ -172,7 +175,7 @@ define(function (require) {
             this.cameraPath.currentPosition = closestKey.pointId;
             Vars.set('currentFrame', keyId);
 
-            //checkScale();
+            this.checkScale();
     
             Anim.to(this.position, 0.5, {
                 x: -closestKey.x * this.scale + (window.innerWidth / 2), 
@@ -182,9 +185,11 @@ define(function (require) {
                     this.animating = true;
                 }.bind(this)
             });
-
         },
 
+        /**
+         * set current frame based on position
+         */
         navigateFrames: function (p, d) {
             var padding = 150,
                 currentFrame = Vars.get('currentFrame');
@@ -196,6 +201,33 @@ define(function (require) {
             }
 
             Vars.set('currentFrame', currentFrame);
+        },
+
+        /**
+         * set scale based on w/h ratio
+         */
+        checkScale: function () {
+            var cell = this.cells.at(Vars.get('currentFrame'));
+
+            if (window.innerWidth > window.innerHeight) {
+                if (cell.get('h') > window.innerHeight) {
+                    this.scale = window.innerHeight / cell.get('h');
+                } else if (cell.get('w') > window.innerWidth) {
+                    this.scale = window.innerWidth / cell.get('w');
+                } else {
+                    this.scale = 1;
+                }
+            } else if (window.innerWidth < window.innerHeight) {
+                if (cell.get('h') > window.innerHeight) {
+                    this.scale = window.innerHeight / cell.get('h');
+                } else if (cell.get('w') > window.innerWidth) {
+                    this.scale = window.innerWidth / cell.get('w');
+                } else {
+                    this.scale = 1;
+                }
+            } else {
+                this.scale = 1;
+            }
         }
 
     });
