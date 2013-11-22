@@ -73,7 +73,7 @@ define(function (require) {
                 this.layers[2].scale = this.layers[2].scale < 1 ? this.layers[2].scale + 0.01 : 1;
             } else {
                 this.layers[0].scale = 1;
-                this.layers[2].scale = 1;
+                this.layers[2].scale = 0.5;
             }
         }, 
 
