@@ -20,7 +20,7 @@ define(function (require) {
             this.positionDelta = {x: 0, y: 0}; //delta for tracking
             this.touchDelta = {x: 0, y: 0}; //delta for tracking
             this.scale = 1;
-            this.animating = false;
+            this.animating = true;
 
 			this.cells = new CellCollection();
             this.cells.fetch({success: this.handle_CELLS_READY.bind(this)});
@@ -75,6 +75,8 @@ define(function (require) {
                 return;
             }
             
+            this.animating = false;
+
             touch = e.touches[0];
             difference = {x: 0, y: 0};
                             
@@ -114,6 +116,11 @@ define(function (require) {
                 pos = camera.currentPosition,
                 path = camera.path;
 
+            //mousewheel
+            if (e.wheelDeltaY % 120 === 0) {
+                return;
+            }
+
             this.animating = false;
 
             e.preventDefault();
@@ -121,6 +128,7 @@ define(function (require) {
             Anim.kill();
             clearTimeout(this.MOUSEWHEEL_TIMEOUT);
 
+            //track pad
             if (pos - e.wheelDeltaY > 0 && pos - e.wheelDeltaY < path.length - 1) {
                 pos -= e.wheelDeltaY;
             } else if (pos - e.wheelDeltaY < 0) {

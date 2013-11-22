@@ -5,6 +5,7 @@ define(function (require) {
 	var Backbone = require('backbone'),
         Vars = require('app/models/vars'),
         CellView = require('app/views/cell-view'),
+        CellViewCover = require('app/views/cells/cell-view-cover'),
         CellView2 = require('app/views/cells/cell-view-2'),
         CellView3 = require('app/views/cells/cell-view-3'),
         CellView6 = require('app/views/cells/cell-view-6'),
@@ -25,6 +26,9 @@ define(function (require) {
         initialize: function () {
 
             switch (this.get('src')) {
+            case 'cover':
+                this.set('view', new CellViewCover({cell: this}));
+                break;
             case 'frame2':
                 this.set('view', new CellView2({cell: this}));
                 break;

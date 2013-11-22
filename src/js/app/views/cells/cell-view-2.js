@@ -12,7 +12,7 @@ define(function (require) {
     CellView2 = CellView.extend({
 
         initialize: function () {
-            this.id = 1;
+            this.id = 2;
             this.cell = this.options.cell;
             this.images = [];
             this.loadedImages = 0;
@@ -73,7 +73,7 @@ define(function (require) {
                 this.layers[2].scale = this.layers[2].scale < 1 ? this.layers[2].scale + 0.01 : 1;
             } else {
                 this.layers[0].scale = 1;
-                this.layers[2].scale = 0.5;
+                this.layers[2].scale = 1;
             }
         }, 
 

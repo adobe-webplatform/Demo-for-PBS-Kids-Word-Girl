@@ -15,7 +15,7 @@ define(function (require) {
             var i,
                 image;
 
-            this.id = 2;
+            this.id = 3;
             this.cell = this.options.cell;
             this.delta = 0;
             this.images = [];

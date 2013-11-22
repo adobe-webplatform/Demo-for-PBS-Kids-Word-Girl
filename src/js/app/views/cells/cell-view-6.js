@@ -28,7 +28,7 @@ define(function (require) {
                 randomMap,
                 particle;
 
-            this.id = 5;
+            this.id = 6;
             this.cell = this.options.cell;
             this.delta = 0;
             this.images = [];
