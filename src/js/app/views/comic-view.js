@@ -180,17 +180,7 @@ define(function (require) {
             this.cameraPath.currentPosition = closestKey.pointId;
             Vars.set('currentFrame', keyId);
 
-            scale = this.checkScale();
-            Anim.to(this, 0.5, {scale: scale}, {});
-
-            Anim.to(this.position, 0.5, {
-                x: -closestKey.x * scale + (window.innerWidth / 2), 
-                y: -closestKey.y * scale + (window.innerHeight / 2)
-            }, {
-                onComplete: function () {
-                    this.animating = true;
-                }.bind(this)
-            });
+            this.tweento(closestKey);
         },
 
         /**
