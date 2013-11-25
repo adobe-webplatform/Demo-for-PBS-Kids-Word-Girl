@@ -1,3 +1,4 @@
+/*global define _*/
 /*
  * Copyright (c) 2013 Adobe Systems Incorporated. All rights reserved.
 
@@ -13,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-define([], function (require) {
+define(function (require) {
 	
 	var Backbone = require('backbone'),
 		AppEvent; 

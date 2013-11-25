@@ -20,6 +20,7 @@ define(function (require) {
             this.positionDelta = {x: 0, y: 0}; //delta for tracking
             this.touchDelta = {x: 0, y: 0}; //delta for tracking
             this.scale = 1;
+            
             this.animating = true;
 
 			this.cells = new CellCollection();
@@ -44,70 +45,35 @@ define(function (require) {
             this.domView = new DomView({cells: this.cells});
 
             var cell = this.cells.at(Vars.get('currentFrame'));
-            this.position = {x: cell.center().x, y: cell.center().y};
+            this.scale = this.checkScale();
+            this.position.x = -(cell.get('x') + (cell.get('w') / 2) * this.scale) + (window.innerWidth / 2);
+            this.position.y = -(cell.get('y') + (cell.get('h') / 2) * this.scale) + (window.innerHeight / 2);
 
             UserEvent.on('mousewheel', this.handle_MOUSEWHEEL.bind(this));
             UserEvent.on('touchstart', this.handle_TOUCHSTART.bind(this));
             UserEvent.on('touchmove', this.handle_TOUCHMOVE.bind(this));
             UserEvent.on('touchend', this.handle_TOUCHEND.bind(this));
+            UserEvent.on('resize', this.resize.bind(this));
             AppEvent.on('render', this.render.bind(this));
         },
 
         handle_TOUCHSTART: function (e) {
-			var touch = e.touches[0];
+			
+            var touch = e.touches[0];
             
-            //clearTimeout(ANIMATE_TIMEOUT);
-            Anim.kill();
-            
-            if (e.touches.length > 1) {
-                return;
+            if (touch.pageX > window.innerWidth / 2) {
+                this.next();
+            } else {
+                this.previous();
             }
-            
-            this.positionDelta = {x: this.position.x, y: this.position.y};
-            this.touchDelta = {x: touch.pageX, y: touch.pageY};
         },
 
         handle_TOUCHMOVE: function (e) {
-		    var touch,
-                difference;
-
-            if (e.touches.length > 1) {
-                return;
-            }
             
-            this.animating = false;
-
-            touch = e.touches[0];
-            difference = {x: 0, y: 0};
-                            
-            difference.x = this.touchDelta.x - touch.pageX;
-            difference.y = this.touchDelta.y - touch.pageY;
-            
-            this.position.x = this.positionDelta.x - difference.x;	
-            this.position.y = this.positionDelta.y - difference.y;
-            
-            this.prevTouchPos = {x: touch.pageX, y: touch.pageY};
         },
 
         handle_TOUCHEND: function (e) {
-            var point,
-                destCell = this.cells.at(Vars.get('currentFrame'));
-
-            if (this.prevTouchPos) {
-                this.navigateFrames(this.prevTouchPos.x, this.touchDelta.x);
-            }
-
-            //this.checkScale();
-
-            point = destCell.center();
-            Anim.to(this.position, 0.5, {
-                x: point.x,
-                y: point.y
-            }, {
-                onComplete: function () {
-                    this.animating = true;
-                }.bind(this)
-            });
+            
         },
 
         /**
@@ -147,6 +113,44 @@ define(function (require) {
             this.MOUSEWHEEL_TIMEOUT = setTimeout(this.cameraToClosestFrame.bind(this), 300);
         },
 
+        next: function () {
+            var key,
+                keys = this.cameraPath.keys;
+
+            this.cameraPath.currentKey = this.cameraPath.currentKey + 1 < keys.length ? this.cameraPath.currentKey + 1 : keys.length;
+            key = keys[this.cameraPath.currentKey];
+            Vars.set('currentFrame', this.cameraPath.currentKey);
+            this.tweento(key);
+        },
+
+        previous: function () {
+            var key,
+                keys = this.cameraPath.keys;
+
+            this.cameraPath.currentKey = this.cameraPath.currentKey - 1 > 0 ? this.cameraPath.currentKey - 1 : 0;
+            key = keys[this.cameraPath.currentKey];
+            Vars.set('currentFrame', this.cameraPath.currentKey);
+            this.tweento(key);
+        },
+
+        /**
+         * tween to frame
+         */
+        tweento: function (point) {
+            
+            var scale = this.checkScale();
+            Anim.to(this, 0.5, {scale: scale}, {});
+
+            Anim.to(this.position, 0.5, {
+                x: -point.x * scale + (window.innerWidth / 2), 
+                y: -point.y * scale + (window.innerHeight / 2)
+            }, {
+                onComplete: function () {
+                    this.animating = true;
+                }.bind(this)
+            });
+        },
+
         /**
          * animate to the nearest keyframe
          */
@@ -157,7 +161,8 @@ define(function (require) {
                 diff,
                 pos = this.cameraPath.currentPosition,
                 keys = this.cameraPath.keys,
-                keyId;
+                keyId,
+                scale;
                 
             for (i = 0; i < keys.length; i += 1) {
                 diff = Math.abs(keys[i].pointId - pos);
@@ -175,11 +180,12 @@ define(function (require) {
             this.cameraPath.currentPosition = closestKey.pointId;
             Vars.set('currentFrame', keyId);
 
-            this.checkScale();
-    
+            scale = this.checkScale();
+            Anim.to(this, 0.5, {scale: scale}, {});
+
             Anim.to(this.position, 0.5, {
-                x: -closestKey.x * this.scale + (window.innerWidth / 2), 
-                y: -closestKey.y * this.scale + (window.innerHeight / 2)
+                x: -closestKey.x * scale + (window.innerWidth / 2), 
+                y: -closestKey.y * scale + (window.innerHeight / 2)
             }, {
                 onComplete: function () {
                     this.animating = true;
@@ -188,46 +194,42 @@ define(function (require) {
         },
 
         /**
-         * set current frame based on position
-         */
-        navigateFrames: function (p, d) {
-            var padding = 150,
-                currentFrame = Vars.get('currentFrame');
-            
-            if (p < d - padding) {
-                currentFrame = currentFrame < this.cells.length ? currentFrame + 1 : this.cells.length;
-            } else if (p > d + padding) {
-                currentFrame = currentFrame > 0 ? currentFrame - 1 : 0;
-            }
-
-            Vars.set('currentFrame', currentFrame);
-        },
-
-        /**
          * set scale based on w/h ratio
          */
         checkScale: function () {
-            var cell = this.cells.at(Vars.get('currentFrame'));
+            var cell = this.cells.at(Vars.get('currentFrame')),
+                _winHeight = window.innerHeight,
+                _winWidth = window.innerWidth,
+                widthDiff = 0,
+                heightDiff = 0,
+                scale = 1;
 
-            if (window.innerWidth > window.innerHeight) {
-                if (cell.get('h') > window.innerHeight) {
-                    this.scale = window.innerHeight / cell.get('h');
-                } else if (cell.get('w') > window.innerWidth) {
-                    this.scale = window.innerWidth / cell.get('w');
-                } else {
-                    this.scale = 1;
-                }
-            } else if (window.innerWidth < window.innerHeight) {
-                if (cell.get('h') > window.innerHeight) {
-                    this.scale = window.innerHeight / cell.get('h');
-                } else if (cell.get('w') > window.innerWidth) {
-                    this.scale = window.innerWidth / cell.get('w');
-                } else {
-                    this.scale = 1;
-                }
-            } else {
-                this.scale = 1;
+            if (cell.get('w') > _winWidth) {
+                widthDiff = cell.get('w') - _winWidth;
             }
+
+            if (cell.get('h') > _winHeight) {
+                heightDiff = cell.get('h') - _winHeight;
+            }
+
+            if (widthDiff > heightDiff) {
+                scale = _winWidth / cell.get('w');
+            } else if (heightDiff > widthDiff) {
+                scale = _winHeight / cell.get('h');
+            } else {
+                scale = 1;
+            }
+
+            return scale;
+        },
+
+        resize: function () {
+            var key,
+                keys = this.cameraPath.keys;
+
+            this.cameraPath.currentKey = Vars.get('currentFrame');
+            key = keys[this.cameraPath.currentKey];
+            this.tweento(key);
         }
 
     });

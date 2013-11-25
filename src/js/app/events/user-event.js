@@ -1,3 +1,4 @@
+/*global define _*/
 /*
  * Copyright (c) 2013 Adobe Systems Incorporated. All rights reserved.
 

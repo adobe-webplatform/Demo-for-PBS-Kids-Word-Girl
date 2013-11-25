@@ -41,7 +41,7 @@ define(function (require) {
             this.y = Vars.get('y');
             this.scale = Vars.get('scale');
 
-            this.el.style.webkitTransform = 'translate(' + this.x + 'px, ' + this.y + 'px)';
+            this.el.style.webkitTransform = 'translate3d(' + this.x + 'px, ' + this.y + 'px, 0px) scale(' + this.scale + ')';
 		},
 
         resize: function () {
