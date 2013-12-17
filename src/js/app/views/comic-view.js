@@ -139,7 +139,7 @@ define(function (require) {
             var key,
                 keys = this.cameraPath.keys;
 
-            this.cameraPath.currentKey = this.cameraPath.currentKey + 1 < keys.length ? this.cameraPath.currentKey + 1 : keys.length;
+            this.cameraPath.currentKey = this.cameraPath.currentKey < keys.length - 1 ? this.cameraPath.currentKey + 1 : keys.length - 1;
             key = keys[this.cameraPath.currentKey];
             Vars.set('currentFrame', this.cameraPath.currentKey);
             this.tweento(key);
@@ -149,7 +149,7 @@ define(function (require) {
             var key,
                 keys = this.cameraPath.keys;
 
-            this.cameraPath.currentKey = this.cameraPath.currentKey - 1 > 0 ? this.cameraPath.currentKey - 1 : 0;
+            this.cameraPath.currentKey = this.cameraPath.currentKey > 0 ? this.cameraPath.currentKey - 1 : 0;
             key = keys[this.cameraPath.currentKey];
             Vars.set('currentFrame', this.cameraPath.currentKey);
             this.tweento(key);

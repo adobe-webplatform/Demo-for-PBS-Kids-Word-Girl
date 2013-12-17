@@ -34,6 +34,12 @@ define(function (require) {
 
 			this.ctx.clearRect(0, 0, this.el.width, this.el.height);
        
+            this.ctx.beginPath();
+            this.ctx.fillStyle = 'black';
+            this.ctx.rect(0, 0, this.el.width, this.el.height);
+            this.ctx.fill();
+            this.ctx.closePath();
+
             this.ctx.save();
 			this.ctx.translate(this.x, this.y);
 			this.ctx.scale(this.scale, this.scale);
