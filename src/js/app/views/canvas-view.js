@@ -15,6 +15,7 @@ define(function (require) {
             this.ctx = this.el.getContext('2d');
             this.cells = this.options.cells;
             this.path = this.options.path;
+            this.zoom = window.devicePixelRatio;
 
             this.resize();
 
@@ -27,9 +28,9 @@ define(function (require) {
             var i,
                 cell;
 
-            this.x = Vars.get('x');
-            this.y = Vars.get('y');
-            this.scale = Vars.get('scale');
+            this.x = Vars.get('x') * this.zoom;
+            this.y = Vars.get('y') * this.zoom;
+            this.scale = Vars.get('scale') * this.zoom;
 
 			this.ctx.clearRect(0, 0, this.el.width, this.el.height);
        
@@ -49,7 +50,7 @@ define(function (require) {
 
             this.ctx.globalAlpha = 0.8;
             this.ctx.beginPath();
-            this.ctx.fillStyle = 'white';
+            this.ctx.fillStyle = 'black';
             this.ctx.rect(0, 0, this.el.width, this.el.height);
             this.ctx.fill();
             this.ctx.closePath();
@@ -77,12 +78,11 @@ define(function (require) {
 
         orientationchange: function () {
             this.resize();
-            $('#debugger').html(window.innerWidth + '__' + window.innerHeight);
         },
 
         resize: function () {
-            this.el.width = window.innerWidth;
-            this.el.height = window.innerHeight;
+            this.el.width = window.innerWidth * window.devicePixelRatio;
+            this.el.height = window.innerHeight * window.devicePixelRatio;
         }
 
     });
