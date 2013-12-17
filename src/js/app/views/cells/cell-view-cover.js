@@ -13,6 +13,7 @@ define(function (require) {
         initialize: function () {
             this.id = 0;
             this.cell = this.options.cell;
+            this.alpha = 1;
             this.images = [];
             this.loadedImages = 0;
             this.delta = 0;
@@ -53,6 +54,8 @@ define(function (require) {
 
             if (this.cell.get('loaded') !== false) {
 
+                ctx.globalAlpha = this.cell.get('alpha');
+
                 ctx.fillStyle = '#2d565c';
                 ctx.beginPath();
                 ctx.rect(this.cell.get('x'), this.cell.get('y'), this.cell.get('w'), this.cell.get('h'));
@@ -68,7 +71,7 @@ define(function (require) {
                 //draw stars
                 for (i = 0; i < this.stars.length; i += 1) {
                     ctx.save();
-                    ctx.globalAlpha = 0.5;
+                    ctx.globalAlpha = 0.5 * this.cell.get('alpha');
                     ctx.translate(this.stars[i].x + this.cell.get('x') + this.cell.get('w') / 2, this.stars[i].y + this.cell.get('y') + this.cell.get('h') / 2);
                     ctx.scale(this.stars[i].scale, this.stars[i].scale);
 

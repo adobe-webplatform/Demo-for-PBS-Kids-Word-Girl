@@ -28,9 +28,30 @@ define(function (require) {
         },
 
         render: function () {
+            var i,
+                cell,
+                distance,
+                alpha,
+                divisor = 1000;
+
             Vars.set('x', this.position.x);
             Vars.set('y', this.position.y);
             Vars.set('scale', this.scale);
+
+            /*
+            //go through cells and update alpha based on position
+            for (i = 0; i < this.cells.length; i += 1) {
+                cell = this.cells.at(i);
+                distance = Math.abs(cell.center().x - this.position.x);
+                alpha = 1 - (distance / divisor);
+                alpha = alpha > 0 ? alpha : 0;
+                cell.set('alpha', alpha);
+
+                if (i == 1) {
+                    $('#debugger').html(cell.center().x + ' __ ' + this.position.x + ' ' + alpha);
+                }
+            }
+            */
 
             if (this.animating !== false) {
                 AppEvent.trigger('animate');
@@ -54,6 +75,7 @@ define(function (require) {
             UserEvent.on('touchmove', this.handle_TOUCHMOVE.bind(this));
             UserEvent.on('touchend', this.handle_TOUCHEND.bind(this));
             UserEvent.on('resize', this.resize.bind(this));
+            UserEvent.on('orientationchange', this.orientationchange.bind(this));
             AppEvent.on('render', this.render.bind(this));
         },
 
@@ -210,7 +232,13 @@ define(function (require) {
                 scale = 1;
             }
 
+            scale = Math.round(scale * 100) / 100;
+
             return scale;
+        },
+
+        orientationchange: function () {
+            this.resize();
         },
 
         resize: function () {

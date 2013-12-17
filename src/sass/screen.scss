@@ -15,6 +15,15 @@ body{
     text-transform: uppercase;
 }
 
+#debugger{
+    position: fixed;
+    padding: 1em;
+    top: 0;
+    left: 0;
+    background: red;
+    color: white;
+}
+
 #canvas-view{
     position: fixed;
     top: 0;

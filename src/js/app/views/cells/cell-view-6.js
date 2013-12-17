@@ -76,6 +76,8 @@ define(function (require) {
 
             if (this.cell.get('loaded') !== false) {
                 
+                ctx.globalAlpha = this.cell.get('alpha');
+
                 //static image
                 ctx.drawImage(this.images[0], this.cell.get('x'), this.cell.get('y'));
 

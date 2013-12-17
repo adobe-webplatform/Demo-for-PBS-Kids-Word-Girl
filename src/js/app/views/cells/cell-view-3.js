@@ -45,6 +45,8 @@ define(function (require) {
                 var half_w = this.cell.get('x') + this.cell.get('w') / 2,
                     half_h = this.cell.get('y') + this.cell.get('h') / 2;
 
+                ctx.globalAlpha = this.cell.get('alpha');
+
                 //static image
                 ctx.drawImage(this.images[0], this.cell.get('x'), this.cell.get('y'));
 

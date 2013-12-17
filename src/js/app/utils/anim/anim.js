@@ -69,8 +69,18 @@ define(function (require) {
 
                 //continue loop or finish
                 if (localTime < 1) {
+
                     tween.timeout = setTimeout(loop, fps);
+
                 } else {
+                    
+                    //force resolve at last frame
+                    for (key in fromProps) {
+                        if (typeof(item[key]) !== 'undefined') {
+                            item[key] = toProps[key];
+                        }
+                    }
+
                     //remove tween
                     for (i = 0; i < tweens.length; i += 1) {
                         if (tweens[i].id == tween.id) {
@@ -82,7 +92,7 @@ define(function (require) {
                         params.onComplete();
                     }
                 }
-            }   
+            }
 
             tween.timeout = setTimeout(loop, fps);
         };

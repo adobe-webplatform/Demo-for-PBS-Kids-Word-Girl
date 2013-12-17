@@ -12,6 +12,7 @@ define(function (require) {
 
         initialize: function () {
             this.cell = this.options.cell;
+            this.alpha = 1;
 
 		    var image;
             
@@ -23,6 +24,7 @@ define(function (require) {
 
         render: function (ctx) {
             if (this.cell.get('loaded') !== false) {
+                ctx.globalAlpha = this.cell.get('alpha');
 			    ctx.drawImage(this.cell.get('img'), this.cell.get('x'), this.cell.get('y'));
             }
         },
