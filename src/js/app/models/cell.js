@@ -9,6 +9,7 @@ define(function (require) {
         CellViewCover = require('app/views/cells/cell-view-cover'),
         CellView2 = require('app/views/cells/cell-view-2'),
         CellView3 = require('app/views/cells/cell-view-3'),
+        CellView5 = require('app/views/cells/cell-view-5'),
         CellView6 = require('app/views/cells/cell-view-6'),
         Cell;
 
@@ -35,6 +36,9 @@ define(function (require) {
                 break;
             case 'frame3':
                 this.set('view', new CellView3({cell: this}));
+                break;
+            case 'frame5':
+                this.set('view', new CellView5({cell: this}));
                 break;
             case 'frame6':
                 this.set('view', new CellView6({cell: this}));

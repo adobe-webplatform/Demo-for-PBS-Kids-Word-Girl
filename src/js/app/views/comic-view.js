@@ -38,21 +38,6 @@ define(function (require) {
             Vars.set('y', this.position.y);
             Vars.set('scale', this.scale);
 
-            /*
-            //go through cells and update alpha based on position
-            for (i = 0; i < this.cells.length; i += 1) {
-                cell = this.cells.at(i);
-                distance = Math.abs(cell.center().x - this.position.x);
-                alpha = 1 - (distance / divisor);
-                alpha = alpha > 0 ? alpha : 0;
-                cell.set('alpha', alpha);
-
-                if (i == 1) {
-                    $('#debugger').html(cell.center().x + ' __ ' + this.position.x + ' ' + alpha);
-                }
-            }
-            */
-
             if (this.animating !== false) {
                 AppEvent.trigger('animate');
             }

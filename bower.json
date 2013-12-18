@@ -13,6 +13,7 @@
     "underscore-amd": "1.5.2",
     "requirejs": "2.1.5",
     "qunit": "1.12.0",
-    "modernizr": "2.6.2"
+    "modernizr": "2.6.2",
+    "Snap.svg": "0.1.0"
   }
 }
