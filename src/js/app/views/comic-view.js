@@ -16,6 +16,8 @@ define(function (require) {
     ComicView = Backbone.View.extend({
 
         initialize: function () {
+            var frameNumber;
+
             this.position = {x: 0, y: 0};
             this.positionDelta = {x: 0, y: 0}; //delta for tracking
             this.touchDelta = {x: 0, y: 0}; //delta for tracking
@@ -23,6 +25,12 @@ define(function (require) {
             this.animating = true;
 
             this.router = Vars.get('router');
+
+            //determine initial frame
+            if (Backbone.history.fragment.search('frame') > -1) {
+                frameNumber = Backbone.history.fragment.replace('frame/', '');
+                Vars.set('currentFrame', frameNumber);
+            }
 
 			this.cells = new CellCollection();
             this.cells.fetch({success: this.handle_CELLS_READY.bind(this)});
@@ -47,15 +55,15 @@ define(function (require) {
         handle_CELLS_READY: function () {
 
             this.cameraPath = new CameraPath(this.cells);
+            this.cameraPath.currentKey = Vars.get('currentFrame');
+            this.cameraPath.currentPosition = this.cameraPath.keys[this.cameraPath.currentKey].pointId;
 
 		    this.canvasView = new CanvasView({cells: this.cells, path: this.cameraPath});
             this.domView = new DomView({cells: this.cells});
 
             var cell = this.cells.at(Vars.get('currentFrame'));
             this.scale = this.checkScale();
-
-            this.position.x = -(cell.get('x') + (cell.get('w') / 2) * this.scale) + (window.innerWidth / 2);
-            this.position.y = -(cell.get('y') + (cell.get('h') / 2) * this.scale) + (window.innerHeight / 2);
+            this.set({x: cell.center().x, y: cell.center().y});
 
             UserEvent.on('mousewheel', this.handle_MOUSEWHEEL.bind(this));
             UserEvent.on('touchstart', this.handle_TOUCHSTART.bind(this));
@@ -118,8 +126,7 @@ define(function (require) {
             }
             
             camera.currentPosition = pos;
-            this.position.x = -(path[pos].x * this.scale) + (window.innerWidth / 2);
-            this.position.y = -(path[pos].y * this.scale) + (window.innerHeight / 2);
+            this.set({x: path[pos].x, y: path[pos].y});
 
             this.MOUSEWHEEL_TIMEOUT = setTimeout(this.cameraToClosestFrame.bind(this), 300);
         },
@@ -130,6 +137,7 @@ define(function (require) {
 
             this.cameraPath.currentKey = this.cameraPath.currentKey < keys.length - 1 ? this.cameraPath.currentKey + 1 : keys.length - 1;
             key = keys[this.cameraPath.currentKey];
+			this.router.navigate('frame/' + this.cameraPath.currentKey);
             Vars.set('currentFrame', this.cameraPath.currentKey);
             this.tweento(key);
         },
@@ -140,8 +148,17 @@ define(function (require) {
 
             this.cameraPath.currentKey = this.cameraPath.currentKey > 0 ? this.cameraPath.currentKey - 1 : 0;
             key = keys[this.cameraPath.currentKey];
+			this.router.navigate('frame/' + this.cameraPath.currentKey);
             Vars.set('currentFrame', this.cameraPath.currentKey);
             this.tweento(key);
+        },
+
+        set: function (point) {
+            var scale = this.checkScale();
+
+            this.position.x = -point.x * scale + (window.innerWidth / 2);
+            this.position.y = -point.y * scale + (window.innerHeight / 2);
+            this.animating = true;
         },
 
         /**
@@ -188,6 +205,7 @@ define(function (require) {
             }	
             
             this.cameraPath.currentKey = keyId;
+			this.router.navigate('frame/' + this.cameraPath.currentKey);
             this.cameraPath.currentPosition = closestKey.pointId;
             Vars.set('currentFrame', keyId);
 

@@ -23,13 +23,13 @@ define(function (require) {
             if (Modernizr.touch !== false) {
                 this.touchController = new TouchController();
             }           
-            
-            //add views
-            this.comicView = new ComicView();
-
+ 
             //router
             Vars.set('router', AppRouter);
             Backbone.history.start();
+           
+            //add views
+            this.comicView = new ComicView();
 
             requestAnimationFrame(this.render.bind(this));
         },
