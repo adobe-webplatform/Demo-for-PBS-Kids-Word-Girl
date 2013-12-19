@@ -20,8 +20,9 @@ define(function (require) {
             this.positionDelta = {x: 0, y: 0}; //delta for tracking
             this.touchDelta = {x: 0, y: 0}; //delta for tracking
             this.scale = 1;
-            
             this.animating = true;
+
+            this.router = Vars.get('router');
 
 			this.cells = new CellCollection();
             this.cells.fetch({success: this.handle_CELLS_READY.bind(this)});
@@ -52,6 +53,7 @@ define(function (require) {
 
             var cell = this.cells.at(Vars.get('currentFrame'));
             this.scale = this.checkScale();
+
             this.position.x = -(cell.get('x') + (cell.get('w') / 2) * this.scale) + (window.innerWidth / 2);
             this.position.y = -(cell.get('y') + (cell.get('h') / 2) * this.scale) + (window.innerHeight / 2);
 
@@ -62,6 +64,8 @@ define(function (require) {
             UserEvent.on('resize', this.resize.bind(this));
             UserEvent.on('orientationchange', this.orientationchange.bind(this));
             AppEvent.on('render', this.render.bind(this));
+
+            $('#preloader').css({display: 'none'});
         },
 
         handle_TOUCHSTART: function (e) {

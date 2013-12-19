@@ -32,7 +32,7 @@ define(function (require) {
             image.addEventListener('load', this.handle_LOAD.bind(this));
             this.cell.set('img', image);
 
-            AppEvent.on('animate', this.animate.bind(this));
+            //AppEvent.on('animate', this.animate.bind(this)); //DESKTOP ONLY!
         },
 
         render: function (ctx) {
@@ -44,13 +44,13 @@ define(function (require) {
 
         pathIn: function () {
             if (this.animating) {
-                this.path.animate({path: this.pathStop.attr("path")}, 1000, this.pathOut.bind(this));
+                this.path.animate({path: this.pathStop.attr("path")}, 2000, this.pathOut.bind(this));
             }
         },
 
         pathOut: function () {
             if (this.animating) {
-                this.path.animate({path: this.pathStart.attr("path")}, 1000, this.pathIn.bind(this));
+                this.path.animate({path: this.pathStart.attr("path")}, 2000, this.pathIn.bind(this));
             }
         },
 
