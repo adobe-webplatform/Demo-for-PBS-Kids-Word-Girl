@@ -27,9 +27,9 @@ define(function (require) {
             this.router = Vars.get('router');
 
             //determine initial frame
-            if (Backbone.history.fragment.search('frame') > -1) {
+            if (Backbone.history.fragment && Backbone.history.fragment.search('frame') > -1) {
                 frameNumber = Backbone.history.fragment.replace('frame/', '');
-                Vars.set('currentFrame', frameNumber);
+                Vars.set('currentFrame', parseFloat(frameNumber));
             }
 
 			this.cells = new CellCollection();
