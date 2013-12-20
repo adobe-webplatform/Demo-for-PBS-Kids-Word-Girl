@@ -56,17 +56,16 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  display: none;
 }
 
-/* line 56, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 #dom-view {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 .title {
   position: absolute;
   top: 20px;
@@ -77,7 +76,7 @@ body {
   stroke: black;
   letter-spacing: -0.2em;
 }
-/* line 73, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .title text {
   -webkit-transform: translateY(90px);
   -moz-transform: translateY(90px);
@@ -86,7 +85,7 @@ body {
   transform: translateY(90px);
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .clak {
   position: absolute;
   top: 100px;
@@ -98,7 +97,7 @@ body {
   stroke: black;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .grr {
   position: absolute;
   top: 300px;
@@ -110,26 +109,26 @@ body {
   stroke: black;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .frame {
   position: absolute;
 }
 
-/* line 104, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 .bubble {
   position: absolute;
   font-size: 1.5rem;
   padding: 0.75em;
 }
 
-/* line 110, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .bubble--square {
   font-family: permanent-marker, sans-serif;
   background: white;
   border: 3px solid black;
 }
 
-/* line 116, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .bubble--round {
   padding: .5em;
   border: 3px solid black;
@@ -141,19 +140,19 @@ body {
   background: white;
 }
 
-/* line 127, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 .bubble-yellow {
   background: #fffbd2;
 }
 
-/* line 131, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 #bubble-one {
   top: 40px;
   left: 40px;
   width: 260px;
 }
 
-/* line 137, ../sass/screen.scss */
+/* line 136, ../sass/screen.scss */
 #bubble-two {
   top: 40px;
   left: 40px;
@@ -161,7 +160,7 @@ body {
   height: 60px;
 }
 
-/* line 144, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 #bubble-three {
   top: 40px;
   left: 40px;
@@ -169,7 +168,7 @@ body {
   height: 70px;
 }
 
-/* line 152, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 #bubble-four {
   top: -30px;
   left: 0px;
@@ -177,7 +176,7 @@ body {
   height: 140px;
 }
 
-/* line 159, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 #bubble-five {
   top: 100px;
   left: 160px;
@@ -185,7 +184,7 @@ body {
   height: 150px;
 }
 
-/* line 167, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 #bubble-six {
   top: 30px;
   left: 50px;
@@ -195,7 +194,7 @@ body {
   line-height: 30px;
 }
 
-/* line 176, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 #bubble-seven {
   top: 30px;
   right: 50px;
@@ -203,7 +202,7 @@ body {
   height: 120px;
 }
 
-/* line 183, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 #bubble-eight {
   top: 30px;
   left: 60px;
@@ -211,7 +210,7 @@ body {
   height: 100px;
 }
 
-/* line 190, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 #bubble-nine {
   top: 30px;
   right: 50px;
@@ -219,7 +218,7 @@ body {
   height: 100px;
 }
 
-/* line 197, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 #bubble-ten {
   top: 370px;
   right: 400px;
@@ -227,7 +226,7 @@ body {
   height: 100px;
 }
 
-/* line 204, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 #bubble-eleven {
   top: 400px;
   right: 210px;
@@ -236,7 +235,7 @@ body {
   border-width: 5px;
 }
 
-/* line 214, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;

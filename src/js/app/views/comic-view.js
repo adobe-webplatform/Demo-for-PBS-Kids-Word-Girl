@@ -177,6 +177,7 @@ define(function (require) {
          * tween to frame
          */
         tweento: function (point) {
+            this.animating = false;
             
             var scale = this.checkScale();
             Anim.to(this, 0.5, {scale: scale}, {});

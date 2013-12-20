@@ -1,4 +1,4 @@
-/*global define $ requestAnimationFrame Snap*/
+/*global define $ requestAnimationFrame Snap Modernizr*/
 
 define(function (require) {
 	
@@ -95,10 +95,10 @@ define(function (require) {
                 this.layers[3].x = this.layers[3].x > 0 ? this.layers[3].x - 0.5 : 0;
                 this.layers[3].y = this.layers[3].y > 0 ? this.layers[3].y - 0.1 : 0;
 
-                //if (this.animating !== true) {
-                //    this.animating = true;
-                //    this.pathIn();
-                //}
+                if (!Modernizr.touch && this.animating !== true) {
+                    this.animating = true;
+                    this.pathIn();
+                }
 
             } else {
                 this.layers = [
@@ -110,9 +110,11 @@ define(function (require) {
                     {x: 0, y: 0}
                 ];
                 
-                //this.animating = false;
-                //this.path.stop();
-                //this.path.attr({path: this.pathStart.attr("path")});
+                if (!Modernizr.touch) {
+                    this.animating = false;
+                    this.path.stop();
+                    this.path.attr({path: this.pathStart.attr("path")});
+                }
             }
         },
 
