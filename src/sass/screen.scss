@@ -98,6 +98,11 @@ body{
 
 .frame{
     position: absolute;
+    opacity: 0;
+
+    &.in{
+        opacity: 1;
+    }
 }
 
 .bubble{

@@ -18,6 +18,7 @@ define(function (require) {
 
             UserEvent.on('resize', this.resize.bind(this));
             AppEvent.on('render', this.render.bind(this));
+            //AppEvent.on('animate', this.animate.bind(this));
         },
 
         layout: function () {
@@ -36,10 +37,22 @@ define(function (require) {
             }
         },
 
+        updateVisible: function () {
+            
+            this.currentElement = $(document.getElementById(this.cells.at(Vars.get('currentFrame')).get('src')));
+            
+            if (!this.currentElement.hasClass('in')) {
+                $('.frame').removeClass('in');
+                this.currentElement.addClass('in');
+            }
+        },
+
         render: function () {
             this.x = Vars.get('x');
             this.y = Vars.get('y');
             this.scale = Vars.get('scale');
+
+            this.updateVisible();
 
             this.el.style.webkitTransform = 'translate3d(' + this.x + 'px, ' + this.y + 'px, 0px) scale(' + this.scale + ')';
 		},

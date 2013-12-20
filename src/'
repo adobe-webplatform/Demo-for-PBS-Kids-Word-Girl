@@ -26,7 +26,7 @@ define(function (require) {
                 {x: 100, y: 20},
                 {x: 0, y: 0},
                 {x: 0, y: 0},
-                {x: -100, y: -100},
+                {x: -100, y: 0},
                 {x: 100, y: 0}
             ];
 
@@ -77,10 +77,10 @@ define(function (require) {
                 //mask this part
                 ctx.save();
                 ctx.beginPath();
-                ctx.moveTo(this.cell.get('x') + 50, this.cell.get('y') + 390);
-                ctx.lineTo(this.cell.get('x') + 475, this.cell.get('y') + 390);
-                ctx.lineTo(this.cell.get('x') + 475, this.cell.get('y') + 650);
-                ctx.lineTo(this.cell.get('x') + 15, this.cell.get('y') + 650);
+                ctx.moveTo(this.cell.get('x') + 50, this.cell.get('y') + 345);
+                ctx.lineTo(this.cell.get('x') + 490, this.cell.get('y') + 345);
+                ctx.lineTo(this.cell.get('x') + 480, this.cell.get('y') + 545);
+                ctx.lineTo(this.cell.get('x') + 55, this.cell.get('y') + 545);
                 ctx.closePath();
                 ctx.clip();
 
@@ -112,8 +112,7 @@ define(function (require) {
                 this.layers[3].x = this.layers[3].x > 0 ? this.layers[3].x - 0.5 : 0;
                 this.layers[3].y = this.layers[3].y > 0 ? this.layers[3].y - 0.1 : 0;
 
-                this.layers[6].x = this.layers[6].x < 0 ? this.layers[6].x + 2 : 0;
-                this.layers[6].y = this.layers[6].y < 0 ? this.layers[6].y + 2 : 0;
+                this.layers[6].x = this.layers[6].x < 0 ? this.layers[6].x + 0.5 : 0;
                 this.layers[7].x = this.layers[7].x > 0 ? this.layers[7].x - 0.5 : 0;
 
                 if (!Modernizr.touch && this.animating !== true) {
@@ -129,7 +128,7 @@ define(function (require) {
                     {x: 100, y: 20},
                     {x: 0, y: 0},
                     {x: 0, y: 0},
-                    {x: -100, y: -100},
+                    {x: -100, y: 0},
                     {x: 100, y: 0}
                 ];
                 
