@@ -54,7 +54,7 @@ define(function (require) {
                 randomMap = this.particleMaps[Math.floor(Math.random() * this.particleMaps.length)];
                 particle = new ParticleObj(randomMap);
                 this.particles.push(particle);
-                this.particles[i].x = 30 + this.cell.get('x') + ((this.cell.get('w') / 2) * Math.random());
+                this.particles[i].x = 30 + this.cell.get('x') + ((this.cell.get('w') / 2) * Math.random()) / window.devicePixelRatio;
                 this.particles[i].y = this.cell.get('y') + (this.cell.get('h') * Math.random()) - this.particles[i].h;
             }
             

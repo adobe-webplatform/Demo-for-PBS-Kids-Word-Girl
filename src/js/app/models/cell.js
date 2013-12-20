@@ -7,6 +7,7 @@ define(function (require) {
         Vars = require('app/models/vars'),
         CellView = require('app/views/cell-view'),
         CellViewCover = require('app/views/cells/cell-view-cover'),
+        CellView1 = require('app/views/cells/cell-view-1'),
         CellView2 = require('app/views/cells/cell-view-2'),
         CellView3 = require('app/views/cells/cell-view-3'),
         CellView5 = require('app/views/cells/cell-view-5'),
@@ -30,6 +31,9 @@ define(function (require) {
             switch (this.get('src')) {
             case 'cover':
                 this.set('view', new CellViewCover({cell: this}));
+                break;
+            case 'frame1':
+                this.set('view', new CellView1({cell: this}));
                 break;
             case 'frame2':
                 this.set('view', new CellView2({cell: this}));

@@ -10,6 +10,7 @@ define(function (require) {
         MouseController = require('app/controllers/mouse-controller'),
         TouchController = require('app/controllers/touch-controller'),
         WindowController = require('app/controllers/window-controller'),
+        KeyController = require('app/controllers/key-controller'),
         AppEvent = require('app/events/app-event');
 
     App = Backbone.View.extend({
@@ -17,6 +18,7 @@ define(function (require) {
         initialize: function () {
 
             //controllers
+            this.keyController = new KeyController();
             this.mouseController = new MouseController();
             this.windowController = new WindowController();
 

@@ -69,11 +69,23 @@ define(function (require) {
             UserEvent.on('touchstart', this.handle_TOUCHSTART.bind(this));
             UserEvent.on('touchmove', this.handle_TOUCHMOVE.bind(this));
             UserEvent.on('touchend', this.handle_TOUCHEND.bind(this));
+            UserEvent.on('keydown', this.handle_KEYDOWN.bind(this));
             UserEvent.on('resize', this.resize.bind(this));
             UserEvent.on('orientationchange', this.orientationchange.bind(this));
             AppEvent.on('render', this.render.bind(this));
 
             $('#preloader').css({display: 'none'});
+        },
+
+        handle_KEYDOWN: function (e) {
+            switch (e.keyCode) {
+            case 39:
+                this.next();
+                break;
+            case 37:
+                this.previous();
+                break;
+            }
         },
 
         handle_TOUCHSTART: function (e) {
