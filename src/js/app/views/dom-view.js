@@ -6,6 +6,7 @@ define(function (require) {
         Vars = require('app/models/vars'),
         UserEvent = require('app/events/user-event'),
         AppEvent = require('app/events/app-event'),
+        BubbleCircle = require('app/views/objects/bubble-circle'),
         DomView;
 
     DomView = Backbone.View.extend({
@@ -14,11 +15,18 @@ define(function (require) {
 		    this.el = document.getElementById('dom-view');
             this.cells = this.options.cells;
 
+            this.addBubbles();
             this.layout();
 
             UserEvent.on('resize', this.resize.bind(this));
             AppEvent.on('render', this.render.bind(this));
             //AppEvent.on('animate', this.animate.bind(this));
+        },
+
+        addBubbles: function () {
+            $('.bubble--round').each(function () {
+                new BubbleCircle(this);
+            });
         },
 
         layout: function () {

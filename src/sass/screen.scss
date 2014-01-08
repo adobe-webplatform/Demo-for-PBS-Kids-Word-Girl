@@ -119,13 +119,20 @@ body{
 
 .bubble--round{
     padding: .5em;
-    border: 3px solid black;
-    border-radius: 50%;
+    // border: 3px solid black;
+    // border-radius: 50%;
     font-family: gochi-hand, sans-serif;
     font-size: 1.2rem;
     text-align: center;
     -webkit-shape-inside: ellipse(50%, 50%, 50%, 50%);
-    background: white;
+    // background: white;
+
+    svg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
 }
 
 .bubble-yellow{
@@ -154,7 +161,7 @@ body{
 
 
 #bubble-four{
-    top: -30px;
+    top: 0px;
     left: 0px;
     width: 200px;
     height: 140px;
