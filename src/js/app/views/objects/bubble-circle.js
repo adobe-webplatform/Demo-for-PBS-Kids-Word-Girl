@@ -9,27 +9,28 @@ define(function (require) {
 
     require('snap');
 
-    BubbleCircle = function (el) {
+    BubbleCircle = function (s, el) {
         var bubble,
             arrow,
             points,
             stroke = 3;
 
         function init() {
-            this.s = new Snap(1000, 1000);
+            //this.s = new Snap(1000, 1000);
 
+            console.log(el);
             if (el.getAttribute('data-point')) {
                 addArrow();
             }
 
-            bubble = this.s.ellipse(el.offsetWidth / 2, el.offsetHeight / 2, (el.offsetWidth / 2) - (stroke * 2), (el.offsetHeight / 2) - (stroke * 2));
+            bubble = s.ellipse(el.offsetLeft + el.offsetWidth / 2, el.offsetTop + el.offsetHeight / 2, (el.offsetWidth / 2) - (stroke * 2), (el.offsetHeight / 2) - (stroke * 2));
             bubble.attr({
                 fill: "#fff",
                 stroke: "#000",
                 strokeWidth: stroke
             });
 
-            el.appendChild(this.s.node);
+            //el.appendChild(this.s.node);
         }
 
         function addArrow() {
@@ -42,8 +43,8 @@ define(function (require) {
 
             arr = el.getAttribute('data-point').split(',');
             p1 = {x: arr[0], y: arr[1]};
-            center = {x: el.offsetWidth / 2, y: el.offsetHeight / 2};
-            p2 = {x: el.offsetWidth / 2, y: el.offsetHeight / 2};
+            center = {x: el.offsetLeft + el.offsetWidth / 2, y: el.offsetTop + el.offsetHeight / 2};
+            p2 = {x: el.offsetLeft + el.offsetWidth / 2, y: el.offsetTop + el.offsetHeight / 2};
 
             var dx = p2.x - p1.x,
                 dy = p2.y - p1.y;
@@ -59,7 +60,7 @@ define(function (require) {
                 p3
             ];
 
-            arrow = this.s.polygon(points[0].x + "," + points[0].y + " " + points[1].x + "," + points[1].y + " " + points[2].x + "," + points[2].y).attr({
+            arrow = s.polygon(points[0].x + "," + points[0].y + " " + points[1].x + "," + points[1].y + " " + points[2].x + "," + points[2].y).attr({
                 fill: "#fff",
                 stroke: "#000",
                 strokeWidth: stroke
