@@ -17,19 +17,12 @@ define(function (require) {
 		    this.el = document.getElementById('dom-view');
             this.cells = this.options.cells;
 
-            //this.addBubbles();
             this.layout();
 
             UserEvent.on('resize', this.resize.bind(this));
             AppEvent.on('render', this.render.bind(this));
             //AppEvent.on('animate', this.animate.bind(this));
         },
-
-        //addBubbles: function () {
-        //    $('.bubble--round').each(function () {
-        //        new BubbleCircle(this);
-        //    });
-        //},
 
         addBubbles: function (el) {
             var s,

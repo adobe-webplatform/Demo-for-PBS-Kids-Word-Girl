@@ -16,9 +16,57 @@ define(function (require) {
             stroke = 3;
 
         function init() {
-            //this.s = new Snap(1000, 1000);
 
-            console.log(el);
+            var x,
+                y,
+                i,
+                centerX = el.offsetLeft + el.offsetWidth / 2,
+                centerY = el.offsetTop + el.offsetHeight / 2,
+                radiusX = (el.offsetWidth / 2) - (stroke * 2),
+                radiusY = (el.offsetHeight / 2) - (stroke * 2),
+                point,
+                points = [],
+                pointString = "",
+                numpoints = 50,
+                a,
+                angle,
+                arr;
+
+
+            //adjust inc part and numpoints
+            for (i = 0; i < numpoints; i += 1) {
+                a = 2 * Math.PI * i / numpoints;
+                
+                x = centerX + Math.sin(a) * radiusX;
+                y = centerY + Math.cos(a) * radiusY;
+                point = {x: x, y: y};
+
+                if (i !== 0) {
+                    pointString += " ";
+                }
+
+                if (el.getAttribute('data-point')) {
+                    if (i == el.getAttribute('data-c')) {
+                        arr = el.getAttribute('data-point').split(',');
+                        pointString += arr[0] + "," + arr[1];
+                    } else {
+                        pointString += x + "," + y;
+                        points.push(point);
+                    }
+                } else {
+                    pointString += x + "," + y;
+                    points.push(point);
+                }
+                
+            }
+
+            s.polygon(pointString).attr({
+                fill: "#fff",
+                stroke: "#000",
+                strokeWidth: stroke
+            });
+
+            /*
             if (el.getAttribute('data-point')) {
                 addArrow();
             }
@@ -29,8 +77,8 @@ define(function (require) {
                 stroke: "#000",
                 strokeWidth: stroke
             });
+            */
 
-            //el.appendChild(this.s.node);
         }
 
         function addArrow() {
