@@ -12,6 +12,7 @@ define(function (require) {
         CellView3 = require('app/views/cells/cell-view-3'),
         CellView5 = require('app/views/cells/cell-view-5'),
         CellView6 = require('app/views/cells/cell-view-6'),
+        CellView7 = require('app/views/cells/cell-view-7'),
         Cell;
 
     Cell = Backbone.Model.extend({
@@ -46,6 +47,9 @@ define(function (require) {
                 break;
             case 'frame6':
                 this.set('view', new CellView6({cell: this}));
+                break;
+            case 'frame7':
+                this.set('view', new CellView7({cell: this}));
                 break;
             default:
                 this.set('view', new CellView({cell: this}));
