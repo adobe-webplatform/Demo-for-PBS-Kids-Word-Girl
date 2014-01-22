@@ -15,7 +15,7 @@ define(function (require) {
             var i,
                 image;
 
-            this.id = 7;
+            this.id = 8;
             this.cell = this.options.cell;
             this.delta = 0;
             this.images = [];
@@ -23,10 +23,12 @@ define(function (require) {
             this.layers = [
                 {x: 0, y: 0},
                 {x: 0, y: 0},
+                {x: 0, y: 0},
+                {x: 0, y: 0},
                 {x: 0, y: 0}
             ];
 
-            for (i = 0; i < 3; i += 1) {
+            for (i = 0; i < 5; i += 1) {
                 image = new Image();
                 image.src = 'assets/images/png/' + this.cell.get('src') + '-' + (i + 1) + '.png';
                 image.addEventListener('load', this.handle_LOAD.bind(this));
@@ -46,6 +48,8 @@ define(function (require) {
                 ctx.drawImage(this.images[0], this.cell.get('x'), this.cell.get('y'));
                 ctx.drawImage(this.images[1], this.cell.get('x') + this.layers[1].x, this.cell.get('y') + this.layers[1].y);
                 ctx.drawImage(this.images[2], this.cell.get('x') + this.layers[2].x, this.cell.get('y') + this.layers[2].y);
+                ctx.drawImage(this.images[3], this.cell.get('x') + this.layers[3].x, this.cell.get('y') + this.layers[3].y);
+                ctx.drawImage(this.images[4], this.cell.get('x') + this.layers[4].x, this.cell.get('y') + this.layers[4].y);
 
             }
         },
@@ -57,7 +61,8 @@ define(function (require) {
                 this.delta += 1;
 
                 this.layers[1].y = 10 + Math.sin(this.delta / 20) * 10;
-                this.layers[2].y = 10 + Math.sin(this.delta / 5) * 10;
+                this.layers[2].y = 10 + Math.sin(this.delta / 30) * 10;
+                this.layers[4].y = 10 + Math.sin(this.delta / 30) * 10;
 
             } else {
                 

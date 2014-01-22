@@ -7,15 +7,15 @@ define(function (require) {
         UserEvent = require('app/events/user-event'),
         AppEvent = require('app/events/app-event'),
         CellView = require('app/views/cell-view'),
-        CellView7;
+        CellView9;
 
-    CellView7 = CellView.extend({
+    CellView9 = CellView.extend({
 
         initialize: function () {
             var i,
                 image;
 
-            this.id = 7;
+            this.id = 9;
             this.cell = this.options.cell;
             this.delta = 0;
             this.images = [];
@@ -46,7 +46,6 @@ define(function (require) {
                 ctx.drawImage(this.images[0], this.cell.get('x'), this.cell.get('y'));
                 ctx.drawImage(this.images[1], this.cell.get('x') + this.layers[1].x, this.cell.get('y') + this.layers[1].y);
                 ctx.drawImage(this.images[2], this.cell.get('x') + this.layers[2].x, this.cell.get('y') + this.layers[2].y);
-
             }
         },
 
@@ -57,8 +56,7 @@ define(function (require) {
                 this.delta += 1;
 
                 this.layers[1].y = 10 + Math.sin(this.delta / 20) * 10;
-                this.layers[2].y = 10 + Math.sin(this.delta / 5) * 10;
-
+                this.layers[2].y = 10 + Math.sin(this.delta / 30) * 10;
             } else {
                 
             }
@@ -73,5 +71,5 @@ define(function (require) {
 
     });
 
-	return CellView7;
+	return CellView9;
 });
