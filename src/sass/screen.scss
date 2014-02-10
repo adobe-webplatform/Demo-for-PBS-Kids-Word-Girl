@@ -13,6 +13,7 @@ body{
     overflow: hidden;
     line-height: 1.1;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 #debugger{
@@ -221,6 +222,15 @@ body{
     border-width: 5px;
 }
 
+#bubble-twelve{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    max-width: 400px;
+    font-weight: 100;
+    font-family: gochi-hand, sans-serif;
+    font-style: italic;
+}
 
 #credits{
     position: absolute;

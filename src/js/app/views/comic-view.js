@@ -66,15 +66,28 @@ define(function (require) {
             this.set({x: cell.center().x, y: cell.center().y});
 
             UserEvent.on('mousewheel', this.handle_MOUSEWHEEL.bind(this));
+            UserEvent.on('click', this.handle_CLICK.bind(this));
+
             UserEvent.on('touchstart', this.handle_TOUCHSTART.bind(this));
             UserEvent.on('touchmove', this.handle_TOUCHMOVE.bind(this));
             UserEvent.on('touchend', this.handle_TOUCHEND.bind(this));
+
             UserEvent.on('keydown', this.handle_KEYDOWN.bind(this));
             UserEvent.on('resize', this.resize.bind(this));
             UserEvent.on('orientationchange', this.orientationchange.bind(this));
+            
             AppEvent.on('render', this.render.bind(this));
 
             $('#preloader').css({display: 'none'});
+        },
+
+        handle_CLICK: function (e) {
+            console.log('click');
+            if (e.x > window.innerWidth / 2) {
+                this.next();
+            } else {
+                this.previous();
+            }
         },
 
         handle_KEYDOWN: function (e) {
@@ -112,35 +125,18 @@ define(function (require) {
          */
         handle_MOUSEWHEEL: function (e) {
 
-            var camera = this.cameraPath,
-                pos = camera.currentPosition,
-                path = camera.path;
+            if (this.animating === true) {
 
-            //mousewheel
-            //if (e.wheelDeltaY % 120 === 0) {
-            //    return;
-            //}
+                e.preventDefault();
+                
+                Anim.kill();
 
-            this.animating = false;
-
-            e.preventDefault();
-            
-            Anim.kill();
-            clearTimeout(this.MOUSEWHEEL_TIMEOUT);
-
-            //track pad
-            if (pos - e.wheelDeltaY > 0 && pos - e.wheelDeltaY < path.length - 1) {
-                pos -= e.wheelDeltaY;
-            } else if (pos - e.wheelDeltaY < 0) {
-                pos = 0;
-            } else if (pos - e.wheelDeltaY > path.length - 1) {
-                pos = path.length - 1;
+                if (e.wheelDeltaY < -120 || e.wheelDeltaX < -120) {
+                    this.next();
+                } else if (e.wheelDeltaY > 120 || e.wheelDeltaX > 120) {
+                    this.previous();
+                }
             }
-            
-            camera.currentPosition = pos;
-            this.set({x: path[pos].x, y: path[pos].y});
-
-            this.MOUSEWHEEL_TIMEOUT = setTimeout(this.cameraToClosestFrame.bind(this), 300);
         },
 
         next: function () {

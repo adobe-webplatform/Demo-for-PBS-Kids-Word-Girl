@@ -1,4 +1,4 @@
-/*global define $ requestAnimationFrame*/
+/*global define $ requestAnimationFrame Modernizr*/
 
 define(function (require) {
 	
@@ -17,6 +17,7 @@ define(function (require) {
             this.images = [];
             this.loadedImages = 0;
             this.delta = 0;
+            this.mouse = {x: 0, y: 0};
             this.stars = [
                 {x: 0, y: 0, color: '#2d565c', scale: 20},
                 {x: 0, y: 0, color: '#31646c', scale: 18},
@@ -44,6 +45,12 @@ define(function (require) {
                 image.src = 'assets/images/png/' + this.cell.get('src') + '-' + (i + 1) + '.png';
                 image.addEventListener('load', this.handle_LOAD.bind(this));
                 this.images.push(image);
+            }
+            
+            if (Modernizr.touch !== false && window.DeviceOrientationEvent) {
+                UserEvent.on('deviceorientation', this.deviceorientation.bind(this)); 
+            } else {
+                UserEvent.on('mousemove', this.mousemove.bind(this)); 
             }
 
             AppEvent.on('animate', this.animate.bind(this));
@@ -113,18 +120,23 @@ define(function (require) {
         },
 
         animate: function () { 
-            var i;
+            var i,
+                dx,
+                dy;
 
             //check if current frame is this frame
             if (Vars.get('currentFrame') == this.id) {
 
                 this.delta += 1;
 
-                //check for accelerometer and use this
+
+                dx = this.mouse.x - window.innerWidth / 2;
+                dy = this.mouse.y - window.innerHeight / 2;
+
                 for (i = 0; i < this.stars.length; i += 1) {
-                    this.stars[i].x = Math.sin(this.delta / 30) * this.stars[i].scale * 10;     
-                    this.stars[i].y = Math.cos(this.delta / 30) * this.stars[i].scale * 10;     
-                }
+                    this.stars[i].x = dx * (this.stars[i].scale / 100);
+                    this.stars[i].y = dy * (this.stars[i].scale / 100);
+                }   
 
                 this.layers[2].y = Math.sin(this.delta / 30) * 30;
 
@@ -141,6 +153,17 @@ define(function (require) {
 
             }
         }, 
+
+        mousemove: function (e) {
+            this.mouse.x = e.x;
+            this.mouse.y = e.y;
+        },
+
+        deviceorientation: function (e) {
+            this.mouse.x = e.gamma * 10;
+            this.mouse.y = e.beta * 10;
+        },
+
 
         handle_LOAD: function () {
             this.loadedImages += 1;
