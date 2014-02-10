@@ -82,7 +82,6 @@ define(function (require) {
         },
 
         handle_CLICK: function (e) {
-            console.log('click');
             if (e.x > window.innerWidth / 2) {
                 this.next();
             } else {
