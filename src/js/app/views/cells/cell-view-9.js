@@ -44,8 +44,18 @@ define(function (require) {
                 ctx.globalAlpha = this.cell.get('alpha');
 
                 ctx.drawImage(this.images[0], this.cell.get('x'), this.cell.get('y'));
+
+                //mask
+                ctx.save();
+                ctx.beginPath();
+                ctx.rect(this.cell.get('x') + 6, this.cell.get('y') + 20, 300, 571);
+                ctx.clip();
+                ctx.closePath();
+
                 ctx.drawImage(this.images[1], this.cell.get('x') + this.layers[1].x, this.cell.get('y') + this.layers[1].y);
                 ctx.drawImage(this.images[2], this.cell.get('x') + this.layers[2].x, this.cell.get('y') + this.layers[2].y);
+
+                ctx.restore();
             }
         },
 
