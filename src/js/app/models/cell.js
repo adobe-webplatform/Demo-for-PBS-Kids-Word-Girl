@@ -19,6 +19,22 @@ define(function (require) {
         CellView11 = require('app/views/cells/cell-view-11'),
         CellView12 = require('app/views/cells/cell-view-12'),
         CellView13 = require('app/views/cells/cell-view-13'),
+        cellList = [
+            CellViewCover,
+            CellView1,
+            CellView2,
+            CellView3,
+            null,
+            CellView5,
+            CellView6,
+            CellView7,
+            CellView8,
+            CellView9,
+            CellView10,
+            CellView11,
+            CellView12,
+            CellView13
+        ],
         Cell; 
 
     Cell = Backbone.Model.extend({
@@ -35,50 +51,23 @@ define(function (require) {
         },
 
         initialize: function () {
-            switch (this.get('src')) {
-            case 'cover':
-                this.set('view', new CellViewCover({cell: this}));
-                break;
-            case 'frame1':
-                this.set('view', new CellView1({cell: this}));
-                break;
-            case 'frame2':
-                this.set('view', new CellView2({cell: this}));
-                break;
-            case 'frame3':
-                this.set('view', new CellView3({cell: this}));
-                break;
-            case 'frame5':
-                this.set('view', new CellView5({cell: this}));
-                break;
-            case 'frame6':
-                this.set('view', new CellView6({cell: this}));
-                break;
-            case 'frame7':
-                this.set('view', new CellView7({cell: this}));
-                break;
-            case 'frame8':
-                this.set('view', new CellView8({cell: this}));
-                break;
-            case 'frame9':
-                this.set('view', new CellView9({cell: this}));
-                break;
-            case 'frame10':
-                this.set('view', new CellView10({cell: this}));
-                break;
-            case 'frame11':
-                this.set('view', new CellView11({cell: this}));
-                break;
-            case 'frame12':
-                this.set('view', new CellView12({cell: this}));
-                break;
-            case 'frame13':
-                this.set('view', new CellView13({cell: this}));
-                break;
-            default:
-                this.set('view', new CellView({cell: this}));
-                break;
+            var vName = this.get('src').replace('frame', ''),
+                vInt,
+                v;
+
+            if (vName == 'cover') {
+                vInt = 0;
+            } else {
+                vInt = vName;
             }
+
+            if (cellList[vInt] !== null) {
+                v = cellList[vInt];
+            } else {
+                v = CellView;
+            }
+            
+            this.set('view', new v({cell: this}));
 
             this.windowWidth = window.innerWidth;
             this.windowHeight = window.innerHeight;
