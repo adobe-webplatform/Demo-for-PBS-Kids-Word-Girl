@@ -1,4 +1,4 @@
-/*global define $ requestAnimationFrame*/
+/*global define $ requestAnimationFrame Modernizr*/
 
 define(function (require) {
 	
@@ -65,13 +65,15 @@ define(function (require) {
             this.scale = this.checkScale();
             this.set({x: cell.center().x, y: cell.center().y});
 
-            UserEvent.on('mousewheel', this.handle_MOUSEWHEEL.bind(this));
-            UserEvent.on('click', this.handle_CLICK.bind(this));
-
-            UserEvent.on('touchstart', this.handle_TOUCHSTART.bind(this));
-            UserEvent.on('touchmove', this.handle_TOUCHMOVE.bind(this));
-            UserEvent.on('touchend', this.handle_TOUCHEND.bind(this));
-
+            if (Modernizr.touch !== false) {
+                UserEvent.on('touchstart', this.handle_TOUCHSTART.bind(this));
+                UserEvent.on('touchmove', this.handle_TOUCHMOVE.bind(this));
+                UserEvent.on('touchend', this.handle_TOUCHEND.bind(this));
+            } else {
+                UserEvent.on('mousewheel', this.handle_MOUSEWHEEL.bind(this));
+                UserEvent.on('click', this.handle_CLICK.bind(this));
+            }
+            
             UserEvent.on('keydown', this.handle_KEYDOWN.bind(this));
             UserEvent.on('resize', this.resize.bind(this));
             UserEvent.on('orientationchange', this.orientationchange.bind(this));
