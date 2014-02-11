@@ -60,11 +60,11 @@ define(function (require) {
 
                 //rotate
                 ctx.save();
-                ctx.translate(-this.cell.get('x') - 250, -this.cell.get('y') - 350);
-                //ctx.translate(this.cell.get('x') - 250, this.cell.get('y') - 350);
+                //ctx.translate(-this.cell.get('x') - 250, -this.cell.get('y') - 350);
+                ctx.translate(this.cell.get('x') - 250, this.cell.get('y') - 350);
                 ctx.rotate(this.layers[2].r * Math.PI / 180);
-                //ctx.translate(250, 350);
-                ctx.translate(this.cell.get('x') + 100, this.cell.get('y') + 100);
+                ctx.translate(250, 350);
+                //ctx.translate(this.cell.get('x') + 100, this.cell.get('y') + 100);
                 ctx.drawImage(this.images[2], 0, 0);
                 ctx.restore();
 
@@ -80,7 +80,7 @@ define(function (require) {
             if (Vars.get('currentFrame') == this.id) {
                 this.delta += 1;
 
-                //this.layers[2].r = Math.sin(this.delta / 30) * 180;
+                this.layers[2].r = Math.sin(this.delta / 30) * 1;
             } else {
                 
             }
