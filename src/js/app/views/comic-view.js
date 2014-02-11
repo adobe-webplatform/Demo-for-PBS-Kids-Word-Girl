@@ -129,6 +129,7 @@ define(function (require) {
             if (this.animating === true) {
 
                 e.preventDefault();
+                e.stopPropagation();
                 
                 Anim.kill();
 
