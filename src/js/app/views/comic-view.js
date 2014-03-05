@@ -33,8 +33,7 @@ define(function (require) {
             }
 
 			this.cells = new CellCollection();
-            //this.cells.fetch({success: this.handle_CELLS_READY.bind(this)});
-            this.handle_CELLS_READY();
+            this.handle_CELLS_READY(); //NOTE THIS SHOULD FIRE WHEN FIRST IS LOADED
         },
 
         render: function () {

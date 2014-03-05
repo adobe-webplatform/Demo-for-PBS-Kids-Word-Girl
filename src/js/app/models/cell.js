@@ -38,12 +38,13 @@ define(function (require) {
                 _y = (this.get('h') / 2) + this.get('y') * Vars.get('scale');
 
             return {x: _x, y: _y};
-        },
+        }/*,
 
         resize: function () {
             this.windowWidth = window.innerWidth;
             this.windowHeight = window.innerHeight;
         }
+        */
     });
 
 	return Cell;
