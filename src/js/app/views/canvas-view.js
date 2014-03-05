@@ -43,6 +43,7 @@ define(function (require) {
             this.ctx.save();
 			this.ctx.translate(this.x, this.y);
 			this.ctx.scale(this.scale, this.scale);
+            this.ctx.globalAlpha = 1;
 
             //draw stuff
             for (i = 0; i < this.cells.length; i += 1) {
@@ -65,6 +66,7 @@ define(function (require) {
 			this.ctx.translate(this.x, this.y);
 			this.ctx.scale(this.scale, this.scale);
 
+            this.ctx.globalAlpha = 1;
             cell = this.cells.at(Vars.get('currentFrame'));
             cell.get('view').render(this.ctx);
 

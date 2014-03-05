@@ -5,19 +5,11 @@ define(function (require) {
 	var Backbone = require('backbone'),
         UserEvent = require('app/events/user-event'),
         Vars = require('app/models/vars'),
-        CellView = require('app/views/cell-view'),
+        CellView = require('app/views/cells/cell-view'),
         Cell; 
 
     Cell = Backbone.Model.extend({
         defaults: {
-            x: 0,
-            y: 0,
-            w: 0,
-            h: 0,
-            alpha: 1,
-            src: '',
-            img: null,
-            loaded: false,
             view: null
         },
 
@@ -26,11 +18,15 @@ define(function (require) {
                 vInt = options.layer.id,
                 vView;
 
-            console.log(options.layer);
-            
             vView = CellView;
             this.set('view', new vView({cell: this, layers: options.layer.layers}));
-            
+
+            //TODO Maybe use layer mask as bounds?
+            this.set('y', options.layer.bounds.top);
+            this.set('x', options.layer.bounds.left);
+            this.set('h', options.layer.bounds.bottom - options.layer.bounds.top);
+            this.set('w', options.layer.bounds.right - options.layer.bounds.left);
+
             //this.windowWidth = window.innerWidth;
             //this.windowHeight = window.innerHeight;
             //UserEvent.on('resize', this.resize.bind(this));

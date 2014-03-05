@@ -34,6 +34,7 @@ define(function (require) {
 
 			this.cells = new CellCollection();
             //this.cells.fetch({success: this.handle_CELLS_READY.bind(this)});
+            this.handle_CELLS_READY();
         },
 
         render: function () {
