@@ -16,10 +16,10 @@ define(function (require) {
 
 		    var image;
             
-            image = new Image();
-            image.src = 'assets/images/png/' + this.cell.get('src') + '.png';
-            image.addEventListener('load', this.handle_LOAD.bind(this));
-            this.cell.set('img', image);
+            //image = new Image();
+            //image.src = 'assets/images/png/' + this.cell.get('src') + '.png';
+            //image.addEventListener('load', this.handle_LOAD.bind(this));
+            //this.cell.set('img', image);
         },
 
         render: function (ctx) {
