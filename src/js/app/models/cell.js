@@ -20,6 +20,7 @@ define(function (require) {
 
             vView = CellView;
             this.set('view', new vView({cell: this, layers: options.layer.layers}));
+            this.set('name', vName);
 
             //TODO Maybe use layer mask as bounds?
             this.set('y', options.layer.bounds.top);

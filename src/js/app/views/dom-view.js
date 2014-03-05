@@ -47,7 +47,7 @@ define(function (require) {
 
             for (i = 0; i < this.cells.length; i += 1) {
                 cell = this.cells.at(i);
-                element = document.getElementById(cell.get('src'));
+                element = document.getElementById(cell.get('name'));
 
                 if (element) {
                     element.style.width = cell.get('w') + 'px';
@@ -63,7 +63,7 @@ define(function (require) {
 
         updateVisible: function () {
             
-            this.currentElement = $(document.getElementById(this.cells.at(Vars.get('currentFrame')).get('src')));
+            this.currentElement = $(document.getElementById(this.cells.at(Vars.get('currentFrame')).get('name')));
             
             if (!this.currentElement.hasClass('in')) {
                 $('.frame').removeClass('in');
