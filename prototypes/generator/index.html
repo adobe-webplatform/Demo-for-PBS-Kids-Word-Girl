@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>test</title>
+
+	</head>
+	<body>
+		
+		<canvas id="myCanvas" width="10000" height="2000"></canvas>
+		
+		<script>
+
+			var canvas = document.getElementById('myCanvas'),
+				ctx = canvas.getContext('2d'),
+				ASSET_URL = "comp-assets/";
+			
+			
+			var Bitmap = function (layer) {
+				var imageURL = ASSET_URL + layer.name,
+					img = new Image();
+				
+				this.loaded = false;
+				
+				this.load = function () {
+					
+					function handle_load_COMPLETE() {
+						this.loaded = true;
+					}
+					
+					if (layer.name == 'mask') {
+						return;
+					}
+					
+					img.src = imageURL;
+					img.onload = handle_load_COMPLETE.bind(this);
+				}
+				
+				this.draw = function () {
+					if (this.loaded == true) {
+						if (layer.path) {
+							ctx.save();
+							ctx.beginPath();
+							//NOTE:: these bounds do not reflect the vertices of the path
+							ctx.rect(layer.path.bounds.left, layer.path.bounds.top, layer.path.bounds.right - layer.path.bounds.left, layer.path.bounds.bottom - layer.path.bounds.top);
+							ctx.clip();
+						}
+						
+						ctx.drawImage(img, layer.bounds.left, layer.bounds.top);
+						
+						if (layer.path) {
+							ctx.restore();
+						}
+					}
+				}
+			}
+			
+			var Folder = function (name, folder) {
+				
+				this.layers = [];
+				
+				this.init = function () {
+					var i;
+										
+					for (i = 0; i < folder.layers.length; i += 1) {
+						var layer = folder.layers[i],
+							bmp;
+						
+						if (layer.type == "layer") {
+							bmp = new Bitmap(layer);
+							this.layers.push(bmp);
+						} else if (layer.type == "layerSection") {
+							group = new Folder(layer.name, layer);
+							group.load();
+							this.layers.push(group);
+						}
+					}
+				}
+				
+				this.load = function () {
+					var i;
+										
+					for (i = 0; i < this.layers.length; i += 1) {
+						this.layers[i].load();
+					}
+				}
+				
+				this.draw = function () {
+					var i;
+										
+					for (i = this.layers.length - 1; i > -1; i -= 1) {
+						this.layers[i].draw();
+					}
+				}
+				
+				this.init();
+			}
+			
+			var App = function () {
+				var frames = [];
+				
+				this.init = function () {
+					var i;
+					
+					console.log(doc);
+					for (i = 0; i < doc.layers.length; i += 1) {
+						var layer = doc.layers[i],
+							frame;
+
+						if (layer.type == 'layerSection') {
+							frame = new Folder(layer.name, layer);
+							frame.load();
+							frames.push(frame);
+						}
+					}
+				}
+				
+				this.draw = function () {
+					var i;
+					
+					for (i = 0; i < frames.length; i += 1) {
+						frames[i].draw();
+					}
+				}
+			}
+
+			//INITIALIZE APP
+			function jsonLoaded() {
+				var app = new App();
+				app.init();
+
+				function draw() {
+					app.draw();
+					requestAnimationFrame(draw);
+				}
+
+				requestAnimationFrame(draw);
+			}
+
+			///LOAD JSON
+			var doc,
+				xhr = new XMLHttpRequest();
+				
+			xhr.onreadystatechange = function () {
+				
+				if (xhr.readyState === 3) {
+			    	if (xhr.status === 0) {
+			        	doc = JSON.parse(xhr.responseText);
+						jsonLoaded();
+					} else {
+			        	console.error(xhr);
+					}
+				}
+			};
+			
+			xhr.open("GET", "./comp-assets/document.json", true);
+			xhr.send(null);
+			
+		</script>
+	</body>
+</html>

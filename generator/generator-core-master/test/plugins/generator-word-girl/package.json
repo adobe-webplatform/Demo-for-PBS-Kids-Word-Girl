@@ -1,7 +1,7 @@
 {
-  "name": "generator-assets",
-  "version": "1.0.3",
-  "description": "Asset generation plug-in for Photoshop Generator",
+  "name": "word-girl",
+  "version": "1.0.0",
+  "description": "Based on Asset generation plug-in for Photoshop Generator",
   "main": "main.js",
   "generator-core-version": "~2",
   "repository": {

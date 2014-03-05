@@ -52,7 +52,7 @@
         //
         // Note to Photoshop engineers: This zstring must be kept in sync with the zstring in
         // generate.jsx in the Photoshop repo.
-        MENU_LABEL = "$$$/JavaScripts/Generator/ImageAssets/Menu=Image Assets",
+        MENU_LABEL = "$$$/JavaScripts/Generator/WordGirl/Menu=Word Girl",
         // Files that are ignored when trying to determine whether a directory is empty
         FILES_TO_IGNORE = [".ds_store", "desktop.ini"],
         DELAY_TO_WAIT_UNTIL_USER_DONE = 300,
@@ -158,6 +158,20 @@
             return component.file;
         });
     }
+
+	function writeDocumentJSON(document) {
+		var documentContext = _contextPerDocument[document.id],
+			path = resolve(documentContext.assetGenerationDir, "document.json"),
+			content = stringify(document);
+			
+		fs.writeFile(path, content, function(err) {
+		    if(err) {
+		        console.log(err);
+		    } else {
+		        console.log("The file was saved!");
+		    }
+		});
+	}
 
     /**
      * Parse a layer name into a non-empty array of file specification parts.
@@ -549,6 +563,7 @@
                 if (_contextPerDocument[documentId]) {
                     resetDocumentContext(documentId);
                 }
+
                 processChangesToDocument(document);
             },
             function (err) {
@@ -875,6 +890,8 @@
         context.path               = path;
         context.isSaved            = isSaved;
         context.assetGenerationDir = assetGenerationDir;
+
+		writeDocumentJSON(document);
     }
 
     function runPendingUpdates() {
@@ -1047,7 +1064,7 @@
                 
                 // Mask
                 maskBounds = layerContext.mask && layerContext.mask.bounds,
-                
+
                 // Static: User provided
                 staticBounds  = _generator.getDeepBounds(layerContext),
                 // Visible: User provided + effects
