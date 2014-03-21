@@ -12,19 +12,36 @@ define(function (require) {
     CellView = Backbone.View.extend({
 
         initialize: function () {
+            this.cell = this.options.cell;
+            this.alpha = 1;
+            this.loaded = false;
+            this.layersLoaded = 0;
+            this.layers = [];
+	    },
+
+        handle_LAYER_LOAD: function () {
+            this.layersLoaded += 1;
+            
+            if (this.layersLoaded == this.layers.length - 1) {
+                this.loaded = true;
+                this.callback();    
+            }
+        },
+
+        load: function (callback) {
             var i,
                 layer;
 
-            this.cell = this.options.cell;
-            this.alpha = 1;
-            this.layers = [];
+            this.callback = callback;
 
             for (i = 0; i < this.options.layers.length; i += 1) {
                 layer = new Layer();
                 layer.init(this.options.layers[i]);
                 this.layers.push(layer);
+                layer.load(this.handle_LAYER_LOAD.bind(this));
             }
-		},
+
+        },
 
         render: function (ctx) {
             var i;

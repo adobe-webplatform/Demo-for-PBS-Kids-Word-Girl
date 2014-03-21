@@ -12,20 +12,30 @@ define(function (require) {
 
     Layer.prototype = {
         init: function (data) {
+            this.loaded = false;
             this.src = ASSET_URL + data.name;
             this.x = data.bounds.left;
             this.y = data.bounds.top;
 
-            this.load();
+            //this.load();
         },
 
-        load: function () {
+        load: function (callback) {
+            this.callback = callback;
             this.img = new Image();
             this.img.src = this.src;
+            this.img.addEventListener('load', this.loadComplete.bind(this));
+        },
+
+        loadComplete: function () {
+            this.loaded = true;
+            this.callback();
         },
 
         render: function (ctx) {
-		    ctx.drawImage(this.img, this.x, this.y);
+            if (this.loaded === true) {
+		        ctx.drawImage(this.img, this.x, this.y);
+            }
         }
     };
 

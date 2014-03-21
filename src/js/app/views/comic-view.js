@@ -33,7 +33,45 @@ define(function (require) {
             }
 
 			this.cells = new CellCollection();
-            this.handle_CELLS_READY(); //NOTE THIS SHOULD FIRE WHEN FIRST IS LOADED
+
+            this.load(this.handle_CELLS_READY.bind(this)); // callback when first 3 are loaded
+        },
+
+        load: function (callback) {
+            var instance = this,
+                framesLoaded = 0,
+                currentFrame,
+                currentView,
+                currentFrameNumber = Vars.get('currentFrame');
+            
+            function loadFrame(num, cb) {
+                
+                if (num < 0) {
+                    cb();
+                    return;
+                }
+
+                currentFrame = instance.cells.at(num);
+                currentView = currentFrame.get('view');
+
+                if (currentView.loaded !== true) {
+                    currentView.load(cb);
+                } else {
+                    cb();
+                }
+            }
+
+            function loadFrameComplete() {
+                framesLoaded += 1;
+
+                if (framesLoaded == 3 && typeof(callback) == 'function') {
+                    callback();
+                }
+            }
+
+            loadFrame(currentFrameNumber, loadFrameComplete);
+            loadFrame(currentFrameNumber - 1, loadFrameComplete);
+            loadFrame(currentFrameNumber + 1, loadFrameComplete);
         },
 
         render: function () {
@@ -150,6 +188,7 @@ define(function (require) {
 			this.router.navigate('frame/' + this.cameraPath.currentKey);
             Vars.set('currentFrame', this.cameraPath.currentKey);
             this.tweento(key);
+            this.load();
         },
 
         previous: function () {
@@ -161,6 +200,7 @@ define(function (require) {
 			this.router.navigate('frame/' + this.cameraPath.currentKey);
             Vars.set('currentFrame', this.cameraPath.currentKey);
             this.tweento(key);
+            this.load();
         },
 
         set: function (point) {
@@ -169,6 +209,7 @@ define(function (require) {
             this.position.x = -point.x * scale + (window.innerWidth / 2);
             this.position.y = -point.y * scale + (window.innerHeight / 2);
             this.animating = true;
+            this.load();
         },
 
         /**
