@@ -18,7 +18,9 @@ define(function (require) {
                 vInt = options.layer.id,
                 vView;
 
+            //TODO::select custom class
             vView = CellView;
+
             this.set('view', new vView({cell: this, layers: options.layer.layers}));
             this.set('name', vName);
 
@@ -27,10 +29,6 @@ define(function (require) {
             this.set('x', options.layer.bounds.left);
             this.set('h', options.layer.bounds.bottom - options.layer.bounds.top);
             this.set('w', options.layer.bounds.right - options.layer.bounds.left);
-
-            //this.windowWidth = window.innerWidth;
-            //this.windowHeight = window.innerHeight;
-            //UserEvent.on('resize', this.resize.bind(this));
         },
 
         center: function () {
@@ -38,13 +36,8 @@ define(function (require) {
                 _y = (this.get('h') / 2) + this.get('y') * Vars.get('scale');
 
             return {x: _x, y: _y};
-        }/*,
-
-        resize: function () {
-            this.windowWidth = window.innerWidth;
-            this.windowHeight = window.innerHeight;
         }
-        */
+
     });
 
 	return Cell;

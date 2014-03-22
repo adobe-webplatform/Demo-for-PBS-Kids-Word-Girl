@@ -37,6 +37,7 @@ define(function (require) {
             this.load(this.handle_CELLS_READY.bind(this)); // callback when first 3 are loaded
         },
 
+        /*maybe consider waterfall loading instead*/
         load: function (callback) {
             var instance = this,
                 framesLoaded = 0,
