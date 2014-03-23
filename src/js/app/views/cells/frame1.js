@@ -11,8 +11,15 @@ define(function (require) {
 
     CellView2 = CellView.extend({
         initialize: function () {
-            console.log('hi');
             CellView.prototype.initialize.call(this);
+        },
+
+        render: function (ctx) {
+
+            //TODO: check if current frame otherwise reset
+            this.layers[1].x -= 1;
+            this.layers[2].x += 1;
+            CellView.prototype.render.call(this, ctx);
         }
     });
 

@@ -7,7 +7,6 @@ define(function (require) {
         data = require('text!app/data/document.json'),
         Cells,
         CellList = [
-            null,
             require('app/views/cells/frame1')
         ];
 
@@ -24,7 +23,6 @@ define(function (require) {
 
             for (i = 0; i < data.layers.length; i += 1) {
                 layer = data.layers[i];
-                //TODO:: add option for custom class?
 
                 if (CellList[i]) {
                     c = new Cell({layer: layer, view: CellList[i]});
