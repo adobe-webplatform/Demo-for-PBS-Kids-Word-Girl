@@ -19,7 +19,11 @@ define(function (require) {
                 vView;
 
             //TODO::select custom class
-            vView = CellView;
+            if (options.frame) {
+                vView = options.frame;
+            } else {
+                vView = CellView;
+            }
 
             this.set('view', new vView({cell: this, layers: options.layer.layers}));
             this.set('name', vName);

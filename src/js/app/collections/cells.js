@@ -21,7 +21,13 @@ define(function (require) {
             for (i = 0; i < data.layers.length; i += 1) {
                 layer = data.layers[i];
                 //TODO:: add option for custom class?
-                c = new Cell({layer: layer});
+
+                //if (frame) {
+                //    c = new Cell({layer: layer, frame: frame});
+                //} else {
+                    c = new Cell({layer: layer});
+                //}
+
                 this.add(c);
             }
             
