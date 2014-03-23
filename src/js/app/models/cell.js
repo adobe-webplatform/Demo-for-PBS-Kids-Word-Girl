@@ -6,7 +6,7 @@ define(function (require) {
         UserEvent = require('app/events/user-event'),
         Vars = require('app/models/vars'),
         CellView = require('app/views/cells/cell-view'),
-        Cell; 
+        Cell;
 
     Cell = Backbone.Model.extend({
         defaults: {
@@ -18,9 +18,8 @@ define(function (require) {
                 vInt = options.layer.id,
                 vView;
 
-            //TODO::select custom class
-            if (options.frame) {
-                vView = options.frame;
+            if (options.view) {
+                vView = options.view;
             } else {
                 vView = CellView;
             }

@@ -5,7 +5,11 @@ define(function (require) {
 	var Backbone = require('backbone'),
         Cell = require('app/models/cell'),
         data = require('text!app/data/document.json'),
-        Cells;
+        Cells,
+        CellList = [
+            null,
+            require('app/views/cells/frame1')
+        ];
 
     Cells = Backbone.Collection.extend({
         model: Cell,
@@ -22,11 +26,11 @@ define(function (require) {
                 layer = data.layers[i];
                 //TODO:: add option for custom class?
 
-                //if (frame) {
-                //    c = new Cell({layer: layer, frame: frame});
-                //} else {
+                if (CellList[i]) {
+                    c = new Cell({layer: layer, view: CellList[i]});
+                } else {
                     c = new Cell({layer: layer});
-                //}
+                }
 
                 this.add(c);
             }
