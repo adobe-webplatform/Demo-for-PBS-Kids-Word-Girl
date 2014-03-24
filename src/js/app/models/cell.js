@@ -15,7 +15,8 @@ define(function (require) {
 
         initialize: function (options) {
             var vName = options.layer.name,
-                vInt = options.layer.id,
+                //vInt = options.layer.id,
+                vNum = options.num,
                 vView;
 
             if (options.view) {
@@ -24,7 +25,7 @@ define(function (require) {
                 vView = CellView;
             }
 
-            this.set('view', new vView({cell: this, layers: options.layer.layers}));
+            this.set('view', new vView({cell: this, layers: options.layer.layers, num: vNum}));
             this.set('name', vName);
 
             //TODO Maybe use layer mask as bounds?

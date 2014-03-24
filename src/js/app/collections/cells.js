@@ -25,9 +25,9 @@ define(function (require) {
                 layer = data.layers[i];
 
                 if (CellList[i]) {
-                    c = new Cell({layer: layer, view: CellList[i]});
+                    c = new Cell({layer: layer, num: i, view: CellList[i]});
                 } else {
-                    c = new Cell({layer: layer});
+                    c = new Cell({layer: layer, num: i});
                 }
 
                 this.add(c);
