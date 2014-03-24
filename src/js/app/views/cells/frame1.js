@@ -17,10 +17,11 @@ define(function (require) {
         render: function (ctx) {
             var currentFrame = this.options.num == Vars.get('currentFrame');
 
-            //TODO: check if current frame otherwise reset
             if (currentFrame) {
                 this.layers[1].x -= 1;
                 this.layers[2].x += 1;
+            } else {
+                
             }
 
             CellView.prototype.render.call(this, ctx);
