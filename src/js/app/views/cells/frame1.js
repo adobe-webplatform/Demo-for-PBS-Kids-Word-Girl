@@ -17,11 +17,12 @@ define(function (require) {
         render: function (ctx) {
             var currentFrame = this.options.num == Vars.get('currentFrame');
 
-            if (currentFrame) {
-                this.layers[1].x -= 1;
-                this.layers[2].x += 1;
+            if (currentFrame && this.layers.length > 0) {
+                this.layers[1].x = this.layers[1].x < 0 ? this.layers[1].x + 1 : 0;
+                this.layers[2].x = this.layers[2].x > -100 ? this.layers[2].x - 1 : -100;
             } else {
-                
+                this.layers[1].x = -100;
+                this.layers[2].x = -20;
             }
 
             CellView.prototype.render.call(this, ctx);
