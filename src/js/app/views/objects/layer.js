@@ -16,6 +16,7 @@ define(function (require) {
             this.loaded = false;
             this.src = ASSET_URL + data.name;
             this.origin = {x: data.bounds.left, y: data.bounds.top};
+            this.delta = 0;
             this.rotation = 0;
             this.scale = 1;
             this.x = data.bounds.left;
@@ -74,13 +75,24 @@ define(function (require) {
 
                 if (this.scale !== 1) {
                     ctx.save();
-                    ctx.translate(this.x + globalX + (this.img.width) * globalScale, globalY + (this.img.height / 2) * globalScale);
+                    ctx.translate(this.x + (this.img.width / 2), this.y + (this.img.height / 2));
                     ctx.scale(this.scale, this.scale);
-		            ctx.translate(-this.x - globalX - (this.img.width) * globalScale, -globalY - (this.img.height / 2) * globalScale);
+		            ctx.translate(-this.x - (this.img.width / 2), -this.y - (this.img.height / 2));
+                }
+
+                if (this.rotation !== 0) {
+                    ctx.save();
+                    ctx.translate(this.x + (this.img.width / 2), this.y + (this.img.height / 2));
+                    ctx.rotate(this.rotation);
+		            ctx.translate(-this.x - (this.img.width / 2), -this.y - (this.img.height / 2));
                 }
 
 		        ctx.drawImage(this.img, this.x, this.y);
                 
+                if (this.rotation !== 0) {
+                    ctx.restore();
+                }
+
                 if (this.scale !== 1) {
                     ctx.restore();
                 }
