@@ -1,17 +1,17 @@
 {
     "version": "1.1.0",
-    "timeStamp": 1396030607.964,
-    "count": 33,
+    "timeStamp": 1396046562.963,
+    "count": 133,
     "id": 45,
     "file": "/Users/gammon/Documents/Projects/00-repos/github/adobe-webplatform/wordgirl/art/psd/comp.psd",
     "bounds": {
         "top": 0,
         "left": 0,
         "bottom": 2037,
-        "right": 7448
+        "right": 7678
     },
     "selection": [
-        43
+        63
     ],
     "resolution": 72,
     "globalLight": {
@@ -35,9 +35,9 @@
             "name": "frame1",
             "bounds": {
                 "top": 57,
-                "left": -108,
+                "left": 42,
                 "bottom": 700,
-                "right": 767
+                "right": 917
             },
             "visible": true,
             "clipped": false,
@@ -55,18 +55,18 @@
                             "type": "unknown",
                             "bounds": {
                                 "top": 63,
-                                "left": 45,
+                                "left": 275,
                                 "bottom": 682,
-                                "right": 518
+                                "right": 748
                             }
                         }
                     }
                 ],
                 "bounds": {
                     "top": 63,
-                    "left": 45,
+                    "left": 275,
                     "bottom": 682,
-                    "right": 518
+                    "right": 748
                 },
                 "defaultFill": false
             },
@@ -78,15 +78,15 @@
                     "name": "frame1-2.png",
                     "bounds": {
                         "top": 58,
-                        "left": 47,
+                        "left": 277,
                         "bottom": 699,
-                        "right": 521
+                        "right": 751
                     },
                     "boundsWithFX": {
                         "top": 58,
-                        "left": 47,
+                        "left": 277,
                         "bottom": 699,
-                        "right": 521
+                        "right": 751
                     },
                     "visible": true,
                     "clipped": false,
@@ -116,9 +116,9 @@
                     "name": "frame1-1.png",
                     "bounds": {
                         "top": 296,
-                        "left": 23,
+                        "left": 253,
                         "bottom": 700,
-                        "right": 586
+                        "right": 816
                     },
                     "visible": true,
                     "clipped": false,
@@ -133,60 +133,60 @@
                                     "type": "unknown",
                                     "bounds": {
                                         "top": 63,
-                                        "left": 45,
+                                        "left": 275,
                                         "bottom": 682,
-                                        "right": 518
+                                        "right": 748
                                     }
                                 }
                             }
                         ],
                         "bounds": {
                             "top": 63,
-                            "left": 45,
+                            "left": 275,
                             "bottom": 682,
-                            "right": 518
+                            "right": 748
                         },
                         "defaultFill": false
                     },
                     "smartObject": {
                         "ID": "8e163aa4-f396-1176-8843-8a94400d852f",
-                        "placed": "85961226-f6bf-1176-897a-b4c8eb8d3880",
+                        "placed": "4a58f673-f6c4-1176-897a-b4c8eb8d3880",
                         "antiAliasType": 16,
                         "type": 2,
                         "transform": [
-                            23,
+                            253,
                             296,
-                            634,
+                            864,
                             296,
-                            634,
+                            864,
                             700,
-                            23,
+                            253,
                             700
                         ]
                     },
                     "vectorMask": [
                         {
                             "anchor": {
-                                "x": 46.0001,
-                                "y": 63
+                                "x": 277,
+                                "y": 65
                             }
                         },
                         {
                             "anchor": {
-                                "x": 518,
-                                "y": 63
+                                "x": 749,
+                                "y": 65
                             }
                         },
                         {
                             "anchor": {
-                                "x": 498,
+                                "x": 729,
+                                "y": 684
+                            }
+                        },
+                        {
+                            "anchor": {
+                                "x": 276,
                                 "y": 682
-                            }
-                        },
-                        {
-                            "anchor": {
-                                "x": 45,
-                                "y": 680
                             }
                         }
                     ]
@@ -198,9 +198,9 @@
                     "name": "frame1-0.png",
                     "bounds": {
                         "top": 57,
-                        "left": -108,
+                        "left": 42,
                         "bottom": 699,
-                        "right": 767
+                        "right": 917
                     },
                     "visible": true,
                     "clipped": false,
@@ -215,92 +215,66 @@
                                     "type": "unknown",
                                     "bounds": {
                                         "top": 63,
-                                        "left": 45,
+                                        "left": 275,
                                         "bottom": 682,
-                                        "right": 518
+                                        "right": 748
                                     }
                                 }
                             }
                         ],
                         "bounds": {
                             "top": 63,
-                            "left": 45,
+                            "left": 275,
                             "bottom": 682,
-                            "right": 518
+                            "right": 748
                         },
                         "defaultFill": false
                     },
                     "smartObject": {
                         "ID": "8e163aa3-f396-1176-8843-8a94400d852f",
-                        "placed": "85f8fba1-f6bf-1176-897a-b4c8eb8d3880",
+                        "placed": "4d50a836-f6c4-1176-897a-b4c8eb8d3880",
                         "antiAliasType": 16,
                         "type": 2,
                         "transform": [
-                            -108,
+                            42,
                             57,
-                            767,
+                            917,
                             57,
-                            767,
+                            917,
                             699,
-                            -108,
+                            42,
                             699
                         ]
                     },
                     "vectorMask": [
                         {
                             "anchor": {
-                                "x": 46.0001,
-                                "y": 63
+                                "x": 277,
+                                "y": 65
                             }
                         },
                         {
                             "anchor": {
-                                "x": 518,
-                                "y": 63
+                                "x": 749,
+                                "y": 65
                             }
                         },
                         {
                             "anchor": {
-                                "x": 498,
+                                "x": 729,
+                                "y": 684
+                            }
+                        },
+                        {
+                            "anchor": {
+                                "x": 276,
                                 "y": 682
-                            }
-                        },
-                        {
-                            "anchor": {
-                                "x": 45,
-                                "y": 680
                             }
                         }
                     ]
                 }
             ],
-            "atRootOfChange": true,
-            "vectorMask": [
-                {
-                    "anchor": {
-                        "x": 46.0001,
-                        "y": 63
-                    }
-                },
-                {
-                    "anchor": {
-                        "x": 518,
-                        "y": 63
-                    }
-                },
-                {
-                    "anchor": {
-                        "x": 498,
-                        "y": 682
-                    }
-                },
-                {
-                    "anchor": {
-                        "x": 45,
-                        "y": 680
-                    }
-                }
-            ]
+            "atRootOfChange": true
         },
         {
             "id": 16,
@@ -309,9 +283,9 @@
             "name": "frame2",
             "bounds": {
                 "top": 82,
-                "left": 538,
+                "left": 768,
                 "bottom": 733,
-                "right": 1309
+                "right": 1539
             },
             "visible": true,
             "clipped": false,
@@ -329,18 +303,18 @@
                             "type": "unknown",
                             "bounds": {
                                 "top": 100,
-                                "left": 555,
+                                "left": 785,
                                 "bottom": 720,
-                                "right": 1292
+                                "right": 1522
                             }
                         }
                     }
                 ],
                 "bounds": {
                     "top": 100,
-                    "left": 555,
+                    "left": 785,
                     "bottom": 720,
-                    "right": 1292
+                    "right": 1522
                 },
                 "defaultFill": false
             },
@@ -352,9 +326,9 @@
                     "name": "frame2-2.png",
                     "bounds": {
                         "top": 151,
-                        "left": 560,
+                        "left": 790,
                         "bottom": 721,
-                        "right": 1293
+                        "right": 1523
                     },
                     "visible": true,
                     "clipped": false,
@@ -371,9 +345,9 @@
                     "name": "frame2-1.png",
                     "bounds": {
                         "top": 94,
-                        "left": 543,
+                        "left": 773,
                         "bottom": 724,
-                        "right": 1295
+                        "right": 1525
                     },
                     "visible": true,
                     "clipped": false,
@@ -390,9 +364,9 @@
                     "name": "frame2-0.png",
                     "bounds": {
                         "top": 82,
-                        "left": 538,
+                        "left": 768,
                         "bottom": 733,
-                        "right": 1309
+                        "right": 1539
                     },
                     "visible": true,
                     "clipped": false,
@@ -408,76 +382,50 @@
                                     "type": "unknown",
                                     "bounds": {
                                         "top": 100,
-                                        "left": 555,
+                                        "left": 785,
                                         "bottom": 720,
-                                        "right": 1292
+                                        "right": 1522
                                     }
                                 }
                             }
                         ],
                         "bounds": {
                             "top": 100,
-                            "left": 555,
+                            "left": 785,
                             "bottom": 720,
-                            "right": 1292
+                            "right": 1522
                         },
                         "defaultFill": false
                     },
                     "vectorMask": [
                         {
                             "anchor": {
-                                "x": 578,
+                                "x": 809,
+                                "y": 104
+                            }
+                        },
+                        {
+                            "anchor": {
+                                "x": 1518,
                                 "y": 102
                             }
                         },
                         {
                             "anchor": {
-                                "x": 1287,
-                                "y": 100
+                                "x": 1523,
+                                "y": 718
                             }
                         },
                         {
                             "anchor": {
-                                "x": 1292,
-                                "y": 716
-                            }
-                        },
-                        {
-                            "anchor": {
-                                "x": 555,
-                                "y": 720
+                                "x": 786,
+                                "y": 722
                             }
                         }
                     ]
                 }
             ],
-            "atRootOfChange": true,
-            "vectorMask": [
-                {
-                    "anchor": {
-                        "x": 578,
-                        "y": 102
-                    }
-                },
-                {
-                    "anchor": {
-                        "x": 1287,
-                        "y": 100
-                    }
-                },
-                {
-                    "anchor": {
-                        "x": 1292,
-                        "y": 716
-                    }
-                },
-                {
-                    "anchor": {
-                        "x": 555,
-                        "y": 720
-                    }
-                }
-            ]
+            "atRootOfChange": true
         },
         {
             "id": 24,
@@ -485,10 +433,10 @@
             "type": "layerSection",
             "name": "frame3",
             "bounds": {
-                "top": 148,
-                "left": 1326,
+                "top": 28,
+                "left": 1556,
                 "bottom": 746,
-                "right": 1642
+                "right": 2030
             },
             "visible": true,
             "clipped": false,
@@ -499,6 +447,28 @@
                 "removed": true
             },
             "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 152,
+                                "left": 1561,
+                                "bottom": 743,
+                                "right": 1868
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 152,
+                    "left": 1561,
+                    "bottom": 743,
+                    "right": 1868
+                },
+                "defaultFill": false
+            },
             "layers": [
                 {
                     "id": 23,
@@ -507,9 +477,9 @@
                     "name": "frame3-4.png",
                     "bounds": {
                         "top": 156,
-                        "left": 1400,
+                        "left": 1630,
                         "bottom": 285,
-                        "right": 1498
+                        "right": 1728
                     },
                     "visible": true,
                     "clipped": false,
@@ -526,9 +496,9 @@
                     "name": "frame3-3.png",
                     "bounds": {
                         "top": 156,
-                        "left": 1390,
+                        "left": 1620,
                         "bottom": 284,
-                        "right": 1508
+                        "right": 1738
                     },
                     "visible": true,
                     "clipped": false,
@@ -545,9 +515,9 @@
                     "name": "frame3-2.png",
                     "bounds": {
                         "top": 609,
-                        "left": 1508,
+                        "left": 1738,
                         "bottom": 616,
-                        "right": 1636
+                        "right": 1866
                     },
                     "visible": true,
                     "clipped": false,
@@ -563,10 +533,10 @@
                     "type": "layer",
                     "name": "frame3-1.png",
                     "bounds": {
-                        "top": 153,
-                        "left": 1392,
-                        "bottom": 656,
-                        "right": 1634
+                        "top": 28,
+                        "left": 1788,
+                        "bottom": 531,
+                        "right": 2030
                     },
                     "visible": true,
                     "clipped": false,
@@ -574,7 +544,55 @@
                         "removed": true
                     },
                     "pixels": true,
-                    "generatorSettings": false
+                    "generatorSettings": false,
+                    "path": {
+                        "pathComponents": [
+                            {
+                                "origin": {
+                                    "type": "unknown",
+                                    "bounds": {
+                                        "top": 152,
+                                        "left": 1561,
+                                        "bottom": 743,
+                                        "right": 1868
+                                    }
+                                }
+                            }
+                        ],
+                        "bounds": {
+                            "top": 152,
+                            "left": 1561,
+                            "bottom": 743,
+                            "right": 1868
+                        },
+                        "defaultFill": false
+                    },
+                    "vectorMask": [
+                        {
+                            "anchor": {
+                                "x": 1866,
+                                "y": 154
+                            }
+                        },
+                        {
+                            "anchor": {
+                                "x": 1869,
+                                "y": 745
+                            }
+                        },
+                        {
+                            "anchor": {
+                                "x": 1562,
+                                "y": 743
+                            }
+                        },
+                        {
+                            "anchor": {
+                                "x": 1564,
+                                "y": 158
+                            }
+                        }
+                    ]
                 },
                 {
                     "id": 19,
@@ -583,9 +601,9 @@
                     "name": "frame3-0.png",
                     "bounds": {
                         "top": 148,
-                        "left": 1326,
+                        "left": 1556,
                         "bottom": 746,
-                        "right": 1642
+                        "right": 1872
                     },
                     "visible": true,
                     "clipped": false,
@@ -605,9 +623,9 @@
             "name": "frame5",
             "bounds": {
                 "top": 600,
-                "left": 1677,
+                "left": 1907,
                 "bottom": 866,
-                "right": 2156
+                "right": 2386
             },
             "visible": true,
             "clipped": false,
@@ -626,9 +644,9 @@
                     "name": "frame5-4.png",
                     "bounds": {
                         "top": 600,
-                        "left": 1757,
+                        "left": 1987,
                         "bottom": 725,
-                        "right": 2156
+                        "right": 2386
                     },
                     "visible": true,
                     "clipped": false,
@@ -645,9 +663,9 @@
                     "name": "frame5-3.png",
                     "bounds": {
                         "top": 600,
-                        "left": 1681,
+                        "left": 1911,
                         "bottom": 827,
-                        "right": 2156
+                        "right": 2386
                     },
                     "visible": true,
                     "clipped": false,
@@ -664,9 +682,9 @@
                     "name": "frame5-2.png",
                     "bounds": {
                         "top": 673,
-                        "left": 1933,
+                        "left": 2163,
                         "bottom": 797,
-                        "right": 2047
+                        "right": 2277
                     },
                     "visible": true,
                     "clipped": false,
@@ -683,9 +701,9 @@
                     "name": "frame5-1.png",
                     "bounds": {
                         "top": 683,
-                        "left": 1807,
+                        "left": 2037,
                         "bottom": 866,
-                        "right": 2143
+                        "right": 2373
                     },
                     "visible": true,
                     "clipped": false,
@@ -702,9 +720,9 @@
                     "name": "frame5-0.png",
                     "bounds": {
                         "top": 618,
-                        "left": 1677,
+                        "left": 1907,
                         "bottom": 866,
-                        "right": 2152
+                        "right": 2382
                     },
                     "visible": true,
                     "clipped": false,
@@ -724,9 +742,9 @@
             "name": "frame6",
             "bounds": {
                 "top": 445,
-                "left": 2210,
+                "left": 2440,
                 "bottom": 1103,
-                "right": 2560
+                "right": 2790
             },
             "visible": true,
             "clipped": false,
@@ -745,9 +763,9 @@
                     "name": "frame6-4.png",
                     "bounds": {
                         "top": 569,
-                        "left": 2294,
+                        "left": 2524,
                         "bottom": 668,
-                        "right": 2433
+                        "right": 2663
                     },
                     "visible": true,
                     "clipped": false,
@@ -764,9 +782,9 @@
                     "name": "frame6-3.png",
                     "bounds": {
                         "top": 629,
-                        "left": 2407,
+                        "left": 2637,
                         "bottom": 745,
-                        "right": 2486
+                        "right": 2716
                     },
                     "visible": true,
                     "clipped": false,
@@ -783,9 +801,9 @@
                     "name": "frame6-2.png",
                     "bounds": {
                         "top": 828,
-                        "left": 2371,
+                        "left": 2601,
                         "bottom": 945,
-                        "right": 2471
+                        "right": 2701
                     },
                     "visible": true,
                     "clipped": false,
@@ -802,9 +820,9 @@
                     "name": "frame6-1.png",
                     "bounds": {
                         "top": 623,
-                        "left": 2220,
+                        "left": 2450,
                         "bottom": 784,
-                        "right": 2385
+                        "right": 2615
                     },
                     "visible": true,
                     "clipped": false,
@@ -821,9 +839,9 @@
                     "name": "frame6-0.png",
                     "bounds": {
                         "top": 445,
-                        "left": 2210,
+                        "left": 2440,
                         "bottom": 1103,
-                        "right": 2560
+                        "right": 2790
                     },
                     "visible": true,
                     "clipped": false,
@@ -843,9 +861,9 @@
             "name": "frame7",
             "bounds": {
                 "top": 527,
-                "left": 2610,
+                "left": 2840,
                 "bottom": 1064,
-                "right": 3459
+                "right": 3689
             },
             "visible": true,
             "clipped": false,
@@ -864,9 +882,9 @@
                     "name": "frame7-2.png",
                     "bounds": {
                         "top": 639,
-                        "left": 2610,
+                        "left": 2840,
                         "bottom": 1064,
-                        "right": 2861
+                        "right": 3091
                     },
                     "visible": true,
                     "clipped": false,
@@ -883,9 +901,9 @@
                     "name": "frame7-1.png",
                     "bounds": {
                         "top": 725,
-                        "left": 2806,
+                        "left": 3036,
                         "bottom": 1064,
-                        "right": 3148
+                        "right": 3378
                     },
                     "visible": true,
                     "clipped": false,
@@ -902,9 +920,9 @@
                     "name": "frame7-0.png",
                     "bounds": {
                         "top": 527,
-                        "left": 2610,
+                        "left": 2840,
                         "bottom": 1064,
-                        "right": 3459
+                        "right": 3689
                     },
                     "visible": true,
                     "clipped": false,
@@ -924,9 +942,9 @@
             "name": "frame8",
             "bounds": {
                 "top": 597,
-                "left": 3508,
+                "left": 3738,
                 "bottom": 1184,
-                "right": 3792
+                "right": 4022
             },
             "visible": true,
             "clipped": false,
@@ -945,9 +963,9 @@
                     "name": "frame8-4.png",
                     "bounds": {
                         "top": 888,
-                        "left": 3664,
+                        "left": 3894,
                         "bottom": 1007,
-                        "right": 3739
+                        "right": 3969
                     },
                     "visible": true,
                     "clipped": false,
@@ -964,9 +982,9 @@
                     "name": "frame8-3.png",
                     "bounds": {
                         "top": 1010,
-                        "left": 3510,
+                        "left": 3740,
                         "bottom": 1184,
-                        "right": 3792
+                        "right": 4022
                     },
                     "visible": true,
                     "clipped": false,
@@ -983,9 +1001,9 @@
                     "name": "frame8-2.png",
                     "bounds": {
                         "top": 879,
-                        "left": 3510,
+                        "left": 3740,
                         "bottom": 1142,
-                        "right": 3755
+                        "right": 3985
                     },
                     "visible": true,
                     "clipped": false,
@@ -1002,9 +1020,9 @@
                     "name": "frame8-1.png",
                     "bounds": {
                         "top": 792,
-                        "left": 3511,
+                        "left": 3741,
                         "bottom": 1180,
-                        "right": 3717
+                        "right": 3947
                     },
                     "visible": true,
                     "clipped": false,
@@ -1021,9 +1039,9 @@
                     "name": "frame8-0.png",
                     "bounds": {
                         "top": 597,
-                        "left": 3508,
+                        "left": 3738,
                         "bottom": 1184,
-                        "right": 3792
+                        "right": 4022
                     },
                     "visible": true,
                     "clipped": false,
@@ -1043,9 +1061,9 @@
             "name": "frame9",
             "bounds": {
                 "top": 762,
-                "left": 3850,
+                "left": 4080,
                 "bottom": 1343,
-                "right": 4089
+                "right": 4319
             },
             "visible": true,
             "clipped": false,
@@ -1064,9 +1082,9 @@
                     "name": "frame9-2.png",
                     "bounds": {
                         "top": 1079,
-                        "left": 3851,
+                        "left": 4081,
                         "bottom": 1343,
-                        "right": 4086
+                        "right": 4316
                     },
                     "visible": true,
                     "clipped": false,
@@ -1083,9 +1101,9 @@
                     "name": "frame9-1.png",
                     "bounds": {
                         "top": 909,
-                        "left": 3854,
+                        "left": 4084,
                         "bottom": 1168,
-                        "right": 4045
+                        "right": 4275
                     },
                     "visible": true,
                     "clipped": false,
@@ -1102,9 +1120,9 @@
                     "name": "frame9-0.png",
                     "bounds": {
                         "top": 762,
-                        "left": 3850,
+                        "left": 4080,
                         "bottom": 1343,
-                        "right": 4089
+                        "right": 4319
                     },
                     "visible": true,
                     "clipped": false,
@@ -1124,9 +1142,9 @@
             "name": "frame10",
             "bounds": {
                 "top": 906,
-                "left": 4154,
+                "left": 4384,
                 "bottom": 1483,
-                "right": 4796
+                "right": 5026
             },
             "visible": true,
             "clipped": false,
@@ -1145,9 +1163,9 @@
                     "name": "frame10-2.png",
                     "bounds": {
                         "top": 1042,
-                        "left": 4154,
+                        "left": 4384,
                         "bottom": 1483,
-                        "right": 4502
+                        "right": 4732
                     },
                     "visible": true,
                     "clipped": false,
@@ -1164,9 +1182,9 @@
                     "name": "frame10-1.png",
                     "bounds": {
                         "top": 957,
-                        "left": 4161,
+                        "left": 4391,
                         "bottom": 1476,
-                        "right": 4796
+                        "right": 5026
                     },
                     "visible": true,
                     "clipped": false,
@@ -1183,9 +1201,9 @@
                     "name": "frame10-0.png",
                     "bounds": {
                         "top": 906,
-                        "left": 4155,
+                        "left": 4385,
                         "bottom": 1482,
-                        "right": 4795
+                        "right": 5025
                     },
                     "visible": true,
                     "clipped": false,
@@ -1205,9 +1223,9 @@
             "name": "frame11",
             "bounds": {
                 "top": 1054,
-                "left": 4865,
+                "left": 5095,
                 "bottom": 1694,
-                "right": 5500
+                "right": 5730
             },
             "visible": true,
             "clipped": false,
@@ -1226,9 +1244,9 @@
                     "name": "frame11-5.png",
                     "bounds": {
                         "top": 1146,
-                        "left": 5016,
+                        "left": 5246,
                         "bottom": 1694,
-                        "right": 5340
+                        "right": 5570
                     },
                     "visible": true,
                     "clipped": false,
@@ -1245,9 +1263,9 @@
                     "name": "frame11-4.png",
                     "bounds": {
                         "top": 1408,
-                        "left": 5321,
+                        "left": 5551,
                         "bottom": 1694,
-                        "right": 5500
+                        "right": 5730
                     },
                     "visible": true,
                     "clipped": false,
@@ -1264,9 +1282,9 @@
                     "name": "frame11-3.png",
                     "bounds": {
                         "top": 1397,
-                        "left": 5243,
+                        "left": 5473,
                         "bottom": 1677,
-                        "right": 5456
+                        "right": 5686
                     },
                     "visible": true,
                     "clipped": false,
@@ -1283,9 +1301,9 @@
                     "name": "frame11-2.png",
                     "bounds": {
                         "top": 1463,
-                        "left": 4954,
+                        "left": 5184,
                         "bottom": 1512,
-                        "right": 5033
+                        "right": 5263
                     },
                     "visible": true,
                     "clipped": false,
@@ -1302,9 +1320,9 @@
                     "name": "frame11-1.png",
                     "bounds": {
                         "top": 1504,
-                        "left": 4865,
+                        "left": 5095,
                         "bottom": 1694,
-                        "right": 5110
+                        "right": 5340
                     },
                     "visible": true,
                     "clipped": false,
@@ -1321,9 +1339,9 @@
                     "name": "frame11-0.png",
                     "bounds": {
                         "top": 1054,
-                        "left": 4865,
+                        "left": 5095,
                         "bottom": 1694,
-                        "right": 5500
+                        "right": 5730
                     },
                     "visible": true,
                     "clipped": false,
@@ -1343,9 +1361,9 @@
             "name": "frame12",
             "bounds": {
                 "top": 1182,
-                "left": 5553,
+                "left": 5783,
                 "bottom": 1833,
-                "right": 6112
+                "right": 6342
             },
             "visible": true,
             "clipped": false,
@@ -1364,9 +1382,9 @@
                     "name": "frame12-5.png",
                     "bounds": {
                         "top": 1423,
-                        "left": 5890,
+                        "left": 6120,
                         "bottom": 1832,
-                        "right": 6112
+                        "right": 6342
                     },
                     "visible": true,
                     "clipped": false,
@@ -1383,9 +1401,9 @@
                     "name": "frame12-4.png",
                     "bounds": {
                         "top": 1547,
-                        "left": 5776,
+                        "left": 6006,
                         "bottom": 1667,
-                        "right": 5887
+                        "right": 6117
                     },
                     "visible": true,
                     "clipped": false,
@@ -1402,9 +1420,9 @@
                     "name": "frame12-3.png",
                     "bounds": {
                         "top": 1388,
-                        "left": 5578,
+                        "left": 5808,
                         "bottom": 1832,
-                        "right": 5939
+                        "right": 6169
                     },
                     "visible": true,
                     "clipped": false,
@@ -1421,9 +1439,9 @@
                     "name": "frame12-2.png",
                     "bounds": {
                         "top": 1548,
-                        "left": 5781,
+                        "left": 6011,
                         "bottom": 1832,
-                        "right": 5971
+                        "right": 6201
                     },
                     "visible": true,
                     "clipped": false,
@@ -1440,9 +1458,9 @@
                     "name": "frame12-1.png",
                     "bounds": {
                         "top": 1182,
-                        "left": 5553,
+                        "left": 5783,
                         "bottom": 1833,
-                        "right": 6106
+                        "right": 6336
                     },
                     "visible": true,
                     "clipped": false,
@@ -1459,9 +1477,9 @@
                     "name": "frame12-0.png",
                     "bounds": {
                         "top": 1182,
-                        "left": 5553,
+                        "left": 5783,
                         "bottom": 1833,
-                        "right": 6106
+                        "right": 6336
                     },
                     "visible": true,
                     "clipped": false,
@@ -1481,9 +1499,9 @@
             "name": "frame13",
             "bounds": {
                 "top": 1313,
-                "left": 6153,
+                "left": 6383,
                 "bottom": 1953,
-                "right": 7346
+                "right": 7576
             },
             "visible": true,
             "clipped": false,
@@ -1502,9 +1520,9 @@
                     "name": "frame13-2.png",
                     "bounds": {
                         "top": 1314,
-                        "left": 6560,
+                        "left": 6790,
                         "bottom": 1607,
-                        "right": 6950
+                        "right": 7180
                     },
                     "visible": true,
                     "clipped": false,
@@ -1521,9 +1539,9 @@
                     "name": "frame13-1.png",
                     "bounds": {
                         "top": 1391,
-                        "left": 6237,
+                        "left": 6467,
                         "bottom": 1921,
-                        "right": 6671
+                        "right": 6901
                     },
                     "visible": true,
                     "clipped": false,
@@ -1540,9 +1558,9 @@
                     "name": "frame13-0.png",
                     "bounds": {
                         "top": 1313,
-                        "left": 6153,
+                        "left": 6383,
                         "bottom": 1953,
-                        "right": 7346
+                        "right": 7576
                     },
                     "visible": true,
                     "clipped": false,
@@ -1564,7 +1582,7 @@
                 "top": 0,
                 "left": 0,
                 "bottom": 2037,
-                "right": 7448
+                "right": 7678
             },
             "visible": false,
             "clipped": false,

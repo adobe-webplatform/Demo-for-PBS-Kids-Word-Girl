@@ -15,9 +15,14 @@ define(function (require) {
 
             this.loaded = false;
             this.src = ASSET_URL + data.name;
+            this.origin = {x: data.bounds.left, y: data.bounds.top};
+            this.rotation = 0;
+            this.scale = 1;
             this.x = data.bounds.left;
             this.y = data.bounds.top;
-            
+            //this.w = data.bounds.width;
+            //this.h = data.bounds.height;
+
             if (data.vectorMask) {
                 this.vectorMask = data.vectorMask;
             }
@@ -38,14 +43,21 @@ define(function (require) {
         },
 
         render: function (ctx) {
-            var i;
+            var i,
+                zoom = window.devicePixelRatio,
+                globalX,
+                globalY,
+                globalScale;
+
+            globalX = Vars.get('x') * zoom;
+            globalY = Vars.get('y') * zoom;
+            globalScale = Vars.get('scale') * zoom;
+
+            //ctx.globalAlpha = 0.5;
 
             if (this.loaded === true) {
-                
                 if (this.vectorMask) {
-
                     ctx.save();
-
                     ctx.beginPath();
                     
                     for (i = 0; i < this.vectorMask.length; i += 1) {
@@ -57,13 +69,22 @@ define(function (require) {
                     }
 
                     ctx.closePath();
-                    //ctx.strokeStyle = "#FF0000";
-                    //ctx.stroke();
                     ctx.clip();
+                }
+
+                if (this.scale !== 1) {
+                    ctx.save();
+                    ctx.translate(this.x + globalX + (this.img.width) * globalScale, globalY + (this.img.height / 2) * globalScale);
+                    ctx.scale(this.scale, this.scale);
+		            ctx.translate(-this.x - globalX - (this.img.width) * globalScale, -globalY - (this.img.height / 2) * globalScale);
                 }
 
 		        ctx.drawImage(this.img, this.x, this.y);
                 
+                if (this.scale !== 1) {
+                    ctx.restore();
+                }
+
                 if (this.vectorMask) {
                     ctx.restore();
                 }

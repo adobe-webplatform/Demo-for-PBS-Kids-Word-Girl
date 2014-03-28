@@ -26,7 +26,8 @@ define(function (require) {
 
         render: function () {
             var i,
-                cell;
+                cell,
+                view;
 
             this.x = Vars.get('x') * this.zoom;
             this.y = Vars.get('y') * this.zoom;
@@ -49,7 +50,11 @@ define(function (require) {
             for (i = 0; i < this.cells.length; i += 1) {
                 if (i !== Vars.get('currentFrame')) {
                     cell = this.cells.at(i);
-                    cell.get('view').render(this.ctx);
+                    view = cell.get('view');
+
+                    if (view.loaded !== false) {
+                        cell.get('view').render(this.ctx);
+                    }
                 }
             }
             

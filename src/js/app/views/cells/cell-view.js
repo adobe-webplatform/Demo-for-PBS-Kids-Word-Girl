@@ -22,6 +22,7 @@ define(function (require) {
         handle_LAYER_LOAD: function () {
             this.layersLoaded += 1;
             
+            console.log('layer load', this.cell.get('name'));
             if (this.layersLoaded == this.layers.length - 1) {
                 this.loaded = true;
                 this.callback();    
