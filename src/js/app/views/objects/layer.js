@@ -12,10 +12,15 @@ define(function (require) {
 
     Layer.prototype = {
         init: function (data) {
+
             this.loaded = false;
             this.src = ASSET_URL + data.name;
             this.x = data.bounds.left;
             this.y = data.bounds.top;
+            
+            if (data.vectorMask) {
+                this.vectorMask = data.vectorMask;
+            }
 
             //this.load();
         },
@@ -33,8 +38,35 @@ define(function (require) {
         },
 
         render: function (ctx) {
+            var i;
+
             if (this.loaded === true) {
+                
+                if (this.vectorMask) {
+
+                    ctx.save();
+
+                    ctx.beginPath();
+                    
+                    for (i = 0; i < this.vectorMask.length; i += 1) {
+                        if (i === 0) {
+                            ctx.moveTo(this.vectorMask[0].anchor.x, this.vectorMask[0].anchor.y);
+                        } else {
+                            ctx.lineTo(this.vectorMask[i].anchor.x, this.vectorMask[i].anchor.y);
+                        }
+                    }
+
+                    ctx.closePath();
+                    //ctx.strokeStyle = "#FF0000";
+                    //ctx.stroke();
+                    ctx.clip();
+                }
+
 		        ctx.drawImage(this.img, this.x, this.y);
+                
+                if (this.vectorMask) {
+                    ctx.restore();
+                }
             }
         }
     };

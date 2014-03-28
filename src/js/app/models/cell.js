@@ -28,11 +28,18 @@ define(function (require) {
             this.set('view', new vView({cell: this, layers: options.layer.layers, num: vNum}));
             this.set('name', vName);
 
-            //TODO Maybe use layer mask as bounds?
-            this.set('y', options.layer.bounds.top);
-            this.set('x', options.layer.bounds.left);
-            this.set('h', options.layer.bounds.bottom - options.layer.bounds.top);
-            this.set('w', options.layer.bounds.right - options.layer.bounds.left);
+            if (options.layer.path) {
+                this.set('y', options.layer.path.bounds.top);
+                this.set('x', options.layer.path.bounds.left);
+                this.set('h', options.layer.path.bounds.bottom - options.layer.path.bounds.top);
+                this.set('w', options.layer.path.bounds.right - options.layer.path.bounds.left);
+            } else {
+                this.set('y', options.layer.bounds.top);
+                this.set('x', options.layer.bounds.left);
+                this.set('h', options.layer.bounds.bottom - options.layer.bounds.top);
+                this.set('w', options.layer.bounds.right - options.layer.bounds.left);
+            }
+            
         },
 
         center: function () {

@@ -112,7 +112,7 @@
                     });
                 }
                 console.log("Deleting empty directory %j", directory);
-                fs.rmdirSync(directory);
+                //fs.rmdirSync(directory);
             } else {
                 console.log("Not deleting directory %j, it still contains items to keep: %j", directory, filesToKeep);
             }
@@ -160,17 +160,55 @@
     }
 
 	function writeDocumentJSON(document) {
-		var documentContext = _contextPerDocument[document.id],
-			path = resolve(documentContext.assetGenerationDir, "document.json"),
+		var documentContext,
+			path,
+			content;
+
+		documentContext = _contextPerDocument[document.id];
+		path = resolve(documentContext.assetGenerationDir, "document.json");
+
+		function writeFile() {
 			content = stringify(document);
+
+			fs.writeFile(path, content, function(err) {
+			    if(err) {
+			        console.log(err);
+			    } else {
+			        console.log("The file was saved!");
+			    }
+			});
+		}
+
+		//get path
+		function iterate_LAYERS(layerId) {
 			
-		fs.writeFile(path, content, function(err) {
-		    if(err) {
-		        console.log(err);
-		    } else {
-		        console.log("The file was saved!");
-		    }
-		});
+			function checkPath_SUCCESS(vectorMask) {
+				var i,
+					j,
+					points = vectorMask.path.pathComponents[0].subpathListKey[0].points;
+				
+				for (i = 0; i < document.layers.length; i += 1) {
+					
+					if (document.layers[i].layers) {
+						for (j = 0; j < document.layers[i].layers.length; j += 1) {
+							if (document.layers[i].layers[j].id == layerId) {
+								document.layers[i].layers[j].vectorMask = points;
+							}
+						}
+					}
+				}
+
+				writeFile();
+			};
+
+			function checkPath_ERROR() {
+				//console.log('no path', layerId);
+			};
+			
+			_generator.getLayerShape(document.id, layerId).then(checkPath_SUCCESS, checkPath_ERROR);
+		}
+		
+		Object.keys(documentContext.layers).forEach(iterate_LAYERS);
 	}
 
     /**
@@ -532,10 +570,11 @@
         if (!documentId) {
             console.log("Determining the current document ID");
         }
-        
+
         _generator.getDocumentInfo(documentId).then(
             function (document) {
                 _waitingForDocument[documentId] = false;
+									
                 if (_gotChangeWhileWaiting[documentId]) {
                     console.log("A change occured while waiting for document %j" +
                         ", requesting the document again", documentId);
@@ -549,6 +588,7 @@
                 if (document.id && !document.file) {
                     console.warn("WARNING: file information is missing from document.");
                 }
+				
                 // No document ID was specified and the current document is unkown,
                 // so the returned document must be the current one
                 if (!documentId && !_currentDocumentId) {
@@ -559,6 +599,7 @@
                         setCurrentDocumentId(document.id);
                     }
                 }
+
                 // Act as if everything has changed
                 if (_contextPerDocument[documentId]) {
                     resetDocumentContext(documentId);
@@ -715,6 +756,7 @@
                 Q.allSettled(pendingPromises).then(function () {
                     // Delete directory foo-assets/ for foo.psd if it is empty now
                     deleteDirectoryIfEmpty(context.assetGenerationDir);
+					writeDocumentJSON(document);
                 });
             })
             .done();
@@ -891,7 +933,6 @@
         context.isSaved            = isSaved;
         context.assetGenerationDir = assetGenerationDir;
 
-		writeDocumentJSON(document);
     }
 
     function runPendingUpdates() {
@@ -1330,12 +1371,9 @@
         // pipe before slower startup stuff gets put in the pipe. Photoshop processes requests one at
         // a time in FIFO order.
         function initLater() {
-            _generator.onPhotoshopEvent("currentDocumentChanged", handleCurrentDocumentChanged);
-
+            //_generator.onPhotoshopEvent("currentDocumentChanged", handleCurrentDocumentChanged);
             initFallbackBaseDirectory();
-
-            _generator.onPhotoshopEvent("imageChanged", handleImageChanged);
-
+            //_generator.onPhotoshopEvent("imageChanged", handleImageChanged);
             requestEntireDocument();
         }
         
