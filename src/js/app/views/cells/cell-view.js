@@ -14,6 +14,7 @@ define(function (require) {
         initialize: function () {
             this.cell = this.options.cell;
             this.alpha = 1;
+            this.delta = 0;
             this.loaded = false;
             this.layersLoaded = 0;
             this.layers = [];

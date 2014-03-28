@@ -16,7 +16,6 @@ define(function (require) {
             this.loaded = false;
             this.src = ASSET_URL + data.name;
             this.origin = {x: data.bounds.left, y: data.bounds.top};
-            this.delta = 0;
             this.rotation = 0;
             this.scale = 1;
             this.x = data.bounds.left;
