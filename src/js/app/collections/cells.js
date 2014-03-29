@@ -7,8 +7,11 @@ define(function (require) {
         data = require('text!app/data/document.json'),
         Cells,
         CellList = [
+        	require('app/views/cells/frame0'),
             require('app/views/cells/frame1'),
             require('app/views/cells/frame2'),
+            require('app/views/cells/frame3'),
+            null,
             require('app/views/cells/frame3')
         ];
 

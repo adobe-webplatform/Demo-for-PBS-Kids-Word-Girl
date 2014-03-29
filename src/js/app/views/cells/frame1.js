@@ -18,8 +18,8 @@ define(function (require) {
             var currentFrame = this.options.num == Vars.get('currentFrame');
 
             if (currentFrame && this.layers.length > 0) {
-                this.layers[1].x = this.layers[1].x > 200 ? this.layers[1].x - 0.5 : 200;
-                this.layers[2].x = this.layers[2].x < 100 ? this.layers[2].x + 0.5 : 100;
+                this.layers[1].x = this.layers[1].x > this.layers[1].origin.x - 50 ? this.layers[1].x - 0.5 : this.layers[1].origin.x - 50;
+                this.layers[2].x = this.layers[2].x < this.layers[2].origin.x + 50 ? this.layers[2].x + 0.5 : this.layers[2].origin.x + 50;
             } else {
                 this.layers[1].x = this.layers[1].origin.x;
                 this.layers[2].x = this.layers[2].origin.x;
