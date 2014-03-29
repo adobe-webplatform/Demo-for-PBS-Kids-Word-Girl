@@ -17,12 +17,12 @@ define(function (require) {
         render: function (ctx) {
             var currentFrame = this.options.num == Vars.get('currentFrame');
 
-            if (currentFrame && this.layers.length > 0) {
-                //this.layers[1].x = this.layers[1].x < 0 ? this.layers[1].x + 1 : 0;
-                //this.layers[2].x = this.layers[2].x > -100 ? this.layers[2].x - 1 : -100;
+            if (currentFrame && this.layers.length > 0) {	
+				this.delta += 1;
+                this.layers[2].y = this.layers[2].origin.y + Math.sin(this.delta / 50) * 10;
+                this.layers[1].y = this.layers[1].origin.y + Math.sin(this.delta / 10) * 20;
             } else {
-                //this.layers[1].x = -100;
-                //this.layers[2].x = -20;
+				this.delta = 0;
             }
 
             CellView.prototype.render.call(this, ctx);
