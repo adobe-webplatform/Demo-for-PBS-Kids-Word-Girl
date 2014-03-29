@@ -1,7 +1,7 @@
 {
     "version": "1.1.0",
-    "timeStamp": 1396068655.236,
-    "count": 62,
+    "timeStamp": 1396125699.834,
+    "count": 10,
     "id": 37,
     "file": "/Users/gammon/Documents/Projects/00-repos/github/adobe-webplatform/wordgirl/art/psd/comp.psd",
     "bounds": {
@@ -11,7 +11,7 @@
         "right": 8467
     },
     "selection": [
-        79
+        78
     ],
     "resolution": 72,
     "globalLight": {
@@ -30,14 +30,14 @@
     "layers": [
         {
             "id": 121,
-            "index": 80,
+            "index": 79,
             "type": "layerSection",
             "name": "frame0",
             "bounds": {
-                "top": 23,
-                "left": 64,
-                "bottom": 723,
-                "right": 964
+                "top": 40,
+                "left": 128,
+                "bottom": 719,
+                "right": 939
             },
             "visible": true,
             "clipped": false,
@@ -73,9 +73,9 @@
             "layers": [
                 {
                     "id": 124,
-                    "index": 79,
+                    "index": 78,
                     "type": "layer",
-                    "name": "frame0-3.png",
+                    "name": "frame0-2.png",
                     "bounds": {
                         "top": 40,
                         "left": 132,
@@ -92,9 +92,9 @@
                 },
                 {
                     "id": 126,
-                    "index": 78,
+                    "index": 77,
                     "type": "layer",
-                    "name": "frame0-2.png",
+                    "name": "frame0-1.png",
                     "bounds": {
                         "top": 50,
                         "left": 531,
@@ -111,9 +111,9 @@
                 },
                 {
                     "id": 125,
-                    "index": 77,
+                    "index": 76,
                     "type": "layer",
-                    "name": "frame0-1.png",
+                    "name": "frame0-0.png",
                     "bounds": {
                         "top": 252,
                         "left": 128,
@@ -127,56 +127,6 @@
                     },
                     "pixels": true,
                     "generatorSettings": false
-                },
-                {
-                    "id": 127,
-                    "index": 76,
-                    "type": "layer",
-                    "name": "frame0-0.png",
-                    "bounds": {
-                        "top": 23,
-                        "left": 64,
-                        "bottom": 723,
-                        "right": 964
-                    },
-                    "boundsWithFX": {
-                        "top": 23,
-                        "left": 64,
-                        "bottom": 723,
-                        "right": 964
-                    },
-                    "visible": true,
-                    "clipped": false,
-                    "mask": {
-                        "removed": true
-                    },
-                    "generatorSettings": false,
-                    "layerEffects": {
-                        "solidFill": {
-                            "enabled": true,
-                            "color": {
-                                "red": 71.998901,
-                                "green": 175.997314,
-                                "blue": 207.996826
-                            }
-                        }
-                    },
-                    "smartObject": {
-                        "ID": "80187186-f6ef-1176-897a-b4c8eb8d3880",
-                        "placed": "1d9627c6-f78c-1176-b94c-c58868fbd07b",
-                        "antiAliasType": 16,
-                        "type": 2,
-                        "transform": [
-                            64,
-                            23,
-                            964,
-                            23,
-                            964,
-                            723,
-                            64,
-                            723
-                        ]
-                    }
                 }
             ],
             "atRootOfChange": true
@@ -302,8 +252,8 @@
                         "defaultFill": false
                     },
                     "smartObject": {
-                        "ID": "80187185-f6ef-1176-897a-b4c8eb8d3880",
-                        "placed": "357e94e9-f78b-1176-b94c-c58868fbd07b",
+                        "ID": "23043a28-f78c-1176-b94c-c58868fbd07b",
+                        "placed": "23043a25-f78c-1176-b94c-c58868fbd07b",
                         "antiAliasType": 16,
                         "type": 2,
                         "transform": [
@@ -384,8 +334,8 @@
                         "defaultFill": false
                     },
                     "smartObject": {
-                        "ID": "80187184-f6ef-1176-897a-b4c8eb8d3880",
-                        "placed": "ba4040ee-f78b-1176-b94c-c58868fbd07b",
+                        "ID": "23043a27-f78c-1176-b94c-c58868fbd07b",
+                        "placed": "23043a24-f78c-1176-b94c-c58868fbd07b",
                         "antiAliasType": 16,
                         "type": 2,
                         "transform": [

@@ -56,6 +56,7 @@ define(function (require) {
             //ctx.globalAlpha = 0.5;
 
             if (this.loaded === true) {
+	
                 if (this.vectorMask) {
                     ctx.save();
                     ctx.beginPath();
