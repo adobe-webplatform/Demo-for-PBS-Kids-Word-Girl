@@ -6,7 +6,7 @@ define(function (require) {
         UserEvent = require('app/events/user-event'),
         AppEvent = require('app/events/app-event'),
         Layer,
-        ASSET_URL = "assets/images/generated/";
+        ASSET_URL = "assets/images/comp-assets/";
 
     Layer = function () {};
 

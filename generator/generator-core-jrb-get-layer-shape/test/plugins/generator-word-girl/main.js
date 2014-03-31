@@ -165,7 +165,7 @@
 			content;
 
 		documentContext = _contextPerDocument[document.id];
-		path = resolve(documentContext.assetGenerationDir, "document.json");
+		path = resolve(documentContext.assetGenerationDir, '../../../', 'js/app/data/', "document.json");
 
 		function writeFile() {
 			content = stringify(document);
