@@ -23,6 +23,7 @@ define(function (require) {
             this.touchDelta = {x: 0, y: 0}; //delta for tracking
             this.scale = 1;
             this.animating = true;
+            this.tweening = false;
 
             this.router = Vars.get('router');
 
@@ -184,6 +185,10 @@ define(function (require) {
             var key,
                 keys = this.cameraPath.keys;
 
+            if (this.tweening !== false) {
+                return;
+            }
+
             this.cameraPath.currentKey = this.cameraPath.currentKey < keys.length - 1 ? this.cameraPath.currentKey + 1 : keys.length - 1;
             key = keys[this.cameraPath.currentKey];
 			this.router.navigate('frame/' + this.cameraPath.currentKey);
@@ -195,6 +200,10 @@ define(function (require) {
         previous: function () {
             var key,
                 keys = this.cameraPath.keys;
+
+            if (this.tweening !== false) {
+                return;
+            }
 
             this.cameraPath.currentKey = this.cameraPath.currentKey > 0 ? this.cameraPath.currentKey - 1 : 0;
             key = keys[this.cameraPath.currentKey];
@@ -210,6 +219,7 @@ define(function (require) {
             this.position.x = -point.x * scale + (window.innerWidth / 2);
             this.position.y = -point.y * scale + (window.innerHeight / 2);
             this.animating = true;
+            this.tweening = false;
             this.load();
         },
 
@@ -218,6 +228,7 @@ define(function (require) {
          */
         tweento: function (point) {
             this.animating = false;
+            this.tweening = true;
             
             var scale = this.checkScale();
             Anim.to(this, 0.5, {scale: scale}, {});
@@ -228,6 +239,7 @@ define(function (require) {
             }, {
                 onComplete: function () {
                     this.animating = true;
+                    this.tweening = false;
                 }.bind(this)
             });
         },

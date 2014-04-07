@@ -1,17 +1,17 @@
 {
     "version": "1.1.0",
-    "timeStamp": 1396886267.468,
-    "count": 19,
+    "timeStamp": 1396888597.788,
+    "count": 38,
     "id": 4744,
     "file": "/Users/gammon/Documents/Projects/00-repos/github/adobe-webplatform/wordgirl/src/assets/images/comp.psd",
     "bounds": {
         "top": 0,
         "left": 0,
-        "bottom": 10809,
-        "right": 22708
+        "bottom": 8740,
+        "right": 16177
     },
     "selection": [
-        164
+        2
     ],
     "resolution": 72,
     "globalLight": {
@@ -253,7 +253,7 @@
                     },
                     "smartObject": {
                         "ID": "785f732c-fd21-1176-a99e-dc68ad4adf18",
-                        "placed": "785f732a-fd21-1176-a99e-dc68ad4adf18",
+                        "placed": "68996395-fd2f-1176-a99e-dc68ad4adf18",
                         "antiAliasType": 16,
                         "type": 2,
                         "transform": [
@@ -335,7 +335,7 @@
                     },
                     "smartObject": {
                         "ID": "785f732b-fd21-1176-a99e-dc68ad4adf18",
-                        "placed": "785f7329-fd21-1176-a99e-dc68ad4adf18",
+                        "placed": "68996392-fd2f-1176-a99e-dc68ad4adf18",
                         "antiAliasType": 16,
                         "type": 2,
                         "transform": [
@@ -4244,9 +4244,9 @@
             "name": "frame40",
             "bounds": {
                 "top": 6319,
-                "left": 13626,
+                "left": 8053,
                 "bottom": 6922,
-                "right": 14397
+                "right": 8824
             },
             "visible": true,
             "clipped": false,
@@ -4265,9 +4265,9 @@
                     "name": "frame40-0.png",
                     "bounds": {
                         "top": 6319,
-                        "left": 13626,
+                        "left": 8053,
                         "bottom": 6922,
-                        "right": 14397
+                        "right": 8824
                     },
                     "visible": true,
                     "clipped": false,
@@ -4287,9 +4287,9 @@
             "name": "frame41",
             "bounds": {
                 "top": 6328,
-                "left": 14454,
+                "left": 8881,
                 "bottom": 6931,
-                "right": 14847
+                "right": 9274
             },
             "visible": true,
             "clipped": false,
@@ -4308,9 +4308,9 @@
                     "name": "frame41-0.png",
                     "bounds": {
                         "top": 6328,
-                        "left": 14454,
+                        "left": 8881,
                         "bottom": 6931,
-                        "right": 14847
+                        "right": 9274
                     },
                     "visible": true,
                     "clipped": false,
@@ -4330,9 +4330,9 @@
             "name": "frame42",
             "bounds": {
                 "top": 6985,
-                "left": 13624,
+                "left": 8051,
                 "bottom": 7561,
-                "right": 13936
+                "right": 8363
             },
             "visible": true,
             "clipped": false,
@@ -4351,9 +4351,9 @@
                     "name": "frame42-0.png",
                     "bounds": {
                         "top": 6985,
-                        "left": 13624,
+                        "left": 8051,
                         "bottom": 7561,
-                        "right": 13936
+                        "right": 8363
                     },
                     "visible": true,
                     "clipped": false,
@@ -4373,9 +4373,9 @@
             "name": "frame43",
             "bounds": {
                 "top": 6983,
-                "left": 13976,
+                "left": 8403,
                 "bottom": 7557,
-                "right": 14287
+                "right": 8714
             },
             "visible": true,
             "clipped": false,
@@ -4394,9 +4394,9 @@
                     "name": "frame43-0.png",
                     "bounds": {
                         "top": 6983,
-                        "left": 13976,
+                        "left": 8403,
                         "bottom": 7557,
-                        "right": 14287
+                        "right": 8714
                     },
                     "visible": true,
                     "clipped": false,
@@ -4416,9 +4416,9 @@
             "name": "frame44",
             "bounds": {
                 "top": 6981,
-                "left": 14317,
+                "left": 8744,
                 "bottom": 7553,
-                "right": 14841
+                "right": 9268
             },
             "visible": true,
             "clipped": false,
@@ -4437,9 +4437,9 @@
                     "name": "frame44-0.png",
                     "bounds": {
                         "top": 6981,
-                        "left": 14317,
+                        "left": 8744,
                         "bottom": 7553,
-                        "right": 14841
+                        "right": 9268
                     },
                     "visible": true,
                     "clipped": false,
@@ -4459,9 +4459,9 @@
             "name": "frame45",
             "bounds": {
                 "top": 7608,
-                "left": 13631,
+                "left": 8058,
                 "bottom": 8250,
-                "right": 14023
+                "right": 8450
             },
             "visible": true,
             "clipped": false,
@@ -4480,9 +4480,9 @@
                     "name": "frame45-0.png",
                     "bounds": {
                         "top": 7608,
-                        "left": 13631,
+                        "left": 8058,
                         "bottom": 8250,
-                        "right": 14023
+                        "right": 8450
                     },
                     "visible": true,
                     "clipped": false,
@@ -4502,9 +4502,9 @@
             "name": "frame46",
             "bounds": {
                 "top": 7605,
-                "left": 14053,
+                "left": 8480,
                 "bottom": 8246,
-                "right": 14413
+                "right": 8840
             },
             "visible": true,
             "clipped": false,
@@ -4523,9 +4523,9 @@
                     "name": "frame46-0.png",
                     "bounds": {
                         "top": 7605,
-                        "left": 14053,
+                        "left": 8480,
                         "bottom": 8246,
-                        "right": 14413
+                        "right": 8840
                     },
                     "visible": true,
                     "clipped": false,
@@ -4545,9 +4545,9 @@
             "name": "frame47",
             "bounds": {
                 "top": 7598,
-                "left": 14446,
+                "left": 8873,
                 "bottom": 8245,
-                "right": 14832
+                "right": 9259
             },
             "visible": true,
             "clipped": false,
@@ -4566,9 +4566,9 @@
                     "name": "frame47-0.png",
                     "bounds": {
                         "top": 7598,
-                        "left": 14446,
+                        "left": 8873,
                         "bottom": 8245,
-                        "right": 14832
+                        "right": 9259
                     },
                     "visible": true,
                     "clipped": false,
@@ -4588,9 +4588,9 @@
             "name": "frame48",
             "bounds": {
                 "top": 6348,
-                "left": 14992,
+                "left": 9419,
                 "bottom": 7007,
-                "right": 15398
+                "right": 9825
             },
             "visible": true,
             "clipped": false,
@@ -4609,9 +4609,9 @@
                     "name": "frame48-0.png",
                     "bounds": {
                         "top": 6348,
-                        "left": 14992,
+                        "left": 9419,
                         "bottom": 7007,
-                        "right": 15398
+                        "right": 9825
                     },
                     "visible": true,
                     "clipped": false,
@@ -4631,9 +4631,9 @@
             "name": "frame49",
             "bounds": {
                 "top": 6349,
-                "left": 15422,
+                "left": 9849,
                 "bottom": 7026,
-                "right": 16207
+                "right": 10634
             },
             "visible": true,
             "clipped": false,
@@ -4652,9 +4652,9 @@
                     "name": "frame49-0.png",
                     "bounds": {
                         "top": 6349,
-                        "left": 15422,
+                        "left": 9849,
                         "bottom": 7026,
-                        "right": 16207
+                        "right": 10634
                     },
                     "visible": true,
                     "clipped": false,
@@ -4674,9 +4674,9 @@
             "name": "frame50",
             "bounds": {
                 "top": 7028,
-                "left": 14994,
+                "left": 9421,
                 "bottom": 7630,
-                "right": 15369
+                "right": 9796
             },
             "visible": true,
             "clipped": false,
@@ -4695,9 +4695,9 @@
                     "name": "frame50-0.png",
                     "bounds": {
                         "top": 7028,
-                        "left": 14994,
+                        "left": 9421,
                         "bottom": 7630,
-                        "right": 15369
+                        "right": 9796
                     },
                     "visible": true,
                     "clipped": false,
@@ -4717,9 +4717,9 @@
             "name": "frame51",
             "bounds": {
                 "top": 7038,
-                "left": 15394,
+                "left": 9821,
                 "bottom": 7600,
-                "right": 15754
+                "right": 10181
             },
             "visible": true,
             "clipped": false,
@@ -4738,9 +4738,9 @@
                     "name": "frame51-0.png",
                     "bounds": {
                         "top": 7038,
-                        "left": 15394,
+                        "left": 9821,
                         "bottom": 7600,
-                        "right": 15754
+                        "right": 10181
                     },
                     "visible": true,
                     "clipped": false,
@@ -4760,9 +4760,9 @@
             "name": "frame52",
             "bounds": {
                 "top": 7046,
-                "left": 15765,
+                "left": 10192,
                 "bottom": 7570,
-                "right": 16206
+                "right": 10633
             },
             "visible": true,
             "clipped": false,
@@ -4781,9 +4781,9 @@
                     "name": "frame52-0.png",
                     "bounds": {
                         "top": 7046,
-                        "left": 15765,
+                        "left": 10192,
                         "bottom": 7570,
-                        "right": 16206
+                        "right": 10633
                     },
                     "visible": true,
                     "clipped": false,
@@ -4803,9 +4803,9 @@
             "name": "frame53",
             "bounds": {
                 "top": 7628,
-                "left": 14990,
+                "left": 9417,
                 "bottom": 8231,
-                "right": 15395
+                "right": 9822
             },
             "visible": true,
             "clipped": false,
@@ -4824,9 +4824,9 @@
                     "name": "frame53-0.png",
                     "bounds": {
                         "top": 7628,
-                        "left": 14990,
+                        "left": 9417,
                         "bottom": 8231,
-                        "right": 15395
+                        "right": 9822
                     },
                     "visible": true,
                     "clipped": false,
@@ -4846,9 +4846,9 @@
             "name": "frame54",
             "bounds": {
                 "top": 7564,
-                "left": 15425,
+                "left": 9852,
                 "bottom": 8231,
-                "right": 16207
+                "right": 10634
             },
             "visible": true,
             "clipped": false,
@@ -4867,9 +4867,9 @@
                     "name": "frame54-0.png",
                     "bounds": {
                         "top": 7564,
-                        "left": 15425,
+                        "left": 9852,
                         "bottom": 8231,
-                        "right": 16207
+                        "right": 10634
                     },
                     "visible": true,
                     "clipped": false,
@@ -4889,9 +4889,9 @@
             "name": "frame55",
             "bounds": {
                 "top": 6401,
-                "left": 16360,
+                "left": 10787,
                 "bottom": 7005,
-                "right": 17109
+                "right": 11536
             },
             "visible": true,
             "clipped": false,
@@ -4910,9 +4910,9 @@
                     "name": "frame55-0.png",
                     "bounds": {
                         "top": 6401,
-                        "left": 16360,
+                        "left": 10787,
                         "bottom": 7005,
-                        "right": 17109
+                        "right": 11536
                     },
                     "visible": true,
                     "clipped": false,
@@ -4932,9 +4932,9 @@
             "name": "frame56",
             "bounds": {
                 "top": 6410,
-                "left": 17146,
+                "left": 11573,
                 "bottom": 7006,
-                "right": 17542
+                "right": 11969
             },
             "visible": true,
             "clipped": false,
@@ -4952,18 +4952,18 @@
                             "type": "unknown",
                             "bounds": {
                                 "top": 6410,
-                                "left": 17146,
+                                "left": 11573,
                                 "bottom": 7006,
-                                "right": 17541
+                                "right": 11968
                             }
                         }
                     }
                 ],
                 "bounds": {
                     "top": 6410,
-                    "left": 17146,
+                    "left": 11573,
                     "bottom": 7006,
-                    "right": 17541
+                    "right": 11968
                 },
                 "defaultFill": false
             },
@@ -4975,9 +4975,9 @@
                     "name": "frame56-1.png",
                     "bounds": {
                         "top": 6655,
-                        "left": 17217,
+                        "left": 11644,
                         "bottom": 7006,
-                        "right": 17542
+                        "right": 11969
                     },
                     "visible": true,
                     "clipped": false,
@@ -4994,9 +4994,9 @@
                     "name": "frame56-0.png",
                     "bounds": {
                         "top": 6410,
-                        "left": 17146,
+                        "left": 11573,
                         "bottom": 7006,
-                        "right": 17541
+                        "right": 11968
                     },
                     "visible": true,
                     "clipped": false,
@@ -5019,18 +5019,18 @@
                                     "type": "unknown",
                                     "bounds": {
                                         "top": 6410,
-                                        "left": 17146,
+                                        "left": 11573,
                                         "bottom": 7006,
-                                        "right": 17541
+                                        "right": 11968
                                     }
                                 }
                             }
                         ],
                         "bounds": {
                             "top": 6410,
-                            "left": 17146,
+                            "left": 11573,
                             "bottom": 7006,
-                            "right": 17541
+                            "right": 11968
                         },
                         "defaultFill": false
                     }
@@ -5045,9 +5045,9 @@
             "name": "frame57",
             "bounds": {
                 "top": 7029,
-                "left": 16357,
+                "left": 10784,
                 "bottom": 7605,
-                "right": 16894
+                "right": 11321
             },
             "visible": true,
             "clipped": false,
@@ -5066,9 +5066,9 @@
                     "name": "frame57-0.png",
                     "bounds": {
                         "top": 7029,
-                        "left": 16357,
+                        "left": 10784,
                         "bottom": 7605,
-                        "right": 16894
+                        "right": 11321
                     },
                     "visible": true,
                     "clipped": false,
@@ -5088,9 +5088,9 @@
             "name": "frame58",
             "bounds": {
                 "top": 7030,
-                "left": 16925,
+                "left": 11352,
                 "bottom": 7609,
-                "right": 17545
+                "right": 11972
             },
             "visible": true,
             "clipped": false,
@@ -5109,9 +5109,9 @@
                     "name": "frame58-0.png",
                     "bounds": {
                         "top": 7030,
-                        "left": 16925,
+                        "left": 11352,
                         "bottom": 7609,
-                        "right": 17545
+                        "right": 11972
                     },
                     "visible": true,
                     "clipped": false,
@@ -5131,9 +5131,9 @@
             "name": "frame59",
             "bounds": {
                 "top": 7628,
-                "left": 16352,
+                "left": 10779,
                 "bottom": 8272,
-                "right": 16750
+                "right": 11177
             },
             "visible": true,
             "clipped": false,
@@ -5152,9 +5152,9 @@
                     "name": "frame59-0.png",
                     "bounds": {
                         "top": 7628,
-                        "left": 16352,
+                        "left": 10779,
                         "bottom": 8272,
-                        "right": 16750
+                        "right": 11177
                     },
                     "visible": true,
                     "clipped": false,
@@ -5174,9 +5174,9 @@
             "name": "frame60",
             "bounds": {
                 "top": 7630,
-                "left": 16775,
+                "left": 11202,
                 "bottom": 8278,
-                "right": 17539
+                "right": 11966
             },
             "visible": true,
             "clipped": false,
@@ -5195,9 +5195,9 @@
                     "name": "frame60-0.png",
                     "bounds": {
                         "top": 7630,
-                        "left": 16775,
+                        "left": 11202,
                         "bottom": 8278,
-                        "right": 17539
+                        "right": 11966
                     },
                     "visible": true,
                     "clipped": false,
@@ -5217,9 +5217,9 @@
             "name": "frame61",
             "bounds": {
                 "top": 6411,
-                "left": 17693,
+                "left": 12120,
                 "bottom": 7019,
-                "right": 18222
+                "right": 12649
             },
             "visible": true,
             "clipped": false,
@@ -5238,9 +5238,9 @@
                     "name": "frame61-0.png",
                     "bounds": {
                         "top": 6411,
-                        "left": 17693,
+                        "left": 12120,
                         "bottom": 7019,
-                        "right": 18222
+                        "right": 12649
                     },
                     "visible": true,
                     "clipped": false,
@@ -5260,9 +5260,9 @@
             "name": "frame62",
             "bounds": {
                 "top": 6412,
-                "left": 18213,
+                "left": 12640,
                 "bottom": 7018,
-                "right": 18878
+                "right": 13305
             },
             "visible": true,
             "clipped": false,
@@ -5281,9 +5281,9 @@
                     "name": "frame62-0.png",
                     "bounds": {
                         "top": 6412,
-                        "left": 18213,
+                        "left": 12640,
                         "bottom": 7018,
-                        "right": 18878
+                        "right": 13305
                     },
                     "visible": true,
                     "clipped": false,
@@ -5303,9 +5303,9 @@
             "name": "frame63",
             "bounds": {
                 "top": 7045,
-                "left": 17694,
+                "left": 12121,
                 "bottom": 7618,
-                "right": 18279
+                "right": 12706
             },
             "visible": true,
             "clipped": false,
@@ -5324,9 +5324,9 @@
                     "name": "frame63-0.png",
                     "bounds": {
                         "top": 7045,
-                        "left": 17694,
+                        "left": 12121,
                         "bottom": 7618,
-                        "right": 18279
+                        "right": 12706
                     },
                     "visible": true,
                     "clipped": false,
@@ -5346,9 +5346,9 @@
             "name": "frame64",
             "bounds": {
                 "top": 7044,
-                "left": 18308,
+                "left": 12735,
                 "bottom": 7618,
-                "right": 18880
+                "right": 13307
             },
             "visible": true,
             "clipped": false,
@@ -5367,9 +5367,9 @@
                     "name": "frame64-0.png",
                     "bounds": {
                         "top": 7044,
-                        "left": 18308,
+                        "left": 12735,
                         "bottom": 7618,
-                        "right": 18880
+                        "right": 13307
                     },
                     "visible": true,
                     "clipped": false,
@@ -5389,9 +5389,9 @@
             "name": "frame65",
             "bounds": {
                 "top": 7645,
-                "left": 17694,
+                "left": 12121,
                 "bottom": 8286,
-                "right": 18284
+                "right": 12711
             },
             "visible": true,
             "clipped": false,
@@ -5410,9 +5410,9 @@
                     "name": "frame65-0.png",
                     "bounds": {
                         "top": 7645,
-                        "left": 17694,
+                        "left": 12121,
                         "bottom": 8286,
-                        "right": 18284
+                        "right": 12711
                     },
                     "visible": true,
                     "clipped": false,
@@ -5432,9 +5432,9 @@
             "name": "frame66",
             "bounds": {
                 "top": 7645,
-                "left": 18309,
+                "left": 12736,
                 "bottom": 8291,
-                "right": 18879
+                "right": 13306
             },
             "visible": true,
             "clipped": false,
@@ -5453,9 +5453,9 @@
                     "name": "frame66-0.png",
                     "bounds": {
                         "top": 7645,
-                        "left": 18309,
+                        "left": 12736,
                         "bottom": 8291,
-                        "right": 18879
+                        "right": 13306
                     },
                     "visible": true,
                     "clipped": false,
@@ -5475,9 +5475,9 @@
             "name": "frame67",
             "bounds": {
                 "top": 6447,
-                "left": 19004,
+                "left": 13431,
                 "bottom": 7058,
-                "right": 19537
+                "right": 13964
             },
             "visible": true,
             "clipped": false,
@@ -5496,9 +5496,9 @@
                     "name": "frame67-0.png",
                     "bounds": {
                         "top": 6447,
-                        "left": 19004,
+                        "left": 13431,
                         "bottom": 7058,
-                        "right": 19537
+                        "right": 13964
                     },
                     "visible": true,
                     "clipped": false,
@@ -5518,9 +5518,9 @@
             "name": "frame68",
             "bounds": {
                 "top": 6445,
-                "left": 19512,
+                "left": 13939,
                 "bottom": 7054,
-                "right": 20186
+                "right": 14613
             },
             "visible": true,
             "clipped": false,
@@ -5539,9 +5539,9 @@
                     "name": "frame68-0.png",
                     "bounds": {
                         "top": 6445,
-                        "left": 19512,
+                        "left": 13939,
                         "bottom": 7054,
-                        "right": 20186
+                        "right": 14613
                     },
                     "visible": true,
                     "clipped": false,
@@ -5561,9 +5561,9 @@
             "name": "frame69",
             "bounds": {
                 "top": 7081,
-                "left": 19003,
+                "left": 13430,
                 "bottom": 7651,
-                "right": 19735
+                "right": 14162
             },
             "visible": true,
             "clipped": false,
@@ -5582,9 +5582,9 @@
                     "name": "frame69-0.png",
                     "bounds": {
                         "top": 7081,
-                        "left": 19003,
+                        "left": 13430,
                         "bottom": 7651,
-                        "right": 19735
+                        "right": 14162
                     },
                     "visible": true,
                     "clipped": false,
@@ -5604,9 +5604,9 @@
             "name": "frame70",
             "bounds": {
                 "top": 7077,
-                "left": 19717,
+                "left": 14144,
                 "bottom": 7655,
-                "right": 20191
+                "right": 14618
             },
             "visible": true,
             "clipped": false,
@@ -5625,9 +5625,9 @@
                     "name": "frame70-0.png",
                     "bounds": {
                         "top": 7077,
-                        "left": 19717,
+                        "left": 14144,
                         "bottom": 7655,
-                        "right": 20191
+                        "right": 14618
                     },
                     "visible": true,
                     "clipped": false,
@@ -5647,9 +5647,9 @@
             "name": "frame71",
             "bounds": {
                 "top": 7677,
-                "left": 18998,
+                "left": 13425,
                 "bottom": 8316,
-                "right": 19554
+                "right": 13981
             },
             "visible": true,
             "clipped": false,
@@ -5668,9 +5668,9 @@
                     "name": "frame71-0.png",
                     "bounds": {
                         "top": 7677,
-                        "left": 18998,
+                        "left": 13425,
                         "bottom": 8316,
-                        "right": 19554
+                        "right": 13981
                     },
                     "visible": true,
                     "clipped": false,
@@ -5690,9 +5690,9 @@
             "name": "frame72",
             "bounds": {
                 "top": 7678,
-                "left": 19549,
+                "left": 13976,
                 "bottom": 8320,
-                "right": 20190
+                "right": 14617
             },
             "visible": true,
             "clipped": false,
@@ -5711,9 +5711,9 @@
                     "name": "frame72-0.png",
                     "bounds": {
                         "top": 7678,
-                        "left": 19549,
+                        "left": 13976,
                         "bottom": 8320,
-                        "right": 20190
+                        "right": 14617
                     },
                     "visible": true,
                     "clipped": false,
@@ -5733,9 +5733,9 @@
             "name": "frame73",
             "bounds": {
                 "top": 6448,
-                "left": 20320,
+                "left": 14747,
                 "bottom": 7057,
-                "right": 21500
+                "right": 15927
             },
             "visible": true,
             "clipped": false,
@@ -5754,9 +5754,9 @@
                     "name": "frame73-0.png",
                     "bounds": {
                         "top": 6448,
-                        "left": 20320,
+                        "left": 14747,
                         "bottom": 7057,
-                        "right": 21500
+                        "right": 15927
                     },
                     "visible": true,
                     "clipped": false,
@@ -5776,9 +5776,9 @@
             "name": "frame74",
             "bounds": {
                 "top": 7085,
-                "left": 20320,
+                "left": 14747,
                 "bottom": 7470,
-                "right": 21504
+                "right": 15931
             },
             "visible": true,
             "clipped": false,
@@ -5797,9 +5797,9 @@
                     "name": "frame74-0.png",
                     "bounds": {
                         "top": 7085,
-                        "left": 20320,
+                        "left": 14747,
                         "bottom": 7470,
-                        "right": 21504
+                        "right": 15931
                     },
                     "visible": true,
                     "clipped": false,
@@ -5819,9 +5819,9 @@
             "name": "frame75",
             "bounds": {
                 "top": 7492,
-                "left": 20319,
+                "left": 14746,
                 "bottom": 7943,
-                "right": 20914
+                "right": 15341
             },
             "visible": true,
             "clipped": false,
@@ -5840,9 +5840,9 @@
                     "name": "frame75-0.png",
                     "bounds": {
                         "top": 7492,
-                        "left": 20319,
+                        "left": 14746,
                         "bottom": 7943,
-                        "right": 20914
+                        "right": 15341
                     },
                     "visible": true,
                     "clipped": false,
@@ -5862,9 +5862,9 @@
             "name": "frame76",
             "bounds": {
                 "top": 7495,
-                "left": 20933,
+                "left": 15360,
                 "bottom": 7947,
-                "right": 21500
+                "right": 15927
             },
             "visible": true,
             "clipped": false,
@@ -5883,9 +5883,9 @@
                     "name": "frame76-0.png",
                     "bounds": {
                         "top": 7495,
-                        "left": 20933,
+                        "left": 15360,
                         "bottom": 7947,
-                        "right": 21500
+                        "right": 15927
                     },
                     "visible": true,
                     "clipped": false,
@@ -5905,9 +5905,9 @@
             "name": "frame77",
             "bounds": {
                 "top": 7993,
-                "left": 20399,
+                "left": 14826,
                 "bottom": 8488,
-                "right": 21358
+                "right": 15785
             },
             "visible": true,
             "clipped": false,
@@ -5926,9 +5926,9 @@
                     "name": "frame77-0.png",
                     "bounds": {
                         "top": 7993,
-                        "left": 20399,
+                        "left": 14826,
                         "bottom": 8488,
-                        "right": 21358
+                        "right": 15785
                     },
                     "visible": true,
                     "clipped": false,
@@ -5951,18 +5951,18 @@
                                     "type": "rect",
                                     "bounds": {
                                         "top": 7993,
-                                        "left": 20399,
+                                        "left": 14826,
                                         "bottom": 8488,
-                                        "right": 21358
+                                        "right": 15785
                                     }
                                 }
                             }
                         ],
                         "bounds": {
                             "top": 7993,
-                            "left": 20399,
+                            "left": 14826,
                             "bottom": 8488,
-                            "right": 21358
+                            "right": 15785
                         },
                         "defaultFill": false
                     }
@@ -5978,8 +5978,8 @@
             "bounds": {
                 "top": 0,
                 "left": 0,
-                "bottom": 10809,
-                "right": 22708
+                "bottom": 8740,
+                "right": 16177
             },
             "visible": false,
             "clipped": false,
