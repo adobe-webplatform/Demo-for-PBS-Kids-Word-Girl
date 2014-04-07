@@ -427,7 +427,31 @@ body {
   height: 30px;
 }
 
-/* line 385, ../sass/screen.scss */
+/* line 383, ../sass/screen.scss */
+#bubble-25-1 {
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 70px;
+}
+
+/* line 390, ../sass/screen.scss */
+#bubble-25-2 {
+  top: 80px;
+  left: 0px;
+  width: 170px;
+  height: 110px;
+}
+
+/* line 397, ../sass/screen.scss */
+#bubble-25-3 {
+  top: 130px;
+  left: 150px;
+  width: 140px;
+  height: 130px;
+}
+
+/* line 405, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
