@@ -336,11 +336,50 @@ body {
 #bubble-16-3 {
   top: 100px;
   right: 30px;
-  width: 100px;
-  height: 50px;
+  width: 70px;
+  height: 30px;
 }
 
-/* line 312, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
+#bubble-17-1 {
+  top: 10px;
+  left: 30px;
+  width: 130px;
+  height: 70px;
+}
+
+/* line 314, ../sass/screen.scss */
+#bubble-17-2 {
+  top: 100px;
+  right: 230px;
+  width: 150px;
+  height: 100px;
+}
+
+/* line 321, ../sass/screen.scss */
+#bubble-21-1 {
+  top: -20px;
+  left: 20px;
+  width: 270px;
+}
+
+/* line 327, ../sass/screen.scss */
+#bubble-22-1 {
+  top: 100px;
+  right: 230px;
+  width: 170px;
+  height: 120px;
+}
+
+/* line 334, ../sass/screen.scss */
+#bubble-22-2 {
+  top: 260px;
+  right: 300px;
+  width: 150px;
+  height: 100px;
+}
+
+/* line 344, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
