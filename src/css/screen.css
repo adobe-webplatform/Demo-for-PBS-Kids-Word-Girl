@@ -294,8 +294,8 @@ body {
 
 /* line 265, ../sass/screen.scss */
 #bubble-15-2 {
-  top: 80px;
-  left: 130px;
+  top: 60px;
+  left: 140px;
   width: 130px;
   height: 70px;
 }
@@ -316,7 +316,31 @@ body {
   height: 130px;
 }
 
-/* line 289, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
+#bubble-16-1 {
+  top: 0px;
+  right: 260px;
+  width: 130px;
+  height: 70px;
+}
+
+/* line 293, ../sass/screen.scss */
+#bubble-16-2 {
+  top: 10px;
+  right: 160px;
+  width: 100px;
+  height: 60px;
+}
+
+/* line 300, ../sass/screen.scss */
+#bubble-16-3 {
+  top: 100px;
+  right: 30px;
+  width: 100px;
+  height: 50px;
+}
+
+/* line 312, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
