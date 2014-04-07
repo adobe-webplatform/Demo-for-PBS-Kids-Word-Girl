@@ -379,7 +379,31 @@ body {
   height: 100px;
 }
 
-/* line 344, ../sass/screen.scss */
+/* line 341, ../sass/screen.scss */
+#bubble-23-1 {
+  top: -10px;
+  left: -10px;
+  width: 250px;
+  height: 120px;
+}
+
+/* line 348, ../sass/screen.scss */
+#bubble-23-2 {
+  top: 120px;
+  right: 60px;
+  width: 150px;
+  height: 60px;
+}
+
+/* line 355, ../sass/screen.scss */
+#bubble-23-3 {
+  top: 200px;
+  left: 10px;
+  width: 120px;
+  height: 50px;
+}
+
+/* line 364, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
