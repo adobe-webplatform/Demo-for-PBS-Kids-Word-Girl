@@ -451,7 +451,31 @@ body {
   height: 130px;
 }
 
-/* line 405, ../sass/screen.scss */
+/* line 404, ../sass/screen.scss */
+#bubble-27-1 {
+  top: 10px;
+  right: 10px;
+  width: 200px;
+  height: 80px;
+}
+
+/* line 411, ../sass/screen.scss */
+#bubble-28-1 {
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 80px;
+}
+
+/* line 418, ../sass/screen.scss */
+#bubble-28-2 {
+  top: 40px;
+  left: 180px;
+  width: 160px;
+  height: 100px;
+}
+
+/* line 425, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
