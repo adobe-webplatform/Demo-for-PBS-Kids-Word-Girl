@@ -1,15 +1,18 @@
 {
     "version": "1.1.0",
-    "timeStamp": 1396241995.345,
-    "count": 3,
-    "id": 67,
+    "timeStamp": 1396886267.468,
+    "count": 19,
+    "id": 4744,
     "file": "/Users/gammon/Documents/Projects/00-repos/github/adobe-webplatform/wordgirl/src/assets/images/comp.psd",
     "bounds": {
         "top": 0,
         "left": 0,
-        "bottom": 2037,
-        "right": 8467
+        "bottom": 10809,
+        "right": 22708
     },
+    "selection": [
+        164
+    ],
     "resolution": 72,
     "globalLight": {
         "angle": 30,
@@ -27,7 +30,7 @@
     "layers": [
         {
             "id": 121,
-            "index": 79,
+            "index": 324,
             "type": "layerSection",
             "name": "frame0",
             "bounds": {
@@ -70,7 +73,7 @@
             "layers": [
                 {
                     "id": 124,
-                    "index": 78,
+                    "index": 323,
                     "type": "layer",
                     "name": "frame0-2.png",
                     "bounds": {
@@ -89,7 +92,7 @@
                 },
                 {
                     "id": 126,
-                    "index": 77,
+                    "index": 322,
                     "type": "layer",
                     "name": "frame0-1.png",
                     "bounds": {
@@ -108,7 +111,7 @@
                 },
                 {
                     "id": 125,
-                    "index": 76,
+                    "index": 321,
                     "type": "layer",
                     "name": "frame0-0.png",
                     "bounds": {
@@ -130,13 +133,13 @@
         },
         {
             "id": 10,
-            "index": 74,
+            "index": 319,
             "type": "layerSection",
             "name": "frame1",
             "bounds": {
-                "top": 57,
+                "top": 67,
                 "left": 831,
-                "bottom": 700,
+                "bottom": 710,
                 "right": 1706
             },
             "visible": true,
@@ -154,18 +157,18 @@
                         "origin": {
                             "type": "unknown",
                             "bounds": {
-                                "top": 63,
+                                "top": 73,
                                 "left": 1064,
-                                "bottom": 682,
+                                "bottom": 692,
                                 "right": 1537
                             }
                         }
                     }
                 ],
                 "bounds": {
-                    "top": 63,
+                    "top": 73,
                     "left": 1064,
-                    "bottom": 682,
+                    "bottom": 692,
                     "right": 1537
                 },
                 "defaultFill": false
@@ -173,19 +176,19 @@
             "layers": [
                 {
                     "id": 18,
-                    "index": 73,
+                    "index": 318,
                     "type": "layer",
                     "name": "frame1-2.png",
                     "bounds": {
-                        "top": 58,
+                        "top": 68,
                         "left": 1066,
-                        "bottom": 699,
+                        "bottom": 709,
                         "right": 1540
                     },
                     "boundsWithFX": {
-                        "top": 58,
+                        "top": 68,
                         "left": 1066,
-                        "bottom": 699,
+                        "bottom": 709,
                         "right": 1540
                     },
                     "visible": true,
@@ -211,13 +214,13 @@
                 },
                 {
                     "id": 6,
-                    "index": 72,
+                    "index": 317,
                     "type": "layer",
                     "name": "frame1-1.png",
                     "bounds": {
-                        "top": 296,
+                        "top": 306,
                         "left": 1042,
-                        "bottom": 700,
+                        "bottom": 710,
                         "right": 1605
                     },
                     "visible": true,
@@ -249,32 +252,32 @@
                         "defaultFill": false
                     },
                     "smartObject": {
-                        "ID": "f4ff3ad8-f811-1176-906f-a3f4055132c3",
-                        "placed": "f4ff3ad6-f811-1176-906f-a3f4055132c3",
+                        "ID": "785f732c-fd21-1176-a99e-dc68ad4adf18",
+                        "placed": "785f732a-fd21-1176-a99e-dc68ad4adf18",
                         "antiAliasType": 16,
                         "type": 2,
                         "transform": [
                             1042,
-                            296,
+                            306,
                             1653,
-                            296,
+                            306,
                             1653,
-                            700,
+                            710,
                             1042,
-                            700
+                            710
                         ]
                     },
                     "vectorMask": [
                         {
                             "anchor": {
                                 "x": 1065,
-                                "y": 63
+                                "y": 63.0003
                             }
                         },
                         {
                             "anchor": {
                                 "x": 1537,
-                                "y": 63
+                                "y": 63.0003
                             }
                         },
                         {
@@ -293,13 +296,13 @@
                 },
                 {
                     "id": 5,
-                    "index": 71,
+                    "index": 316,
                     "type": "layer",
                     "name": "frame1-0.png",
                     "bounds": {
-                        "top": 57,
+                        "top": 67,
                         "left": 831,
-                        "bottom": 699,
+                        "bottom": 709,
                         "right": 1706
                     },
                     "visible": true,
@@ -331,32 +334,32 @@
                         "defaultFill": false
                     },
                     "smartObject": {
-                        "ID": "f4ff3ad7-f811-1176-906f-a3f4055132c3",
-                        "placed": "f4fe81a4-f811-1176-906f-a3f4055132c3",
+                        "ID": "785f732b-fd21-1176-a99e-dc68ad4adf18",
+                        "placed": "785f7329-fd21-1176-a99e-dc68ad4adf18",
                         "antiAliasType": 16,
                         "type": 2,
                         "transform": [
                             831,
-                            57,
+                            67,
                             1706,
-                            57,
+                            67,
                             1706,
-                            699,
+                            709,
                             831,
-                            699
+                            709
                         ]
                     },
                     "vectorMask": [
                         {
                             "anchor": {
                                 "x": 1065,
-                                "y": 63
+                                "y": 63.0003
                             }
                         },
                         {
                             "anchor": {
                                 "x": 1537,
-                                "y": 63
+                                "y": 63.0003
                             }
                         },
                         {
@@ -378,13 +381,13 @@
         },
         {
             "id": 16,
-            "index": 69,
+            "index": 314,
             "type": "layerSection",
             "name": "frame2",
             "bounds": {
-                "top": 82,
+                "top": 52,
                 "left": 1557,
-                "bottom": 733,
+                "bottom": 703,
                 "right": 2328
             },
             "visible": true,
@@ -402,18 +405,18 @@
                         "origin": {
                             "type": "unknown",
                             "bounds": {
-                                "top": 100,
+                                "top": 70,
                                 "left": 1574,
-                                "bottom": 720,
+                                "bottom": 690,
                                 "right": 2311
                             }
                         }
                     }
                 ],
                 "bounds": {
-                    "top": 100,
+                    "top": 70,
                     "left": 1574,
-                    "bottom": 720,
+                    "bottom": 690,
                     "right": 2311
                 },
                 "defaultFill": false
@@ -421,13 +424,13 @@
             "layers": [
                 {
                     "id": 15,
-                    "index": 68,
+                    "index": 313,
                     "type": "layer",
                     "name": "frame2-2.png",
                     "bounds": {
-                        "top": 151,
+                        "top": 121,
                         "left": 1579,
-                        "bottom": 721,
+                        "bottom": 691,
                         "right": 2312
                     },
                     "visible": true,
@@ -440,13 +443,13 @@
                 },
                 {
                     "id": 14,
-                    "index": 67,
+                    "index": 312,
                     "type": "layer",
                     "name": "frame2-1.png",
                     "bounds": {
-                        "top": 94,
+                        "top": 64,
                         "left": 1562,
-                        "bottom": 724,
+                        "bottom": 694,
                         "right": 2314
                     },
                     "visible": true,
@@ -459,13 +462,13 @@
                 },
                 {
                     "id": 13,
-                    "index": 66,
+                    "index": 311,
                     "type": "layer",
                     "name": "frame2-0.png",
                     "bounds": {
-                        "top": 82,
+                        "top": 52,
                         "left": 1557,
-                        "bottom": 733,
+                        "bottom": 703,
                         "right": 2328
                     },
                     "visible": true,
@@ -481,18 +484,18 @@
                                 "origin": {
                                     "type": "unknown",
                                     "bounds": {
-                                        "top": 100,
+                                        "top": 70,
                                         "left": 1574,
-                                        "bottom": 720,
+                                        "bottom": 690,
                                         "right": 2311
                                     }
                                 }
                             }
                         ],
                         "bounds": {
-                            "top": 100,
+                            "top": 70,
                             "left": 1574,
-                            "bottom": 720,
+                            "bottom": 690,
                             "right": 2311
                         },
                         "defaultFill": false
@@ -501,25 +504,25 @@
                         {
                             "anchor": {
                                 "x": 1597,
-                                "y": 102
+                                "y": 72
                             }
                         },
                         {
                             "anchor": {
                                 "x": 2306,
-                                "y": 100
+                                "y": 70.0002
                             }
                         },
                         {
                             "anchor": {
                                 "x": 2311,
-                                "y": 716
+                                "y": 686
                             }
                         },
                         {
                             "anchor": {
                                 "x": 1574,
-                                "y": 720
+                                "y": 690.001
                             }
                         }
                     ]
@@ -529,14 +532,14 @@
         },
         {
             "id": 24,
-            "index": 64,
+            "index": 309,
             "type": "layerSection",
             "name": "frame3",
             "bounds": {
-                "top": 28,
-                "left": 2345,
-                "bottom": 746,
-                "right": 2819
+                "top": 0,
+                "left": 2375,
+                "bottom": 676,
+                "right": 2849
             },
             "visible": true,
             "clipped": false,
@@ -553,33 +556,33 @@
                         "origin": {
                             "type": "unknown",
                             "bounds": {
-                                "top": 152,
-                                "left": 2350,
-                                "bottom": 743,
-                                "right": 2657
+                                "top": 82,
+                                "left": 2380,
+                                "bottom": 673,
+                                "right": 2687
                             }
                         }
                     }
                 ],
                 "bounds": {
-                    "top": 152,
-                    "left": 2350,
-                    "bottom": 743,
-                    "right": 2657
+                    "top": 82,
+                    "left": 2380,
+                    "bottom": 673,
+                    "right": 2687
                 },
                 "defaultFill": false
             },
             "layers": [
                 {
                     "id": 23,
-                    "index": 63,
+                    "index": 308,
                     "type": "layer",
                     "name": "frame3-4.png",
                     "bounds": {
-                        "top": 156,
-                        "left": 2419,
-                        "bottom": 285,
-                        "right": 2517
+                        "top": 86,
+                        "left": 2449,
+                        "bottom": 215,
+                        "right": 2547
                     },
                     "visible": true,
                     "clipped": false,
@@ -591,14 +594,14 @@
                 },
                 {
                     "id": 22,
-                    "index": 62,
+                    "index": 307,
                     "type": "layer",
                     "name": "frame3-3.png",
                     "bounds": {
-                        "top": 156,
-                        "left": 2409,
-                        "bottom": 284,
-                        "right": 2527
+                        "top": 86,
+                        "left": 2439,
+                        "bottom": 214,
+                        "right": 2557
                     },
                     "visible": true,
                     "clipped": false,
@@ -610,14 +613,14 @@
                 },
                 {
                     "id": 21,
-                    "index": 61,
+                    "index": 306,
                     "type": "layer",
                     "name": "frame3-2.png",
                     "bounds": {
-                        "top": 609,
-                        "left": 2527,
-                        "bottom": 616,
-                        "right": 2655
+                        "top": 539,
+                        "left": 2557,
+                        "bottom": 546,
+                        "right": 2685
                     },
                     "visible": true,
                     "clipped": false,
@@ -629,14 +632,14 @@
                 },
                 {
                     "id": 20,
-                    "index": 60,
+                    "index": 305,
                     "type": "layer",
                     "name": "frame3-1.png",
                     "bounds": {
-                        "top": 28,
-                        "left": 2577,
-                        "bottom": 531,
-                        "right": 2819
+                        "top": 0,
+                        "left": 2607,
+                        "bottom": 461,
+                        "right": 2849
                     },
                     "visible": true,
                     "clipped": false,
@@ -651,59 +654,102 @@
                                 "origin": {
                                     "type": "unknown",
                                     "bounds": {
-                                        "top": 152,
-                                        "left": 2350,
-                                        "bottom": 743,
-                                        "right": 2657
+                                        "top": 82,
+                                        "left": 2380,
+                                        "bottom": 673,
+                                        "right": 2687
                                     }
                                 }
                             }
                         ],
                         "bounds": {
-                            "top": 152,
-                            "left": 2350,
-                            "bottom": 743,
-                            "right": 2657
+                            "top": 82,
+                            "left": 2380,
+                            "bottom": 673,
+                            "right": 2687
                         },
                         "defaultFill": false
                     },
                     "vectorMask": [
                         {
                             "anchor": {
-                                "x": 2654,
-                                "y": 152
+                                "x": 2684,
+                                "y": 82.0003
                             }
                         },
                         {
                             "anchor": {
-                                "x": 2657,
-                                "y": 743
+                                "x": 2687,
+                                "y": 673
                             }
                         },
                         {
                             "anchor": {
-                                "x": 2350,
-                                "y": 741
+                                "x": 2380,
+                                "y": 671
                             }
                         },
                         {
                             "anchor": {
-                                "x": 2352,
-                                "y": 156
+                                "x": 2382,
+                                "y": 85.9999
                             }
                         }
                     ]
                 },
                 {
                     "id": 19,
-                    "index": 59,
+                    "index": 304,
                     "type": "layer",
                     "name": "frame3-0.png",
                     "bounds": {
-                        "top": 148,
-                        "left": 2345,
-                        "bottom": 746,
-                        "right": 2661
+                        "top": 78,
+                        "left": 2375,
+                        "bottom": 676,
+                        "right": 2691
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 286,
+            "index": 302,
+            "type": "layerSection",
+            "name": "frame4",
+            "bounds": {
+                "top": 81,
+                "left": 2734,
+                "bottom": 688,
+                "right": 3200
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 285,
+                    "index": 301,
+                    "type": "layer",
+                    "name": "frame4-0.png",
+                    "bounds": {
+                        "top": 81,
+                        "left": 2734,
+                        "bottom": 688,
+                        "right": 3200
                     },
                     "visible": true,
                     "clipped": false,
@@ -718,14 +764,14 @@
         },
         {
             "id": 33,
-            "index": 57,
+            "index": 299,
             "type": "layerSection",
             "name": "frame5",
             "bounds": {
-                "top": 600,
-                "left": 2696,
-                "bottom": 866,
-                "right": 3175
+                "top": 207,
+                "left": 3186,
+                "bottom": 856,
+                "right": 3665
             },
             "visible": true,
             "clipped": false,
@@ -736,17 +782,115 @@
                 "removed": true
             },
             "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 209,
+                                "left": 3192,
+                                "bottom": 851,
+                                "right": 3651
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 209,
+                    "left": 3192,
+                    "bottom": 851,
+                    "right": 3651
+                },
+                "defaultFill": false
+            },
             "layers": [
                 {
+                    "id": 407,
+                    "index": 298,
+                    "type": "layer",
+                    "name": "frame5-8.png",
+                    "bounds": {
+                        "top": 211,
+                        "left": 3432,
+                        "bottom": 581,
+                        "right": 3665
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 406,
+                    "index": 297,
+                    "type": "layer",
+                    "name": "frame5-7.png",
+                    "bounds": {
+                        "top": 392,
+                        "left": 3233,
+                        "bottom": 572,
+                        "right": 3464
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 405,
+                    "index": 296,
+                    "type": "layer",
+                    "name": "frame5-6.png",
+                    "bounds": {
+                        "top": 268,
+                        "left": 3367,
+                        "bottom": 578,
+                        "right": 3655
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 404,
+                    "index": 295,
+                    "type": "layer",
+                    "name": "frame5-5.png",
+                    "bounds": {
+                        "top": 207,
+                        "left": 3219,
+                        "bottom": 574,
+                        "right": 3653
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
                     "id": 31,
-                    "index": 56,
+                    "index": 294,
                     "type": "layer",
                     "name": "frame5-4.png",
                     "bounds": {
-                        "top": 600,
-                        "left": 2776,
-                        "bottom": 725,
-                        "right": 3175
+                        "top": 590,
+                        "left": 3266,
+                        "bottom": 715,
+                        "right": 3665
                     },
                     "visible": true,
                     "clipped": false,
@@ -758,14 +902,14 @@
                 },
                 {
                     "id": 30,
-                    "index": 55,
+                    "index": 293,
                     "type": "layer",
                     "name": "frame5-3.png",
                     "bounds": {
-                        "top": 600,
-                        "left": 2700,
-                        "bottom": 827,
-                        "right": 3175
+                        "top": 590,
+                        "left": 3190,
+                        "bottom": 817,
+                        "right": 3665
                     },
                     "visible": true,
                     "clipped": false,
@@ -777,14 +921,14 @@
                 },
                 {
                     "id": 29,
-                    "index": 54,
+                    "index": 292,
                     "type": "layer",
                     "name": "frame5-2.png",
                     "bounds": {
-                        "top": 673,
-                        "left": 2952,
-                        "bottom": 797,
-                        "right": 3066
+                        "top": 663,
+                        "left": 3442,
+                        "bottom": 787,
+                        "right": 3556
                     },
                     "visible": true,
                     "clipped": false,
@@ -796,14 +940,14 @@
                 },
                 {
                     "id": 28,
-                    "index": 53,
+                    "index": 291,
                     "type": "layer",
                     "name": "frame5-1.png",
                     "bounds": {
-                        "top": 683,
-                        "left": 2826,
-                        "bottom": 866,
-                        "right": 3162
+                        "top": 673,
+                        "left": 3316,
+                        "bottom": 856,
+                        "right": 3652
                     },
                     "visible": true,
                     "clipped": false,
@@ -815,14 +959,14 @@
                 },
                 {
                     "id": 27,
-                    "index": 52,
+                    "index": 290,
                     "type": "layer",
                     "name": "frame5-0.png",
                     "bounds": {
-                        "top": 618,
-                        "left": 2696,
-                        "bottom": 866,
-                        "right": 3171
+                        "top": 608,
+                        "left": 3186,
+                        "bottom": 856,
+                        "right": 3661
                     },
                     "visible": true,
                     "clipped": false,
@@ -837,14 +981,14 @@
         },
         {
             "id": 38,
-            "index": 50,
+            "index": 288,
             "type": "layerSection",
             "name": "frame6",
             "bounds": {
-                "top": 445,
-                "left": 3229,
-                "bottom": 1103,
-                "right": 3579
+                "top": 265,
+                "left": 3719,
+                "bottom": 923,
+                "right": 4069
             },
             "visible": true,
             "clipped": false,
@@ -855,17 +999,39 @@
                 "removed": true
             },
             "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 272,
+                                "left": 3723,
+                                "bottom": 918,
+                                "right": 4064
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 272,
+                    "left": 3723,
+                    "bottom": 918,
+                    "right": 4064
+                },
+                "defaultFill": false
+            },
             "layers": [
                 {
                     "id": 45,
-                    "index": 49,
+                    "index": 287,
                     "type": "layer",
                     "name": "frame6-4.png",
                     "bounds": {
-                        "top": 569,
-                        "left": 3313,
-                        "bottom": 668,
-                        "right": 3452
+                        "top": 389,
+                        "left": 3803,
+                        "bottom": 488,
+                        "right": 3942
                     },
                     "visible": true,
                     "clipped": false,
@@ -877,14 +1043,14 @@
                 },
                 {
                     "id": 44,
-                    "index": 48,
+                    "index": 286,
                     "type": "layer",
                     "name": "frame6-3.png",
                     "bounds": {
-                        "top": 629,
-                        "left": 3426,
-                        "bottom": 745,
-                        "right": 3505
+                        "top": 449,
+                        "left": 3916,
+                        "bottom": 565,
+                        "right": 3995
                     },
                     "visible": true,
                     "clipped": false,
@@ -896,14 +1062,14 @@
                 },
                 {
                     "id": 43,
-                    "index": 47,
+                    "index": 285,
                     "type": "layer",
                     "name": "frame6-2.png",
                     "bounds": {
-                        "top": 828,
-                        "left": 3390,
-                        "bottom": 945,
-                        "right": 3490
+                        "top": 648,
+                        "left": 3880,
+                        "bottom": 765,
+                        "right": 3980
                     },
                     "visible": true,
                     "clipped": false,
@@ -915,14 +1081,14 @@
                 },
                 {
                     "id": 42,
-                    "index": 46,
+                    "index": 284,
                     "type": "layer",
                     "name": "frame6-1.png",
                     "bounds": {
-                        "top": 623,
-                        "left": 3239,
-                        "bottom": 784,
-                        "right": 3404
+                        "top": 443,
+                        "left": 3729,
+                        "bottom": 604,
+                        "right": 3894
                     },
                     "visible": true,
                     "clipped": false,
@@ -934,14 +1100,14 @@
                 },
                 {
                     "id": 40,
-                    "index": 45,
+                    "index": 283,
                     "type": "layer",
                     "name": "frame6-0.png",
                     "bounds": {
-                        "top": 445,
-                        "left": 3229,
-                        "bottom": 1103,
-                        "right": 3579
+                        "top": 265,
+                        "left": 3719,
+                        "bottom": 923,
+                        "right": 4069
                     },
                     "visible": true,
                     "clipped": false,
@@ -956,14 +1122,14 @@
         },
         {
             "id": 47,
-            "index": 43,
+            "index": 281,
             "type": "layerSection",
             "name": "frame7",
             "bounds": {
-                "top": 527,
-                "left": 3629,
-                "bottom": 1064,
-                "right": 4478
+                "top": 347,
+                "left": 4119,
+                "bottom": 884,
+                "right": 4968
             },
             "visible": true,
             "clipped": false,
@@ -974,17 +1140,39 @@
                 "removed": true
             },
             "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 353,
+                                "left": 4127,
+                                "bottom": 882,
+                                "right": 4963
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 353,
+                    "left": 4127,
+                    "bottom": 882,
+                    "right": 4963
+                },
+                "defaultFill": false
+            },
             "layers": [
                 {
                     "id": 51,
-                    "index": 42,
+                    "index": 280,
                     "type": "layer",
                     "name": "frame7-2.png",
                     "bounds": {
-                        "top": 639,
-                        "left": 3629,
-                        "bottom": 1064,
-                        "right": 3880
+                        "top": 459,
+                        "left": 4119,
+                        "bottom": 884,
+                        "right": 4370
                     },
                     "visible": true,
                     "clipped": false,
@@ -996,14 +1184,14 @@
                 },
                 {
                     "id": 50,
-                    "index": 41,
+                    "index": 279,
                     "type": "layer",
                     "name": "frame7-1.png",
                     "bounds": {
-                        "top": 725,
-                        "left": 3825,
-                        "bottom": 1064,
-                        "right": 4167
+                        "top": 545,
+                        "left": 4315,
+                        "bottom": 884,
+                        "right": 4657
                     },
                     "visible": true,
                     "clipped": false,
@@ -1015,14 +1203,14 @@
                 },
                 {
                     "id": 49,
-                    "index": 40,
+                    "index": 278,
                     "type": "layer",
                     "name": "frame7-0.png",
                     "bounds": {
-                        "top": 527,
-                        "left": 3629,
-                        "bottom": 1064,
-                        "right": 4478
+                        "top": 347,
+                        "left": 4119,
+                        "bottom": 884,
+                        "right": 4968
                     },
                     "visible": true,
                     "clipped": false,
@@ -1037,14 +1225,14 @@
         },
         {
             "id": 52,
-            "index": 38,
+            "index": 276,
             "type": "layerSection",
             "name": "frame8",
             "bounds": {
-                "top": 597,
-                "left": 4527,
-                "bottom": 1184,
-                "right": 4811
+                "top": 417,
+                "left": 5017,
+                "bottom": 1004,
+                "right": 5301
             },
             "visible": true,
             "clipped": false,
@@ -1055,17 +1243,39 @@
                 "removed": true
             },
             "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 422,
+                                "left": 5023,
+                                "bottom": 998,
+                                "right": 5295
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 422,
+                    "left": 5023,
+                    "bottom": 998,
+                    "right": 5295
+                },
+                "defaultFill": false
+            },
             "layers": [
                 {
                     "id": 58,
-                    "index": 37,
+                    "index": 275,
                     "type": "layer",
                     "name": "frame8-4.png",
                     "bounds": {
-                        "top": 888,
-                        "left": 4683,
-                        "bottom": 1007,
-                        "right": 4758
+                        "top": 708,
+                        "left": 5173,
+                        "bottom": 827,
+                        "right": 5248
                     },
                     "visible": true,
                     "clipped": false,
@@ -1077,14 +1287,14 @@
                 },
                 {
                     "id": 57,
-                    "index": 36,
+                    "index": 274,
                     "type": "layer",
                     "name": "frame8-3.png",
                     "bounds": {
-                        "top": 1010,
-                        "left": 4529,
-                        "bottom": 1184,
-                        "right": 4811
+                        "top": 830,
+                        "left": 5019,
+                        "bottom": 1004,
+                        "right": 5301
                     },
                     "visible": true,
                     "clipped": false,
@@ -1096,14 +1306,14 @@
                 },
                 {
                     "id": 56,
-                    "index": 35,
+                    "index": 273,
                     "type": "layer",
                     "name": "frame8-2.png",
                     "bounds": {
-                        "top": 879,
-                        "left": 4529,
-                        "bottom": 1142,
-                        "right": 4774
+                        "top": 699,
+                        "left": 5019,
+                        "bottom": 962,
+                        "right": 5264
                     },
                     "visible": true,
                     "clipped": false,
@@ -1115,14 +1325,14 @@
                 },
                 {
                     "id": 55,
-                    "index": 34,
+                    "index": 272,
                     "type": "layer",
                     "name": "frame8-1.png",
                     "bounds": {
-                        "top": 792,
-                        "left": 4530,
-                        "bottom": 1180,
-                        "right": 4736
+                        "top": 612,
+                        "left": 5020,
+                        "bottom": 1000,
+                        "right": 5226
                     },
                     "visible": true,
                     "clipped": false,
@@ -1134,14 +1344,14 @@
                 },
                 {
                     "id": 54,
-                    "index": 33,
+                    "index": 271,
                     "type": "layer",
                     "name": "frame8-0.png",
                     "bounds": {
-                        "top": 597,
-                        "left": 4527,
-                        "bottom": 1184,
-                        "right": 4811
+                        "top": 417,
+                        "left": 5017,
+                        "bottom": 1004,
+                        "right": 5301
                     },
                     "visible": true,
                     "clipped": false,
@@ -1156,14 +1366,14 @@
         },
         {
             "id": 64,
-            "index": 31,
+            "index": 269,
             "type": "layerSection",
             "name": "frame9",
             "bounds": {
-                "top": 762,
-                "left": 4869,
-                "bottom": 1343,
-                "right": 5108
+                "top": 582,
+                "left": 5359,
+                "bottom": 1163,
+                "right": 5598
             },
             "visible": true,
             "clipped": false,
@@ -1174,17 +1384,39 @@
                 "removed": true
             },
             "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 588,
+                                "left": 5365,
+                                "bottom": 1159,
+                                "right": 5593
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 588,
+                    "left": 5365,
+                    "bottom": 1159,
+                    "right": 5593
+                },
+                "defaultFill": false
+            },
             "layers": [
                 {
                     "id": 62,
-                    "index": 30,
+                    "index": 268,
                     "type": "layer",
                     "name": "frame9-2.png",
                     "bounds": {
-                        "top": 1079,
-                        "left": 4870,
-                        "bottom": 1343,
-                        "right": 5105
+                        "top": 899,
+                        "left": 5360,
+                        "bottom": 1163,
+                        "right": 5595
                     },
                     "visible": true,
                     "clipped": false,
@@ -1196,14 +1428,14 @@
                 },
                 {
                     "id": 61,
-                    "index": 29,
+                    "index": 267,
                     "type": "layer",
                     "name": "frame9-1.png",
                     "bounds": {
-                        "top": 909,
-                        "left": 4873,
-                        "bottom": 1168,
-                        "right": 5064
+                        "top": 729,
+                        "left": 5363,
+                        "bottom": 988,
+                        "right": 5554
                     },
                     "visible": true,
                     "clipped": false,
@@ -1215,14 +1447,14 @@
                 },
                 {
                     "id": 60,
-                    "index": 28,
+                    "index": 266,
                     "type": "layer",
                     "name": "frame9-0.png",
                     "bounds": {
-                        "top": 762,
-                        "left": 4869,
-                        "bottom": 1343,
-                        "right": 5108
+                        "top": 582,
+                        "left": 5359,
+                        "bottom": 1163,
+                        "right": 5598
                     },
                     "visible": true,
                     "clipped": false,
@@ -1237,14 +1469,14 @@
         },
         {
             "id": 66,
-            "index": 26,
+            "index": 264,
             "type": "layerSection",
             "name": "frame10",
             "bounds": {
-                "top": 906,
-                "left": 5173,
-                "bottom": 1483,
-                "right": 5815
+                "top": 646,
+                "left": 5663,
+                "bottom": 1223,
+                "right": 6305
             },
             "visible": true,
             "clipped": false,
@@ -1255,17 +1487,39 @@
                 "removed": true
             },
             "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 652,
+                                "left": 5669,
+                                "bottom": 1218,
+                                "right": 6300
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 652,
+                    "left": 5669,
+                    "bottom": 1218,
+                    "right": 6300
+                },
+                "defaultFill": false
+            },
             "layers": [
                 {
                     "id": 70,
-                    "index": 25,
+                    "index": 263,
                     "type": "layer",
                     "name": "frame10-2.png",
                     "bounds": {
-                        "top": 1042,
-                        "left": 5173,
-                        "bottom": 1483,
-                        "right": 5521
+                        "top": 782,
+                        "left": 5663,
+                        "bottom": 1223,
+                        "right": 6011
                     },
                     "visible": true,
                     "clipped": false,
@@ -1277,14 +1531,14 @@
                 },
                 {
                     "id": 69,
-                    "index": 24,
+                    "index": 262,
                     "type": "layer",
                     "name": "frame10-1.png",
                     "bounds": {
-                        "top": 957,
-                        "left": 5180,
-                        "bottom": 1476,
-                        "right": 5815
+                        "top": 697,
+                        "left": 5670,
+                        "bottom": 1216,
+                        "right": 6305
                     },
                     "visible": true,
                     "clipped": false,
@@ -1296,14 +1550,14 @@
                 },
                 {
                     "id": 68,
-                    "index": 23,
+                    "index": 261,
                     "type": "layer",
                     "name": "frame10-0.png",
                     "bounds": {
-                        "top": 906,
-                        "left": 5174,
-                        "bottom": 1482,
-                        "right": 5814
+                        "top": 646,
+                        "left": 5664,
+                        "bottom": 1222,
+                        "right": 6304
                     },
                     "visible": true,
                     "clipped": false,
@@ -1318,14 +1572,14 @@
         },
         {
             "id": 72,
-            "index": 21,
+            "index": 259,
             "type": "layerSection",
             "name": "frame11",
             "bounds": {
-                "top": 1054,
-                "left": 5884,
-                "bottom": 1694,
-                "right": 6519
+                "top": 674,
+                "left": 6374,
+                "bottom": 1314,
+                "right": 7009
             },
             "visible": true,
             "clipped": false,
@@ -1336,17 +1590,39 @@
                 "removed": true
             },
             "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 679,
+                                "left": 6379,
+                                "bottom": 1309,
+                                "right": 7004
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 679,
+                    "left": 6379,
+                    "bottom": 1309,
+                    "right": 7004
+                },
+                "defaultFill": false
+            },
             "layers": [
                 {
                     "id": 80,
-                    "index": 20,
+                    "index": 258,
                     "type": "layer",
                     "name": "frame11-5.png",
                     "bounds": {
-                        "top": 1146,
-                        "left": 6035,
-                        "bottom": 1694,
-                        "right": 6359
+                        "top": 766,
+                        "left": 6525,
+                        "bottom": 1314,
+                        "right": 6849
                     },
                     "visible": true,
                     "clipped": false,
@@ -1358,14 +1634,14 @@
                 },
                 {
                     "id": 79,
-                    "index": 19,
+                    "index": 257,
                     "type": "layer",
                     "name": "frame11-4.png",
                     "bounds": {
-                        "top": 1408,
-                        "left": 6340,
-                        "bottom": 1694,
-                        "right": 6519
+                        "top": 1028,
+                        "left": 6830,
+                        "bottom": 1314,
+                        "right": 7009
                     },
                     "visible": true,
                     "clipped": false,
@@ -1377,14 +1653,14 @@
                 },
                 {
                     "id": 78,
-                    "index": 18,
+                    "index": 256,
                     "type": "layer",
                     "name": "frame11-3.png",
                     "bounds": {
-                        "top": 1397,
-                        "left": 6262,
-                        "bottom": 1677,
-                        "right": 6475
+                        "top": 1017,
+                        "left": 6752,
+                        "bottom": 1297,
+                        "right": 6965
                     },
                     "visible": true,
                     "clipped": false,
@@ -1396,14 +1672,14 @@
                 },
                 {
                     "id": 77,
-                    "index": 17,
+                    "index": 255,
                     "type": "layer",
                     "name": "frame11-2.png",
                     "bounds": {
-                        "top": 1463,
-                        "left": 5973,
-                        "bottom": 1512,
-                        "right": 6052
+                        "top": 1083,
+                        "left": 6463,
+                        "bottom": 1132,
+                        "right": 6542
                     },
                     "visible": true,
                     "clipped": false,
@@ -1415,14 +1691,14 @@
                 },
                 {
                     "id": 76,
-                    "index": 16,
+                    "index": 254,
                     "type": "layer",
                     "name": "frame11-1.png",
                     "bounds": {
-                        "top": 1504,
-                        "left": 5884,
-                        "bottom": 1694,
-                        "right": 6129
+                        "top": 1124,
+                        "left": 6374,
+                        "bottom": 1314,
+                        "right": 6619
                     },
                     "visible": true,
                     "clipped": false,
@@ -1434,14 +1710,14 @@
                 },
                 {
                     "id": 75,
-                    "index": 15,
+                    "index": 253,
                     "type": "layer",
                     "name": "frame11-0.png",
                     "bounds": {
-                        "top": 1054,
-                        "left": 5884,
-                        "bottom": 1694,
-                        "right": 6519
+                        "top": 674,
+                        "left": 6374,
+                        "bottom": 1314,
+                        "right": 7009
                     },
                     "visible": true,
                     "clipped": false,
@@ -1456,14 +1732,14 @@
         },
         {
             "id": 84,
-            "index": 13,
+            "index": 251,
             "type": "layerSection",
             "name": "frame12",
             "bounds": {
-                "top": 1182,
-                "left": 6572,
-                "bottom": 1833,
-                "right": 7131
+                "top": 672,
+                "left": 7062,
+                "bottom": 1323,
+                "right": 7621
             },
             "visible": true,
             "clipped": false,
@@ -1474,17 +1750,39 @@
                 "removed": true
             },
             "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 678,
+                                "left": 7067,
+                                "bottom": 1317,
+                                "right": 7610
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 678,
+                    "left": 7067,
+                    "bottom": 1317,
+                    "right": 7610
+                },
+                "defaultFill": false
+            },
             "layers": [
                 {
                     "id": 99,
-                    "index": 12,
+                    "index": 250,
                     "type": "layer",
                     "name": "frame12-5.png",
                     "bounds": {
-                        "top": 1423,
-                        "left": 6909,
-                        "bottom": 1832,
-                        "right": 7131
+                        "top": 913,
+                        "left": 7399,
+                        "bottom": 1322,
+                        "right": 7621
                     },
                     "visible": true,
                     "clipped": false,
@@ -1496,14 +1794,14 @@
                 },
                 {
                     "id": 98,
-                    "index": 11,
+                    "index": 249,
                     "type": "layer",
                     "name": "frame12-4.png",
                     "bounds": {
-                        "top": 1547,
-                        "left": 6795,
-                        "bottom": 1667,
-                        "right": 6906
+                        "top": 1037,
+                        "left": 7285,
+                        "bottom": 1157,
+                        "right": 7396
                     },
                     "visible": true,
                     "clipped": false,
@@ -1515,14 +1813,14 @@
                 },
                 {
                     "id": 97,
-                    "index": 10,
+                    "index": 248,
                     "type": "layer",
                     "name": "frame12-3.png",
                     "bounds": {
-                        "top": 1388,
-                        "left": 6597,
-                        "bottom": 1832,
-                        "right": 6958
+                        "top": 878,
+                        "left": 7087,
+                        "bottom": 1322,
+                        "right": 7448
                     },
                     "visible": true,
                     "clipped": false,
@@ -1534,14 +1832,14 @@
                 },
                 {
                     "id": 93,
-                    "index": 9,
+                    "index": 247,
                     "type": "layer",
                     "name": "frame12-2.png",
                     "bounds": {
-                        "top": 1548,
-                        "left": 6800,
-                        "bottom": 1832,
-                        "right": 6990
+                        "top": 1038,
+                        "left": 7290,
+                        "bottom": 1322,
+                        "right": 7480
                     },
                     "visible": true,
                     "clipped": false,
@@ -1553,14 +1851,14 @@
                 },
                 {
                     "id": 91,
-                    "index": 8,
+                    "index": 246,
                     "type": "layer",
                     "name": "frame12-1.png",
                     "bounds": {
-                        "top": 1182,
-                        "left": 6572,
-                        "bottom": 1833,
-                        "right": 7125
+                        "top": 672,
+                        "left": 7062,
+                        "bottom": 1323,
+                        "right": 7615
                     },
                     "visible": true,
                     "clipped": false,
@@ -1572,14 +1870,14 @@
                 },
                 {
                     "id": 87,
-                    "index": 7,
+                    "index": 245,
                     "type": "layer",
                     "name": "frame12-0.png",
                     "bounds": {
-                        "top": 1182,
-                        "left": 6572,
-                        "bottom": 1833,
-                        "right": 7125
+                        "top": 672,
+                        "left": 7062,
+                        "bottom": 1323,
+                        "right": 7615
                     },
                     "visible": true,
                     "clipped": false,
@@ -1594,14 +1892,14 @@
         },
         {
             "id": 101,
-            "index": 5,
+            "index": 243,
             "type": "layerSection",
             "name": "frame13",
             "bounds": {
-                "top": 1313,
-                "left": 7172,
-                "bottom": 1953,
-                "right": 8365
+                "top": 1370,
+                "left": 6410,
+                "bottom": 2010,
+                "right": 7603
             },
             "visible": true,
             "clipped": false,
@@ -1612,17 +1910,39 @@
                 "removed": true
             },
             "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "rect",
+                            "bounds": {
+                                "top": 1372,
+                                "left": 6413,
+                                "bottom": 1985,
+                                "right": 7601
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 1372,
+                    "left": 6413,
+                    "bottom": 1985,
+                    "right": 7601
+                },
+                "defaultFill": false
+            },
             "layers": [
                 {
                     "id": 115,
-                    "index": 4,
+                    "index": 242,
                     "type": "layer",
                     "name": "frame13-2.png",
                     "bounds": {
-                        "top": 1314,
-                        "left": 7579,
-                        "bottom": 1607,
-                        "right": 7969
+                        "top": 1371,
+                        "left": 6817,
+                        "bottom": 1664,
+                        "right": 7207
                     },
                     "visible": true,
                     "clipped": false,
@@ -1634,14 +1954,14 @@
                 },
                 {
                     "id": 114,
-                    "index": 3,
+                    "index": 241,
                     "type": "layer",
                     "name": "frame13-1.png",
                     "bounds": {
-                        "top": 1391,
-                        "left": 7256,
-                        "bottom": 1921,
-                        "right": 7690
+                        "top": 1448,
+                        "left": 6494,
+                        "bottom": 1978,
+                        "right": 6928
                     },
                     "visible": true,
                     "clipped": false,
@@ -1653,14 +1973,14 @@
                 },
                 {
                     "id": 116,
-                    "index": 2,
+                    "index": 240,
                     "type": "layer",
                     "name": "frame13-0.png",
                     "bounds": {
-                        "top": 1313,
-                        "left": 7172,
-                        "bottom": 1953,
-                        "right": 8365
+                        "top": 1370,
+                        "left": 6410,
+                        "bottom": 2010,
+                        "right": 7603
                     },
                     "visible": true,
                     "clipped": false,
@@ -1674,15 +1994,3992 @@
             "atRootOfChange": true
         },
         {
+            "id": 129,
+            "index": 238,
+            "type": "layerSection",
+            "name": "frame14",
+            "bounds": {
+                "top": 2060,
+                "left": 6961,
+                "bottom": 3024,
+                "right": 7610
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 2066,
+                                "left": 6968,
+                                "bottom": 3020,
+                                "right": 7606
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 2066,
+                    "left": 6968,
+                    "bottom": 3020,
+                    "right": 7606
+                },
+                "defaultFill": false
+            },
+            "layers": [
+                {
+                    "id": 134,
+                    "index": 237,
+                    "type": "layer",
+                    "name": "frame14-4.png",
+                    "bounds": {
+                        "top": 2203,
+                        "left": 7244,
+                        "bottom": 2249,
+                        "right": 7357
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 518,
+                    "index": 236,
+                    "type": "layer",
+                    "name": "frame14-3.png",
+                    "bounds": {
+                        "top": 2590,
+                        "left": 7253,
+                        "bottom": 3019,
+                        "right": 7547
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 517,
+                    "index": 235,
+                    "type": "layer",
+                    "name": "frame14-2.png",
+                    "bounds": {
+                        "top": 2467,
+                        "left": 6968,
+                        "bottom": 3002,
+                        "right": 7303
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 132,
+                    "index": 234,
+                    "type": "layer",
+                    "name": "frame14-1.png",
+                    "bounds": {
+                        "top": 2217,
+                        "left": 7128,
+                        "bottom": 2683,
+                        "right": 7568
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 131,
+                    "index": 233,
+                    "type": "layer",
+                    "name": "frame14-0.png",
+                    "bounds": {
+                        "top": 2060,
+                        "left": 6961,
+                        "bottom": 3024,
+                        "right": 7610
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 203,
+            "index": 231,
+            "type": "layerSection",
+            "name": "frame15",
+            "bounds": {
+                "top": 2087,
+                "left": 7630,
+                "bottom": 2524,
+                "right": 8216
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "rect",
+                            "bounds": {
+                                "top": 2087.75,
+                                "left": 7630.5625,
+                                "bottom": 2523.25,
+                                "right": 8215.0625
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 2087.75,
+                    "left": 7630.5625,
+                    "bottom": 2523.25,
+                    "right": 8215.0625
+                },
+                "defaultFill": false
+            },
+            "layers": [
+                {
+                    "id": 160,
+                    "index": 230,
+                    "type": "layer",
+                    "name": "frame15-2.png",
+                    "bounds": {
+                        "top": 2303,
+                        "left": 7651,
+                        "bottom": 2521,
+                        "right": 7983
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 153,
+                    "index": 229,
+                    "type": "layer",
+                    "name": "frame15-1.png",
+                    "bounds": {
+                        "top": 2230,
+                        "left": 8017,
+                        "bottom": 2521,
+                        "right": 8213
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 140,
+                    "index": 228,
+                    "type": "layer",
+                    "name": "frame15-0.png",
+                    "bounds": {
+                        "top": 2087,
+                        "left": 7630,
+                        "bottom": 2524,
+                        "right": 8216
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 525,
+            "index": 226,
+            "type": "layerSection",
+            "name": "frame16",
+            "bounds": {
+                "top": 2551,
+                "left": 7509,
+                "bottom": 3156,
+                "right": 8269
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 2561,
+                                "left": 7600,
+                                "bottom": 3081,
+                                "right": 8206
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 2561,
+                    "left": 7600,
+                    "bottom": 3081,
+                    "right": 8206
+                },
+                "defaultFill": false
+            },
+            "layers": [
+                {
+                    "id": 527,
+                    "index": 225,
+                    "type": "layer",
+                    "name": "frame16-9.png",
+                    "bounds": {
+                        "top": 2731,
+                        "left": 8079,
+                        "bottom": 2861,
+                        "right": 8252
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 528,
+                    "index": 224,
+                    "type": "layer",
+                    "name": "frame16-8.png",
+                    "bounds": {
+                        "top": 2932,
+                        "left": 7904,
+                        "bottom": 3128,
+                        "right": 8044
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 529,
+                    "index": 223,
+                    "type": "layer",
+                    "name": "frame16-7.png",
+                    "bounds": {
+                        "top": 2894,
+                        "left": 7800,
+                        "bottom": 2987,
+                        "right": 7948
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 530,
+                    "index": 222,
+                    "type": "layer",
+                    "name": "frame16-6.png",
+                    "bounds": {
+                        "top": 3000,
+                        "left": 8115,
+                        "bottom": 3156,
+                        "right": 8239
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 531,
+                    "index": 221,
+                    "type": "layer",
+                    "name": "frame16-5.png",
+                    "bounds": {
+                        "top": 2883,
+                        "left": 7599,
+                        "bottom": 3049,
+                        "right": 7784
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 532,
+                    "index": 220,
+                    "type": "layer",
+                    "name": "frame16-4.png",
+                    "bounds": {
+                        "top": 2743,
+                        "left": 7509,
+                        "bottom": 2882,
+                        "right": 7715
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 183,
+                    "index": 219,
+                    "type": "layer",
+                    "name": "frame16-3.png",
+                    "bounds": {
+                        "top": 2888,
+                        "left": 7782,
+                        "bottom": 3022,
+                        "right": 8269
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 181,
+                    "index": 218,
+                    "type": "layer",
+                    "name": "frame16-2.png",
+                    "bounds": {
+                        "top": 2672,
+                        "left": 7692,
+                        "bottom": 2894,
+                        "right": 7914
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 172,
+                    "index": 217,
+                    "type": "layer",
+                    "name": "frame16-1.png",
+                    "bounds": {
+                        "top": 2688,
+                        "left": 7591,
+                        "bottom": 3082,
+                        "right": 8213
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 146,
+                    "index": 216,
+                    "type": "layer",
+                    "name": "frame16-0.png",
+                    "bounds": {
+                        "top": 2551,
+                        "left": 7589,
+                        "bottom": 3086,
+                        "right": 8214
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 205,
+            "index": 214,
+            "type": "layerSection",
+            "name": "frame17",
+            "bounds": {
+                "top": 3018,
+                "left": 7001,
+                "bottom": 3462,
+                "right": 8291
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 3018,
+                                "left": 7001,
+                                "bottom": 3461,
+                                "right": 8226
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 3018,
+                    "left": 7001,
+                    "bottom": 3461,
+                    "right": 8226
+                },
+                "defaultFill": false
+            },
+            "layers": [
+                {
+                    "id": 231,
+                    "index": 213,
+                    "type": "layer",
+                    "name": "frame17-4.png",
+                    "bounds": {
+                        "top": 3204,
+                        "left": 7876,
+                        "bottom": 3457,
+                        "right": 8291
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 229,
+                    "index": 212,
+                    "type": "layer",
+                    "name": "frame17-3.png",
+                    "bounds": {
+                        "top": 3145,
+                        "left": 7406,
+                        "bottom": 3462,
+                        "right": 7807
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 223,
+                    "index": 211,
+                    "type": "layer",
+                    "name": "frame17-2.png",
+                    "bounds": {
+                        "top": 3134,
+                        "left": 7211,
+                        "bottom": 3461,
+                        "right": 7995
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 208,
+                    "index": 210,
+                    "type": "layer",
+                    "name": "frame17-1.png",
+                    "bounds": {
+                        "top": 3199,
+                        "left": 7007,
+                        "bottom": 3462,
+                        "right": 7336
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 367,
+                    "index": 209,
+                    "type": "layer",
+                    "name": "frame17-0.png",
+                    "bounds": {
+                        "top": 3018,
+                        "left": 7001,
+                        "bottom": 3461,
+                        "right": 8226
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 237,
+            "index": 207,
+            "type": "layerSection",
+            "name": "frame18",
+            "bounds": {
+                "top": 2898,
+                "left": 8311,
+                "bottom": 3455,
+                "right": 8786
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 2907,
+                                "left": 8320,
+                                "bottom": 3446,
+                                "right": 8777
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 2907,
+                    "left": 8320,
+                    "bottom": 3446,
+                    "right": 8777
+                },
+                "defaultFill": false
+            },
+            "layers": [
+                {
+                    "id": 255,
+                    "index": 206,
+                    "type": "layer",
+                    "name": "frame18-8.png",
+                    "bounds": {
+                        "top": 3006,
+                        "left": 8538,
+                        "bottom": 3070,
+                        "right": 8619
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 254,
+                    "index": 205,
+                    "type": "layer",
+                    "name": "frame18-7.png",
+                    "bounds": {
+                        "top": 2899,
+                        "left": 8312,
+                        "bottom": 3094,
+                        "right": 8643
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 248,
+                    "index": 204,
+                    "type": "layer",
+                    "name": "frame18-6.png",
+                    "bounds": {
+                        "top": 3304,
+                        "left": 8706,
+                        "bottom": 3339,
+                        "right": 8745
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 247,
+                    "index": 203,
+                    "type": "layer",
+                    "name": "frame18-5.png",
+                    "bounds": {
+                        "top": 3310,
+                        "left": 8651,
+                        "bottom": 3353,
+                        "right": 8707
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 245,
+                    "index": 202,
+                    "type": "layer",
+                    "name": "frame18-4.png",
+                    "bounds": {
+                        "top": 3269,
+                        "left": 8577,
+                        "bottom": 3318,
+                        "right": 8600
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 244,
+                    "index": 201,
+                    "type": "layer",
+                    "name": "frame18-3.png",
+                    "bounds": {
+                        "top": 3240,
+                        "left": 8746,
+                        "bottom": 3315,
+                        "right": 8784
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 243,
+                    "index": 200,
+                    "type": "layer",
+                    "name": "frame18-2.png",
+                    "bounds": {
+                        "top": 3330,
+                        "left": 8540,
+                        "bottom": 3391,
+                        "right": 8666
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 246,
+                    "index": 199,
+                    "type": "layer",
+                    "name": "frame18-1.png",
+                    "bounds": {
+                        "top": 3079,
+                        "left": 8553,
+                        "bottom": 3311,
+                        "right": 8769
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 240,
+                    "index": 198,
+                    "type": "layer",
+                    "name": "frame18-0.png",
+                    "bounds": {
+                        "top": 2898,
+                        "left": 8311,
+                        "bottom": 3455,
+                        "right": 8786
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 269,
+            "index": 196,
+            "type": "layerSection",
+            "name": "frame19",
+            "bounds": {
+                "top": 2890,
+                "left": 8827,
+                "bottom": 3483,
+                "right": 9144
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 2899,
+                                "left": 8860,
+                                "bottom": 3439,
+                                "right": 9133
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 2899,
+                    "left": 8860,
+                    "bottom": 3439,
+                    "right": 9133
+                },
+                "defaultFill": false
+            },
+            "layers": [
+                {
+                    "id": 265,
+                    "index": 195,
+                    "type": "layer",
+                    "name": "frame19-7.png",
+                    "bounds": {
+                        "top": 3336,
+                        "left": 8827,
+                        "bottom": 3483,
+                        "right": 8968
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 262,
+                    "index": 194,
+                    "type": "layer",
+                    "name": "frame19-6.png",
+                    "bounds": {
+                        "top": 2934,
+                        "left": 8872,
+                        "bottom": 3097,
+                        "right": 9058
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 261,
+                    "index": 193,
+                    "type": "layer",
+                    "name": "frame19-5.png",
+                    "bounds": {
+                        "top": 3080,
+                        "left": 8983,
+                        "bottom": 3197,
+                        "right": 9133
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 260,
+                    "index": 192,
+                    "type": "layer",
+                    "name": "frame19-4.png",
+                    "bounds": {
+                        "top": 3042,
+                        "left": 9033,
+                        "bottom": 3183,
+                        "right": 9135
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 259,
+                    "index": 191,
+                    "type": "layer",
+                    "name": "frame19-3.png",
+                    "bounds": {
+                        "top": 3206,
+                        "left": 8883,
+                        "bottom": 3433,
+                        "right": 9105
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 258,
+                    "index": 190,
+                    "type": "layer",
+                    "name": "frame19-2.png",
+                    "bounds": {
+                        "top": 3184,
+                        "left": 8858,
+                        "bottom": 3433,
+                        "right": 9113
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 257,
+                    "index": 189,
+                    "type": "layer",
+                    "name": "frame19-1.png",
+                    "bounds": {
+                        "top": 3123,
+                        "left": 8906,
+                        "bottom": 3393,
+                        "right": 9136
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 256,
+                    "index": 188,
+                    "type": "layer",
+                    "name": "frame19-0.png",
+                    "bounds": {
+                        "top": 2890,
+                        "left": 8847,
+                        "bottom": 3447,
+                        "right": 9144
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 271,
+            "index": 186,
+            "type": "layerSection",
+            "name": "frame20",
+            "bounds": {
+                "top": 2888,
+                "left": 9170,
+                "bottom": 3446,
+                "right": 9610
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 2898,
+                                "left": 9180,
+                                "bottom": 3437,
+                                "right": 9600
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 2898,
+                    "left": 9180,
+                    "bottom": 3437,
+                    "right": 9600
+                },
+                "defaultFill": false
+            },
+            "layers": [
+                {
+                    "id": 284,
+                    "index": 185,
+                    "type": "layer",
+                    "name": "frame20-3.png",
+                    "bounds": {
+                        "top": 3116,
+                        "left": 9170,
+                        "bottom": 3446,
+                        "right": 9392
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 283,
+                    "index": 184,
+                    "type": "layer",
+                    "name": "frame20-2.png",
+                    "bounds": {
+                        "top": 3339,
+                        "left": 9330,
+                        "bottom": 3444,
+                        "right": 9488
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 279,
+                    "index": 183,
+                    "type": "layer",
+                    "name": "frame20-1.png",
+                    "bounds": {
+                        "top": 3006,
+                        "left": 9230,
+                        "bottom": 3445,
+                        "right": 9610
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 274,
+                    "index": 182,
+                    "type": "layer",
+                    "name": "frame20-0.png",
+                    "bounds": {
+                        "top": 2888,
+                        "left": 9170,
+                        "bottom": 3445,
+                        "right": 9610
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 296,
+            "index": 180,
+            "type": "layerSection",
+            "name": "frame21",
+            "bounds": {
+                "top": 3525,
+                "left": 9160,
+                "bottom": 4085,
+                "right": 10367
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 3540,
+                                "left": 9169,
+                                "bottom": 4075,
+                                "right": 10357
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 3540,
+                    "left": 9169,
+                    "bottom": 4075,
+                    "right": 10357
+                },
+                "defaultFill": false
+            },
+            "layers": [
+                {
+                    "id": 294,
+                    "index": 179,
+                    "type": "layer",
+                    "name": "frame21-1.png",
+                    "bounds": {
+                        "top": 3573,
+                        "left": 9647,
+                        "bottom": 3629,
+                        "right": 9726
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 289,
+                    "index": 178,
+                    "type": "layer",
+                    "name": "frame21-0.png",
+                    "bounds": {
+                        "top": 3525,
+                        "left": 9160,
+                        "bottom": 4085,
+                        "right": 10367
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 309,
+            "index": 176,
+            "type": "layerSection",
+            "name": "frame22",
+            "bounds": {
+                "top": 4151,
+                "left": 9160,
+                "bottom": 4854,
+                "right": 10010
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 4165,
+                                "left": 9174,
+                                "bottom": 4840,
+                                "right": 9995
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 4165,
+                    "left": 9174,
+                    "bottom": 4840,
+                    "right": 9995
+                },
+                "defaultFill": false
+            },
+            "layers": [
+                {
+                    "id": 306,
+                    "index": 175,
+                    "type": "layer",
+                    "name": "frame22-2.png",
+                    "bounds": {
+                        "top": 4607,
+                        "left": 9532,
+                        "bottom": 4652,
+                        "right": 9580
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 305,
+                    "index": 174,
+                    "type": "layer",
+                    "name": "frame22-1.png",
+                    "bounds": {
+                        "top": 4431,
+                        "left": 9760,
+                        "bottom": 4854,
+                        "right": 10008
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 299,
+                    "index": 173,
+                    "type": "layer",
+                    "name": "frame22-0.png",
+                    "bounds": {
+                        "top": 4151,
+                        "left": 9160,
+                        "bottom": 4854,
+                        "right": 10010
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 326,
+            "index": 171,
+            "type": "layerSection",
+            "name": "frame23",
+            "bounds": {
+                "top": 4156,
+                "left": 10053,
+                "bottom": 4855,
+                "right": 10390
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 4168,
+                                "left": 10065,
+                                "bottom": 4841,
+                                "right": 10379
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 4168,
+                    "left": 10065,
+                    "bottom": 4841,
+                    "right": 10379
+                },
+                "defaultFill": false
+            },
+            "layers": [
+                {
+                    "id": 321,
+                    "index": 170,
+                    "type": "layer",
+                    "name": "frame23-2.png",
+                    "bounds": {
+                        "top": 4360,
+                        "left": 10182,
+                        "bottom": 4685,
+                        "right": 10389
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 320,
+                    "index": 169,
+                    "type": "layer",
+                    "name": "frame23-1.png",
+                    "bounds": {
+                        "top": 4649,
+                        "left": 10108,
+                        "bottom": 4746,
+                        "right": 10149
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 313,
+                    "index": 168,
+                    "type": "layer",
+                    "name": "frame23-0.png",
+                    "bounds": {
+                        "top": 4156,
+                        "left": 10053,
+                        "bottom": 4855,
+                        "right": 10390
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 332,
+            "index": 166,
+            "type": "layerSection",
+            "name": "frame24",
+            "bounds": {
+                "top": 4921,
+                "left": 9180,
+                "bottom": 5478,
+                "right": 9681
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 329,
+                    "index": 165,
+                    "type": "layer",
+                    "name": "frame24-1.png",
+                    "bounds": {
+                        "top": 5149,
+                        "left": 9180,
+                        "bottom": 5478,
+                        "right": 9681
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 328,
+                    "index": 164,
+                    "type": "layer",
+                    "name": "frame24-0.png",
+                    "bounds": {
+                        "top": 4921,
+                        "left": 9182,
+                        "bottom": 5477,
+                        "right": 9667
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 334,
+            "index": 162,
+            "type": "layerSection",
+            "name": "frame25",
+            "bounds": {
+                "top": 4905,
+                "left": 9721,
+                "bottom": 5484,
+                "right": 10008
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 535,
+                    "index": 161,
+                    "type": "layer",
+                    "name": "frame25-1.png",
+                    "bounds": {
+                        "top": 5144,
+                        "left": 9725,
+                        "bottom": 5479,
+                        "right": 10002
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 536,
+                    "index": 160,
+                    "type": "layer",
+                    "name": "frame25-0.png",
+                    "bounds": {
+                        "top": 4905,
+                        "left": 9721,
+                        "bottom": 5484,
+                        "right": 10008
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 337,
+            "index": 158,
+            "type": "layerSection",
+            "name": "frame26",
+            "bounds": {
+                "top": 4910,
+                "left": 10060,
+                "bottom": 5490,
+                "right": 10465
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 537,
+                    "index": 157,
+                    "type": "layer",
+                    "name": "frame26-0.png",
+                    "bounds": {
+                        "top": 4910,
+                        "left": 10060,
+                        "bottom": 5490,
+                        "right": 10465
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 340,
+            "index": 155,
+            "type": "layerSection",
+            "name": "frame27",
+            "bounds": {
+                "top": 4888,
+                "left": 10507,
+                "bottom": 5494,
+                "right": 11090
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 343,
+                    "index": 154,
+                    "type": "layer",
+                    "name": "frame27-0.png",
+                    "bounds": {
+                        "top": 4888,
+                        "left": 10507,
+                        "bottom": 5494,
+                        "right": 11090
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 345,
+            "index": 152,
+            "type": "layerSection",
+            "name": "frame28",
+            "bounds": {
+                "top": 4893,
+                "left": 11125,
+                "bottom": 5502,
+                "right": 11710
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 344,
+                    "index": 151,
+                    "type": "layer",
+                    "name": "frame28-0.png",
+                    "bounds": {
+                        "top": 4893,
+                        "left": 11125,
+                        "bottom": 5502,
+                        "right": 11710
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 347,
+            "index": 149,
+            "type": "layerSection",
+            "name": "frame29",
+            "bounds": {
+                "top": 5578,
+                "left": 9189,
+                "bottom": 6184,
+                "right": 9950
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 5578,
+                                "left": 9189,
+                                "bottom": 6184,
+                                "right": 9950
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 5578,
+                    "left": 9189,
+                    "bottom": 6184,
+                    "right": 9950
+                },
+                "defaultFill": false
+            },
+            "layers": [
+                {
+                    "id": 349,
+                    "index": 148,
+                    "type": "layer",
+                    "name": "frame29-1.png",
+                    "bounds": {
+                        "top": 5622,
+                        "left": 9335,
+                        "bottom": 6184,
+                        "right": 9932
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 538,
+                    "index": 147,
+                    "type": "shapeLayer",
+                    "name": "frame29-0.png",
+                    "bounds": {
+                        "top": 5578,
+                        "left": 9189,
+                        "bottom": 6184,
+                        "right": 9950
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "fill": {
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255
+                        },
+                        "class": "solidColorLayer"
+                    },
+                    "mask": {
+                        "removed": true
+                    },
+                    "generatorSettings": false,
+                    "path": {
+                        "pathComponents": [
+                            {
+                                "origin": {
+                                    "type": "unknown",
+                                    "bounds": {
+                                        "top": 5578,
+                                        "left": 9189,
+                                        "bottom": 6184,
+                                        "right": 9950
+                                    }
+                                }
+                            }
+                        ],
+                        "bounds": {
+                            "top": 5578,
+                            "left": 9189,
+                            "bottom": 6184,
+                            "right": 9950
+                        },
+                        "defaultFill": false
+                    }
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 350,
+            "index": 145,
+            "type": "layerSection",
+            "name": "frame30",
+            "bounds": {
+                "top": 5609,
+                "left": 10024,
+                "bottom": 6190,
+                "right": 10384
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 352,
+                    "index": 144,
+                    "type": "layer",
+                    "name": "frame30-0.png",
+                    "bounds": {
+                        "top": 5609,
+                        "left": 10024,
+                        "bottom": 6190,
+                        "right": 10384
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 355,
+            "index": 142,
+            "type": "layerSection",
+            "name": "frame31",
+            "bounds": {
+                "top": 5568,
+                "left": 10433,
+                "bottom": 6215,
+                "right": 10828
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 359,
+                    "index": 141,
+                    "type": "layer",
+                    "name": "frame31-0.png",
+                    "bounds": {
+                        "top": 5568,
+                        "left": 10433,
+                        "bottom": 6215,
+                        "right": 10828
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 357,
+            "index": 139,
+            "type": "layerSection",
+            "name": "frame32",
+            "bounds": {
+                "top": 5565,
+                "left": 10868,
+                "bottom": 6210,
+                "right": 11232
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 360,
+                    "index": 138,
+                    "type": "layer",
+                    "name": "frame32-0.png",
+                    "bounds": {
+                        "top": 5565,
+                        "left": 10868,
+                        "bottom": 6210,
+                        "right": 11232
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 362,
+            "index": 136,
+            "type": "layerSection",
+            "name": "frame33",
+            "bounds": {
+                "top": 5570,
+                "left": 11273,
+                "bottom": 6213,
+                "right": 11659
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 361,
+                    "index": 135,
+                    "type": "layer",
+                    "name": "frame33-0.png",
+                    "bounds": {
+                        "top": 5570,
+                        "left": 11273,
+                        "bottom": 6213,
+                        "right": 11659
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 364,
+            "index": 133,
+            "type": "layerSection",
+            "name": "frame34",
+            "bounds": {
+                "top": 4994,
+                "left": 11794,
+                "bottom": 6197,
+                "right": 12404
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 366,
+                    "index": 132,
+                    "type": "layer",
+                    "name": "frame34-0.png",
+                    "bounds": {
+                        "top": 4994,
+                        "left": 11794,
+                        "bottom": 6197,
+                        "right": 12404
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 368,
+            "index": 130,
+            "type": "layerSection",
+            "name": "frame35",
+            "bounds": {
+                "top": 4963,
+                "left": 12468,
+                "bottom": 5571,
+                "right": 13023
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 370,
+                    "index": 129,
+                    "type": "layer",
+                    "name": "frame35-0.png",
+                    "bounds": {
+                        "top": 4963,
+                        "left": 12468,
+                        "bottom": 5571,
+                        "right": 13023
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 371,
+            "index": 127,
+            "type": "layerSection",
+            "name": "frame36",
+            "bounds": {
+                "top": 5633,
+                "left": 12465,
+                "bottom": 6210,
+                "right": 13013
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 373,
+                    "index": 126,
+                    "type": "layer",
+                    "name": "frame36-0.png",
+                    "bounds": {
+                        "top": 5633,
+                        "left": 12465,
+                        "bottom": 6210,
+                        "right": 13013
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 374,
+            "index": 124,
+            "type": "layerSection",
+            "name": "frame37",
+            "bounds": {
+                "top": 5573,
+                "left": 13056,
+                "bottom": 6214,
+                "right": 13449
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 376,
+                    "index": 123,
+                    "type": "layer",
+                    "name": "frame37-0.png",
+                    "bounds": {
+                        "top": 5573,
+                        "left": 13056,
+                        "bottom": 6214,
+                        "right": 13449
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 378,
+            "index": 121,
+            "type": "layerSection",
+            "name": "frame38",
+            "bounds": {
+                "top": 5579,
+                "left": 13500,
+                "bottom": 6220,
+                "right": 13860
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 377,
+                    "index": 120,
+                    "type": "layer",
+                    "name": "frame38-0.png",
+                    "bounds": {
+                        "top": 5579,
+                        "left": 13500,
+                        "bottom": 6220,
+                        "right": 13860
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 381,
+            "index": 118,
+            "type": "layerSection",
+            "name": "frame39",
+            "bounds": {
+                "top": 5578,
+                "left": 13934,
+                "bottom": 6222,
+                "right": 14312
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 380,
+                    "index": 117,
+                    "type": "layer",
+                    "name": "frame39-0.png",
+                    "bounds": {
+                        "top": 5578,
+                        "left": 13934,
+                        "bottom": 6222,
+                        "right": 14312
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 408,
+            "index": 115,
+            "type": "layerSection",
+            "name": "frame40",
+            "bounds": {
+                "top": 6319,
+                "left": 13626,
+                "bottom": 6922,
+                "right": 14397
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 385,
+                    "index": 114,
+                    "type": "layer",
+                    "name": "frame40-0.png",
+                    "bounds": {
+                        "top": 6319,
+                        "left": 13626,
+                        "bottom": 6922,
+                        "right": 14397
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 410,
+            "index": 112,
+            "type": "layerSection",
+            "name": "frame41",
+            "bounds": {
+                "top": 6328,
+                "left": 14454,
+                "bottom": 6931,
+                "right": 14847
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 386,
+                    "index": 111,
+                    "type": "layer",
+                    "name": "frame41-0.png",
+                    "bounds": {
+                        "top": 6328,
+                        "left": 14454,
+                        "bottom": 6931,
+                        "right": 14847
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 412,
+            "index": 109,
+            "type": "layerSection",
+            "name": "frame42",
+            "bounds": {
+                "top": 6985,
+                "left": 13624,
+                "bottom": 7561,
+                "right": 13936
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 387,
+                    "index": 108,
+                    "type": "layer",
+                    "name": "frame42-0.png",
+                    "bounds": {
+                        "top": 6985,
+                        "left": 13624,
+                        "bottom": 7561,
+                        "right": 13936
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 414,
+            "index": 106,
+            "type": "layerSection",
+            "name": "frame43",
+            "bounds": {
+                "top": 6983,
+                "left": 13976,
+                "bottom": 7557,
+                "right": 14287
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 388,
+                    "index": 105,
+                    "type": "layer",
+                    "name": "frame43-0.png",
+                    "bounds": {
+                        "top": 6983,
+                        "left": 13976,
+                        "bottom": 7557,
+                        "right": 14287
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 416,
+            "index": 103,
+            "type": "layerSection",
+            "name": "frame44",
+            "bounds": {
+                "top": 6981,
+                "left": 14317,
+                "bottom": 7553,
+                "right": 14841
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 389,
+                    "index": 102,
+                    "type": "layer",
+                    "name": "frame44-0.png",
+                    "bounds": {
+                        "top": 6981,
+                        "left": 14317,
+                        "bottom": 7553,
+                        "right": 14841
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 418,
+            "index": 100,
+            "type": "layerSection",
+            "name": "frame45",
+            "bounds": {
+                "top": 7608,
+                "left": 13631,
+                "bottom": 8250,
+                "right": 14023
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 390,
+                    "index": 99,
+                    "type": "layer",
+                    "name": "frame45-0.png",
+                    "bounds": {
+                        "top": 7608,
+                        "left": 13631,
+                        "bottom": 8250,
+                        "right": 14023
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 420,
+            "index": 97,
+            "type": "layerSection",
+            "name": "frame46",
+            "bounds": {
+                "top": 7605,
+                "left": 14053,
+                "bottom": 8246,
+                "right": 14413
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 391,
+                    "index": 96,
+                    "type": "layer",
+                    "name": "frame46-0.png",
+                    "bounds": {
+                        "top": 7605,
+                        "left": 14053,
+                        "bottom": 8246,
+                        "right": 14413
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 424,
+            "index": 94,
+            "type": "layerSection",
+            "name": "frame47",
+            "bounds": {
+                "top": 7598,
+                "left": 14446,
+                "bottom": 8245,
+                "right": 14832
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 392,
+                    "index": 93,
+                    "type": "layer",
+                    "name": "frame47-0.png",
+                    "bounds": {
+                        "top": 7598,
+                        "left": 14446,
+                        "bottom": 8245,
+                        "right": 14832
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 428,
+            "index": 91,
+            "type": "layerSection",
+            "name": "frame48",
+            "bounds": {
+                "top": 6348,
+                "left": 14992,
+                "bottom": 7007,
+                "right": 15398
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 430,
+                    "index": 90,
+                    "type": "layer",
+                    "name": "frame48-0.png",
+                    "bounds": {
+                        "top": 6348,
+                        "left": 14992,
+                        "bottom": 7007,
+                        "right": 15398
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 431,
+            "index": 88,
+            "type": "layerSection",
+            "name": "frame49",
+            "bounds": {
+                "top": 6349,
+                "left": 15422,
+                "bottom": 7026,
+                "right": 16207
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 433,
+                    "index": 87,
+                    "type": "layer",
+                    "name": "frame49-0.png",
+                    "bounds": {
+                        "top": 6349,
+                        "left": 15422,
+                        "bottom": 7026,
+                        "right": 16207
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 434,
+            "index": 85,
+            "type": "layerSection",
+            "name": "frame50",
+            "bounds": {
+                "top": 7028,
+                "left": 14994,
+                "bottom": 7630,
+                "right": 15369
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 436,
+                    "index": 84,
+                    "type": "layer",
+                    "name": "frame50-0.png",
+                    "bounds": {
+                        "top": 7028,
+                        "left": 14994,
+                        "bottom": 7630,
+                        "right": 15369
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 437,
+            "index": 82,
+            "type": "layerSection",
+            "name": "frame51",
+            "bounds": {
+                "top": 7038,
+                "left": 15394,
+                "bottom": 7600,
+                "right": 15754
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 439,
+                    "index": 81,
+                    "type": "layer",
+                    "name": "frame51-0.png",
+                    "bounds": {
+                        "top": 7038,
+                        "left": 15394,
+                        "bottom": 7600,
+                        "right": 15754
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 440,
+            "index": 79,
+            "type": "layerSection",
+            "name": "frame52",
+            "bounds": {
+                "top": 7046,
+                "left": 15765,
+                "bottom": 7570,
+                "right": 16206
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 442,
+                    "index": 78,
+                    "type": "layer",
+                    "name": "frame52-0.png",
+                    "bounds": {
+                        "top": 7046,
+                        "left": 15765,
+                        "bottom": 7570,
+                        "right": 16206
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 443,
+            "index": 76,
+            "type": "layerSection",
+            "name": "frame53",
+            "bounds": {
+                "top": 7628,
+                "left": 14990,
+                "bottom": 8231,
+                "right": 15395
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 445,
+                    "index": 75,
+                    "type": "layer",
+                    "name": "frame53-0.png",
+                    "bounds": {
+                        "top": 7628,
+                        "left": 14990,
+                        "bottom": 8231,
+                        "right": 15395
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 446,
+            "index": 73,
+            "type": "layerSection",
+            "name": "frame54",
+            "bounds": {
+                "top": 7564,
+                "left": 15425,
+                "bottom": 8231,
+                "right": 16207
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 448,
+                    "index": 72,
+                    "type": "layer",
+                    "name": "frame54-0.png",
+                    "bounds": {
+                        "top": 7564,
+                        "left": 15425,
+                        "bottom": 8231,
+                        "right": 16207
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 449,
+            "index": 70,
+            "type": "layerSection",
+            "name": "frame55",
+            "bounds": {
+                "top": 6401,
+                "left": 16360,
+                "bottom": 7005,
+                "right": 17109
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 451,
+                    "index": 69,
+                    "type": "layer",
+                    "name": "frame55-0.png",
+                    "bounds": {
+                        "top": 6401,
+                        "left": 16360,
+                        "bottom": 7005,
+                        "right": 17109
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 452,
+            "index": 67,
+            "type": "layerSection",
+            "name": "frame56",
+            "bounds": {
+                "top": 6410,
+                "left": 17146,
+                "bottom": 7006,
+                "right": 17542
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 6410,
+                                "left": 17146,
+                                "bottom": 7006,
+                                "right": 17541
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 6410,
+                    "left": 17146,
+                    "bottom": 7006,
+                    "right": 17541
+                },
+                "defaultFill": false
+            },
+            "layers": [
+                {
+                    "id": 454,
+                    "index": 66,
+                    "type": "layer",
+                    "name": "frame56-1.png",
+                    "bounds": {
+                        "top": 6655,
+                        "left": 17217,
+                        "bottom": 7006,
+                        "right": 17542
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 544,
+                    "index": 65,
+                    "type": "shapeLayer",
+                    "name": "frame56-0.png",
+                    "bounds": {
+                        "top": 6410,
+                        "left": 17146,
+                        "bottom": 7006,
+                        "right": 17541
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "fill": {
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255
+                        },
+                        "class": "solidColorLayer"
+                    },
+                    "mask": {
+                        "removed": true
+                    },
+                    "generatorSettings": false,
+                    "path": {
+                        "pathComponents": [
+                            {
+                                "origin": {
+                                    "type": "unknown",
+                                    "bounds": {
+                                        "top": 6410,
+                                        "left": 17146,
+                                        "bottom": 7006,
+                                        "right": 17541
+                                    }
+                                }
+                            }
+                        ],
+                        "bounds": {
+                            "top": 6410,
+                            "left": 17146,
+                            "bottom": 7006,
+                            "right": 17541
+                        },
+                        "defaultFill": false
+                    }
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 455,
+            "index": 63,
+            "type": "layerSection",
+            "name": "frame57",
+            "bounds": {
+                "top": 7029,
+                "left": 16357,
+                "bottom": 7605,
+                "right": 16894
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 457,
+                    "index": 62,
+                    "type": "layer",
+                    "name": "frame57-0.png",
+                    "bounds": {
+                        "top": 7029,
+                        "left": 16357,
+                        "bottom": 7605,
+                        "right": 16894
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 458,
+            "index": 60,
+            "type": "layerSection",
+            "name": "frame58",
+            "bounds": {
+                "top": 7030,
+                "left": 16925,
+                "bottom": 7609,
+                "right": 17545
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 460,
+                    "index": 59,
+                    "type": "layer",
+                    "name": "frame58-0.png",
+                    "bounds": {
+                        "top": 7030,
+                        "left": 16925,
+                        "bottom": 7609,
+                        "right": 17545
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 461,
+            "index": 57,
+            "type": "layerSection",
+            "name": "frame59",
+            "bounds": {
+                "top": 7628,
+                "left": 16352,
+                "bottom": 8272,
+                "right": 16750
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 463,
+                    "index": 56,
+                    "type": "layer",
+                    "name": "frame59-0.png",
+                    "bounds": {
+                        "top": 7628,
+                        "left": 16352,
+                        "bottom": 8272,
+                        "right": 16750
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 464,
+            "index": 54,
+            "type": "layerSection",
+            "name": "frame60",
+            "bounds": {
+                "top": 7630,
+                "left": 16775,
+                "bottom": 8278,
+                "right": 17539
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 466,
+                    "index": 53,
+                    "type": "layer",
+                    "name": "frame60-0.png",
+                    "bounds": {
+                        "top": 7630,
+                        "left": 16775,
+                        "bottom": 8278,
+                        "right": 17539
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 467,
+            "index": 51,
+            "type": "layerSection",
+            "name": "frame61",
+            "bounds": {
+                "top": 6411,
+                "left": 17693,
+                "bottom": 7019,
+                "right": 18222
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 469,
+                    "index": 50,
+                    "type": "layer",
+                    "name": "frame61-0.png",
+                    "bounds": {
+                        "top": 6411,
+                        "left": 17693,
+                        "bottom": 7019,
+                        "right": 18222
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 470,
+            "index": 48,
+            "type": "layerSection",
+            "name": "frame62",
+            "bounds": {
+                "top": 6412,
+                "left": 18213,
+                "bottom": 7018,
+                "right": 18878
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 472,
+                    "index": 47,
+                    "type": "layer",
+                    "name": "frame62-0.png",
+                    "bounds": {
+                        "top": 6412,
+                        "left": 18213,
+                        "bottom": 7018,
+                        "right": 18878
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 473,
+            "index": 45,
+            "type": "layerSection",
+            "name": "frame63",
+            "bounds": {
+                "top": 7045,
+                "left": 17694,
+                "bottom": 7618,
+                "right": 18279
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 475,
+                    "index": 44,
+                    "type": "layer",
+                    "name": "frame63-0.png",
+                    "bounds": {
+                        "top": 7045,
+                        "left": 17694,
+                        "bottom": 7618,
+                        "right": 18279
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 476,
+            "index": 42,
+            "type": "layerSection",
+            "name": "frame64",
+            "bounds": {
+                "top": 7044,
+                "left": 18308,
+                "bottom": 7618,
+                "right": 18880
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 478,
+                    "index": 41,
+                    "type": "layer",
+                    "name": "frame64-0.png",
+                    "bounds": {
+                        "top": 7044,
+                        "left": 18308,
+                        "bottom": 7618,
+                        "right": 18880
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 479,
+            "index": 39,
+            "type": "layerSection",
+            "name": "frame65",
+            "bounds": {
+                "top": 7645,
+                "left": 17694,
+                "bottom": 8286,
+                "right": 18284
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 481,
+                    "index": 38,
+                    "type": "layer",
+                    "name": "frame65-0.png",
+                    "bounds": {
+                        "top": 7645,
+                        "left": 17694,
+                        "bottom": 8286,
+                        "right": 18284
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 482,
+            "index": 36,
+            "type": "layerSection",
+            "name": "frame66",
+            "bounds": {
+                "top": 7645,
+                "left": 18309,
+                "bottom": 8291,
+                "right": 18879
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 484,
+                    "index": 35,
+                    "type": "layer",
+                    "name": "frame66-0.png",
+                    "bounds": {
+                        "top": 7645,
+                        "left": 18309,
+                        "bottom": 8291,
+                        "right": 18879
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 485,
+            "index": 33,
+            "type": "layerSection",
+            "name": "frame67",
+            "bounds": {
+                "top": 6447,
+                "left": 19004,
+                "bottom": 7058,
+                "right": 19537
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 487,
+                    "index": 32,
+                    "type": "layer",
+                    "name": "frame67-0.png",
+                    "bounds": {
+                        "top": 6447,
+                        "left": 19004,
+                        "bottom": 7058,
+                        "right": 19537
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 488,
+            "index": 30,
+            "type": "layerSection",
+            "name": "frame68",
+            "bounds": {
+                "top": 6445,
+                "left": 19512,
+                "bottom": 7054,
+                "right": 20186
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 490,
+                    "index": 29,
+                    "type": "layer",
+                    "name": "frame68-0.png",
+                    "bounds": {
+                        "top": 6445,
+                        "left": 19512,
+                        "bottom": 7054,
+                        "right": 20186
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 491,
+            "index": 27,
+            "type": "layerSection",
+            "name": "frame69",
+            "bounds": {
+                "top": 7081,
+                "left": 19003,
+                "bottom": 7651,
+                "right": 19735
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 493,
+                    "index": 26,
+                    "type": "layer",
+                    "name": "frame69-0.png",
+                    "bounds": {
+                        "top": 7081,
+                        "left": 19003,
+                        "bottom": 7651,
+                        "right": 19735
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 494,
+            "index": 24,
+            "type": "layerSection",
+            "name": "frame70",
+            "bounds": {
+                "top": 7077,
+                "left": 19717,
+                "bottom": 7655,
+                "right": 20191
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 496,
+                    "index": 23,
+                    "type": "layer",
+                    "name": "frame70-0.png",
+                    "bounds": {
+                        "top": 7077,
+                        "left": 19717,
+                        "bottom": 7655,
+                        "right": 20191
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 497,
+            "index": 21,
+            "type": "layerSection",
+            "name": "frame71",
+            "bounds": {
+                "top": 7677,
+                "left": 18998,
+                "bottom": 8316,
+                "right": 19554
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 499,
+                    "index": 20,
+                    "type": "layer",
+                    "name": "frame71-0.png",
+                    "bounds": {
+                        "top": 7677,
+                        "left": 18998,
+                        "bottom": 8316,
+                        "right": 19554
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 500,
+            "index": 18,
+            "type": "layerSection",
+            "name": "frame72",
+            "bounds": {
+                "top": 7678,
+                "left": 19549,
+                "bottom": 8320,
+                "right": 20190
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 502,
+                    "index": 17,
+                    "type": "layer",
+                    "name": "frame72-0.png",
+                    "bounds": {
+                        "top": 7678,
+                        "left": 19549,
+                        "bottom": 8320,
+                        "right": 20190
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 503,
+            "index": 15,
+            "type": "layerSection",
+            "name": "frame73",
+            "bounds": {
+                "top": 6448,
+                "left": 20320,
+                "bottom": 7057,
+                "right": 21500
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 505,
+                    "index": 14,
+                    "type": "layer",
+                    "name": "frame73-0.png",
+                    "bounds": {
+                        "top": 6448,
+                        "left": 20320,
+                        "bottom": 7057,
+                        "right": 21500
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 506,
+            "index": 12,
+            "type": "layerSection",
+            "name": "frame74",
+            "bounds": {
+                "top": 7085,
+                "left": 20320,
+                "bottom": 7470,
+                "right": 21504
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 508,
+                    "index": 11,
+                    "type": "layer",
+                    "name": "frame74-0.png",
+                    "bounds": {
+                        "top": 7085,
+                        "left": 20320,
+                        "bottom": 7470,
+                        "right": 21504
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 509,
+            "index": 9,
+            "type": "layerSection",
+            "name": "frame75",
+            "bounds": {
+                "top": 7492,
+                "left": 20319,
+                "bottom": 7943,
+                "right": 20914
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 511,
+                    "index": 8,
+                    "type": "layer",
+                    "name": "frame75-0.png",
+                    "bounds": {
+                        "top": 7492,
+                        "left": 20319,
+                        "bottom": 7943,
+                        "right": 20914
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 512,
+            "index": 6,
+            "type": "layerSection",
+            "name": "frame76",
+            "bounds": {
+                "top": 7495,
+                "left": 20933,
+                "bottom": 7947,
+                "right": 21500
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 514,
+                    "index": 5,
+                    "type": "layer",
+                    "name": "frame76-0.png",
+                    "bounds": {
+                        "top": 7495,
+                        "left": 20933,
+                        "bottom": 7947,
+                        "right": 21500
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
+            "id": 546,
+            "index": 3,
+            "type": "layerSection",
+            "name": "frame77",
+            "bounds": {
+                "top": 7993,
+                "left": 20399,
+                "bottom": 8488,
+                "right": 21358
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "layers": [
+                {
+                    "id": 548,
+                    "index": 2,
+                    "type": "shapeLayer",
+                    "name": "frame77-0.png",
+                    "bounds": {
+                        "top": 7993,
+                        "left": 20399,
+                        "bottom": 8488,
+                        "right": 21358
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "fill": {
+                        "color": {
+                            "red": 255,
+                            "green": 255,
+                            "blue": 255
+                        },
+                        "class": "solidColorLayer"
+                    },
+                    "mask": {
+                        "removed": true
+                    },
+                    "generatorSettings": false,
+                    "path": {
+                        "pathComponents": [
+                            {
+                                "origin": {
+                                    "type": "rect",
+                                    "bounds": {
+                                        "top": 7993,
+                                        "left": 20399,
+                                        "bottom": 8488,
+                                        "right": 21358
+                                    }
+                                }
+                            }
+                        ],
+                        "bounds": {
+                            "top": 7993,
+                            "left": 20399,
+                            "bottom": 8488,
+                            "right": 21358
+                        },
+                        "defaultFill": false
+                    }
+                }
+            ],
+            "atRootOfChange": true
+        },
+        {
             "id": 119,
             "index": 0,
             "type": "layer",
             "name": "Layer 1",
             "bounds": {
                 "top": 0,
-                "left": 789,
-                "bottom": 2037,
-                "right": 8467
+                "left": 0,
+                "bottom": 10809,
+                "right": 22708
             },
             "visible": false,
             "clipped": false,

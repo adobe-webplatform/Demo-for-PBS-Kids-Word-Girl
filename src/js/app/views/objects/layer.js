@@ -53,8 +53,6 @@ define(function (require) {
             globalY = Vars.get('y') * zoom;
             globalScale = Vars.get('scale') * zoom;
 
-            //ctx.globalAlpha = 0.5;
-
             if (this.loaded === true) {
 	
                 if (this.vectorMask) {

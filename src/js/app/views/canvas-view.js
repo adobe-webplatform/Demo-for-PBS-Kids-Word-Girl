@@ -35,6 +35,7 @@ define(function (require) {
 
 			this.ctx.clearRect(0, 0, this.el.width, this.el.height);
        
+            //black background
             this.ctx.beginPath();
             this.ctx.fillStyle = 'black';
             this.ctx.rect(0, 0, this.el.width, this.el.height);
@@ -60,6 +61,7 @@ define(function (require) {
             
             this.ctx.restore();
 
+            //black shading over non current frames
             this.ctx.globalAlpha = 0.8;
             this.ctx.beginPath();
             this.ctx.fillStyle = 'black';
