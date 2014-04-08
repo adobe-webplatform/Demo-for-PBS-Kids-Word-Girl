@@ -698,7 +698,31 @@ body {
   height: 80px;
 }
 
-/* line 626, ../sass/screen.scss */
+/* line 620, ../sass/screen.scss */
+#bubble-44-1 {
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 70px;
+}
+
+/* line 627, ../sass/screen.scss */
+#bubble-44-2 {
+  top: 0px;
+  left: 120px;
+  width: 130px;
+  height: 80px;
+}
+
+/* line 634, ../sass/screen.scss */
+#bubble-44-3 {
+  top: 20px;
+  right: 10px;
+  width: 160px;
+  height: 80px;
+}
+
+/* line 643, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
