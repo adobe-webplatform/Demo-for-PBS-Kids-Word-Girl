@@ -682,7 +682,23 @@ body {
   height: 30px;
 }
 
-/* line 609, ../sass/screen.scss */
+/* line 606, ../sass/screen.scss */
+#bubble-43-1 {
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 70px;
+}
+
+/* line 613, ../sass/screen.scss */
+#bubble-43-2 {
+  top: 0px;
+  right: 0px;
+  width: 140px;
+  height: 80px;
+}
+
+/* line 626, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
