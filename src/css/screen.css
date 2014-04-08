@@ -738,7 +738,47 @@ body {
   height: 50px;
 }
 
-/* line 657, ../sass/screen.scss */
+/* line 655, ../sass/screen.scss */
+#bubble-46-1 {
+  top: 0px;
+  left: 100px;
+  width: 150px;
+  height: 70px;
+}
+
+/* line 662, ../sass/screen.scss */
+#bubble-46-2 {
+  top: 330px;
+  left: 50px;
+  width: 130px;
+  height: 50px;
+}
+
+/* line 669, ../sass/screen.scss */
+#bubble-47-1 {
+  top: 0px;
+  left: 40px;
+  width: 300px;
+  height: 120px;
+}
+
+/* line 676, ../sass/screen.scss */
+#bubble-48-1 {
+  top: 0px;
+  left: 40px;
+  width: 300px;
+  height: 80px;
+}
+
+/* line 683, ../sass/screen.scss */
+#bubble-48-2 {
+  top: 90px;
+  left: 40px;
+  width: 200px;
+  height: 100px;
+}
+
+/* line 692, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
