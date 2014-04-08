@@ -890,7 +890,36 @@ body {
   width: 140px;
 }
 
-/* line 790, ../sass/screen.scss */
+/* line 789, ../sass/screen.scss */
+#bubble-57-1 {
+  bottom: 80px;
+  left: 20px;
+  width: 130px;
+}
+
+/* line 795, ../sass/screen.scss */
+#bubble-57-2 {
+  bottom: 40px;
+  left: 140px;
+  width: 130px;
+}
+
+/* line 802, ../sass/screen.scss */
+#bubble-58-1 {
+  top: 10px;
+  left: 10px;
+  width: 170px;
+  height: 110px;
+}
+
+/* line 809, ../sass/screen.scss */
+#bubble-58-2 {
+  top: 20px;
+  left: 180px;
+  width: 130px;
+}
+
+/* line 816, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
