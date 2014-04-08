@@ -558,6 +558,40 @@ body {
 }
 
 /* line 497, ../sass/screen.scss */
+#bubble-35-1 {
+  top: 10px;
+  left: 10px;
+  width: 240px;
+  height: 130px;
+  padding: 1.2em;
+}
+
+/* line 505, ../sass/screen.scss */
+#bubble-35-2 {
+  top: 50px;
+  left: 280px;
+  width: 160px;
+  height: 70px;
+}
+
+/* line 512, ../sass/screen.scss */
+#bubble-36-1 {
+  top: 10px;
+  left: 10px;
+  width: 240px;
+  height: 130px;
+  padding: 1.2em;
+}
+
+/* line 520, ../sass/screen.scss */
+#bubble-36-2 {
+  top: 50px;
+  left: 280px;
+  width: 160px;
+  height: 90px;
+}
+
+/* line 528, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
