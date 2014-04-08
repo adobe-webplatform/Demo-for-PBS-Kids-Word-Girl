@@ -644,6 +644,21 @@ body {
 }
 
 /* line 572, ../sass/screen.scss */
+#bubble-40-1 {
+  top: 20px;
+  left: 20px;
+  width: 350px;
+}
+
+/* line 578, ../sass/screen.scss */
+#bubble-41-1 {
+  top: 50px;
+  left: 70px;
+  width: 150px;
+  height: 80px;
+}
+
+/* line 587, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
