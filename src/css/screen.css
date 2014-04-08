@@ -1036,7 +1036,22 @@ body {
   font-size: 1.3rem;
 }
 
-/* line 918, ../sass/screen.scss */
+/* line 916, ../sass/screen.scss */
+#bubble-71-1 {
+  top: 10px;
+  left: 20px;
+  width: 150px;
+}
+
+/* line 922, ../sass/screen.scss */
+#bubble-71-2 {
+  top: 30px;
+  left: 320px;
+  width: 150px;
+  height: 120px;
+}
+
+/* line 930, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
