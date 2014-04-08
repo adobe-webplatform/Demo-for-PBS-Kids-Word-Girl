@@ -978,6 +978,13 @@ body {
 }
 
 /* line 865, ../sass/screen.scss */
+#bubble-65-1 {
+  top: 10px;
+  left: 20px;
+  width: 140px;
+}
+
+/* line 872, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
