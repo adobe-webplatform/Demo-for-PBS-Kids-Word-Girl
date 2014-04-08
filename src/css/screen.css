@@ -919,7 +919,14 @@ body {
   width: 130px;
 }
 
-/* line 816, ../sass/screen.scss */
+/* line 815, ../sass/screen.scss */
+#bubble-59-1 {
+  top: 333px;
+  right: 10px;
+  width: 120px;
+}
+
+/* line 821, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
