@@ -1020,7 +1020,23 @@ body {
   width: 120px;
 }
 
-/* line 903, ../sass/screen.scss */
+/* line 902, ../sass/screen.scss */
+#bubble-69-1 {
+  top: 10px;
+  left: 20px;
+  width: 100px;
+}
+
+/* line 908, ../sass/screen.scss */
+#bubble-69-2 {
+  top: 44px;
+  left: 20px;
+  width: 120px;
+  height: 60px;
+  font-size: 1.3rem;
+}
+
+/* line 918, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
