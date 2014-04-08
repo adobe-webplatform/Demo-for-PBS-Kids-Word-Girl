@@ -591,7 +591,23 @@ body {
   height: 90px;
 }
 
-/* line 528, ../sass/screen.scss */
+/* line 527, ../sass/screen.scss */
+#bubble-37-1 {
+  top: 50px;
+  left: 20px;
+  width: 240px;
+  font-size: 1em;
+}
+
+/* line 534, ../sass/screen.scss */
+#bubble-37-2 {
+  top: 150px;
+  left: 180px;
+  width: 160px;
+  height: 90px;
+}
+
+/* line 543, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
