@@ -927,6 +927,42 @@ body {
 }
 
 /* line 821, ../sass/screen.scss */
+#bubble-60-1 {
+  top: 30px;
+  left: 350px;
+  width: 160px;
+}
+
+/* line 827, ../sass/screen.scss */
+#bubble-60-2 {
+  top: 35px;
+  left: 500px;
+  width: 160px;
+  height: 80px;
+}
+
+/* line 834, ../sass/screen.scss */
+#bubble-61-1 {
+  top: 20px;
+  right: 20px;
+  width: 120px;
+}
+
+/* line 840, ../sass/screen.scss */
+#bubble-62-1 {
+  bottom: 130px;
+  left: 400px;
+  width: 120px;
+}
+
+/* line 846, ../sass/screen.scss */
+#bubble-62-2 {
+  bottom: 20px;
+  left: 400px;
+  width: 180px;
+}
+
+/* line 854, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
