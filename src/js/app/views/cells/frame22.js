@@ -23,7 +23,6 @@ define(function (require) {
                 this.layers[0].x = this.layers[0].x < this.layers[0].origin.x + 50 ? this.layers[0].x + 1 : this.layers[0].origin.x + 50;
                 this.layers[0].y = this.layers[0].y > this.layers[0].origin.y - 50 ? this.layers[0].y - 1 : this.layers[0].origin.y - 50;
                 this.layers[1].x = this.layers[1].x > this.layers[1].origin.x ? this.layers[1].x - 0.75 : this.layers[1].origin.x;
-                //this.layers[2].x = this.layers[2].x > this.layers[2].origin.x ? this.layers[2].x - 0.5 : this.layers[2].origin.x;
             } else {
                 this.delta = 0;
                 for (i = 0; i < this.layers.length; i += 1) {
