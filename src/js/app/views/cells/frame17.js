@@ -19,12 +19,16 @@ define(function (require) {
 
             if (currentFrame && this.layers.length > 0) {
                 this.delta += 0.1;
-                this.layers[0].x = this.layers[0].x > this.layers[0].origin.x - 20 ? this.layers[0].x - 0.3 : this.layers[0].origin.x - 20;
-                this.layers[1].x = this.layers[1].x < this.layers[1].origin.x + 20 ? this.layers[1].x + 0.3 : this.layers[1].origin.x + 20;
+                this.layers[0].x = this.layers[0].x < this.layers[0].origin.x + 30 ? this.layers[0].x + 0.5 : this.layers[0].origin.x + 30;
+                this.layers[1].x = this.layers[1].x < this.layers[1].origin.x + 20 ? this.layers[1].x + 0.2 : this.layers[1].origin.x + 20;
+                this.layers[2].x = this.layers[2].x > this.layers[2].origin.x - 50 ? this.layers[2].x - 0.4 : this.layers[2].origin.x - 50;
+                this.layers[3].x = this.layers[3].x > this.layers[3].origin.x - 20 ? this.layers[3].x - 0.2 : this.layers[3].origin.x - 20;
             } else {
                 this.delta = 0;
                 this.layers[0].x = this.layers[0].origin.x;
                 this.layers[1].x = this.layers[1].origin.x;
+                this.layers[2].x = this.layers[2].origin.x;
+                this.layers[3].x = this.layers[3].origin.x;
             }
 
             CellView.prototype.render.call(this, ctx);
