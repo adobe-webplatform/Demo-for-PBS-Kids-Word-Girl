@@ -37,6 +37,7 @@ define(function (require) {
 
             for (i = 0; i < this.options.layers.length; i += 1) {
                 layer = new Layer();
+                this.options.layers[i].vectorMask = this.cell.get('vectorMask'); //apply cell mask to layers
                 layer.init(this.options.layers[i]);
                 this.layers.push(layer);
                 layer.load(this.handle_LAYER_LOAD.bind(this));

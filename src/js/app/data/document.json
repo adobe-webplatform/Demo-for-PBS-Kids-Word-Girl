@@ -1,7 +1,7 @@
 {
     "version": "1.1.0",
-    "timeStamp": 1396888597.788,
-    "count": 38,
+    "timeStamp": 1397000933.468,
+    "count": 123,
     "id": 4744,
     "file": "/Users/gammon/Documents/Projects/00-repos/github/adobe-webplatform/wordgirl/src/assets/images/comp.psd",
     "bounds": {
@@ -11,7 +11,7 @@
         "right": 16177
     },
     "selection": [
-        2
+        302
     ],
     "resolution": 72,
     "globalLight": {
@@ -129,7 +129,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 67,
+                        "y": 23
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 963,
+                        "y": 23
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 963,
+                        "y": 720
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 67,
+                        "y": 720
+                    }
+                }
+            ]
         },
         {
             "id": 10,
@@ -266,33 +292,7 @@
                             1042,
                             710
                         ]
-                    },
-                    "vectorMask": [
-                        {
-                            "anchor": {
-                                "x": 1065,
-                                "y": 63.0003
-                            }
-                        },
-                        {
-                            "anchor": {
-                                "x": 1537,
-                                "y": 63.0003
-                            }
-                        },
-                        {
-                            "anchor": {
-                                "x": 1517,
-                                "y": 682
-                            }
-                        },
-                        {
-                            "anchor": {
-                                "x": 1064,
-                                "y": 680
-                            }
-                        }
-                    ]
+                    }
                 },
                 {
                     "id": 5,
@@ -348,36 +348,36 @@
                             831,
                             709
                         ]
-                    },
-                    "vectorMask": [
-                        {
-                            "anchor": {
-                                "x": 1065,
-                                "y": 63.0003
-                            }
-                        },
-                        {
-                            "anchor": {
-                                "x": 1537,
-                                "y": 63.0003
-                            }
-                        },
-                        {
-                            "anchor": {
-                                "x": 1517,
-                                "y": 682
-                            }
-                        },
-                        {
-                            "anchor": {
-                                "x": 1064,
-                                "y": 680
-                            }
-                        }
-                    ]
+                    }
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 1065,
+                        "y": 72.9999
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 1537,
+                        "y": 72.9999
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 1517,
+                        "y": 692
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 1064,
+                        "y": 690.001
+                    }
+                }
+            ]
         },
         {
             "id": 16,
@@ -499,36 +499,36 @@
                             "right": 2311
                         },
                         "defaultFill": false
-                    },
-                    "vectorMask": [
-                        {
-                            "anchor": {
-                                "x": 1597,
-                                "y": 72
-                            }
-                        },
-                        {
-                            "anchor": {
-                                "x": 2306,
-                                "y": 70.0002
-                            }
-                        },
-                        {
-                            "anchor": {
-                                "x": 2311,
-                                "y": 686
-                            }
-                        },
-                        {
-                            "anchor": {
-                                "x": 1574,
-                                "y": 690.001
-                            }
-                        }
-                    ]
+                    }
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 1597,
+                        "y": 72
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 2306,
+                        "y": 70.0002
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 2311,
+                        "y": 686
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 1574,
+                        "y": 690.001
+                    }
+                }
+            ]
         },
         {
             "id": 24,
@@ -669,33 +669,7 @@
                             "right": 2687
                         },
                         "defaultFill": false
-                    },
-                    "vectorMask": [
-                        {
-                            "anchor": {
-                                "x": 2684,
-                                "y": 82.0003
-                            }
-                        },
-                        {
-                            "anchor": {
-                                "x": 2687,
-                                "y": 673
-                            }
-                        },
-                        {
-                            "anchor": {
-                                "x": 2380,
-                                "y": 671
-                            }
-                        },
-                        {
-                            "anchor": {
-                                "x": 2382,
-                                "y": 85.9999
-                            }
-                        }
-                    ]
+                    }
                 },
                 {
                     "id": 19,
@@ -717,7 +691,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 2684,
+                        "y": 82.0003
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 2687,
+                        "y": 673
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 2380,
+                        "y": 671
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 2382,
+                        "y": 85.9999
+                    }
+                }
+            ]
         },
         {
             "id": 286,
@@ -739,6 +739,28 @@
                 "removed": true
             },
             "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 84,
+                                "left": 2736,
+                                "bottom": 683,
+                                "right": 3200
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 84,
+                    "left": 2736,
+                    "bottom": 683,
+                    "right": 3200
+                },
+                "defaultFill": false
+            },
             "layers": [
                 {
                     "id": 285,
@@ -760,7 +782,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 2740,
+                        "y": 84
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 3200,
+                        "y": 84
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 3125,
+                        "y": 683
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 2736,
+                        "y": 681
+                    }
+                }
+            ]
         },
         {
             "id": 33,
@@ -977,7 +1025,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 3651,
+                        "y": 209
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 3643,
+                        "y": 851
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 3192,
+                        "y": 847
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 3260,
+                        "y": 209
+                    }
+                }
+            ]
         },
         {
             "id": 38,
@@ -1118,7 +1192,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 4064,
+                        "y": 277
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 4055,
+                        "y": 918
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 3723,
+                        "y": 917
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 3726,
+                        "y": 272
+                    }
+                }
+            ]
         },
         {
             "id": 47,
@@ -1221,7 +1321,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 4130,
+                        "y": 353
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 4963,
+                        "y": 360
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 4957,
+                        "y": 882
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 4127,
+                        "y": 881
+                    }
+                }
+            ]
         },
         {
             "id": 52,
@@ -1362,7 +1488,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 5291,
+                        "y": 422
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 5295,
+                        "y": 993
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 5024,
+                        "y": 998
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 5023,
+                        "y": 424
+                    }
+                }
+            ]
         },
         {
             "id": 64,
@@ -1465,7 +1617,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 5593,
+                        "y": 588
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 5587,
+                        "y": 1154
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 5367,
+                        "y": 1159
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 5365,
+                        "y": 588
+                    }
+                }
+            ]
         },
         {
             "id": 66,
@@ -1568,7 +1746,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 5678,
+                        "y": 657
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 6296,
+                        "y": 652
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 6300,
+                        "y": 1209
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 5669,
+                        "y": 1218
+                    }
+                }
+            ]
         },
         {
             "id": 72,
@@ -1728,7 +1932,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 6407,
+                        "y": 679
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 7003,
+                        "y": 692
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 7004,
+                        "y": 1308
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 6379,
+                        "y": 1309
+                    }
+                }
+            ]
         },
         {
             "id": 84,
@@ -1888,7 +2118,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 7607,
+                        "y": 678
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 7610,
+                        "y": 1317
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 7089,
+                        "y": 1317
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 7067,
+                        "y": 685
+                    }
+                }
+            ]
         },
         {
             "id": 101,
@@ -1991,7 +2247,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 6413,
+                        "y": 1372
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 7601,
+                        "y": 1375
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 7597,
+                        "y": 1985
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 6413,
+                        "y": 1982
+                    }
+                }
+            ]
         },
         {
             "id": 129,
@@ -2132,7 +2414,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 6968,
+                        "y": 2066
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 7606,
+                        "y": 2070
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 7528,
+                        "y": 3020
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 6968,
+                        "y": 2982
+                    }
+                }
+            ]
         },
         {
             "id": 203,
@@ -2235,7 +2543,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 7668.07,
+                        "y": 2087.75
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 8215.07,
+                        "y": 2088.25
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 8213.57,
+                        "y": 2519.75
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 7630.57,
+                        "y": 2523.25
+                    }
+                }
+            ]
         },
         {
             "id": 525,
@@ -2471,7 +2805,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 8206,
+                        "y": 2561
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 8203,
+                        "y": 3081
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 7600,
+                        "y": 3040
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 7639,
+                        "y": 2562
+                    }
+                }
+            ]
         },
         {
             "id": 205,
@@ -2612,7 +2972,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 7001,
+                        "y": 3018
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 7008,
+                        "y": 3461
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 8226,
+                        "y": 3455
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 8211,
+                        "y": 3121
+                    }
+                }
+            ]
         },
         {
             "id": 237,
@@ -2829,7 +3215,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 8770,
+                        "y": 2907
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 8777,
+                        "y": 3446
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 8326,
+                        "y": 3446
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 8320,
+                        "y": 2907
+                    }
+                }
+            ]
         },
         {
             "id": 269,
@@ -3027,7 +3439,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 9133,
+                        "y": 2899
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 9111,
+                        "y": 3438
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 8863,
+                        "y": 3439
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 8860,
+                        "y": 2899
+                    }
+                }
+            ]
         },
         {
             "id": 271,
@@ -3149,7 +3587,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 9598,
+                        "y": 2898
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 9600,
+                        "y": 3437
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 9180,
+                        "y": 3436
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 9199,
+                        "y": 2898
+                    }
+                }
+            ]
         },
         {
             "id": 296,
@@ -3233,7 +3697,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 9172,
+                        "y": 3540
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 9169,
+                        "y": 4067
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 10353,
+                        "y": 4075
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 10357,
+                        "y": 3541
+                    }
+                }
+            ]
         },
         {
             "id": 309,
@@ -3336,7 +3826,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 9995,
+                        "y": 4169
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 9993,
+                        "y": 4840
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 9174,
+                        "y": 4837
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 9180,
+                        "y": 4165
+                    }
+                }
+            ]
         },
         {
             "id": 326,
@@ -3439,7 +3955,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 10379,
+                        "y": 4173
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 10375,
+                        "y": 4841
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 10065,
+                        "y": 4840
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 10067,
+                        "y": 4168
+                    }
+                }
+            ]
         },
         {
             "id": 332,
@@ -3805,7 +4347,33 @@
                     }
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 9189,
+                        "y": 5581
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 9210,
+                        "y": 6180
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 9950,
+                        "y": 6184
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 9948,
+                        "y": 5578
+                    }
+                }
+            ]
         },
         {
             "id": 350,
@@ -5036,7 +5604,33 @@
                     }
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 11968,
+                        "y": 7006
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 11968,
+                        "y": 6410
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 11573,
+                        "y": 6410
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 11573,
+                        "y": 6999
+                    }
+                }
+            ]
         },
         {
             "id": 455,

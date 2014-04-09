@@ -15,8 +15,8 @@ define(function (require) {
 
         initialize: function (options) {
             var vName = options.layer.name,
-                //vInt = options.layer.id,
                 vNum = options.num,
+                vVectorMask = options.layer.vectorMask ? options.layer.vectorMask : null,
                 vView;
 
             if (options.view) {
@@ -27,6 +27,7 @@ define(function (require) {
 
             this.set('view', new vView({cell: this, layers: options.layer.layers, num: vNum}));
             this.set('name', vName);
+            this.set('vectorMask', vVectorMask);
 
             if (options.layer.path) {
                 this.set('y', options.layer.path.bounds.top);
