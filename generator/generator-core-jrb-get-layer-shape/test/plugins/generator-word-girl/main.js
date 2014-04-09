@@ -179,40 +179,6 @@
 			    }
 			});
 		}
-
-		//get path
-		/*
-		function iterate_LAYERS(layerId) {
-			
-			function checkPath_SUCCESS(vectorMask) {
-				var i,
-					j,
-					points = vectorMask.path.pathComponents[0].subpathListKey[0].points;
-				
-				console.log(layerId, points);
-
-				for (i = 0; i < document.layers.length; i += 1) {
-					if (document.layers[i].layers) {
-						for (j = 0; j < document.layers[i].layers.length; j += 1) {							
-							if (document.layers[i].layers[j].id == layerId) {
-								document.layers[i].layers[j].vectorMask = points;
-							}
-						}
-					}
-				}
-				
-				writeFile();
-			};
-
-			function checkPath_ERROR() {
-
-			};
-			
-			//_generator.getLayerShape(document.id, layerId).then(checkPath_SUCCESS, checkPath_ERROR);
-		}
-		*/
-		
-		//Object.keys(documentContext.layers).forEach(iterate_LAYERS);
 		
 		
 		var i = 0,
