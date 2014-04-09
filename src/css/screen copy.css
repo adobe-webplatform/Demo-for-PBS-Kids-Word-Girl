@@ -1,0 +1,1134 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../sass/screen copy.scss */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  line-height: 1.1;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* line 19, ../sass/screen copy.scss */
+#debugger {
+  position: fixed;
+  padding: 1em;
+  top: 0;
+  left: 0;
+  background: red;
+  color: white;
+  z-index: 1000;
+}
+
+/* line 29, ../sass/screen copy.scss */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+/* line 39, ../sass/screen copy.scss */
+#canvas-view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 47, ../sass/screen copy.scss */
+#dom-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* line 56, ../sass/screen copy.scss */
+#dom-view {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 62, ../sass/screen copy.scss */
+.text-svg {
+  position: absolute;
+}
+
+/* line 66, ../sass/screen copy.scss */
+#svg-title {
+  top: 20px;
+  left: 300px;
+  font-family: butcherman-caps, sans-serif;
+  font-size: 7em;
+  stroke-width: 2px;
+  stroke: black;
+  letter-spacing: -0.2em;
+}
+/* line 76, ../sass/screen copy.scss */
+#svg-title text {
+  -webkit-transform: translateY(90px);
+  -moz-transform: translateY(90px);
+  -ms-transform: translateY(90px);
+  -o-transform: translateY(90px);
+  transform: translateY(90px);
+}
+
+/* line 81, ../sass/screen copy.scss */
+#svg-clak {
+  top: 100px;
+  left: 100px;
+  font-family: sue-ellen-francisco, sans-serif;
+  font-size: 7em;
+  fill: #bfe0b8;
+  stroke-width: 4px;
+  stroke: black;
+}
+
+/* line 91, ../sass/screen copy.scss */
+#svg-grr {
+  top: 300px;
+  left: 50px;
+  font-family: creepster, sans-serif;
+  font-size: 5em;
+  fill: #feea60;
+  stroke-width: 4px;
+  stroke: black;
+}
+
+/* line 103, ../sass/screen copy.scss */
+#svg-beep text {
+  font-family: 'Chango-Regular';
+  font-size: 2rem;
+  stroke-width: 2;
+  stroke-meterlimit: 10;
+  stroke: #000000;
+}
+/* line 111, ../sass/screen copy.scss */
+#svg-beep .svg-beep-fill {
+  fill: #B9E5FA;
+}
+/* line 115, ../sass/screen copy.scss */
+#svg-beep .svg-beep-shadow {
+  transform: translateY(3px);
+}
+/* line 119, ../sass/screen copy.scss */
+#svg-beep .svg-beep-g {
+  transform: translate(800px, 250px) rotate(-13deg) scale(1.5);
+}
+/* line 123, ../sass/screen copy.scss */
+#svg-beep .svg-beep-2 {
+  transform: translateY(30px);
+}
+
+/* line 128, ../sass/screen copy.scss */
+.frame {
+  position: absolute;
+  opacity: 0;
+}
+/* line 132, ../sass/screen copy.scss */
+.frame.in {
+  opacity: 1;
+}
+
+/* line 137, ../sass/screen copy.scss */
+.bubble {
+  position: absolute;
+  font-size: 1.5rem;
+  padding: 0.75em;
+}
+
+/* line 143, ../sass/screen copy.scss */
+.bubble--square {
+  font-family: permanent-marker, sans-serif;
+  background: white;
+  border: 3px solid black;
+}
+
+/* line 149, ../sass/screen copy.scss */
+.bubble--round {
+  padding: .5em;
+  padding-top: 1em;
+  font-family: gochi-hand, sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  -webkit-shape-inside: ellipse(50%, 50%, 50%, 50%);
+}
+/* line 160, ../sass/screen copy.scss */
+.bubble--round svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* line 168, ../sass/screen copy.scss */
+.bubble-yellow {
+  background: #fffbd2;
+}
+
+/* line 172, ../sass/screen copy.scss */
+#bubble-one {
+  top: 40px;
+  left: 40px;
+  width: 260px;
+}
+
+/* line 178, ../sass/screen copy.scss */
+#bubble-two {
+  top: 40px;
+  left: 40px;
+  width: 120px;
+  height: 60px;
+}
+
+/* line 185, ../sass/screen copy.scss */
+#bubble-three {
+  top: 40px;
+  left: 40px;
+  width: 140px;
+  height: 70px;
+}
+
+/* line 192, ../sass/screen copy.scss */
+#bubble-four {
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 140px;
+}
+
+/* line 199, ../sass/screen copy.scss */
+#bubble-five {
+  top: 100px;
+  left: 160px;
+  width: 200px;
+  height: 150px;
+}
+
+/* line 206, ../sass/screen copy.scss */
+#bubble-six {
+  top: 30px;
+  left: 50px;
+  width: 100px;
+  font-size: 2.5rem;
+  padding: .2em;
+  line-height: 30px;
+}
+
+/* line 215, ../sass/screen copy.scss */
+#bubble-seven {
+  top: 30px;
+  right: 50px;
+  width: 200px;
+  height: 120px;
+}
+
+/* line 222, ../sass/screen copy.scss */
+#bubble-eight {
+  top: 30px;
+  left: 60px;
+  width: 200px;
+  height: 100px;
+}
+
+/* line 229, ../sass/screen copy.scss */
+#bubble-nine {
+  top: 30px;
+  right: 50px;
+  width: 200px;
+  height: 100px;
+}
+
+/* line 236, ../sass/screen copy.scss */
+#bubble-ten {
+  top: 370px;
+  right: 400px;
+  width: 200px;
+  height: 100px;
+}
+
+/* line 243, ../sass/screen copy.scss */
+#bubble-eleven {
+  top: 400px;
+  right: 210px;
+  width: 200px;
+  font-size: 3rem;
+  border-width: 5px;
+}
+
+/* line 252, ../sass/screen copy.scss */
+#bubble-twelve {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  max-width: 400px;
+  font-weight: 100;
+  font-family: gochi-hand, sans-serif;
+  font-style: italic;
+}
+
+/* line 262, ../sass/screen copy.scss */
+#bubble-13 {
+  top: 30px;
+  right: 400px;
+  width: 200px;
+  height: 100px;
+  font-size: 1.5rem;
+}
+
+/* line 270, ../sass/screen copy.scss */
+#bubble-14 {
+  top: 170px;
+  left: 30px;
+  width: 200px;
+  height: 100px;
+  font-size: 1.5rem;
+}
+
+/* line 278, ../sass/screen copy.scss */
+#bubble-15 {
+  top: 30px;
+  right: 30px;
+  width: 200px;
+  height: 80px;
+  font-size: 2rem;
+}
+
+/* line 286, ../sass/screen copy.scss */
+#bubble-15-1 {
+  top: -10px;
+  left: 0px;
+  width: 200px;
+  height: 70px;
+}
+
+/* line 293, ../sass/screen copy.scss */
+#bubble-15-2 {
+  top: 60px;
+  left: 140px;
+  width: 130px;
+  height: 70px;
+}
+
+/* line 300, ../sass/screen copy.scss */
+#bubble-15-3 {
+  top: -10px;
+  left: 220px;
+  width: 200px;
+  height: 70px;
+}
+
+/* line 307, ../sass/screen copy.scss */
+#bubble-15-4 {
+  top: 70px;
+  right: 30px;
+  width: 190px;
+  height: 130px;
+}
+
+/* line 314, ../sass/screen copy.scss */
+#bubble-16-1 {
+  top: 0px;
+  right: 260px;
+  width: 130px;
+  height: 70px;
+}
+
+/* line 321, ../sass/screen copy.scss */
+#bubble-16-2 {
+  top: 10px;
+  right: 160px;
+  width: 100px;
+  height: 60px;
+}
+
+/* line 328, ../sass/screen copy.scss */
+#bubble-16-3 {
+  top: 100px;
+  right: 30px;
+  width: 70px;
+  height: 30px;
+}
+
+/* line 335, ../sass/screen copy.scss */
+#bubble-17-1 {
+  top: 10px;
+  left: 30px;
+  width: 130px;
+  height: 70px;
+}
+
+/* line 342, ../sass/screen copy.scss */
+#bubble-17-2 {
+  top: 100px;
+  right: 230px;
+  width: 150px;
+  height: 100px;
+}
+
+/* line 349, ../sass/screen copy.scss */
+#bubble-21-1 {
+  top: -20px;
+  left: 20px;
+  width: 270px;
+}
+
+/* line 355, ../sass/screen copy.scss */
+#bubble-22-1 {
+  top: 100px;
+  right: 230px;
+  width: 170px;
+  height: 120px;
+}
+
+/* line 362, ../sass/screen copy.scss */
+#bubble-22-2 {
+  top: 260px;
+  right: 300px;
+  width: 150px;
+  height: 100px;
+}
+
+/* line 369, ../sass/screen copy.scss */
+#bubble-23-1 {
+  top: -10px;
+  left: -10px;
+  width: 250px;
+  height: 120px;
+}
+
+/* line 376, ../sass/screen copy.scss */
+#bubble-23-2 {
+  top: 120px;
+  right: 60px;
+  width: 150px;
+  height: 60px;
+}
+
+/* line 383, ../sass/screen copy.scss */
+#bubble-23-3 {
+  top: 200px;
+  left: 10px;
+  width: 120px;
+  height: 50px;
+}
+
+/* line 390, ../sass/screen copy.scss */
+#bubble-24-1 {
+  top: 20px;
+  left: 170px;
+  width: 150px;
+  height: 70px;
+}
+
+/* line 397, ../sass/screen copy.scss */
+#bubble-24-2 {
+  top: 120px;
+  left: 60px;
+  width: 150px;
+  height: 70px;
+}
+
+/* line 404, ../sass/screen copy.scss */
+#bubble-24-3 {
+  top: 200px;
+  left: 200px;
+  width: 100px;
+  height: 30px;
+}
+
+/* line 411, ../sass/screen copy.scss */
+#bubble-25-1 {
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 70px;
+}
+
+/* line 418, ../sass/screen copy.scss */
+#bubble-25-2 {
+  top: 80px;
+  left: 0px;
+  width: 170px;
+  height: 110px;
+}
+
+/* line 425, ../sass/screen copy.scss */
+#bubble-25-3 {
+  top: 130px;
+  left: 150px;
+  width: 140px;
+  height: 130px;
+}
+
+/* line 432, ../sass/screen copy.scss */
+#bubble-27-1 {
+  top: 10px;
+  right: 10px;
+  width: 200px;
+  height: 80px;
+}
+
+/* line 439, ../sass/screen copy.scss */
+#bubble-28-1 {
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 80px;
+}
+
+/* line 446, ../sass/screen copy.scss */
+#bubble-28-2 {
+  top: 40px;
+  left: 180px;
+  width: 160px;
+  height: 100px;
+}
+
+/* line 453, ../sass/screen copy.scss */
+#bubble-29-1 {
+  top: 20px;
+  left: 10px;
+  width: 220px;
+  height: 130px;
+}
+
+/* line 460, ../sass/screen copy.scss */
+#bubble-29-2 {
+  top: 380px;
+  right: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+/* line 467, ../sass/screen copy.scss */
+#bubble-29-3 {
+  top: 440px;
+  right: 10px;
+  width: 170px;
+  height: 110px;
+}
+
+/* line 474, ../sass/screen copy.scss */
+#bubble-30-1 {
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 50px;
+}
+
+/* line 481, ../sass/screen copy.scss */
+#bubble-30-2 {
+  top: 100px;
+  right: 20px;
+  width: 70px;
+  height: 50px;
+}
+
+/* line 488, ../sass/screen copy.scss */
+#bubble-31-1 {
+  top: 20px;
+  left: 20px;
+  width: 200px;
+  height: 130px;
+  padding: 1.5em;
+}
+
+/* line 496, ../sass/screen copy.scss */
+#bubble-32-1 {
+  top: 20px;
+  left: 170px;
+  width: 170px;
+  height: 80px;
+}
+
+/* line 503, ../sass/screen copy.scss */
+#bubble-33-1 {
+  top: 20px;
+  left: 170px;
+  width: 130px;
+  height: 80px;
+}
+
+/* line 510, ../sass/screen copy.scss */
+#bubble-34-1 {
+  top: 20px;
+  left: 20px;
+  width: 330px;
+}
+
+/* line 516, ../sass/screen copy.scss */
+#bubble-34-2 {
+  top: 250px;
+  left: 170px;
+  width: 240px;
+  height: 140px;
+  font-size: 1.5rem;
+  padding: 1.2em;
+}
+
+/* line 525, ../sass/screen copy.scss */
+#bubble-35-1 {
+  top: 10px;
+  left: 10px;
+  width: 240px;
+  height: 130px;
+  padding: 1.2em;
+}
+
+/* line 533, ../sass/screen copy.scss */
+#bubble-35-2 {
+  top: 50px;
+  left: 280px;
+  width: 160px;
+  height: 70px;
+}
+
+/* line 540, ../sass/screen copy.scss */
+#bubble-36-1 {
+  top: 10px;
+  left: 10px;
+  width: 240px;
+  height: 130px;
+  padding: 1.2em;
+}
+
+/* line 548, ../sass/screen copy.scss */
+#bubble-36-2 {
+  top: 50px;
+  left: 280px;
+  width: 160px;
+  height: 90px;
+}
+
+/* line 555, ../sass/screen copy.scss */
+#bubble-37-1 {
+  top: 50px;
+  left: 20px;
+  width: 240px;
+  font-size: 1em;
+}
+
+/* line 562, ../sass/screen copy.scss */
+#bubble-37-2 {
+  top: 150px;
+  left: 180px;
+  width: 160px;
+  height: 90px;
+}
+
+/* line 569, ../sass/screen copy.scss */
+#bubble-38-1 {
+  top: 60px;
+  left: 20px;
+  width: 160px;
+  font-size: 1em;
+}
+
+/* line 576, ../sass/screen copy.scss */
+#bubble-38-2 {
+  top: 150px;
+  right: 20px;
+  width: 160px;
+  padding: 1em;
+}
+
+/* line 583, ../sass/screen copy.scss */
+#bubble-38-3 {
+  top: 260px;
+  left: 20px;
+}
+
+/* line 588, ../sass/screen copy.scss */
+#bubble-39-1 {
+  top: 20px;
+  left: 20px;
+  width: 160px;
+  height: 30px;
+}
+
+/* line 595, ../sass/screen copy.scss */
+#bubble-39-2 {
+  top: 150px;
+  left: 180px;
+}
+
+/* line 600, ../sass/screen copy.scss */
+#bubble-40-1 {
+  top: 20px;
+  left: 20px;
+  width: 350px;
+}
+
+/* line 606, ../sass/screen copy.scss */
+#bubble-41-1 {
+  top: 50px;
+  left: 70px;
+  width: 150px;
+  height: 80px;
+}
+
+/* line 613, ../sass/screen copy.scss */
+#bubble-42-1 {
+  top: 10px;
+  left: 10px;
+  width: 130px;
+  height: 60px;
+}
+
+/* line 620, ../sass/screen copy.scss */
+#bubble-42-2 {
+  top: 80px;
+  left: 10px;
+  width: 120px;
+  height: 50px;
+}
+
+/* line 627, ../sass/screen copy.scss */
+#bubble-42-3 {
+  top: 50px;
+  right: 30px;
+  width: 80px;
+  height: 30px;
+}
+
+/* line 634, ../sass/screen copy.scss */
+#bubble-43-1 {
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 70px;
+}
+
+/* line 641, ../sass/screen copy.scss */
+#bubble-43-2 {
+  top: 0px;
+  right: 0px;
+  width: 140px;
+  height: 80px;
+}
+
+/* line 648, ../sass/screen copy.scss */
+#bubble-44-1 {
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 70px;
+}
+
+/* line 655, ../sass/screen copy.scss */
+#bubble-44-2 {
+  top: 0px;
+  left: 120px;
+  width: 130px;
+  height: 80px;
+}
+
+/* line 662, ../sass/screen copy.scss */
+#bubble-44-3 {
+  top: 20px;
+  right: 10px;
+  width: 160px;
+  height: 80px;
+}
+
+/* line 669, ../sass/screen copy.scss */
+#bubble-45-1 {
+  top: 0px;
+  left: 10px;
+  width: 130px;
+  height: 50px;
+}
+
+/* line 676, ../sass/screen copy.scss */
+#bubble-45-2 {
+  top: 30px;
+  left: 130px;
+  width: 130px;
+  height: 50px;
+}
+
+/* line 683, ../sass/screen copy.scss */
+#bubble-46-1 {
+  top: 0px;
+  left: 100px;
+  width: 150px;
+  height: 70px;
+}
+
+/* line 690, ../sass/screen copy.scss */
+#bubble-46-2 {
+  top: 330px;
+  left: 50px;
+  width: 130px;
+  height: 50px;
+}
+
+/* line 697, ../sass/screen copy.scss */
+#bubble-47-1 {
+  top: 0px;
+  left: 40px;
+  width: 300px;
+  height: 120px;
+}
+
+/* line 704, ../sass/screen copy.scss */
+#bubble-48-1 {
+  top: 0px;
+  left: 40px;
+  width: 300px;
+  height: 80px;
+}
+
+/* line 711, ../sass/screen copy.scss */
+#bubble-48-2 {
+  top: 90px;
+  left: 40px;
+  width: 200px;
+  height: 100px;
+}
+
+/* line 718, ../sass/screen copy.scss */
+#bubble-49-1 {
+  top: 20px;
+  left: 20px;
+  width: 170px;
+  height: 50px;
+}
+
+/* line 725, ../sass/screen copy.scss */
+#bubble-49-2 {
+  top: 20px;
+  left: 240px;
+  width: 100px;
+  height: 40px;
+  padding: 1em;
+}
+
+/* line 733, ../sass/screen copy.scss */
+#bubble-51-1 {
+  top: 20px;
+  left: 20px;
+  width: 130px;
+  height: 50px;
+}
+
+/* line 740, ../sass/screen copy.scss */
+#bubble-51-2 {
+  bottom: 40px;
+  right: 20px;
+  width: 180px;
+  height: 60px;
+}
+
+/* line 747, ../sass/screen copy.scss */
+#bubble-52-1 {
+  top: 20px;
+  left: 120px;
+  width: 170px;
+  height: 50px;
+  font-size: 1.4rem;
+}
+
+/* line 755, ../sass/screen copy.scss */
+#bubble-52-2 {
+  top: 90px;
+  left: 100px;
+  width: 100px;
+  height: 40px;
+}
+
+/* line 763, ../sass/screen copy.scss */
+#bubble-54-1 {
+  top: 40px;
+  right: 20px;
+  width: 170px;
+  height: 50px;
+}
+
+/* line 770, ../sass/screen copy.scss */
+#bubble-54-2 {
+  bottom: 60px;
+  right: 20px;
+  width: 140px;
+  height: 70px;
+}
+
+/* line 777, ../sass/screen copy.scss */
+#bubble-55-1 {
+  top: 20px;
+  left: 20px;
+  width: 190px;
+  font-size: 1.2rem;
+}
+
+/* line 784, ../sass/screen copy.scss */
+#bubble-55-2 {
+  top: 10px;
+  left: 320px;
+  width: 170px;
+  padding: 1em;
+}
+
+/* line 791, ../sass/screen copy.scss */
+#bubble-55-3 {
+  top: 10px;
+  left: 520px;
+  width: 110px;
+  height: 30px;
+}
+
+/* line 798, ../sass/screen copy.scss */
+#bubble-56-1 {
+  left: 0;
+  top: 0;
+  width: 130px;
+}
+
+/* line 804, ../sass/screen copy.scss */
+#bubble-56-2 {
+  left: 130px;
+  top: 0;
+  width: 230px;
+  padding: 1.1em;
+}
+
+/* line 811, ../sass/screen copy.scss */
+#bubble-56-3 {
+  top: 140px;
+  right: 0px;
+  width: 140px;
+}
+
+/* line 817, ../sass/screen copy.scss */
+#bubble-57-1 {
+  bottom: 80px;
+  left: 20px;
+  width: 130px;
+}
+
+/* line 823, ../sass/screen copy.scss */
+#bubble-57-2 {
+  bottom: 40px;
+  left: 140px;
+  width: 130px;
+}
+
+/* line 830, ../sass/screen copy.scss */
+#bubble-58-1 {
+  top: 10px;
+  left: 10px;
+  width: 170px;
+  height: 110px;
+}
+
+/* line 837, ../sass/screen copy.scss */
+#bubble-58-2 {
+  top: 20px;
+  left: 180px;
+  width: 130px;
+}
+
+/* line 843, ../sass/screen copy.scss */
+#bubble-59-1 {
+  top: 333px;
+  right: 10px;
+  width: 120px;
+}
+
+/* line 849, ../sass/screen copy.scss */
+#bubble-60-1 {
+  top: 30px;
+  left: 350px;
+  width: 160px;
+}
+
+/* line 855, ../sass/screen copy.scss */
+#bubble-60-2 {
+  top: 35px;
+  left: 500px;
+  width: 160px;
+  height: 80px;
+}
+
+/* line 862, ../sass/screen copy.scss */
+#bubble-61-1 {
+  top: 20px;
+  right: 20px;
+  width: 120px;
+}
+
+/* line 868, ../sass/screen copy.scss */
+#bubble-62-1 {
+  bottom: 130px;
+  left: 400px;
+  width: 120px;
+}
+
+/* line 874, ../sass/screen copy.scss */
+#bubble-62-2 {
+  bottom: 20px;
+  left: 400px;
+  width: 180px;
+}
+
+/* line 880, ../sass/screen copy.scss */
+#bubble-63-1 {
+  bottom: 10px;
+  left: 100px;
+  width: 80px;
+}
+
+/* line 886, ../sass/screen copy.scss */
+#bubble-64-1 {
+  top: 10px;
+  left: 20px;
+  width: 140px;
+  padding: 1.1em;
+}
+
+/* line 893, ../sass/screen copy.scss */
+#bubble-65-1 {
+  top: 10px;
+  left: 20px;
+  width: 140px;
+}
+
+/* line 899, ../sass/screen copy.scss */
+#bubble-66-1 {
+  top: 0px;
+  left: 20px;
+  width: 180px;
+  padding: 1.1em;
+}
+
+/* line 906, ../sass/screen copy.scss */
+#bubble-66-2 {
+  top: 10px;
+  left: 220px;
+  width: 140px;
+}
+
+/* line 912, ../sass/screen copy.scss */
+#bubble-67-1 {
+  top: 20px;
+  left: 20px;
+  font-size: 1.5rem;
+}
+
+/* line 918, ../sass/screen copy.scss */
+#bubble-68-1 {
+  top: 10px;
+  left: 20px;
+  width: 100px;
+}
+
+/* line 924, ../sass/screen copy.scss */
+#bubble-68-2 {
+  top: 68px;
+  left: 20px;
+  width: 120px;
+}
+
+/* line 930, ../sass/screen copy.scss */
+#bubble-69-1 {
+  top: 10px;
+  left: 20px;
+  width: 100px;
+}
+
+/* line 936, ../sass/screen copy.scss */
+#bubble-69-2 {
+  top: 44px;
+  left: 20px;
+  width: 120px;
+  height: 60px;
+  font-size: 1.3rem;
+}
+
+/* line 944, ../sass/screen copy.scss */
+#bubble-71-1 {
+  top: 10px;
+  left: 20px;
+  width: 150px;
+}
+
+/* line 950, ../sass/screen copy.scss */
+#bubble-71-2 {
+  top: 30px;
+  left: 320px;
+  width: 150px;
+  height: 120px;
+}
+
+/* line 957, ../sass/screen copy.scss */
+#bubble-72-1 {
+  top: 20px;
+  left: 40px;
+  width: 150px;
+}
+
+/* line 963, ../sass/screen copy.scss */
+#bubble-72-2 {
+  top: 110px;
+  left: 70px;
+  width: 150px;
+}
+
+/* line 969, ../sass/screen copy.scss */
+#bubble-73-1 {
+  top: 20px;
+  left: 20px;
+  width: 280px;
+}
+
+/* line 975, ../sass/screen copy.scss */
+#bubble-74-1 {
+  top: 20px;
+  left: 20px;
+  width: 300px;
+  font-size: 1.2rem;
+}
+
+/* line 982, ../sass/screen copy.scss */
+#bubble-75-1 {
+  top: 20px;
+  left: 20px;
+  width: 280px;
+  font-size: 1.2rem;
+}
+
+/* line 989, ../sass/screen copy.scss */
+#bubble-76-1 {
+  top: 20px;
+  right: 20px;
+  width: 130px;
+}
+
+/* line 995, ../sass/screen copy.scss */
+#credits {
+  position: absolute;
+  top: 140px;
+  right: 20px;
+  width: 250px;
+  font-family: permanent-marker, sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+}

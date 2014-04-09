@@ -1,0 +1,93 @@
+
+.text-svg{
+    position: absolute;
+}
+
+#svg-title{
+    top: 20px;
+    left: 300px;
+    font-family: butcherman-caps, sans-serif;
+    font-size: 7em;
+    stroke-width: 2px;
+    stroke: black;
+    letter-spacing: -0.2em;
+    // -webkit-filter: drop-shadow(10px 10px 0px #fee9ae);
+
+    text{
+        @include transform(translateY(90px));
+    }
+}
+
+#svg-clak{
+    top: 100px;
+    left: 100px;
+    font-family: sue-ellen-francisco, sans-serif;
+    font-size: 7em;
+    fill: #bfe0b8;
+    stroke-width: 4px;
+    stroke: black;
+}
+
+#svg-grr{
+    top: 300px;
+    left: 50px;
+    font-family: creepster, sans-serif;
+    font-size: 5em;
+    fill: #feea60;
+    stroke-width: 4px;
+    stroke: black;
+}
+
+#svg-beep{
+
+    text{
+        font-family: 'Chango-Regular';
+        font-size: 2rem;
+        stroke-width: 2;
+        stroke-meterlimit: 10;
+        stroke: #000000;
+    }
+
+    .svg-beep-fill{
+        fill: #B9E5FA;
+    }
+
+    .svg-beep-shadow{
+        transform: translateY(3px);
+    }
+
+    .svg-beep-g{
+        transform: translate(800px, 250px) rotate(-13deg) scale(1.5);
+    }
+
+    .svg-beep-2{
+        transform: translateY(30px);
+    }
+}
+
+#svg-aaa{
+    .svg-aaa-g{
+        transform: translate(40px, 140px);
+    }
+
+    text{
+        fill: #231F20; 
+        stroke: #FFFFFF; 
+        stroke-width: 2;
+        stroke-linejoin: round; 
+        stroke-miterlimit: 10; 
+        font-family: 'ImpactLTStd'; 
+        font-style: italic;
+        font-size: 3rem;
+        transform: translateY(3px);
+
+        &.svg-aaa-back{
+            stroke: #231F20; 
+            stroke-width: 7;
+        }
+    }
+
+    tspan:nth-child(2) {
+        transform: translateY(3px);
+    }
+}

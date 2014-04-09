@@ -13,7 +13,15 @@ define(function (require) {
             require('app/views/cells/frame3'),
             null,
             require('app/views/cells/frame5'),
-            require('app/views/cells/frame6')
+            require('app/views/cells/frame6'),
+            require('app/views/cells/frame7'),
+            require('app/views/cells/frame8'),
+            require('app/views/cells/frame9'),
+            require('app/views/cells/frame10'),
+            require('app/views/cells/frame11'),
+            require('app/views/cells/frame12'),
+            require('app/views/cells/frame13'),
+            require('app/views/cells/frame14')
         ];
 
     Cells = Backbone.Collection.extend({
