@@ -1,7 +1,7 @@
 {
     "version": "1.1.0",
-    "timeStamp": 1397000933.468,
-    "count": 123,
+    "timeStamp": 1397087115.478,
+    "count": 285,
     "id": 4744,
     "file": "/Users/gammon/Documents/Projects/00-repos/github/adobe-webplatform/wordgirl/src/assets/images/comp.psd",
     "bounds": {
@@ -11,7 +11,7 @@
         "right": 16177
     },
     "selection": [
-        302
+        230
     ],
     "resolution": 72,
     "globalLight": {
@@ -1651,9 +1651,9 @@
             "type": "layerSection",
             "name": "frame10",
             "bounds": {
-                "top": 646,
-                "left": 5663,
-                "bottom": 1223,
+                "top": 590,
+                "left": 5498,
+                "bottom": 1267,
                 "right": 6305
             },
             "visible": true,
@@ -1713,9 +1713,9 @@
                     "type": "layer",
                     "name": "frame10-1.png",
                     "bounds": {
-                        "top": 697,
-                        "left": 5670,
-                        "bottom": 1216,
+                        "top": 590,
+                        "left": 5498,
+                        "bottom": 1267,
                         "right": 6305
                     },
                     "visible": true,
@@ -2450,8 +2450,8 @@
             "bounds": {
                 "top": 2087,
                 "left": 7630,
-                "bottom": 2524,
-                "right": 8216
+                "bottom": 2528,
+                "right": 8219
             },
             "visible": true,
             "clipped": false,
@@ -2491,9 +2491,9 @@
                     "type": "layer",
                     "name": "frame15-2.png",
                     "bounds": {
-                        "top": 2303,
+                        "top": 2310,
                         "left": 7651,
-                        "bottom": 2521,
+                        "bottom": 2528,
                         "right": 7983
                     },
                     "visible": true,
@@ -2510,10 +2510,10 @@
                     "type": "layer",
                     "name": "frame15-1.png",
                     "bounds": {
-                        "top": 2230,
-                        "left": 8017,
-                        "bottom": 2521,
-                        "right": 8213
+                        "top": 2234,
+                        "left": 8023,
+                        "bottom": 2525,
+                        "right": 8219
                     },
                     "visible": true,
                     "clipped": false,
@@ -4065,6 +4065,28 @@
                 "removed": true
             },
             "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "unknown",
+                            "bounds": {
+                                "top": 4907,
+                                "left": 9723,
+                                "bottom": 5482,
+                                "right": 10006
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 4907,
+                    "left": 9723,
+                    "bottom": 5482,
+                    "right": 10006
+                },
+                "defaultFill": false
+            },
             "layers": [
                 {
                     "id": 535,
@@ -4105,7 +4127,33 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 9726,
+                        "y": 4908
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 9723,
+                        "y": 5482
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 10003,
+                        "y": 5481
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 10006,
+                        "y": 4907
+                    }
+                }
+            ]
         },
         {
             "id": 337,
