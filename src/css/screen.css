@@ -5,9 +5,10 @@
 /* line 2, ../sass/_svg.scss */
 .text-svg {
   position: absolute;
+  z-index: 0;
 }
 
-/* line 6, ../sass/_svg.scss */
+/* line 7, ../sass/_svg.scss */
 #svg-title {
   top: 20px;
   left: 300px;
@@ -17,7 +18,7 @@
   stroke: black;
   letter-spacing: -0.2em;
 }
-/* line 16, ../sass/_svg.scss */
+/* line 17, ../sass/_svg.scss */
 #svg-title text {
   -webkit-transform: translateY(90px);
   -moz-transform: translateY(90px);
@@ -26,7 +27,7 @@
   transform: translateY(90px);
 }
 
-/* line 21, ../sass/_svg.scss */
+/* line 22, ../sass/_svg.scss */
 #svg-clak {
   top: 100px;
   left: 100px;
@@ -37,7 +38,7 @@
   stroke: black;
 }
 
-/* line 31, ../sass/_svg.scss */
+/* line 32, ../sass/_svg.scss */
 #svg-grr {
   top: 300px;
   left: 50px;
@@ -48,7 +49,7 @@
   stroke: black;
 }
 
-/* line 43, ../sass/_svg.scss */
+/* line 44, ../sass/_svg.scss */
 #svg-beep text {
   font-family: 'Chango-Regular';
   font-size: 2rem;
@@ -56,28 +57,32 @@
   stroke-meterlimit: 10;
   stroke: #000000;
 }
-/* line 51, ../sass/_svg.scss */
+/* line 52, ../sass/_svg.scss */
 #svg-beep .svg-beep-fill {
   fill: #B9E5FA;
 }
-/* line 55, ../sass/_svg.scss */
+/* line 56, ../sass/_svg.scss */
 #svg-beep .svg-beep-shadow {
   transform: translateY(3px);
 }
-/* line 59, ../sass/_svg.scss */
+/* line 60, ../sass/_svg.scss */
 #svg-beep .svg-beep-g {
   transform: translate(800px, 250px) rotate(-13deg) scale(1.5);
 }
-/* line 63, ../sass/_svg.scss */
+/* line 64, ../sass/_svg.scss */
 #svg-beep .svg-beep-2 {
   transform: translateY(30px);
 }
 
-/* line 69, ../sass/_svg.scss */
-#svg-aaa .svg-aaa-g {
-  transform: translate(40px, 140px);
+/* line 70, ../sass/_svg.scss */
+#svg-aaa .svg-aaa-bubble {
+  transform: translate(0px, 60px);
 }
-/* line 73, ../sass/_svg.scss */
+/* line 74, ../sass/_svg.scss */
+#svg-aaa .svg-aaa-g {
+  transform: translate(40px, 150px);
+}
+/* line 78, ../sass/_svg.scss */
 #svg-aaa text {
   fill: #231F20;
   stroke: #FFFFFF;
@@ -87,16 +92,110 @@
   font-family: 'ImpactLTStd';
   font-style: italic;
   font-size: 3rem;
-  transform: translateY(3px);
+  transform: rotate(-10deg);
 }
-/* line 84, ../sass/_svg.scss */
+/* line 89, ../sass/_svg.scss */
 #svg-aaa text.svg-aaa-back {
   stroke: #231F20;
   stroke-width: 7;
 }
-/* line 90, ../sass/_svg.scss */
+/* line 95, ../sass/_svg.scss */
 #svg-aaa tspan:nth-child(2) {
   transform: translateY(3px);
+}
+
+/* line 101, ../sass/_svg.scss */
+.svg-chomp text {
+  fill: #d1222a;
+  stroke: black;
+  stroke-width: 2;
+  font-size: 4rem;
+  font-family: 'Futura Std';
+  font-weight: bold;
+}
+
+/* line 112, ../sass/_svg.scss */
+#svg-chomp text {
+  transform: translate(250px, 350px) rotate(10deg);
+}
+
+/* line 118, ../sass/_svg.scss */
+#svg-chomp-2 text {
+  font-size: 5rem;
+  transform: translate(10px, 500px) rotate(-3deg);
+}
+
+/* line 126, ../sass/_svg.scss */
+#svg-tac .svg-tac-g {
+  transform: translate(25px, 280px) rotate(-5deg);
+}
+/* line 130, ../sass/_svg.scss */
+#svg-tac text {
+  fill: #fce75d;
+  stroke: black;
+  stroke-width: 3;
+  font-size: 5rem;
+  font-family: 'Marker Felt';
+}
+/* line 138, ../sass/_svg.scss */
+#svg-tac .svg-tac-shadow {
+  fill: black;
+  transform: translateY(4px);
+}
+
+/* line 145, ../sass/_svg.scss */
+#svg-scrunch text {
+  fill: white;
+  stroke: black;
+  stroke-width: 3;
+  font-family: 'Marker Felt';
+  font-size: 3rem;
+  transform: rotate(5deg) translate(100px, 530px);
+}
+
+/* line 155, ../sass/_svg.scss */
+.svg-eeww {
+  font-family: "Abadi MT Condensed Light";
+  font-size: 6rem;
+}
+/* line 159, ../sass/_svg.scss */
+.svg-eeww text {
+  transform: translateY(50px);
+}
+
+/* line 165, ../sass/_svg.scss */
+#svg-eeww-2 text {
+  transform: translateX(-300px) translateY(50px);
+}
+
+/* line 171, ../sass/_svg.scss */
+#svg-thud text {
+  fill: #c24155;
+  stroke: black;
+  stroke-width: 10;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  font-size: 8rem;
+  font-family: sans-serif;
+  transform: translate(40px, 300px) rotate(-30deg);
+}
+
+/* line 184, ../sass/_svg.scss */
+#svg-zas text {
+  fill: #c0e0b7;
+  stroke: black;
+  stroke-width: 4;
+  font-size: 8rem;
+  transform: translate(100px, 100px);
+}
+
+/* line 194, ../sass/_svg.scss */
+#svg-thud-2 text {
+  fill: #fee33d;
+  stroke: black;
+  stroke-width: 4;
+  font-size: 8rem;
+  transform: translate(70px, 240px);
 }
 
 /* line 1, ../sass/_bubbles.scss */

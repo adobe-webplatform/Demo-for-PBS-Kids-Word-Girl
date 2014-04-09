@@ -1,6 +1,7 @@
 
 .text-svg{
     position: absolute;
+    z-index: 0;
 }
 
 #svg-title{
@@ -66,8 +67,12 @@
 }
 
 #svg-aaa{
+    .svg-aaa-bubble{
+        transform: translate(0px, 60px);
+    }
+
     .svg-aaa-g{
-        transform: translate(40px, 140px);
+        transform: translate(40px, 150px);
     }
 
     text{
@@ -79,7 +84,7 @@
         font-family: 'ImpactLTStd'; 
         font-style: italic;
         font-size: 3rem;
-        transform: translateY(3px);
+        transform: rotate(-10deg);
 
         &.svg-aaa-back{
             stroke: #231F20; 
@@ -89,5 +94,108 @@
 
     tspan:nth-child(2) {
         transform: translateY(3px);
+    }
+}
+
+.svg-chomp{
+    text{
+        fill: #d1222a;
+        stroke: black;
+        stroke-width: 2;
+        font-size: 4rem;
+        font-family: 'Futura Std';
+        font-weight: bold;
+    }
+}
+
+#svg-chomp{
+    text{
+        transform: translate(250px, 350px) rotate(10deg);
+    }
+}
+
+#svg-chomp-2{
+    text{
+        font-size: 5rem;
+        transform: translate(10px, 500px) rotate(-3deg);
+    }
+}
+
+#svg-tac{
+
+    .svg-tac-g{
+        transform: translate(25px, 280px) rotate(-5deg);
+    }
+
+    text{
+        fill: #fce75d;
+        stroke: black;
+        stroke-width: 3;
+        font-size: 5rem;
+        font-family: 'Marker Felt';
+    }
+
+    .svg-tac-shadow{
+        fill: black;
+        transform: translateY(4px);
+    }
+}
+
+#svg-scrunch{
+    text{
+        fill: white;
+        stroke: black;
+        stroke-width: 3;
+        font-family: 'Marker Felt';
+        font-size: 3rem;
+        transform: rotate(5deg) translate(100px, 530px);
+    }
+}
+
+.svg-eeww{
+    font-family: "Abadi MT Condensed Light";
+    font-size: 6rem;
+
+    text{
+        transform: translateY(50px);
+    }
+}
+
+#svg-eeww-2{
+    text{
+        transform: translateX(-300px) translateY(50px);
+    }
+}
+
+#svg-thud{
+    text{
+        fill: #c24155;
+        stroke: black;
+        stroke-width: 10;
+        stroke-linejoin: round; 
+        stroke-miterlimit: 10; 
+        font-size: 8rem;
+        font-family: sans-serif;
+        transform: translate(40px, 300px) rotate(-30deg);
+    }
+}
+
+#svg-zas{
+    text{
+        fill: #c0e0b7;
+        stroke: black;
+        stroke-width: 4;
+        font-size: 8rem;
+        transform: translate(100px, 100px);
+    }
+}
+
+#svg-thud-2{
+    text{
+        fill: #fee33d;
+        stroke: black;
+        stroke-width: 4;
+        font-size: 8rem;
+        transform: translate(70px, 240px);
     }
 }
