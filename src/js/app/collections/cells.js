@@ -41,7 +41,11 @@ define(function (require) {
             null,
             require('app/views/cells/frame32'),
             null,
-            require('app/views/cells/frame34')
+            require('app/views/cells/frame34'),
+            null,
+            require('app/views/cells/frame36'),
+            require('app/views/cells/frame37'),
+            require('app/views/cells/frame38')
         ];
 
     Cells = Backbone.Collection.extend({
