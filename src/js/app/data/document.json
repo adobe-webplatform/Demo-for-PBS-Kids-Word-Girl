@@ -1,7 +1,7 @@
 {
     "version": "1.1.0",
-    "timeStamp": 1397164697.537,
-    "count": 2739,
+    "timeStamp": 1397165911.114,
+    "count": 2751,
     "id": 4744,
     "file": "/Users/gammon/Documents/Projects/00-repos/github/adobe-webplatform/wordgirl/src/assets/images/comp.psd",
     "bounds": {
@@ -11,7 +11,7 @@
         "right": 16177
     },
     "selection": [
-        121
+        133
     ],
     "resolution": 72,
     "globalLight": {
@@ -5273,7 +5273,7 @@
                 "top": 5633,
                 "left": 12465,
                 "bottom": 6220,
-                "right": 13013
+                "right": 13083
             },
             "visible": true,
             "clipped": false,
@@ -5314,9 +5314,9 @@
                     "name": "frame36-2.png",
                     "bounds": {
                         "top": 5798,
-                        "left": 12796,
+                        "left": 12876,
                         "bottom": 5907,
-                        "right": 12933
+                        "right": 13013
                     },
                     "visible": true,
                     "clipped": false,
@@ -5333,9 +5333,9 @@
                     "name": "frame36-1.png",
                     "bounds": {
                         "top": 5870,
-                        "left": 12613,
+                        "left": 12683,
                         "bottom": 6210,
-                        "right": 13013
+                        "right": 13083
                     },
                     "visible": true,
                     "clipped": false,
@@ -5401,7 +5401,7 @@
             "bounds": {
                 "top": 5573,
                 "left": 13056,
-                "bottom": 6214,
+                "bottom": 6252,
                 "right": 13449
             },
             "visible": true,
@@ -5442,9 +5442,9 @@
                     "type": "layer",
                     "name": "frame37-1.png",
                     "bounds": {
-                        "top": 5950,
+                        "top": 5990,
                         "left": 13056,
-                        "bottom": 6212,
+                        "bottom": 6252,
                         "right": 13449
                     },
                     "visible": true,
@@ -5511,7 +5511,7 @@
             "bounds": {
                 "top": 5579,
                 "left": 13500,
-                "bottom": 6220,
+                "bottom": 6265,
                 "right": 13860
             },
             "visible": true,
@@ -5552,9 +5552,9 @@
                     "type": "layer",
                     "name": "frame38-1.png",
                     "bounds": {
-                        "top": 5862,
+                        "top": 5912,
                         "left": 13508,
-                        "bottom": 6215,
+                        "bottom": 6265,
                         "right": 13851
                     },
                     "visible": true,

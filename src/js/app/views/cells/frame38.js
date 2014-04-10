@@ -19,7 +19,7 @@ define(function (require) {
                 i;
 
             if (currentFrame && this.layers.length > 0) {
-                this.layers[0].y = this.layers[0].y < this.layers[0].origin.y + 30 ? this.layers[0].y + 0.2 : this.layers[0].origin.y + 30;
+                this.layers[0].y = this.layers[0].y > this.layers[0].origin.y - 30 ? this.layers[0].y - 0.2 : this.layers[0].origin.y - 30;
             } else {
                 for (i = 0; i < this.layers.length; i += 1) {
                     this.layers[i].x = this.layers[i].origin.x;
