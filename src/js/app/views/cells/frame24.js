@@ -15,13 +15,12 @@ define(function (require) {
         },
 
         render: function (ctx) {
-            var currentFrame = this.options.num == Vars.get('currentFrame'),
-                i;
+            var currentFrame = this.options.num == Vars.get('currentFrame');
 
             if (currentFrame && this.layers.length > 0) {
-
+                
             } else {
-
+                
             }
 
             CellView.prototype.render.call(this, ctx);
