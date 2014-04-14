@@ -63,8 +63,8 @@ define(function (require) {
 
             //black shading over non current frames
             this.ctx.globalAlpha = 0.8;
-            this.ctx.beginPath();
             this.ctx.fillStyle = 'black';
+            this.ctx.beginPath();
             this.ctx.rect(0, 0, this.el.width, this.el.height);
             this.ctx.fill();
             this.ctx.closePath();

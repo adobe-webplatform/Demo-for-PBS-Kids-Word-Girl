@@ -22,10 +22,10 @@ define(function (require) {
 
         handle_LAYER_LOAD: function () {
             this.layersLoaded += 1;
-            
+			
             if (this.layersLoaded == this.layers.length) {
                 this.loaded = true;
-                this.callback();    
+                this.callback();
             }
         },
 
@@ -34,6 +34,10 @@ define(function (require) {
                 layer;
 
             this.callback = callback;
+
+			if (typeof(this.options.layers) == 'undefined') {
+				return;
+			}
 
             for (i = 0; i < this.options.layers.length; i += 1) {
                 layer = new Layer();

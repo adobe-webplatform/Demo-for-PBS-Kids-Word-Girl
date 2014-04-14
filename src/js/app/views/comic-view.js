@@ -48,7 +48,7 @@ define(function (require) {
             
             function loadFrame(num, cb) {
                 
-                if (num < 0) {
+                if (num < 0 || num > instance.cells.length - 1) {
                     cb();
                     return;
                 }
@@ -72,9 +72,45 @@ define(function (require) {
             }
 
             loadFrame(currentFrameNumber, loadFrameComplete);
-            loadFrame(currentFrameNumber - 1, loadFrameComplete);
-            loadFrame(currentFrameNumber + 1, loadFrameComplete);
-        },
+			loadFrame(currentFrameNumber - 1, loadFrameComplete);
+			loadFrame(currentFrameNumber + 1, loadFrameComplete);
+        
+			//TODO:: waterfall in both directions
+		},
+		
+		waterfallLoad: function (callback) {
+			var instance = this,
+				up,
+				down;
+				
+			function loadUp() {
+				up += 1;
+				
+				if (up > instance.cells.length - 1) {
+                	return;
+				}
+				
+	            var frame = instance.cells.at(up),
+	            	view = currentFrame.get('view');
+	
+				view.load(loadUp);
+ 			}
+
+			function loadDown() {
+				down -= 1;
+				
+				if (down < 0 ) {
+                	return;
+				}
+				
+				var frame = instance.cells.at(down),
+					view = currentFrame.get('view');
+					
+				view.load(loadDown);
+			}
+			
+			//TODO:: load up and load down
+		},
 
         render: function () {
             var i,
@@ -139,6 +175,9 @@ define(function (require) {
             case 37:
                 this.previous();
                 break;
+			case 32:
+			
+				break;
             }
         },
 
