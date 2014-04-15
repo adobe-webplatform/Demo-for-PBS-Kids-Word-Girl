@@ -24,52 +24,48 @@ define(function (require) {
             AppEvent.on('render', this.render.bind(this));
         },
 
-        render: function () {
-            var i,
-                cell,
-                view;
-
-            this.x = Vars.get('x') * this.zoom;
-            this.y = Vars.get('y') * this.zoom;
-            this.scale = Vars.get('scale') * this.zoom;
-
-			this.ctx.clearRect(0, 0, this.el.width, this.el.height);
-       
-            //black background
+		drawBackground: function () {
+			//black background
             this.ctx.beginPath();
             this.ctx.fillStyle = 'black';
             this.ctx.rect(0, 0, this.el.width, this.el.height);
             this.ctx.fill();
             this.ctx.closePath();
+		},
 
-            this.ctx.save();
+		drawOtherFrames: function () {
+			this.ctx.save();
 			this.ctx.translate(this.x, this.y);
 			this.ctx.scale(this.scale, this.scale);
             this.ctx.globalAlpha = 1;
 
             //draw stuff
             for (i = 0; i < this.cells.length; i += 1) {
-                if (i !== Vars.get('currentFrame')) {
-                    cell = this.cells.at(i);
-                    view = cell.get('view');
+				//only draw frames next to current
+	            if (i == Vars.get('currentFrame') + 1 || i == Vars.get('currentFrame') - 1) {
+    				cell = this.cells.at(i);
+                	view = cell.get('view');
 
-                    if (view.loaded !== false) {
-                        cell.get('view').render(this.ctx);
-                    }
-                }
+                	if (view.loaded !== false) {
+                		cell.get('view').render(this.ctx);
+                	}
+				}
             }
             
             this.ctx.restore();
+		},
 
-            //black shading over non current frames
-            this.ctx.globalAlpha = 0.8;
-            this.ctx.fillStyle = 'black';
+		drawShading: function () {
+			this.ctx.globalAlpha = 0.8;
+            //this.ctx.fillStyle = 'black';
             this.ctx.beginPath();
             this.ctx.rect(0, 0, this.el.width, this.el.height);
             this.ctx.fill();
             this.ctx.closePath();
+		},
 
-            this.ctx.save();
+		drawCurrentFrame: function () {
+			this.ctx.save();
 			this.ctx.translate(this.x, this.y);
 			this.ctx.scale(this.scale, this.scale);
             this.ctx.globalAlpha = 1;
@@ -78,6 +74,25 @@ define(function (require) {
             cell.get('view').render(this.ctx);
 
             this.ctx.restore();
+		},
+
+        render: function () {
+            var i,
+                cell,
+                view;
+
+            this.x = Vars.get('x') * this.zoom;
+            this.y = Vars.get('y') * this.zoom;
+            this.scale = Vars.get('scale') * this.zoom;
+			
+			
+			//this.ctx.clearRect(0, 0, this.el.width, this.el.height);
+
+			this.drawBackground();
+			this.drawOtherFrames();
+			this.drawShading();
+			this.drawCurrentFrame();
+
         },
 
         orientationchange: function () {

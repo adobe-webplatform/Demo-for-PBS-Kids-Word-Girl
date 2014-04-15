@@ -24,6 +24,8 @@ define([],
 		
 	Vars = Backbone.Model.extend({
 		initialize: function () {
+			this.set('x', 0);
+			this.set('y', 0);
             this.set('scale', 1);
             this.set('currentFrame', 0);
         }

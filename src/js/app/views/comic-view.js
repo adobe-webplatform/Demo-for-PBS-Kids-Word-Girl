@@ -17,15 +17,17 @@ define(function (require) {
 
         initialize: function () {
             var frameNumber;
-
+		
+			this.WIDTH = window.innerWidth;
+			this.HEIGHT = window.innerHeight;
 			this.zoomed = false;
             this.position = {x: 0, y: 0};
             this.positionDelta = {x: 0, y: 0}; //delta for tracking
             this.touchDelta = {x: 0, y: 0}; //delta for tracking
             this.scale = 1;
             this.animating = true;
-            this.tweening = false;
 
+			Vars.set('tweening', false);
             this.router = Vars.get('router');
 
             //determine initial frame
@@ -71,11 +73,11 @@ define(function (require) {
                 }
 
             }
-
+			
             loadFrame(currentFrameNumber, loadFrameComplete);
 			loadFrame(currentFrameNumber - 1, loadFrameComplete);
 			loadFrame(currentFrameNumber + 1, loadFrameComplete);
-        
+
 			//TODO:: waterfall in both directions
 		},
 		
@@ -113,23 +115,22 @@ define(function (require) {
 			//TODO:: load up and load down
 		},
 
-        render: function () {
-            var i,
-                cell,
-                distance,
-                alpha,
-                divisor = 1000;
-
+        animate: function () {
+	
             Vars.set('x', this.position.x);
             Vars.set('y', this.position.y);
             Vars.set('scale', this.scale);
-
+			
+			/*
+			//this doesn't do anything yet
             if (this.animating !== false) {
                 AppEvent.trigger('animate');
             }
+			*/
         },
 
         handle_CELLS_READY: function () {
+			var $preloader = $('#preloader');
 
             this.cameraPath = new CameraPath(this.cells);
             this.cameraPath.currentKey = Vars.get('currentFrame');
@@ -154,18 +155,19 @@ define(function (require) {
             UserEvent.on('keydown', this.handle_KEYDOWN.bind(this));
             UserEvent.on('resize', this.resize.bind(this));
             UserEvent.on('orientationchange', this.orientationchange.bind(this));
-            
-            AppEvent.on('render', this.render.bind(this));
+
+            //AppEvent.on('render', this.animate.bind(this));
+			setInterval(this.animate.bind(this), 60 / 1000);
 
 			//hide preloader
-			$('#preloader').addClass('hide');
+			$preloader.addClass('hide');
 			setTimeout(function () {
-			    $('#preloader').css({display: 'none'});
+			    $preloader.css({display: 'none'});
 			}, 500);
         },
 
         handle_CLICK: function (e) {
-            if (e.x > window.innerWidth / 2) {
+            if (e.x > this.WIDTH / 2) {
                 this.next();
             } else {
                 this.previous();
@@ -190,7 +192,7 @@ define(function (require) {
 			
             var touch = e.touches[0];
             
-            if (touch.pageX > window.innerWidth / 2) {
+            if (touch.pageX > this.WIDTH / 2) {
                 this.next();
             } else {
                 this.previous();
@@ -230,7 +232,7 @@ define(function (require) {
 			var key,
                 keys = this.cameraPath.keys;
 
-			if (this.tweening !== false) {
+			if (Vars.get('tweening') !== false) {
                 return;
             }
 
@@ -258,7 +260,7 @@ define(function (require) {
             var key,
                 keys = this.cameraPath.keys;
 
-            if (this.tweening !== false) {
+            if (Vars.get('tweening') !== false) {
                 return;
             }
 
@@ -274,7 +276,7 @@ define(function (require) {
             var key,
                 keys = this.cameraPath.keys;
 
-            if (this.tweening !== false) {
+            if (Vars.get('tweening') !== false) {
                 return;
             }
 
@@ -289,10 +291,10 @@ define(function (require) {
         set: function (point) {
             var scale = this.checkScale();
 
-            this.position.x = -point.x * scale + (window.innerWidth / 2);
-            this.position.y = -point.y * scale + (window.innerHeight / 2);
+            this.position.x = -point.x * scale + (this.WIDTH / 2);
+            this.position.y = -point.y * scale + (this.HEIGHT / 2);
             this.animating = true;
-            this.tweening = false;
+            Vars.set('tweening', false);
             this.load();
         },
 
@@ -301,18 +303,18 @@ define(function (require) {
          */
         tweento: function (point) {
             this.animating = false;
-            this.tweening = true;
+            Vars.set('tweening', true);
             
             var scale = this.checkScale();
             Anim.to(this, 0.5, {scale: scale}, {});
 
             Anim.to(this.position, 0.5, {
-                x: -point.x * scale + (window.innerWidth / 2), 
-                y: -point.y * scale + (window.innerHeight / 2)
+                x: -point.x * scale + (this.WIDTH / 2), 
+                y: -point.y * scale + (this.HEIGHT / 2)
             }, {
                 onComplete: function () {
                     this.animating = true;
-                    this.tweening = false;
+                    Vars.set('tweening', false);
                 }.bind(this)
             });
         },
@@ -355,8 +357,8 @@ define(function (require) {
          */
         checkScale: function () {
             var cell = this.cells.at(Vars.get('currentFrame')),
-                _winHeight = window.innerHeight,
-                _winWidth = window.innerWidth,
+                _winHeight = this.HEIGHT,
+                _winWidth = this.WIDTH,
                 widthDiff = 0,
                 heightDiff = 0,
                 scale = 1;
@@ -389,6 +391,9 @@ define(function (require) {
         resize: function () {
             var key,
                 keys = this.cameraPath.keys;
+
+			this.WIDTH = window.innerWidth;
+			this.HEIGHT = window.innerHeight;
 
             this.cameraPath.currentKey = Vars.get('currentFrame');
             key = keys[this.cameraPath.currentKey];

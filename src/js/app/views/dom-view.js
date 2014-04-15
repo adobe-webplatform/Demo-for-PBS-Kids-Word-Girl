@@ -52,10 +52,17 @@ define(function (require) {
                 if (element) {
                     element.style.width = cell.get('w') + 'px';
                     element.style.height = cell.get('h') + 'px';
+
+                    element.style.webkitTransform = 'translate(' + cell.get('x') + 'px, ' + cell.get('y') + 'px)';
+                    element.style.MozTransform = 'translate(' + cell.get('x') + 'px, ' + cell.get('y') + 'px)';
+                    element.style.transform = 'translate(' + cell.get('x') + 'px, ' + cell.get('y') + 'px)';
+
+					/*
                     element.style.webkitTransform = 'translate3d(' + cell.get('x') + 'px, ' + cell.get('y') + 'px, 0px)';
                     element.style.MozTransform = 'translate3d(' + cell.get('x') + 'px, ' + cell.get('y') + 'px, 0px)';
                     element.style.transform = 'translate3d(' + cell.get('x') + 'px, ' + cell.get('y') + 'px, 0px)';
-
+					*/
+					
                     if (element.querySelectorAll('.bubble--round')) {
                         this.addBubbles(element);
                     }
@@ -80,10 +87,17 @@ define(function (require) {
 
             this.updateVisible();
 
+
+            this.el.style.webkitTransform = 'translate(' + this.x + 'px, ' + this.y + 'px) scale(' + this.scale + ')';
+	        this.el.style.MozTransform = 'translate(' + this.x + 'px, ' + this.y + 'px) scale(' + this.scale + ')';
+            this.el.style.transform = 'translate(' + this.x + 'px, ' + this.y + 'px) scale(' + this.scale + ')';
+
+			
+			/*
             this.el.style.webkitTransform = 'translate3d(' + this.x + 'px, ' + this.y + 'px, 0px) scale(' + this.scale + ')';
 	        this.el.style.MozTransform = 'translate3d(' + this.x + 'px, ' + this.y + 'px, 0px) scale(' + this.scale + ')';
             this.el.style.transform = 'translate3d(' + this.x + 'px, ' + this.y + 'px, 0px) scale(' + this.scale + ')';
-	
+			*/
 		},
 
         resize: function () {

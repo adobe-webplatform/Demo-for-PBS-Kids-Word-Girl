@@ -18,6 +18,8 @@ define(function (require) {
             this.loaded = false;
             this.layersLoaded = 0;
             this.layers = [];
+
+			//AppEvent.trigger('animate', this.animate.bind(this));
 	    },
 
         handle_LAYER_LOAD: function () {
@@ -55,7 +57,11 @@ define(function (require) {
             for (i = this.layers.length - 1; i > -1; i -= 1) {
                 this.layers[i].render(ctx);
             }
-        }
+        },
+
+		animate: function () {
+			
+		}
 
     });
 
