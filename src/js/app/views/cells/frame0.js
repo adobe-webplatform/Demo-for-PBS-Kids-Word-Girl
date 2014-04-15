@@ -82,7 +82,7 @@ define(function (require) {
             CellView.prototype.render.call(this, ctx);
         },
 
-		animate: function () {			
+		animate: function () {
 			dx = this.mouse.x - window.innerWidth / 2;
             dy = this.mouse.y - window.innerHeight / 2;
 
@@ -101,8 +101,8 @@ define(function (require) {
 		},
 
         mousemove: function (e) {
-            this.mouse.x = e.x;
-            this.mouse.y = e.y;
+            this.mouse.x = e.x || e.screenX;
+            this.mouse.y = e.y || e.screenY;
         },
 
         deviceorientation: function (e) {

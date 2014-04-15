@@ -159,7 +159,8 @@ define(function (require) {
         },
 
         handle_CLICK: function (e) {
-            if (e.x > this.WIDTH / 2) {
+			
+            if (e.x > this.WIDTH / 2 || e.screenX > this.WIDTH / 2) {
                 this.next();
             } else {
                 this.previous();
