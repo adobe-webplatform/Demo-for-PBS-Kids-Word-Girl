@@ -71,7 +71,6 @@ define(function (require) {
                 if (framesLoaded == 3 && typeof(callback) == 'function') {
                     callback();
                 }
-
             }
 			
             loadFrame(currentFrameNumber, loadFrameComplete);
@@ -120,13 +119,6 @@ define(function (require) {
             Vars.set('x', this.position.x);
             Vars.set('y', this.position.y);
             Vars.set('scale', this.scale);
-			
-			/*
-			//this doesn't do anything yet
-            if (this.animating !== false) {
-                AppEvent.trigger('animate');
-            }
-			*/
         },
 
         handle_CELLS_READY: function () {
@@ -228,32 +220,7 @@ define(function (require) {
         },
 
 		zoom: function () {
-			/*
-			var key,
-                keys = this.cameraPath.keys;
-
-			if (Vars.get('tweening') !== false) {
-                return;
-            }
-
-			if (this.zoomed !== true) {
-				this.zoomed = true;
-				
-				key = keys[keys.length];
-				//this.router.navigate('frame/' + this.cameraPath.currentKey);
-	            //Vars.set('currentFrame', this.cameraPath.currentKey);
-	            this.tweento(key);
-	            this.load();
-			} else {
-				this.zoomed = false;
-				
-	            key = keys[this.cameraPath.currentKey];
-				this.router.navigate('frame/' + this.cameraPath.currentKey);
-	            Vars.set('currentFrame', this.cameraPath.currentKey);
-	            this.tweento(key);
-	            this.load();
-			}
-			*/
+	
 		},
 
         next: function () {
@@ -313,8 +280,10 @@ define(function (require) {
                 y: -point.y * scale + (this.HEIGHT / 2)
             }, {
                 onComplete: function () {
-                    this.animating = true;
-                    Vars.set('tweening', false);
+					setTimeout(function () {
+						this.animating = true;
+	                    Vars.set('tweening', false);
+					}, 200);
                 }.bind(this)
             });
         },
