@@ -185,9 +185,10 @@
     text{
         fill: #c0e0b7;
         stroke: black;
-        stroke-width: 4;
+        stroke-width: 10;
         font-size: 8rem;
-        transform: translate(100px, 100px);
+		font-family: chango, sans-serif;
+        transform: translate(100px, 200px) rotate(-20deg);
     }
 }
 
