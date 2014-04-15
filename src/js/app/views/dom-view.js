@@ -91,7 +91,6 @@ define(function (require) {
             this.el.style.webkitTransform = 'translate(' + this.x + 'px, ' + this.y + 'px) scale(' + this.scale + ')';
 	        this.el.style.MozTransform = 'translate(' + this.x + 'px, ' + this.y + 'px) scale(' + this.scale + ')';
             this.el.style.transform = 'translate(' + this.x + 'px, ' + this.y + 'px) scale(' + this.scale + ')';
-
 			
 			/*
             this.el.style.webkitTransform = 'translate3d(' + this.x + 'px, ' + this.y + 'px, 0px) scale(' + this.scale + ')';

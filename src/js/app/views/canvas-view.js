@@ -34,6 +34,10 @@ define(function (require) {
 		},
 
 		drawOtherFrames: function () {
+			var i,
+                cell,
+                view;
+
 			this.ctx.save();
 			this.ctx.translate(this.x, this.y);
 			this.ctx.scale(this.scale, this.scale);
@@ -77,17 +81,12 @@ define(function (require) {
 		},
 
         render: function () {
-            var i,
-                cell,
-                view;
 
             this.x = Vars.get('x') * this.zoom;
             this.y = Vars.get('y') * this.zoom;
             this.scale = Vars.get('scale') * this.zoom;
 			
-			
 			//this.ctx.clearRect(0, 0, this.el.width, this.el.height);
-
 			this.drawBackground();
 			this.drawOtherFrames();
 			this.drawShading();

@@ -20,14 +20,11 @@ define(function (require) {
             this.scale = 1;
             this.x = data.bounds.left;
             this.y = data.bounds.top;
-            //this.w = data.bounds.width;
-            //this.h = data.bounds.height;
 
             if (data.vectorMask) {
                 this.vectorMask = data.vectorMask;
             }
 
-            //this.load();
         },
 
         load: function (callback) {
