@@ -18,6 +18,7 @@ define(function (require) {
         initialize: function () {
             var frameNumber;
 
+			this.zoomed = false;
             this.position = {x: 0, y: 0};
             this.positionDelta = {x: 0, y: 0}; //delta for tracking
             this.touchDelta = {x: 0, y: 0}; //delta for tracking
@@ -176,7 +177,7 @@ define(function (require) {
                 this.previous();
                 break;
 			case 32:
-			
+				this.zoom();
 				break;
             }
         },
@@ -219,6 +220,33 @@ define(function (require) {
                 }
             }
         },
+
+		zoom: function () {
+			var key,
+                keys = this.cameraPath.keys;
+
+			if (this.tweening !== false) {
+                return;
+            }
+
+			if (this.zoomed !== true) {
+				this.zoomed = true;
+				
+				key = keys[keys.length - 1];
+				//this.router.navigate('frame/' + this.cameraPath.currentKey);
+	            //Vars.set('currentFrame', this.cameraPath.currentKey);
+	            this.tweento(key);
+	            this.load();
+			} else {
+				this.zoomed = false;
+				
+	            key = keys[this.cameraPath.currentKey];
+				this.router.navigate('frame/' + this.cameraPath.currentKey);
+	            Vars.set('currentFrame', this.cameraPath.currentKey);
+	            this.tweento(key);
+	            this.load();
+			}
+		},
 
         next: function () {
             var key,

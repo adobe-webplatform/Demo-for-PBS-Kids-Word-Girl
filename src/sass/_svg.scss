@@ -1,7 +1,7 @@
 
 .text-svg{
     position: absolute;
-    z-index: 0;
+    z-index: -1;
 }
 
 #svg-title{
@@ -42,7 +42,7 @@
 #svg-beep{
 
     text{
-        font-family: 'Chango-Regular';
+        font-family: chango, sans-serif;
         font-size: 2rem;
         stroke-width: 2;
         stroke-meterlimit: 10;
@@ -81,7 +81,7 @@
         stroke-width: 2;
         stroke-linejoin: round; 
         stroke-miterlimit: 10; 
-        font-family: 'ImpactLTStd'; 
+        font-family: bangers, sans-serif;
         font-style: italic;
         font-size: 3rem;
         transform: rotate(-10deg);
@@ -101,9 +101,9 @@
     text{
         fill: #d1222a;
         stroke: black;
-        stroke-width: 2;
-        font-size: 4rem;
-        font-family: 'Futura Std';
+        stroke-width: 1;
+        font-size: 5rem;
+        font-family: bangers, sans-serif;
         font-weight: bold;
     }
 }
@@ -116,7 +116,7 @@
 
 #svg-chomp-2{
     text{
-        font-size: 5rem;
+        font-size: 7rem;
         transform: translate(10px, 500px) rotate(-3deg);
     }
 }
@@ -132,7 +132,7 @@
         stroke: black;
         stroke-width: 3;
         font-size: 5rem;
-        font-family: 'Marker Felt';
+        font-family: permanent-marker;
     }
 
     .svg-tac-shadow{
@@ -146,14 +146,14 @@
         fill: white;
         stroke: black;
         stroke-width: 3;
-        font-family: 'Marker Felt';
+        font-family: permanent-marker;
         font-size: 3rem;
         transform: rotate(5deg) translate(100px, 530px);
     }
 }
 
 .svg-eeww{
-    font-family: "Abadi MT Condensed Light";
+    font-family: architects-daughter;
     font-size: 6rem;
 
     text{
@@ -168,6 +168,7 @@
 }
 
 #svg-thud{
+
     text{
         fill: #c24155;
         stroke: black;
@@ -175,8 +176,8 @@
         stroke-linejoin: round; 
         stroke-miterlimit: 10; 
         font-size: 8rem;
-        font-family: sans-serif;
-        transform: translate(40px, 300px) rotate(-30deg);
+		font-family: chango, sans-serif;
+        transform: translate(20px, 300px) rotate(-30deg) scale(0.95);
     }
 }
 
@@ -196,6 +197,7 @@
         stroke: black;
         stroke-width: 4;
         font-size: 8rem;
-        transform: translate(70px, 240px);
+		font-family: chango, sans-serif;
+        transform: translate(0px, 240px);
     }
 }

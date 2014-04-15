@@ -1,5 +1,0 @@
-[Thu Apr 10 2014 15:17:30 GMT-0700 (PDT)]
-frame44-1.png: ImageMagick error: convert: MustSpecifyImageSize `-' @ error/rgb.c/ReadRGBImage/144.
-convert: NoImagesDefined `png:-' @ error/convert.c/ConvertImageCommand/3106.
-
-

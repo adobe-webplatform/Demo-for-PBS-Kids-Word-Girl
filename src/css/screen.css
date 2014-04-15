@@ -5,7 +5,7 @@
 /* line 2, ../sass/_svg.scss */
 .text-svg {
   position: absolute;
-  z-index: 0;
+  z-index: -1;
 }
 
 /* line 7, ../sass/_svg.scss */
@@ -51,7 +51,7 @@
 
 /* line 44, ../sass/_svg.scss */
 #svg-beep text {
-  font-family: 'Chango-Regular';
+  font-family: chango, sans-serif;
   font-size: 2rem;
   stroke-width: 2;
   stroke-meterlimit: 10;
@@ -89,7 +89,7 @@
   stroke-width: 2;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
-  font-family: 'ImpactLTStd';
+  font-family: bangers, sans-serif;
   font-style: italic;
   font-size: 3rem;
   transform: rotate(-10deg);
@@ -108,9 +108,9 @@
 .svg-chomp text {
   fill: #d1222a;
   stroke: black;
-  stroke-width: 2;
-  font-size: 4rem;
-  font-family: 'Futura Std';
+  stroke-width: 1;
+  font-size: 5rem;
+  font-family: bangers, sans-serif;
   font-weight: bold;
 }
 
@@ -121,7 +121,7 @@
 
 /* line 118, ../sass/_svg.scss */
 #svg-chomp-2 text {
-  font-size: 5rem;
+  font-size: 7rem;
   transform: translate(10px, 500px) rotate(-3deg);
 }
 
@@ -135,7 +135,7 @@
   stroke: black;
   stroke-width: 3;
   font-size: 5rem;
-  font-family: 'Marker Felt';
+  font-family: permanent-marker;
 }
 /* line 138, ../sass/_svg.scss */
 #svg-tac .svg-tac-shadow {
@@ -148,14 +148,14 @@
   fill: white;
   stroke: black;
   stroke-width: 3;
-  font-family: 'Marker Felt';
+  font-family: permanent-marker;
   font-size: 3rem;
   transform: rotate(5deg) translate(100px, 530px);
 }
 
 /* line 155, ../sass/_svg.scss */
 .svg-eeww {
-  font-family: "Abadi MT Condensed Light";
+  font-family: architects-daughter;
   font-size: 6rem;
 }
 /* line 159, ../sass/_svg.scss */
@@ -168,7 +168,7 @@
   transform: translateX(-300px) translateY(50px);
 }
 
-/* line 171, ../sass/_svg.scss */
+/* line 172, ../sass/_svg.scss */
 #svg-thud text {
   fill: #c24155;
   stroke: black;
@@ -176,11 +176,11 @@
   stroke-linejoin: round;
   stroke-miterlimit: 10;
   font-size: 8rem;
-  font-family: sans-serif;
-  transform: translate(40px, 300px) rotate(-30deg);
+  font-family: chango, sans-serif;
+  transform: translate(20px, 300px) rotate(-30deg) scale(0.95);
 }
 
-/* line 184, ../sass/_svg.scss */
+/* line 185, ../sass/_svg.scss */
 #svg-zas text {
   fill: #c0e0b7;
   stroke: black;
@@ -189,13 +189,14 @@
   transform: translate(100px, 100px);
 }
 
-/* line 194, ../sass/_svg.scss */
+/* line 195, ../sass/_svg.scss */
 #svg-thud-2 text {
   fill: #fee33d;
   stroke: black;
   stroke-width: 4;
   font-size: 8rem;
-  transform: translate(70px, 240px);
+  font-family: chango, sans-serif;
+  transform: translate(0px, 240px);
 }
 
 /* line 1, ../sass/_bubbles.scss */
@@ -203,16 +204,17 @@
   position: absolute;
   font-size: 1.5rem;
   padding: 0.75em;
+  z-index: 2;
 }
 
-/* line 7, ../sass/_bubbles.scss */
+/* line 8, ../sass/_bubbles.scss */
 .bubble--square {
   font-family: permanent-marker, sans-serif;
   background: white;
   border: 3px solid black;
 }
 
-/* line 13, ../sass/_bubbles.scss */
+/* line 14, ../sass/_bubbles.scss */
 .bubble--round {
   padding: .5em;
   padding-top: 1em;
@@ -221,7 +223,7 @@
   text-align: center;
   -webkit-shape-inside: ellipse(50%, 50%, 50%, 50%);
 }
-/* line 24, ../sass/_bubbles.scss */
+/* line 25, ../sass/_bubbles.scss */
 .bubble--round svg {
   position: absolute;
   top: 0;
@@ -229,19 +231,19 @@
   z-index: -1;
 }
 
-/* line 32, ../sass/_bubbles.scss */
+/* line 33, ../sass/_bubbles.scss */
 .bubble-yellow {
   background: #fffbd2;
 }
 
-/* line 36, ../sass/_bubbles.scss */
+/* line 37, ../sass/_bubbles.scss */
 #bubble-one {
   top: 40px;
   left: 40px;
   width: 260px;
 }
 
-/* line 42, ../sass/_bubbles.scss */
+/* line 43, ../sass/_bubbles.scss */
 #bubble-two {
   top: 40px;
   left: 40px;
@@ -249,7 +251,7 @@
   height: 60px;
 }
 
-/* line 49, ../sass/_bubbles.scss */
+/* line 50, ../sass/_bubbles.scss */
 #bubble-three {
   top: 40px;
   left: 40px;
@@ -257,7 +259,7 @@
   height: 70px;
 }
 
-/* line 56, ../sass/_bubbles.scss */
+/* line 57, ../sass/_bubbles.scss */
 #bubble-four {
   top: 0px;
   left: 0px;
@@ -265,7 +267,7 @@
   height: 140px;
 }
 
-/* line 63, ../sass/_bubbles.scss */
+/* line 64, ../sass/_bubbles.scss */
 #bubble-five {
   top: 100px;
   left: 160px;
@@ -273,7 +275,7 @@
   height: 150px;
 }
 
-/* line 70, ../sass/_bubbles.scss */
+/* line 71, ../sass/_bubbles.scss */
 #bubble-six {
   top: 30px;
   left: 50px;
@@ -283,7 +285,7 @@
   line-height: 30px;
 }
 
-/* line 79, ../sass/_bubbles.scss */
+/* line 80, ../sass/_bubbles.scss */
 #bubble-seven {
   top: 30px;
   right: 50px;
@@ -291,7 +293,7 @@
   height: 120px;
 }
 
-/* line 86, ../sass/_bubbles.scss */
+/* line 87, ../sass/_bubbles.scss */
 #bubble-eight {
   top: 30px;
   left: 60px;
@@ -299,7 +301,7 @@
   height: 100px;
 }
 
-/* line 93, ../sass/_bubbles.scss */
+/* line 94, ../sass/_bubbles.scss */
 #bubble-nine {
   top: 30px;
   right: 50px;
@@ -307,7 +309,7 @@
   height: 100px;
 }
 
-/* line 100, ../sass/_bubbles.scss */
+/* line 101, ../sass/_bubbles.scss */
 #bubble-ten {
   top: 370px;
   right: 400px;
@@ -315,7 +317,7 @@
   height: 100px;
 }
 
-/* line 107, ../sass/_bubbles.scss */
+/* line 108, ../sass/_bubbles.scss */
 #bubble-eleven {
   top: 400px;
   right: 210px;
@@ -324,7 +326,7 @@
   border-width: 5px;
 }
 
-/* line 116, ../sass/_bubbles.scss */
+/* line 117, ../sass/_bubbles.scss */
 #bubble-twelve {
   position: absolute;
   top: 30px;
@@ -335,7 +337,7 @@
   font-style: italic;
 }
 
-/* line 126, ../sass/_bubbles.scss */
+/* line 127, ../sass/_bubbles.scss */
 #bubble-13 {
   top: 30px;
   right: 400px;
@@ -344,7 +346,7 @@
   font-size: 1.5rem;
 }
 
-/* line 134, ../sass/_bubbles.scss */
+/* line 135, ../sass/_bubbles.scss */
 #bubble-14 {
   top: 170px;
   left: 30px;
@@ -353,7 +355,7 @@
   font-size: 1.5rem;
 }
 
-/* line 142, ../sass/_bubbles.scss */
+/* line 143, ../sass/_bubbles.scss */
 #bubble-15 {
   top: 30px;
   right: 30px;
@@ -362,7 +364,7 @@
   font-size: 2rem;
 }
 
-/* line 150, ../sass/_bubbles.scss */
+/* line 151, ../sass/_bubbles.scss */
 #bubble-15-1 {
   top: -10px;
   left: 0px;
@@ -370,7 +372,7 @@
   height: 70px;
 }
 
-/* line 157, ../sass/_bubbles.scss */
+/* line 158, ../sass/_bubbles.scss */
 #bubble-15-2 {
   top: 60px;
   left: 140px;
@@ -378,7 +380,7 @@
   height: 70px;
 }
 
-/* line 164, ../sass/_bubbles.scss */
+/* line 165, ../sass/_bubbles.scss */
 #bubble-15-3 {
   top: -10px;
   left: 220px;
@@ -386,7 +388,7 @@
   height: 70px;
 }
 
-/* line 171, ../sass/_bubbles.scss */
+/* line 172, ../sass/_bubbles.scss */
 #bubble-15-4 {
   top: 70px;
   right: 30px;
@@ -394,7 +396,7 @@
   height: 130px;
 }
 
-/* line 178, ../sass/_bubbles.scss */
+/* line 179, ../sass/_bubbles.scss */
 #bubble-16-1 {
   top: 0px;
   right: 260px;
@@ -402,7 +404,7 @@
   height: 70px;
 }
 
-/* line 185, ../sass/_bubbles.scss */
+/* line 186, ../sass/_bubbles.scss */
 #bubble-16-2 {
   top: 10px;
   right: 160px;
@@ -410,7 +412,7 @@
   height: 60px;
 }
 
-/* line 192, ../sass/_bubbles.scss */
+/* line 193, ../sass/_bubbles.scss */
 #bubble-16-3 {
   top: 100px;
   right: 30px;
@@ -418,7 +420,7 @@
   height: 30px;
 }
 
-/* line 199, ../sass/_bubbles.scss */
+/* line 200, ../sass/_bubbles.scss */
 #bubble-17-1 {
   top: 10px;
   left: 30px;
@@ -426,7 +428,7 @@
   height: 70px;
 }
 
-/* line 206, ../sass/_bubbles.scss */
+/* line 207, ../sass/_bubbles.scss */
 #bubble-17-2 {
   top: 100px;
   right: 230px;
@@ -434,14 +436,14 @@
   height: 100px;
 }
 
-/* line 213, ../sass/_bubbles.scss */
+/* line 214, ../sass/_bubbles.scss */
 #bubble-21-1 {
   top: -20px;
   left: 20px;
   width: 270px;
 }
 
-/* line 219, ../sass/_bubbles.scss */
+/* line 220, ../sass/_bubbles.scss */
 #bubble-22-1 {
   top: 100px;
   right: 230px;
@@ -449,7 +451,7 @@
   height: 120px;
 }
 
-/* line 226, ../sass/_bubbles.scss */
+/* line 227, ../sass/_bubbles.scss */
 #bubble-22-2 {
   top: 260px;
   right: 300px;
@@ -457,7 +459,7 @@
   height: 100px;
 }
 
-/* line 233, ../sass/_bubbles.scss */
+/* line 234, ../sass/_bubbles.scss */
 #bubble-23-1 {
   top: -10px;
   left: -10px;
@@ -465,7 +467,7 @@
   height: 120px;
 }
 
-/* line 240, ../sass/_bubbles.scss */
+/* line 241, ../sass/_bubbles.scss */
 #bubble-23-2 {
   top: 120px;
   right: 60px;
@@ -473,7 +475,7 @@
   height: 60px;
 }
 
-/* line 247, ../sass/_bubbles.scss */
+/* line 248, ../sass/_bubbles.scss */
 #bubble-23-3 {
   top: 200px;
   left: 10px;
@@ -481,7 +483,7 @@
   height: 50px;
 }
 
-/* line 254, ../sass/_bubbles.scss */
+/* line 255, ../sass/_bubbles.scss */
 #bubble-24-1 {
   top: 20px;
   left: 170px;
@@ -489,7 +491,7 @@
   height: 70px;
 }
 
-/* line 261, ../sass/_bubbles.scss */
+/* line 262, ../sass/_bubbles.scss */
 #bubble-24-2 {
   top: 120px;
   left: 60px;
@@ -497,7 +499,7 @@
   height: 70px;
 }
 
-/* line 268, ../sass/_bubbles.scss */
+/* line 269, ../sass/_bubbles.scss */
 #bubble-24-3 {
   top: 200px;
   left: 200px;
@@ -505,7 +507,7 @@
   height: 30px;
 }
 
-/* line 275, ../sass/_bubbles.scss */
+/* line 276, ../sass/_bubbles.scss */
 #bubble-25-1 {
   top: 0px;
   left: 0px;
@@ -513,7 +515,7 @@
   height: 70px;
 }
 
-/* line 282, ../sass/_bubbles.scss */
+/* line 283, ../sass/_bubbles.scss */
 #bubble-25-2 {
   top: 80px;
   left: 0px;
@@ -521,7 +523,7 @@
   height: 110px;
 }
 
-/* line 289, ../sass/_bubbles.scss */
+/* line 290, ../sass/_bubbles.scss */
 #bubble-25-3 {
   top: 130px;
   left: 150px;
@@ -529,7 +531,7 @@
   height: 130px;
 }
 
-/* line 296, ../sass/_bubbles.scss */
+/* line 297, ../sass/_bubbles.scss */
 #bubble-27-1 {
   top: 10px;
   right: 10px;
@@ -537,7 +539,7 @@
   height: 80px;
 }
 
-/* line 303, ../sass/_bubbles.scss */
+/* line 304, ../sass/_bubbles.scss */
 #bubble-28-1 {
   top: 0px;
   left: 0px;
@@ -545,7 +547,7 @@
   height: 80px;
 }
 
-/* line 310, ../sass/_bubbles.scss */
+/* line 311, ../sass/_bubbles.scss */
 #bubble-28-2 {
   top: 40px;
   left: 180px;
@@ -553,7 +555,7 @@
   height: 100px;
 }
 
-/* line 317, ../sass/_bubbles.scss */
+/* line 318, ../sass/_bubbles.scss */
 #bubble-29-1 {
   top: 20px;
   left: 10px;
@@ -561,7 +563,7 @@
   height: 130px;
 }
 
-/* line 324, ../sass/_bubbles.scss */
+/* line 325, ../sass/_bubbles.scss */
 #bubble-29-2 {
   top: 380px;
   right: 10px;
@@ -569,7 +571,7 @@
   height: 50px;
 }
 
-/* line 331, ../sass/_bubbles.scss */
+/* line 332, ../sass/_bubbles.scss */
 #bubble-29-3 {
   top: 440px;
   right: 10px;
@@ -577,7 +579,7 @@
   height: 110px;
 }
 
-/* line 338, ../sass/_bubbles.scss */
+/* line 339, ../sass/_bubbles.scss */
 #bubble-30-1 {
   top: 20px;
   left: 20px;
@@ -585,7 +587,7 @@
   height: 50px;
 }
 
-/* line 345, ../sass/_bubbles.scss */
+/* line 346, ../sass/_bubbles.scss */
 #bubble-30-2 {
   top: 100px;
   right: 20px;
@@ -593,7 +595,7 @@
   height: 50px;
 }
 
-/* line 352, ../sass/_bubbles.scss */
+/* line 353, ../sass/_bubbles.scss */
 #bubble-31-1 {
   top: 20px;
   left: 20px;
@@ -602,7 +604,7 @@
   padding: 1.5em;
 }
 
-/* line 360, ../sass/_bubbles.scss */
+/* line 361, ../sass/_bubbles.scss */
 #bubble-32-1 {
   top: 20px;
   left: 170px;
@@ -610,7 +612,7 @@
   height: 80px;
 }
 
-/* line 367, ../sass/_bubbles.scss */
+/* line 368, ../sass/_bubbles.scss */
 #bubble-33-1 {
   top: 20px;
   left: 170px;
@@ -618,14 +620,14 @@
   height: 80px;
 }
 
-/* line 374, ../sass/_bubbles.scss */
+/* line 375, ../sass/_bubbles.scss */
 #bubble-34-1 {
   top: 20px;
   left: 20px;
   width: 330px;
 }
 
-/* line 380, ../sass/_bubbles.scss */
+/* line 381, ../sass/_bubbles.scss */
 #bubble-34-2 {
   top: 250px;
   left: 170px;
@@ -635,7 +637,7 @@
   padding: 1.2em;
 }
 
-/* line 389, ../sass/_bubbles.scss */
+/* line 390, ../sass/_bubbles.scss */
 #bubble-35-1 {
   top: 10px;
   left: 10px;
@@ -644,7 +646,7 @@
   padding: 1.2em;
 }
 
-/* line 397, ../sass/_bubbles.scss */
+/* line 398, ../sass/_bubbles.scss */
 #bubble-35-2 {
   top: 50px;
   left: 280px;
@@ -652,7 +654,7 @@
   height: 70px;
 }
 
-/* line 404, ../sass/_bubbles.scss */
+/* line 405, ../sass/_bubbles.scss */
 #bubble-36-1 {
   top: 10px;
   left: 10px;
@@ -661,7 +663,7 @@
   padding: 1.2em;
 }
 
-/* line 412, ../sass/_bubbles.scss */
+/* line 413, ../sass/_bubbles.scss */
 #bubble-36-2 {
   top: 50px;
   left: 280px;
@@ -669,7 +671,7 @@
   height: 90px;
 }
 
-/* line 419, ../sass/_bubbles.scss */
+/* line 420, ../sass/_bubbles.scss */
 #bubble-37-1 {
   top: 50px;
   left: 20px;
@@ -677,7 +679,7 @@
   font-size: 1em;
 }
 
-/* line 426, ../sass/_bubbles.scss */
+/* line 427, ../sass/_bubbles.scss */
 #bubble-37-2 {
   top: 150px;
   left: 180px;
@@ -685,7 +687,7 @@
   height: 90px;
 }
 
-/* line 433, ../sass/_bubbles.scss */
+/* line 434, ../sass/_bubbles.scss */
 #bubble-38-1 {
   top: 60px;
   left: 20px;
@@ -693,7 +695,7 @@
   font-size: 1em;
 }
 
-/* line 440, ../sass/_bubbles.scss */
+/* line 441, ../sass/_bubbles.scss */
 #bubble-38-2 {
   top: 150px;
   right: 20px;
@@ -701,13 +703,13 @@
   padding: 1em;
 }
 
-/* line 447, ../sass/_bubbles.scss */
+/* line 448, ../sass/_bubbles.scss */
 #bubble-38-3 {
   top: 260px;
   left: 20px;
 }
 
-/* line 452, ../sass/_bubbles.scss */
+/* line 453, ../sass/_bubbles.scss */
 #bubble-39-1 {
   top: 20px;
   left: 20px;
@@ -715,20 +717,20 @@
   height: 30px;
 }
 
-/* line 459, ../sass/_bubbles.scss */
+/* line 460, ../sass/_bubbles.scss */
 #bubble-39-2 {
   top: 150px;
   left: 180px;
 }
 
-/* line 464, ../sass/_bubbles.scss */
+/* line 465, ../sass/_bubbles.scss */
 #bubble-40-1 {
   top: 20px;
   left: 20px;
   width: 350px;
 }
 
-/* line 470, ../sass/_bubbles.scss */
+/* line 471, ../sass/_bubbles.scss */
 #bubble-41-1 {
   top: 50px;
   left: 70px;
@@ -736,7 +738,7 @@
   height: 80px;
 }
 
-/* line 477, ../sass/_bubbles.scss */
+/* line 478, ../sass/_bubbles.scss */
 #bubble-42-1 {
   top: 10px;
   left: 10px;
@@ -744,7 +746,7 @@
   height: 60px;
 }
 
-/* line 484, ../sass/_bubbles.scss */
+/* line 485, ../sass/_bubbles.scss */
 #bubble-42-2 {
   top: 80px;
   left: 10px;
@@ -752,7 +754,7 @@
   height: 50px;
 }
 
-/* line 491, ../sass/_bubbles.scss */
+/* line 492, ../sass/_bubbles.scss */
 #bubble-42-3 {
   top: 50px;
   right: 30px;
@@ -760,7 +762,7 @@
   height: 30px;
 }
 
-/* line 498, ../sass/_bubbles.scss */
+/* line 499, ../sass/_bubbles.scss */
 #bubble-43-1 {
   top: 0px;
   left: 0px;
@@ -768,7 +770,7 @@
   height: 70px;
 }
 
-/* line 505, ../sass/_bubbles.scss */
+/* line 506, ../sass/_bubbles.scss */
 #bubble-43-2 {
   top: 0px;
   right: 0px;
@@ -776,7 +778,7 @@
   height: 80px;
 }
 
-/* line 512, ../sass/_bubbles.scss */
+/* line 513, ../sass/_bubbles.scss */
 #bubble-44-1 {
   top: 0px;
   left: 0px;
@@ -784,7 +786,7 @@
   height: 70px;
 }
 
-/* line 519, ../sass/_bubbles.scss */
+/* line 520, ../sass/_bubbles.scss */
 #bubble-44-2 {
   top: 0px;
   left: 120px;
@@ -792,7 +794,7 @@
   height: 80px;
 }
 
-/* line 526, ../sass/_bubbles.scss */
+/* line 527, ../sass/_bubbles.scss */
 #bubble-44-3 {
   top: 20px;
   right: 10px;
@@ -800,7 +802,7 @@
   height: 80px;
 }
 
-/* line 533, ../sass/_bubbles.scss */
+/* line 534, ../sass/_bubbles.scss */
 #bubble-45-1 {
   top: 0px;
   left: 10px;
@@ -808,7 +810,7 @@
   height: 50px;
 }
 
-/* line 540, ../sass/_bubbles.scss */
+/* line 541, ../sass/_bubbles.scss */
 #bubble-45-2 {
   top: 30px;
   left: 130px;
@@ -816,7 +818,7 @@
   height: 50px;
 }
 
-/* line 547, ../sass/_bubbles.scss */
+/* line 548, ../sass/_bubbles.scss */
 #bubble-46-1 {
   top: 0px;
   left: 100px;
@@ -824,7 +826,7 @@
   height: 70px;
 }
 
-/* line 554, ../sass/_bubbles.scss */
+/* line 555, ../sass/_bubbles.scss */
 #bubble-46-2 {
   top: 330px;
   left: 50px;
@@ -832,7 +834,7 @@
   height: 50px;
 }
 
-/* line 561, ../sass/_bubbles.scss */
+/* line 562, ../sass/_bubbles.scss */
 #bubble-47-1 {
   top: 0px;
   left: 40px;
@@ -840,7 +842,7 @@
   height: 120px;
 }
 
-/* line 568, ../sass/_bubbles.scss */
+/* line 569, ../sass/_bubbles.scss */
 #bubble-48-1 {
   top: 0px;
   left: 40px;
@@ -848,7 +850,7 @@
   height: 80px;
 }
 
-/* line 575, ../sass/_bubbles.scss */
+/* line 576, ../sass/_bubbles.scss */
 #bubble-48-2 {
   top: 90px;
   left: 40px;
@@ -856,7 +858,7 @@
   height: 100px;
 }
 
-/* line 582, ../sass/_bubbles.scss */
+/* line 583, ../sass/_bubbles.scss */
 #bubble-49-1 {
   top: 20px;
   left: 20px;
@@ -864,7 +866,7 @@
   height: 50px;
 }
 
-/* line 589, ../sass/_bubbles.scss */
+/* line 590, ../sass/_bubbles.scss */
 #bubble-49-2 {
   top: 20px;
   left: 240px;
@@ -873,7 +875,7 @@
   padding: 1em;
 }
 
-/* line 597, ../sass/_bubbles.scss */
+/* line 598, ../sass/_bubbles.scss */
 #bubble-51-1 {
   top: 20px;
   left: 20px;
@@ -881,7 +883,7 @@
   height: 50px;
 }
 
-/* line 604, ../sass/_bubbles.scss */
+/* line 605, ../sass/_bubbles.scss */
 #bubble-51-2 {
   bottom: 40px;
   right: 20px;
@@ -889,7 +891,7 @@
   height: 60px;
 }
 
-/* line 611, ../sass/_bubbles.scss */
+/* line 612, ../sass/_bubbles.scss */
 #bubble-52-1 {
   top: 20px;
   left: 120px;
@@ -898,7 +900,7 @@
   font-size: 1.4rem;
 }
 
-/* line 619, ../sass/_bubbles.scss */
+/* line 620, ../sass/_bubbles.scss */
 #bubble-52-2 {
   top: 90px;
   left: 100px;
@@ -906,7 +908,7 @@
   height: 40px;
 }
 
-/* line 627, ../sass/_bubbles.scss */
+/* line 628, ../sass/_bubbles.scss */
 #bubble-54-1 {
   top: 40px;
   right: 20px;
@@ -914,7 +916,7 @@
   height: 50px;
 }
 
-/* line 634, ../sass/_bubbles.scss */
+/* line 635, ../sass/_bubbles.scss */
 #bubble-54-2 {
   bottom: 60px;
   right: 20px;
@@ -922,7 +924,7 @@
   height: 70px;
 }
 
-/* line 641, ../sass/_bubbles.scss */
+/* line 642, ../sass/_bubbles.scss */
 #bubble-55-1 {
   top: 20px;
   left: 20px;
@@ -930,7 +932,7 @@
   font-size: 1.2rem;
 }
 
-/* line 648, ../sass/_bubbles.scss */
+/* line 649, ../sass/_bubbles.scss */
 #bubble-55-2 {
   top: 10px;
   left: 320px;
@@ -938,7 +940,7 @@
   padding: 1em;
 }
 
-/* line 655, ../sass/_bubbles.scss */
+/* line 656, ../sass/_bubbles.scss */
 #bubble-55-3 {
   top: 10px;
   left: 520px;
@@ -946,14 +948,14 @@
   height: 30px;
 }
 
-/* line 662, ../sass/_bubbles.scss */
+/* line 663, ../sass/_bubbles.scss */
 #bubble-56-1 {
   left: 0;
   top: 0;
   width: 130px;
 }
 
-/* line 668, ../sass/_bubbles.scss */
+/* line 669, ../sass/_bubbles.scss */
 #bubble-56-2 {
   left: 130px;
   top: 0;
@@ -961,28 +963,28 @@
   padding: 1.1em;
 }
 
-/* line 675, ../sass/_bubbles.scss */
+/* line 676, ../sass/_bubbles.scss */
 #bubble-56-3 {
   top: 140px;
   right: 0px;
   width: 140px;
 }
 
-/* line 681, ../sass/_bubbles.scss */
+/* line 682, ../sass/_bubbles.scss */
 #bubble-57-1 {
   bottom: 80px;
   left: 20px;
   width: 130px;
 }
 
-/* line 687, ../sass/_bubbles.scss */
+/* line 688, ../sass/_bubbles.scss */
 #bubble-57-2 {
   bottom: 40px;
   left: 140px;
   width: 130px;
 }
 
-/* line 694, ../sass/_bubbles.scss */
+/* line 695, ../sass/_bubbles.scss */
 #bubble-58-1 {
   top: 10px;
   left: 10px;
@@ -990,28 +992,28 @@
   height: 110px;
 }
 
-/* line 701, ../sass/_bubbles.scss */
+/* line 702, ../sass/_bubbles.scss */
 #bubble-58-2 {
   top: 20px;
   left: 180px;
   width: 130px;
 }
 
-/* line 707, ../sass/_bubbles.scss */
+/* line 708, ../sass/_bubbles.scss */
 #bubble-59-1 {
   top: 333px;
   right: 10px;
   width: 120px;
 }
 
-/* line 713, ../sass/_bubbles.scss */
+/* line 714, ../sass/_bubbles.scss */
 #bubble-60-1 {
   top: 30px;
   left: 350px;
   width: 160px;
 }
 
-/* line 719, ../sass/_bubbles.scss */
+/* line 720, ../sass/_bubbles.scss */
 #bubble-60-2 {
   top: 35px;
   left: 500px;
@@ -1019,35 +1021,35 @@
   height: 80px;
 }
 
-/* line 726, ../sass/_bubbles.scss */
+/* line 727, ../sass/_bubbles.scss */
 #bubble-61-1 {
   top: 20px;
   right: 20px;
   width: 120px;
 }
 
-/* line 732, ../sass/_bubbles.scss */
+/* line 733, ../sass/_bubbles.scss */
 #bubble-62-1 {
   bottom: 130px;
   left: 400px;
   width: 120px;
 }
 
-/* line 738, ../sass/_bubbles.scss */
+/* line 739, ../sass/_bubbles.scss */
 #bubble-62-2 {
   bottom: 20px;
   left: 400px;
   width: 180px;
 }
 
-/* line 744, ../sass/_bubbles.scss */
+/* line 745, ../sass/_bubbles.scss */
 #bubble-63-1 {
   bottom: 10px;
   left: 100px;
   width: 80px;
 }
 
-/* line 750, ../sass/_bubbles.scss */
+/* line 751, ../sass/_bubbles.scss */
 #bubble-64-1 {
   top: 10px;
   left: 20px;
@@ -1055,14 +1057,14 @@
   padding: 1.1em;
 }
 
-/* line 757, ../sass/_bubbles.scss */
+/* line 758, ../sass/_bubbles.scss */
 #bubble-65-1 {
   top: 10px;
   left: 20px;
   width: 140px;
 }
 
-/* line 763, ../sass/_bubbles.scss */
+/* line 764, ../sass/_bubbles.scss */
 #bubble-66-1 {
   top: 0px;
   left: 20px;
@@ -1070,42 +1072,42 @@
   padding: 1.1em;
 }
 
-/* line 770, ../sass/_bubbles.scss */
+/* line 771, ../sass/_bubbles.scss */
 #bubble-66-2 {
   top: 10px;
   left: 220px;
   width: 140px;
 }
 
-/* line 776, ../sass/_bubbles.scss */
+/* line 777, ../sass/_bubbles.scss */
 #bubble-67-1 {
   top: 20px;
   left: 20px;
   font-size: 1.5rem;
 }
 
-/* line 782, ../sass/_bubbles.scss */
+/* line 783, ../sass/_bubbles.scss */
 #bubble-68-1 {
   top: 10px;
   left: 20px;
   width: 100px;
 }
 
-/* line 788, ../sass/_bubbles.scss */
+/* line 789, ../sass/_bubbles.scss */
 #bubble-68-2 {
   top: 68px;
   left: 20px;
   width: 120px;
 }
 
-/* line 794, ../sass/_bubbles.scss */
+/* line 795, ../sass/_bubbles.scss */
 #bubble-69-1 {
   top: 10px;
   left: 20px;
   width: 100px;
 }
 
-/* line 800, ../sass/_bubbles.scss */
+/* line 801, ../sass/_bubbles.scss */
 #bubble-69-2 {
   top: 44px;
   left: 20px;
@@ -1114,14 +1116,14 @@
   font-size: 1.3rem;
 }
 
-/* line 808, ../sass/_bubbles.scss */
+/* line 809, ../sass/_bubbles.scss */
 #bubble-71-1 {
   top: 10px;
   left: 20px;
   width: 150px;
 }
 
-/* line 814, ../sass/_bubbles.scss */
+/* line 815, ../sass/_bubbles.scss */
 #bubble-71-2 {
   top: 30px;
   left: 320px;
@@ -1129,28 +1131,28 @@
   height: 120px;
 }
 
-/* line 821, ../sass/_bubbles.scss */
+/* line 822, ../sass/_bubbles.scss */
 #bubble-72-1 {
   top: 20px;
   left: 40px;
   width: 150px;
 }
 
-/* line 827, ../sass/_bubbles.scss */
+/* line 828, ../sass/_bubbles.scss */
 #bubble-72-2 {
   top: 110px;
   left: 70px;
   width: 150px;
 }
 
-/* line 833, ../sass/_bubbles.scss */
+/* line 834, ../sass/_bubbles.scss */
 #bubble-73-1 {
   top: 20px;
   left: 20px;
   width: 280px;
 }
 
-/* line 839, ../sass/_bubbles.scss */
+/* line 840, ../sass/_bubbles.scss */
 #bubble-74-1 {
   top: 20px;
   left: 20px;
@@ -1158,7 +1160,7 @@
   font-size: 1.2rem;
 }
 
-/* line 846, ../sass/_bubbles.scss */
+/* line 847, ../sass/_bubbles.scss */
 #bubble-75-1 {
   top: 20px;
   left: 20px;
@@ -1166,14 +1168,14 @@
   font-size: 1.2rem;
 }
 
-/* line 853, ../sass/_bubbles.scss */
+/* line 854, ../sass/_bubbles.scss */
 #bubble-76-1 {
   top: 20px;
   right: 20px;
   width: 130px;
 }
 
-/* line 859, ../sass/_bubbles.scss */
+/* line 860, ../sass/_bubbles.scss */
 #credits {
   position: absolute;
   top: 140px;
