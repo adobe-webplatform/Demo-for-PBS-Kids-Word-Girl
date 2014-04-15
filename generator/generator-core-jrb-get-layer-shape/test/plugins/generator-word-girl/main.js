@@ -1097,6 +1097,8 @@
                 );
             }
 
+			//component.scale = component.scaleX = component.scaleY = 0.5;
+			
             // Code path for pixel-based output (SVG output will cause an early return)
             var scaleSettings = {
                     width:  convertToPixels(component.width,  component.widthUnit),

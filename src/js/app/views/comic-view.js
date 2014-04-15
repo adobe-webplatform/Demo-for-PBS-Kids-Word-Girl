@@ -66,10 +66,10 @@ define(function (require) {
 
             function loadFrameComplete() {
                 framesLoaded += 1;
-
                 if (framesLoaded == 3 && typeof(callback) == 'function') {
                     callback();
                 }
+
             }
 
             loadFrame(currentFrameNumber, loadFrameComplete);
@@ -226,6 +226,7 @@ define(function (require) {
         },
 
 		zoom: function () {
+			/*
 			var key,
                 keys = this.cameraPath.keys;
 
@@ -250,6 +251,7 @@ define(function (require) {
 	            this.tweento(key);
 	            this.load();
 			}
+			*/
 		},
 
         next: function () {

@@ -15,7 +15,9 @@ define(function (require) {
         };
 
         this.resize = function (e) {
-            UserEvent.trigger('resize');
+			this.throttle = setTimeout(function () {
+				UserEvent.trigger('resize');
+			}, 200);
         };
 
         this.orientationchange = function (e) {

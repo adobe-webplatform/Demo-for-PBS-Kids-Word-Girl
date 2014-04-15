@@ -1,7 +1,7 @@
 {
     "version": "1.1.0",
-    "timeStamp": 1397514191.315,
-    "count": 30,
+    "timeStamp": 1397592877.7,
+    "count": 25,
     "id": 37,
     "file": "/Users/gammon/Documents/Projects/00-repos/github/adobe-webplatform/wordgirl/src/assets/images/comp.psd",
     "bounds": {
@@ -11,7 +11,7 @@
         "right": 16177
     },
     "selection": [
-        129
+        383
     ],
     "resolution": 72,
     "globalLight": {
@@ -278,8 +278,8 @@
                         "defaultFill": false
                     },
                     "smartObject": {
-                        "ID": "0295c205-049a-1177-96ab-9c5a4b1cbbc7",
-                        "placed": "0295c203-049a-1177-96ab-9c5a4b1cbbc7",
+                        "ID": "f2808d30-04bf-1177-9105-c05e49b670e5",
+                        "placed": "f2808d2e-04bf-1177-9105-c05e49b670e5",
                         "antiAliasType": 16,
                         "type": 2,
                         "transform": [
@@ -334,8 +334,8 @@
                         "defaultFill": false
                     },
                     "smartObject": {
-                        "ID": "0295c204-049a-1177-96ab-9c5a4b1cbbc7",
-                        "placed": "0295c202-049a-1177-96ab-9c5a4b1cbbc7",
+                        "ID": "f2808d2f-04bf-1177-9105-c05e49b670e5",
+                        "placed": "f2808d2d-04bf-1177-9105-c05e49b670e5",
                         "antiAliasType": 16,
                         "type": 2,
                         "transform": [
@@ -7082,9 +7082,9 @@
             "name": "frame56",
             "bounds": {
                 "top": 6410,
-                "left": 11573,
+                "left": 11553,
                 "bottom": 7006,
-                "right": 11969
+                "right": 12003
             },
             "visible": true,
             "clipped": false,
@@ -7102,18 +7102,18 @@
                             "type": "unknown",
                             "bounds": {
                                 "top": 6410,
-                                "left": 11573,
+                                "left": 11553,
                                 "bottom": 7006,
-                                "right": 11968
+                                "right": 11948
                             }
                         }
                     }
                 ],
                 "bounds": {
                     "top": 6410,
-                    "left": 11573,
+                    "left": 11553,
                     "bottom": 7006,
-                    "right": 11968
+                    "right": 11948
                 },
                 "defaultFill": false
             },
@@ -7125,9 +7125,9 @@
                     "name": "frame56-1.png",
                     "bounds": {
                         "top": 6655,
-                        "left": 11644,
+                        "left": 11678,
                         "bottom": 7006,
-                        "right": 11969
+                        "right": 12003
                     },
                     "visible": true,
                     "clipped": false,
@@ -7144,9 +7144,9 @@
                     "name": "frame56-0.png",
                     "bounds": {
                         "top": 6410,
-                        "left": 11573,
+                        "left": 11553,
                         "bottom": 7006,
-                        "right": 11968
+                        "right": 11948
                     },
                     "visible": true,
                     "clipped": false,
@@ -7169,18 +7169,18 @@
                                     "type": "unknown",
                                     "bounds": {
                                         "top": 6410,
-                                        "left": 11573,
+                                        "left": 11553,
                                         "bottom": 7006,
-                                        "right": 11968
+                                        "right": 11948
                                     }
                                 }
                             }
                         ],
                         "bounds": {
                             "top": 6410,
-                            "left": 11573,
+                            "left": 11553,
                             "bottom": 7006,
-                            "right": 11968
+                            "right": 11948
                         },
                         "defaultFill": false
                     }
@@ -7190,25 +7190,25 @@
             "vectorMask": [
                 {
                     "anchor": {
-                        "x": 11968,
+                        "x": 11948,
                         "y": 7006
                     }
                 },
                 {
                     "anchor": {
-                        "x": 11968,
+                        "x": 11948,
                         "y": 6410
                     }
                 },
                 {
                     "anchor": {
-                        "x": 11573,
+                        "x": 11553,
                         "y": 6410
                     }
                 },
                 {
                     "anchor": {
-                        "x": 11573,
+                        "x": 11553,
                         "y": 6999
                     }
                 }

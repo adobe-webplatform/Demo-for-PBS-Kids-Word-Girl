@@ -84,15 +84,15 @@ define(function (require) {
 	            dx = this.mouse.x - window.innerWidth / 2;
                 dy = this.mouse.y - window.innerHeight / 2;
 	
-				this.delta += 1;
+				//this.delta += 1;
                 this.layers[2].y = this.layers[2].origin.y + Math.sin(this.delta / 50) * 10;
                 this.layers[1].y = this.layers[1].origin.y + Math.sin(this.delta / 10) * 20;
-            
+            /*
                 for (i = 0; i < this.stars.length; i += 1) {
                     this.stars[i].x = dx * (this.stars[i].scale / 100);
                     this.stars[i].y = dy * (this.stars[i].scale / 100);
                 }
-
+			*/
 			} else {
 				this.delta = 0;
             }

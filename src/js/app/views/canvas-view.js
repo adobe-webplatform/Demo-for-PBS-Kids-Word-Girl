@@ -77,17 +77,6 @@ define(function (require) {
             cell = this.cells.at(Vars.get('currentFrame'));
             cell.get('view').render(this.ctx);
 
-            /*
-            //debug path
-            for (i = 0; i < this.path.path.length; i += 1) {
-                this.ctx.beginPath();
-                this.ctx.fillStyle = 'red';
-                this.ctx.rect(this.path.path[i].x, this.path.path[i].y, 10, 10);
-                this.ctx.fill();
-                this.ctx.closePath();
-            }
-            */
-
             this.ctx.restore();
         },
 
