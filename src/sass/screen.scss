@@ -38,7 +38,8 @@ body{
     width: 100vw;
     height: 100vh;
     background: black;
-
+	pointer-events: none;
+	
 	-moz-align-content: space-around;
 	-moz-justify-content: center;
 	-webkit-align-content: space-around;
@@ -47,7 +48,7 @@ body{
 	justify-content: center;
 	
     @include transform(translateZ(0));
-	@include transition(opacity 1s);
+	@include transition(opacity .4s);
 	
 	&.hide{
 		opacity: 0;

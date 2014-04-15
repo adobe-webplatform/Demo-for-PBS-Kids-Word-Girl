@@ -157,10 +157,11 @@ define(function (require) {
             
             AppEvent.on('render', this.render.bind(this));
 
-            //$('#preloader').css({display: 'none'});
+			//hide preloader
+			$('#preloader').addClass('hide');
 			setTimeout(function () {
-				$('#preloader').addClass('hide');
-			}, 1000);
+			    $('#preloader').css({display: 'none'});
+			}, 500);
         },
 
         handle_CLICK: function (e) {
