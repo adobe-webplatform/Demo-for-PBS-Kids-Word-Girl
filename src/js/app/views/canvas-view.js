@@ -41,14 +41,15 @@ define(function (require) {
 
             //draw stuff
             for (i = 0; i < this.cells.length; i += 1) {
-                if (i !== Vars.get('currentFrame')) {
-                	cell = this.cells.at(i);
+				//only draw frames next to current
+	            if (i == Vars.get('currentFrame') + 1 || i == Vars.get('currentFrame') - 1) {
+    				cell = this.cells.at(i);
                 	view = cell.get('view');
 
                 	if (view.loaded !== false) {
                 		cell.get('view').render(this.ctx);
                 	}
-                }
+				}
             }
             
             this.ctx.restore();
@@ -83,17 +84,15 @@ define(function (require) {
             this.x = Vars.get('x') * this.zoom;
             this.y = Vars.get('y') * this.zoom;
             this.scale = Vars.get('scale') * this.zoom;
+			
+			
+			//this.ctx.clearRect(0, 0, this.el.width, this.el.height);
 
-			this.ctx.clearRect(0, 0, this.el.width, this.el.height);
+			this.drawBackground();
+			this.drawOtherFrames();
+			this.drawShading();
+			this.drawCurrentFrame();
 
-			//if tweening clear whole frame
-			if (Vars.get('tweening') !== false) {
-				//whole canvas
-				//this.drawOtherFrames();
-			} else {
-				//current frame only
-				this.drawCurrentFrame();
-			}			
         },
 
         orientationchange: function () {
