@@ -29,13 +29,33 @@ body{
 }
 
 #preloader{
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     background: black;
+
+	-moz-align-content: space-around;
+	-moz-justify-content: center;
+	-webkit-align-content: space-around;
+	-webkit-justify-content: center;
+	align-content: space-around;
+	justify-content: center;
+	
     @include transform(translateZ(0));
+	@include transition(opacity 1s);
+	
+	&.hide{
+		opacity: 0;
+	}
+}
+
+#preloader-svg{
+	display: block;
 }
 
 #canvas-view{

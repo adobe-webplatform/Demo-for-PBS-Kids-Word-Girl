@@ -1212,20 +1212,42 @@ body {
 
 /* line 31, ../sass/screen.scss */
 #preloader {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
   background: black;
+  -moz-align-content: space-around;
+  -moz-justify-content: center;
+  -webkit-align-content: space-around;
+  -webkit-justify-content: center;
+  align-content: space-around;
+  justify-content: center;
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -ms-transform: translateZ(0);
   -o-transform: translateZ(0);
   transform: translateZ(0);
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+/* line 52, ../sass/screen.scss */
+#preloader.hide {
+  opacity: 0;
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
+#preloader-svg {
+  display: block;
+}
+
+/* line 61, ../sass/screen.scss */
 #canvas-view {
   position: fixed;
   top: 0;
@@ -1234,7 +1256,7 @@ body {
   height: 100%;
 }
 
-/* line 49, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 #dom-container {
   position: fixed;
   top: 0;
@@ -1244,24 +1266,24 @@ body {
   overflow: hidden;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 #dom-view {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 .frame {
   position: absolute;
   opacity: 0;
 }
-/* line 68, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .frame.in {
   opacity: 1;
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;

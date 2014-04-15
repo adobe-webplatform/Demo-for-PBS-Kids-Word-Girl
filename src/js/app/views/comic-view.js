@@ -157,7 +157,10 @@ define(function (require) {
             
             AppEvent.on('render', this.render.bind(this));
 
-            $('#preloader').css({display: 'none'});
+            //$('#preloader').css({display: 'none'});
+			setTimeout(function () {
+				$('#preloader').addClass('hide');
+			}, 1000);
         },
 
         handle_CLICK: function (e) {
@@ -232,7 +235,7 @@ define(function (require) {
 			if (this.zoomed !== true) {
 				this.zoomed = true;
 				
-				key = keys[keys.length - 1];
+				key = keys[keys.length];
 				//this.router.navigate('frame/' + this.cameraPath.currentKey);
 	            //Vars.set('currentFrame', this.cameraPath.currentKey);
 	            this.tweento(key);
