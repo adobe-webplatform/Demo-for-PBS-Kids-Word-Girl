@@ -52,7 +52,14 @@ define(function (require) {
         },
 
         render: function (ctx) {
-            var i;
+            var i,
+				currentFrame = this.options.num == Vars.get('currentFrame');
+
+			if (currentFrame && this.layers.length > 0 && Vars.get('tweening') === false) {
+				this.animate();
+			} else {
+				this.freeze();
+			}
 
             for (i = this.layers.length - 1; i > -1; i -= 1) {
                 this.layers[i].render(ctx);
@@ -60,6 +67,10 @@ define(function (require) {
         },
 
 		animate: function () {
+			
+		},
+		
+		freeze: function () {
 			
 		}
 

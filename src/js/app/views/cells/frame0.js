@@ -79,26 +79,26 @@ define(function (require) {
 
 			this.drawStars(ctx);
 
-            if (currentFrame && this.layers.length > 0) {
-	
-	            dx = this.mouse.x - window.innerWidth / 2;
-                dy = this.mouse.y - window.innerHeight / 2;
-	
-				//this.delta += 1;
-                this.layers[2].y = this.layers[2].origin.y + Math.sin(this.delta / 50) * 10;
-                this.layers[1].y = this.layers[1].origin.y + Math.sin(this.delta / 10) * 20;
-
-                for (i = 0; i < this.stars.length; i += 1) {
-                    this.stars[i].x = dx * (this.stars[i].scale / 100);
-                    this.stars[i].y = dy * (this.stars[i].scale / 100);
-                }
-
-			} else {
-				this.delta = 0;
-            }
-
             CellView.prototype.render.call(this, ctx);
         },
+
+		animate: function () {			
+			dx = this.mouse.x - window.innerWidth / 2;
+            dy = this.mouse.y - window.innerHeight / 2;
+
+			this.delta += 1;
+            this.layers[2].y = this.layers[2].origin.y + Math.sin(this.delta / 50) * 10;
+            this.layers[1].y = this.layers[1].origin.y + Math.sin(this.delta / 10) * 20;
+
+            for (i = 0; i < this.stars.length; i += 1) {
+                this.stars[i].x = dx * (this.stars[i].scale / 100);
+                this.stars[i].y = dy * (this.stars[i].scale / 100);
+            }
+		},
+
+		freeze: function () {
+			this.delta = 0;
+		},
 
         mousemove: function (e) {
             this.mouse.x = e.x;

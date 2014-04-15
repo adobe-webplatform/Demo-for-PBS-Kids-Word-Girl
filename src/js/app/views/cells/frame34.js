@@ -14,22 +14,19 @@ define(function (require) {
             CellView.prototype.initialize.call(this);
         },
 
-        render: function (ctx) {
-            var currentFrame = this.options.num == Vars.get('currentFrame'),
-                i;
-
-            if (currentFrame && this.layers.length > 0) {
-                this.layers[0].y = this.layers[0].y < this.layers[0].origin.y + 30 ? this.layers[0].y + 0.2 : this.layers[0].origin.y + 30;
-            } else {
-                for (i = 0; i < this.layers.length; i += 1) {
-                    this.layers[i].x = this.layers[i].origin.x;
-                    this.layers[i].y = this.layers[i].origin.y;
-                    this.layers[i].rotation = 0;
-                }
+		animate: function () {
+            this.layers[0].y = this.layers[0].y < this.layers[0].origin.y + 30 ? this.layers[0].y + 0.2 : this.layers[0].origin.y + 30;
+		},
+		
+		freeze: function () {
+			var i;
+			
+            for (i = 0; i < this.layers.length; i += 1) {
+                this.layers[i].x = this.layers[i].origin.x;
+                this.layers[i].y = this.layers[i].origin.y;
+                this.layers[i].rotation = 0;
             }
-
-            CellView.prototype.render.call(this, ctx);
-        }
+		}
     });
 
 	return Frame;
