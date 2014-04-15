@@ -24,6 +24,57 @@ define(function (require) {
             AppEvent.on('render', this.render.bind(this));
         },
 
+		drawBackground: function () {
+			//black background
+            this.ctx.beginPath();
+            this.ctx.fillStyle = 'black';
+            this.ctx.rect(0, 0, this.el.width, this.el.height);
+            this.ctx.fill();
+            this.ctx.closePath();
+		},
+
+		drawOtherFrames: function () {
+			this.ctx.save();
+			this.ctx.translate(this.x, this.y);
+			this.ctx.scale(this.scale, this.scale);
+            this.ctx.globalAlpha = 1;
+
+            //draw stuff
+            for (i = 0; i < this.cells.length; i += 1) {
+                if (i !== Vars.get('currentFrame')) {
+                	cell = this.cells.at(i);
+                	view = cell.get('view');
+
+                	if (view.loaded !== false) {
+                		cell.get('view').render(this.ctx);
+                	}
+                }
+            }
+            
+            this.ctx.restore();
+		},
+
+		drawShading: function () {
+			this.ctx.globalAlpha = 0.8;
+            //this.ctx.fillStyle = 'black';
+            this.ctx.beginPath();
+            this.ctx.rect(0, 0, this.el.width, this.el.height);
+            this.ctx.fill();
+            this.ctx.closePath();
+		},
+
+		drawCurrentFrame: function () {
+			this.ctx.save();
+			this.ctx.translate(this.x, this.y);
+			this.ctx.scale(this.scale, this.scale);
+            this.ctx.globalAlpha = 1;
+
+            cell = this.cells.at(Vars.get('currentFrame'));
+            cell.get('view').render(this.ctx);
+
+            this.ctx.restore();
+		},
+
         render: function () {
             var i,
                 cell,
@@ -34,61 +85,15 @@ define(function (require) {
             this.scale = Vars.get('scale') * this.zoom;
 
 			this.ctx.clearRect(0, 0, this.el.width, this.el.height);
-       
-            //black background
-            this.ctx.beginPath();
-            this.ctx.fillStyle = 'black';
-            this.ctx.rect(0, 0, this.el.width, this.el.height);
-            this.ctx.fill();
-            this.ctx.closePath();
 
-            this.ctx.save();
-			this.ctx.translate(this.x, this.y);
-			this.ctx.scale(this.scale, this.scale);
-            this.ctx.globalAlpha = 1;
-
-            //draw stuff
-            for (i = 0; i < this.cells.length; i += 1) {
-                if (i !== Vars.get('currentFrame')) {
-                    cell = this.cells.at(i);
-                    view = cell.get('view');
-
-                    if (view.loaded !== false) {
-                        cell.get('view').render(this.ctx);
-                    }
-                }
-            }
-            
-            this.ctx.restore();
-
-            //black shading over non current frames
-            this.ctx.globalAlpha = 0.8;
-            this.ctx.fillStyle = 'black';
-            this.ctx.beginPath();
-            this.ctx.rect(0, 0, this.el.width, this.el.height);
-            this.ctx.fill();
-            this.ctx.closePath();
-
-            this.ctx.save();
-			this.ctx.translate(this.x, this.y);
-			this.ctx.scale(this.scale, this.scale);
-            this.ctx.globalAlpha = 1;
-
-            cell = this.cells.at(Vars.get('currentFrame'));
-            cell.get('view').render(this.ctx);
-
-            /*
-            //debug path
-            for (i = 0; i < this.path.path.length; i += 1) {
-                this.ctx.beginPath();
-                this.ctx.fillStyle = 'red';
-                this.ctx.rect(this.path.path[i].x, this.path.path[i].y, 10, 10);
-                this.ctx.fill();
-                this.ctx.closePath();
-            }
-            */
-
-            this.ctx.restore();
+			//if tweening clear whole frame
+			if (Vars.get('tweening') !== false) {
+				//whole canvas
+				//this.drawOtherFrames();
+			} else {
+				//current frame only
+				this.drawCurrentFrame();
+			}			
         },
 
         orientationchange: function () {

@@ -24,8 +24,8 @@ define(function (require) {
             this.touchDelta = {x: 0, y: 0}; //delta for tracking
             this.scale = 1;
             this.animating = true;
-            this.tweening = false;
 
+			Vars.set('tweening', false);
             this.router = Vars.get('router');
 
             //determine initial frame
@@ -229,7 +229,7 @@ define(function (require) {
 			var key,
                 keys = this.cameraPath.keys;
 
-			if (this.tweening !== false) {
+			if (Vars.get('tweening') !== false) {
                 return;
             }
 
@@ -256,7 +256,7 @@ define(function (require) {
             var key,
                 keys = this.cameraPath.keys;
 
-            if (this.tweening !== false) {
+            if (Vars.get('tweening') !== false) {
                 return;
             }
 
@@ -272,7 +272,7 @@ define(function (require) {
             var key,
                 keys = this.cameraPath.keys;
 
-            if (this.tweening !== false) {
+            if (Vars.get('tweening') !== false) {
                 return;
             }
 
@@ -290,7 +290,7 @@ define(function (require) {
             this.position.x = -point.x * scale + (window.innerWidth / 2);
             this.position.y = -point.y * scale + (window.innerHeight / 2);
             this.animating = true;
-            this.tweening = false;
+            Vars.set('tweening', false);
             this.load();
         },
 
@@ -299,7 +299,7 @@ define(function (require) {
          */
         tweento: function (point) {
             this.animating = false;
-            this.tweening = true;
+            Vars.set('tweening', true);
             
             var scale = this.checkScale();
             Anim.to(this, 0.5, {scale: scale}, {});
@@ -310,7 +310,7 @@ define(function (require) {
             }, {
                 onComplete: function () {
                     this.animating = true;
-                    this.tweening = false;
+                    Vars.set('tweening', false);
                 }.bind(this)
             });
         },
