@@ -1278,13 +1278,21 @@ body {
 .frame {
   position: absolute;
   opacity: 0;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
 }
-/* line 89, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .frame.in {
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
   opacity: 1;
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;

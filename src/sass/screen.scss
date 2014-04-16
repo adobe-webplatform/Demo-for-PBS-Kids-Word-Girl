@@ -85,8 +85,10 @@ body{
 .frame{
     position: absolute;
     opacity: 0;
+	@include transition(none);
 
     &.in{
+		@include transition(opacity .2s);
         opacity: 1;
     }
 }
