@@ -112,6 +112,7 @@ define(function (require) {
             if (currentFrame) {
 				if (this.iphone === true && this.firstCall !== true) {	
 					this.video.className = "in";
+					this.video.webkitEnterFullscreen();
 					this.videoVisible = true;
 				}
 				
