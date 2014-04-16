@@ -159,8 +159,9 @@ define(function (require) {
         },
 
         handle_CLICK: function (e) {
+			var x = e.x || e.pageX || e.screenX;
 			
-            if (e.x > this.WIDTH / 2 || e.screenX > this.WIDTH / 2) {
+            if (x > this.WIDTH / 2) {
                 this.next();
             } else {
                 this.previous();
@@ -263,6 +264,7 @@ define(function (require) {
             this.position.y = -point.y * scale + (this.HEIGHT / 2);
             this.animating = true;
             Vars.set('tweening', false);
+			AppEvent.trigger('domupdate');
             this.load();
         },
 
@@ -272,7 +274,8 @@ define(function (require) {
         tweento: function (point) {
             this.animating = false;
             Vars.set('tweening', true);
-            
+            AppEvent.trigger('domhide');
+			
             var scale = this.checkScale();
             Anim.to(this, 0.5, {scale: scale}, {});
 
@@ -284,6 +287,7 @@ define(function (require) {
 					setTimeout(function () {
 						this.animating = true;
 	                    Vars.set('tweening', false);
+						AppEvent.trigger('domupdate');
 					}, 200);
                 }.bind(this)
             });

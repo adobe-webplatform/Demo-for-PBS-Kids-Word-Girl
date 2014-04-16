@@ -18,9 +18,7 @@ define(function (require) {
             this.loaded = false;
             this.layersLoaded = 0;
             this.layers = [];
-
-			//AppEvent.trigger('animate', this.animate.bind(this));
-	    },
+ 	    },
 
         handle_LAYER_LOAD: function () {
             this.layersLoaded += 1;
