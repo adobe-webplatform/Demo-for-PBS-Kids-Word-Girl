@@ -11,11 +11,14 @@ define(function (require) {
     CanvasView = Backbone.View.extend({
 
         initialize: function () {
+			this.offscreenCanvas = document.createElement('canvas');
+            this.ctx = this.offscreenCanvas.getContext('2d');
 		    this.el = document.getElementById('canvas-view');
-            this.ctx = this.el.getContext('2d');
+            this.context = this.el.getContext('2d');
             this.cells = this.options.cells;
             this.path = this.options.path;
             this.zoom = window.devicePixelRatio;
+			this.pixelate = 1;  //to use for scaling of content
 
             this.resize();
 
@@ -28,7 +31,7 @@ define(function (require) {
 			//black background
             this.ctx.beginPath();
             this.ctx.fillStyle = 'black';
-            this.ctx.rect(0, 0, this.el.width, this.el.height);
+            this.ctx.rect(0, 0, this.w, this.h);
             this.ctx.fill();
             this.ctx.closePath();
 		},
@@ -63,7 +66,7 @@ define(function (require) {
 			this.ctx.globalAlpha = 0.8;
             //this.ctx.fillStyle = 'black';
             this.ctx.beginPath();
-            this.ctx.rect(0, 0, this.el.width, this.el.height);
+            this.ctx.rect(0, 0, this.w, this.h);
             this.ctx.fill();
             this.ctx.closePath();
 		},
@@ -79,6 +82,13 @@ define(function (require) {
 
             this.ctx.restore();
 		},
+		
+		drawCanvas: function () {			
+			this.context.save();
+			this.context.scale(this.pixelate, this.pixelate);
+			this.context.drawImage(this.ctx.canvas, 0, 0);
+			this.context.restore();
+		},
 
         render: function () {
 
@@ -92,6 +102,7 @@ define(function (require) {
 			this.drawShading();
 			this.drawCurrentFrame();
 
+			this.drawCanvas();
         },
 
         orientationchange: function () {
@@ -99,8 +110,12 @@ define(function (require) {
         },
 
         resize: function () {
-            this.el.width = window.innerWidth * window.devicePixelRatio;
-            this.el.height = window.innerHeight * window.devicePixelRatio;
+			this.w = window.innerWidth * window.devicePixelRatio;
+			this.h = window.innerHeight * window.devicePixelRatio;
+            this.offscreenCanvas.width = this.w;
+            this.offscreenCanvas.height = this.h;
+			this.el.width = this.offscreenCanvas.width * this.pixelate;
+			this.el.height = this.offscreenCanvas.height * this.pixelate;
         }
 
     });

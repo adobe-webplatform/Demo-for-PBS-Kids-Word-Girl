@@ -283,9 +283,9 @@ define(function (require) {
             AppEvent.trigger('domhide');
 			
             var scale = this.checkScale();
-            Anim.to(this, 0.5, {scale: scale}, {});
+            Anim.to(this, 0.2, {scale: scale}, {});
 
-            Anim.to(this.position, 0.5, {
+            Anim.to(this.position, 0.2, {
                 x: -point.x * scale + (this.WIDTH / 2), 
                 y: -point.y * scale + (this.HEIGHT / 2)
             }, {
