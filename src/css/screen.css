@@ -1302,3 +1302,19 @@ body {
   font-size: 1.1rem;
   text-align: center;
 }
+
+/* line 106, ../sass/screen.scss */
+#video {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 100;
+}
+/* line 116, ../sass/screen.scss */
+#video.in {
+  display: block;
+}

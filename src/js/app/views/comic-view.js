@@ -22,8 +22,8 @@ define(function (require) {
 			this.HEIGHT = window.innerHeight;
 			this.zoomed = false;
             this.position = {x: 0, y: 0};
-            this.positionDelta = {x: 0, y: 0}; //delta for tracking
-            this.touchDelta = {x: 0, y: 0}; //delta for tracking
+            this.positionDelta = {x: 0, y: 0};
+            this.touchDelta = {x: 0, y: 0};
             this.scale = 1;
             this.animating = true;
 
@@ -79,7 +79,7 @@ define(function (require) {
 
 			//TODO:: waterfall in both directions
 		},
-		
+		/*
 		waterfallLoad: function (callback) {
 			var instance = this,
 				up,
@@ -113,7 +113,7 @@ define(function (require) {
 			
 			//TODO:: load up and load down
 		},
-
+		*/
         animate: function () {
 	
             Vars.set('x', this.position.x);
@@ -183,7 +183,6 @@ define(function (require) {
         },
 
         handle_TOUCHSTART: function (e) {
-			
             var touch = e.touches[0];
             
             if (touch.pageX > this.WIDTH / 2) {
