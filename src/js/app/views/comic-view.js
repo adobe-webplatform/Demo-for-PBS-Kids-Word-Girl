@@ -262,10 +262,13 @@ define(function (require) {
 
             this.position.x = -point.x * scale + (this.WIDTH / 2);
             this.position.y = -point.y * scale + (this.HEIGHT / 2);
-            this.animating = true;
-            Vars.set('tweening', false);
-			AppEvent.trigger('domupdate');
             this.load();
+
+			setTimeout(function () {
+				this.animating = true;
+	            Vars.set('tweening', false);
+				AppEvent.trigger('domupdate');
+			}, 200);
         },
 
         /**
