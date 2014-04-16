@@ -208,19 +208,18 @@ define(function (require) {
          * navigate along camera path with mousewheel
          */
         handle_MOUSEWHEEL: function (e) {
-
-            if (this.animating === true) {
-
-                e.preventDefault();
-                e.stopPropagation();
+            if (this.animating !== false) {
+				this.animating = true;
+            	e.preventDefault();
+            	e.stopPropagation();
                 
-                Anim.kill();
-
-                if (e.wheelDeltaY < -120 || e.wheelDeltaX < -120) {
-                    this.next();
-                } else if (e.wheelDeltaY > 120 || e.wheelDeltaX > 120) {
-                    this.previous();
-                }
+            	Anim.kill();
+				
+            	if (e.wheelDeltaY < -120 || e.wheelDeltaX < -120) {
+                	this.next();
+            	} else if (e.wheelDeltaY > 120 || e.wheelDeltaX > 120) {
+                	this.previous();
+            	}
             }
         },
 
@@ -262,6 +261,7 @@ define(function (require) {
 
         set: function (point) {
             var scale = this.checkScale();
+			this.animating = false;
 
             this.position.x = -point.x * scale + (this.WIDTH / 2);
             this.position.y = -point.y * scale + (this.HEIGHT / 2);
@@ -271,7 +271,7 @@ define(function (require) {
 				this.animating = true;
 	            Vars.set('tweening', false);
 				AppEvent.trigger('domupdate');
-			}, 200);
+			}.bind(this), 200);
         },
 
         /**
@@ -292,9 +292,10 @@ define(function (require) {
                 onComplete: function () {
 					setTimeout(function () {
 						this.animating = true;
+						
 	                    Vars.set('tweening', false);
 						AppEvent.trigger('domupdate');
-					}, 200);
+					}.bind(this), 200);
                 }.bind(this)
             });
         },
