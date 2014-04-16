@@ -27,6 +27,7 @@ define(function (require) {
             this.scale = 1;
             this.animating = true;
 
+			Vars.set('loading', false);
 			Vars.set('tweening', false);
             this.router = Vars.get('router');
 
@@ -49,6 +50,8 @@ define(function (require) {
                 currentView,
                 currentFrameNumber = Vars.get('currentFrame');
             
+			Vars.set('loading', true);
+
             function loadFrame(num, cb) {
                 
                 if (num < 0 || num > instance.cells.length - 1) {
@@ -69,6 +72,7 @@ define(function (require) {
             function loadFrameComplete() {
                 framesLoaded += 1;
                 if (framesLoaded == 3 && typeof(callback) == 'function') {
+					Vars.set('loading', false);
                     callback();
                 }
             }
@@ -228,7 +232,7 @@ define(function (require) {
             var key,
                 keys = this.cameraPath.keys;
 
-            if (Vars.get('tweening') !== false) {
+            if (Vars.get('tweening') !== false || Vars.get('loading') !== true) {
                 return;
             }
 
@@ -244,7 +248,7 @@ define(function (require) {
             var key,
                 keys = this.cameraPath.keys;
 
-            if (Vars.get('tweening') !== false) {
+            if (Vars.get('tweening') !== false || Vars.get('loading') !== true) {
                 return;
             }
 

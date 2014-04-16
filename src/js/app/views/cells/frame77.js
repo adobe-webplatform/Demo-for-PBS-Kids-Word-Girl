@@ -94,7 +94,7 @@ define(function (require) {
 		
 		stop: function () {
 			this.video.className = "";
-			this.this.videoVisible = false;
+			this.videoVisible = false;
 
 			if (this.videoLoaded !== false && this.videoPlaying !== false) {
 				this.video.pause();
