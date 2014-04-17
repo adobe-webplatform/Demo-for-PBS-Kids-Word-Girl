@@ -4,7 +4,7 @@ define(function (require) {
 	
 	var Backbone = require('backbone'),
         Vars = require('app/models/vars'),
-        Anim = require('app/utils/anim/anim'),
+        //Anim = require('app/utils/anim/anim'),
         CellCollection = require('app/collections/cells'),
         CameraPath = require('app/utils/camera-path'),
         CanvasView = require('app/views/canvas-view'),
@@ -12,6 +12,8 @@ define(function (require) {
         UserEvent = require('app/events/user-event'),
         AppEvent = require('app/events/app-event'),
         ComicView;
+
+	require('vendor/greensock/TweenLite');
 
     ComicView = Backbone.View.extend({
 
@@ -213,7 +215,7 @@ define(function (require) {
             	e.preventDefault();
             	e.stopPropagation();
                 
-            	Anim.kill();
+				TweenLite.killAll();
 				
             	if (e.wheelDeltaY < -120 || e.wheelDeltaX < -120) {
                 	this.next();
@@ -283,20 +285,22 @@ define(function (require) {
             AppEvent.trigger('domhide');
 			
             var scale = this.checkScale();
-            Anim.to(this, 0.2, {scale: scale}, {});
 
-            Anim.to(this.position, 0.2, {
+			TweenLite.to(this, 0.2, {scale: scale});
+
+			function tweenComplete() {
+				setTimeout(function () {
+					this.animating = true;
+					
+                    Vars.set('tweening', false);
+					AppEvent.trigger('domupdate');
+				}.bind(this), 200);
+			}
+
+			TweenLite.to(this.position, 0.2, {
                 x: -point.x * scale + (this.WIDTH / 2), 
-                y: -point.y * scale + (this.HEIGHT / 2)
-            }, {
-                onComplete: function () {
-					setTimeout(function () {
-						this.animating = true;
-						
-	                    Vars.set('tweening', false);
-						AppEvent.trigger('domupdate');
-					}.bind(this), 200);
-                }.bind(this)
+                y: -point.y * scale + (this.HEIGHT / 2),
+				onComplete: tweenComplete.bind(this)
             });
         },
 
