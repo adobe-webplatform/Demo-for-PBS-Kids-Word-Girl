@@ -222,7 +222,6 @@
   font-family: gochi-hand, sans-serif;
   font-size: 1.2rem;
   text-align: center;
-  -webkit-shape-inside: ellipse(50%, 50%, 50%, 50%);
 }
 /* line 25, ../sass/_bubbles.scss */
 .bubble--round svg {
