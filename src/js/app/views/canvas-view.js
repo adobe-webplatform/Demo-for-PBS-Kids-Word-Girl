@@ -112,6 +112,7 @@ define(function (require) {
         resize: function () {
 			this.w = window.innerWidth * window.devicePixelRatio;
 			this.h = window.innerHeight * window.devicePixelRatio;
+			
             this.offscreenCanvas.width = this.w;
             this.offscreenCanvas.height = this.h;
 			this.el.width = this.offscreenCanvas.width * this.pixelate;
