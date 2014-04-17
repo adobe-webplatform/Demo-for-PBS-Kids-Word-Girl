@@ -214,9 +214,7 @@ define(function (require) {
 				this.animating = true;
             	e.preventDefault();
             	e.stopPropagation();
-                
-				TweenLite.killAll();
-				
+                				
             	if (e.wheelDeltaY < -120 || e.wheelDeltaX < -120) {
                 	this.next();
             	} else if (e.wheelDeltaY > 120 || e.wheelDeltaX > 120) {
@@ -280,27 +278,29 @@ define(function (require) {
          * tween to frame
          */
         tweento: function (point) {
+			var speed = 0.3,
+				delay = 0.1,
+				scale = this.checkScale();
+	
             this.animating = false;
             Vars.set('tweening', true);
             AppEvent.trigger('domhide');
-			
-            var scale = this.checkScale();
 
-			TweenLite.to(this, 0.2, {scale: scale});
+			TweenLite.to(this, speed, {scale: scale, delay: delay});
 
 			function tweenComplete() {
 				setTimeout(function () {
 					this.animating = true;
-					
                     Vars.set('tweening', false);
 					AppEvent.trigger('domupdate');
 				}.bind(this), 200);
 			}
 
-			TweenLite.to(this.position, 0.2, {
+			TweenLite.to(this.position, speed, {
                 x: -point.x * scale + (this.WIDTH / 2), 
                 y: -point.y * scale + (this.HEIGHT / 2),
-				onComplete: tweenComplete.bind(this)
+				onComplete: tweenComplete.bind(this),
+				delay: delay
             });
         },
 
