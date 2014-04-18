@@ -279,7 +279,7 @@ define(function (require) {
          */
         tweento: function (point) {
 			var speed = 0.3,
-				delay = 0.1,
+				delay = 0,
 				scale = this.checkScale();
 	
             this.animating = false;
