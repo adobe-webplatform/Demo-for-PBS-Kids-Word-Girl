@@ -11,9 +11,9 @@ define(function (require) {
 
     Frame = CellView.extend({
         initialize: function () {
-			this.ios = ( navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false );
-			this.ipad = ( navigator.userAgent.match(/iPad/g) ? true : false );
-			this.iphone = ( navigator.userAgent.match(/(iPhone|iPod)/g) ? true : false );
+			this.ios = (navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false);
+			this.ipad = (navigator.userAgent.match(/iPad/g) ? true : false);
+			this.iphone = (navigator.userAgent.match(/(iPhone|iPod)/g) ? true : false);
 			
 			this.videoVisible = false;
 			this.videoLoaded = false;
@@ -56,7 +56,7 @@ define(function (require) {
 		load: function (callback) {
 			
 			this.video = document.createElement('video');
-			this.video.id = "video"
+			this.video.id = "video";
 					
 			this.video.addEventListener('canplaythrough', this.handle_CANPLAYTHROUGH.bind(this));
 			this.video.addEventListener('loadeddata', this.handle_LOADEDDATA.bind(this));

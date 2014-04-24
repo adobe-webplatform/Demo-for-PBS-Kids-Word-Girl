@@ -972,19 +972,21 @@
 
 /* line 682, ../sass/_bubbles.scss */
 #bubble-57-1 {
+  padding: 1em;
   bottom: 80px;
   left: 20px;
   width: 130px;
 }
 
-/* line 688, ../sass/_bubbles.scss */
+/* line 689, ../sass/_bubbles.scss */
 #bubble-57-2 {
+  padding: 1em;
   bottom: 40px;
   left: 140px;
   width: 130px;
 }
 
-/* line 695, ../sass/_bubbles.scss */
+/* line 697, ../sass/_bubbles.scss */
 #bubble-58-1 {
   top: 10px;
   left: 10px;
@@ -992,28 +994,28 @@
   height: 110px;
 }
 
-/* line 702, ../sass/_bubbles.scss */
+/* line 704, ../sass/_bubbles.scss */
 #bubble-58-2 {
   top: 20px;
   left: 180px;
   width: 130px;
 }
 
-/* line 708, ../sass/_bubbles.scss */
+/* line 710, ../sass/_bubbles.scss */
 #bubble-59-1 {
   top: 333px;
   right: 10px;
   width: 120px;
 }
 
-/* line 714, ../sass/_bubbles.scss */
+/* line 716, ../sass/_bubbles.scss */
 #bubble-60-1 {
   top: 30px;
   left: 350px;
   width: 160px;
 }
 
-/* line 720, ../sass/_bubbles.scss */
+/* line 722, ../sass/_bubbles.scss */
 #bubble-60-2 {
   top: 35px;
   left: 500px;
@@ -1021,35 +1023,35 @@
   height: 80px;
 }
 
-/* line 727, ../sass/_bubbles.scss */
+/* line 729, ../sass/_bubbles.scss */
 #bubble-61-1 {
   top: 20px;
   right: 20px;
   width: 120px;
 }
 
-/* line 733, ../sass/_bubbles.scss */
+/* line 735, ../sass/_bubbles.scss */
 #bubble-62-1 {
   bottom: 130px;
   left: 400px;
   width: 120px;
 }
 
-/* line 739, ../sass/_bubbles.scss */
+/* line 741, ../sass/_bubbles.scss */
 #bubble-62-2 {
   bottom: 20px;
   left: 400px;
   width: 180px;
 }
 
-/* line 745, ../sass/_bubbles.scss */
+/* line 747, ../sass/_bubbles.scss */
 #bubble-63-1 {
   bottom: 10px;
   left: 100px;
   width: 80px;
 }
 
-/* line 751, ../sass/_bubbles.scss */
+/* line 753, ../sass/_bubbles.scss */
 #bubble-64-1 {
   top: 10px;
   left: 20px;
@@ -1057,14 +1059,14 @@
   padding: 1.1em;
 }
 
-/* line 758, ../sass/_bubbles.scss */
+/* line 760, ../sass/_bubbles.scss */
 #bubble-65-1 {
   top: 10px;
   left: 20px;
   width: 140px;
 }
 
-/* line 764, ../sass/_bubbles.scss */
+/* line 766, ../sass/_bubbles.scss */
 #bubble-66-1 {
   top: 0px;
   left: 20px;
@@ -1072,42 +1074,42 @@
   padding: 1.1em;
 }
 
-/* line 771, ../sass/_bubbles.scss */
+/* line 773, ../sass/_bubbles.scss */
 #bubble-66-2 {
   top: 10px;
   left: 220px;
   width: 140px;
 }
 
-/* line 777, ../sass/_bubbles.scss */
+/* line 779, ../sass/_bubbles.scss */
 #bubble-67-1 {
   top: 20px;
   left: 20px;
   font-size: 1.5rem;
 }
 
-/* line 783, ../sass/_bubbles.scss */
+/* line 785, ../sass/_bubbles.scss */
 #bubble-68-1 {
   top: 10px;
   left: 20px;
   width: 100px;
 }
 
-/* line 789, ../sass/_bubbles.scss */
+/* line 791, ../sass/_bubbles.scss */
 #bubble-68-2 {
   top: 68px;
   left: 20px;
   width: 120px;
 }
 
-/* line 795, ../sass/_bubbles.scss */
+/* line 797, ../sass/_bubbles.scss */
 #bubble-69-1 {
   top: 10px;
   left: 20px;
   width: 100px;
 }
 
-/* line 801, ../sass/_bubbles.scss */
+/* line 803, ../sass/_bubbles.scss */
 #bubble-69-2 {
   top: 44px;
   left: 20px;
@@ -1116,14 +1118,14 @@
   font-size: 1.3rem;
 }
 
-/* line 809, ../sass/_bubbles.scss */
+/* line 811, ../sass/_bubbles.scss */
 #bubble-71-1 {
   top: 10px;
   left: 20px;
   width: 150px;
 }
 
-/* line 815, ../sass/_bubbles.scss */
+/* line 817, ../sass/_bubbles.scss */
 #bubble-71-2 {
   top: 30px;
   left: 320px;
@@ -1131,28 +1133,28 @@
   height: 120px;
 }
 
-/* line 822, ../sass/_bubbles.scss */
+/* line 824, ../sass/_bubbles.scss */
 #bubble-72-1 {
   top: 20px;
   left: 40px;
   width: 150px;
 }
 
-/* line 828, ../sass/_bubbles.scss */
+/* line 830, ../sass/_bubbles.scss */
 #bubble-72-2 {
   top: 110px;
   left: 70px;
   width: 150px;
 }
 
-/* line 834, ../sass/_bubbles.scss */
+/* line 836, ../sass/_bubbles.scss */
 #bubble-73-1 {
   top: 20px;
   left: 20px;
   width: 280px;
 }
 
-/* line 840, ../sass/_bubbles.scss */
+/* line 842, ../sass/_bubbles.scss */
 #bubble-74-1 {
   top: 20px;
   left: 20px;
@@ -1160,7 +1162,7 @@
   font-size: 1.2rem;
 }
 
-/* line 847, ../sass/_bubbles.scss */
+/* line 849, ../sass/_bubbles.scss */
 #bubble-75-1 {
   top: 20px;
   left: 20px;
@@ -1168,14 +1170,14 @@
   font-size: 1.2rem;
 }
 
-/* line 854, ../sass/_bubbles.scss */
+/* line 856, ../sass/_bubbles.scss */
 #bubble-76-1 {
   top: 20px;
   right: 20px;
   width: 130px;
 }
 
-/* line 860, ../sass/_bubbles.scss */
+/* line 862, ../sass/_bubbles.scss */
 #credits {
   position: absolute;
   top: 140px;
@@ -1186,7 +1188,43 @@
   text-align: center;
 }
 
-/* line 10, ../sass/screen.scss */
+@-webkit-keyframes dotone {
+  /* line 11, ../sass/screen.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 15, ../sass/screen.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes dottwo {
+  /* line 21, ../sass/screen.scss */
+  25% {
+    opacity: 0;
+  }
+
+  /* line 25, ../sass/screen.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes dotthree {
+  /* line 31, ../sass/screen.scss */
+  50% {
+    opacity: 0;
+  }
+
+  /* line 35, ../sass/screen.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 40, ../sass/screen.scss */
 body {
   margin: 0;
   padding: 0;
@@ -1198,7 +1236,7 @@ body {
   cursor: pointer;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 #debugger {
   position: fixed;
   padding: 1em;
@@ -1209,7 +1247,7 @@ body {
   z-index: 1000;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 #preloader {
   display: -moz-flex;
   display: -webkit-flex;
@@ -1220,13 +1258,20 @@ body {
   width: 100%;
   height: 100%;
   background: black;
+  color: #FBCA25;
+  text-align: center;
+  font-size: 2rem;
+  font-family: gochi-hand, sans-serif;
   pointer-events: none;
+  -mox-flex-direction: column;
   -moz-align-content: space-around;
   -moz-justify-content: center;
   -webkit-align-content: space-around;
   -webkit-justify-content: center;
+  -webkit-flex-direction: column;
   align-content: space-around;
   justify-content: center;
+  flex-direction: column;
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -ms-transform: translateZ(0);
@@ -1237,17 +1282,29 @@ body {
   -o-transition: opacity 0.4s;
   transition: opacity 0.4s;
 }
-/* line 53, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 #preloader.hide {
   opacity: 0;
 }
+/* line 95, ../sass/screen.scss */
+#preloader .dot:nth-child(1) {
+  -webkit-animation: dotone 1s infinite;
+}
+/* line 99, ../sass/screen.scss */
+#preloader .dot:nth-child(2) {
+  -webkit-animation: dottwo 1s infinite;
+}
+/* line 103, ../sass/screen.scss */
+#preloader .dot:nth-child(3) {
+  -webkit-animation: dotthree 1s infinite;
+}
 
-/* line 58, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 #preloader-svg {
   display: block;
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 #canvas-view {
   position: fixed;
   top: 0;
@@ -1256,7 +1313,7 @@ body {
   height: 100%;
 }
 
-/* line 70, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 #dom-container {
   position: fixed;
   top: 0;
@@ -1266,14 +1323,14 @@ body {
   overflow: hidden;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 #dom-view {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* line 85, ../sass/screen.scss */
+/* line 136, ../sass/screen.scss */
 .frame {
   position: absolute;
   opacity: 0;
@@ -1282,7 +1339,7 @@ body {
   -o-transition: none;
   transition: none;
 }
-/* line 90, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 .frame.in {
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
@@ -1291,7 +1348,7 @@ body {
   opacity: 1;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
@@ -1302,7 +1359,7 @@ body {
   text-align: center;
 }
 
-/* line 106, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 #video {
   display: none;
   position: fixed;
@@ -1313,7 +1370,7 @@ body {
   background: black;
   z-index: 100;
 }
-/* line 116, ../sass/screen.scss */
+/* line 167, ../sass/screen.scss */
 #video.in {
   display: block;
 }

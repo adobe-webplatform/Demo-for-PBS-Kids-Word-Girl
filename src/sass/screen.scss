@@ -7,6 +7,36 @@
 @import "svg";
 @import "bubbles";
 
+@-webkit-keyframes dotone {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+@-webkit-keyframes dottwo {
+  25% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+@-webkit-keyframes dotthree {
+  50% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -38,14 +68,21 @@ body{
     width: 100%;
     height: 100%;
     background: black;
+    color: #FBCA25;
+    text-align: center;
+    font-size: 2rem;
+    font-family: gochi-hand, sans-serif;
 	pointer-events: none;
 	
+    -mox-flex-direction: column;
 	-moz-align-content: space-around;
 	-moz-justify-content: center;
 	-webkit-align-content: space-around;
 	-webkit-justify-content: center;
+    -webkit-flex-direction: column;
 	align-content: space-around;
 	justify-content: center;
+    flex-direction: column;
 	
     @include transform(translateZ(0));
 	@include transition(opacity .4s);
@@ -53,6 +90,20 @@ body{
 	&.hide{
 		opacity: 0;
 	}
+
+    .dot{
+        &:nth-child(1) {
+            -webkit-animation: dotone 1s infinite;
+        }
+
+        &:nth-child(2) {
+            -webkit-animation: dottwo 1s infinite;
+        }
+
+        &:nth-child(3) {
+            -webkit-animation: dotthree 1s infinite;
+        }
+    }
 }
 
 #preloader-svg{
