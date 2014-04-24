@@ -33,6 +33,10 @@ define(function (require) {
 
             AppEvent.bind('domupdate', this.animationComplete.bind(this));
 
+            if (this.iphone !== false) {
+                this.ui.style.display = 'none';
+            }
+
             CellView.prototype.initialize.call(this);
         },
 		
@@ -50,6 +54,7 @@ define(function (require) {
 			this.holder.className = "";
 			this.video.pause();
 			this.videoPlaying = false;
+            this.videoVisible = false;
 		},
 
         handle_ui_TOUCHSTART: function (e) {
@@ -110,13 +115,13 @@ define(function (require) {
 		
 		stop: function () {
 			this.holder.className = "";
-			this.videoVisible = false;
 
 			if (this.videoLoaded !== false && this.videoPlaying !== false) {
 				this.video.pause();
 				this.video.currentTime = 0;
 			}
 			
+			this.videoVisible = false;
 			this.videoPlaying = false;
 		},
 
