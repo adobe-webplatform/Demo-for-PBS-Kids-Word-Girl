@@ -90,6 +90,10 @@ body{
 	&.hide{
 		opacity: 0;
 	}
+}
+
+#loader-text{
+    opacity: 0;
 
     .dot{
         &:nth-child(1) {
@@ -103,6 +107,12 @@ body{
         &:nth-child(3) {
             -webkit-animation: dotthree 1s infinite;
         }
+    }
+}
+
+.wf-gochihand-n4-active{
+    #loader-text{
+        opacity: 1;
     }
 }
 
