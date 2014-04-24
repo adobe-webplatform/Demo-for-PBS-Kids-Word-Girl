@@ -199,18 +199,39 @@ body{
     position: absolute;
     left: 20px;
     top: 20px;
-    width: 100px;
-    height: 100px;
-    background: blue;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 #video-play-btn{
     position: absolute;
     left: 20px;
     bottom: 20px;
-    margin-left: -50px;
-    margin-top: -50px;
-    width: 100px;
-    height: 100px;
-    background: red;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
+
+#video-play-btn-svg{
+    #video-play{
+        opacity: 1;
+    }
+
+    #video-pause{
+        opacity: 0;
+    }
+
+    &.pause{
+        #video-play{
+            opacity: 0;
+        }
+
+        #video-pause{
+            opacity: 1;
+        }
+    }
+}
+

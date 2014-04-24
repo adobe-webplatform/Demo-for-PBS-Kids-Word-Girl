@@ -734,8 +734,21 @@
         <div id="video-holder">
             <video id="video"></video>
             <div id="video-ui">
-                <div id="video-close-btn"></div>
-                <div id="video-play-btn"></div>
+                <div id="video-close-btn">
+                    <svg width="50" height="50">
+                        <polygon fill="#FFFFFF" points="40.182,14.932 33.818,8.568 25.25,17.136 16.682,8.568 10.318,14.932 18.886,23.5 10.318,32.068 
+                        16.682,38.432 25.25,29.864 33.818,38.432 40.182,32.068 31.614,23.5 "/>
+                    </svg>
+                </div>
+                <div id="video-play-btn">
+                    <svg id="video-play-btn-svg" width="50" height="50">
+                        <polygon id="video-play" fill="#FFFFFF" points="16,10.024 36.073,24.5 16,38.976 "/>
+                        <g id="video-pause">
+                            <rect x="10" y="9" fill="#FFFFFF" width="10" height="32"/>
+                            <rect x="29" y="9" fill="#FFFFFF" width="10" height="32"/>
+                        </g>
+                    </svg>
+                </div>
             </div>
         </div>
 

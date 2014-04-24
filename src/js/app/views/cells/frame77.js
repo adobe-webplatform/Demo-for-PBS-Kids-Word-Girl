@@ -19,7 +19,9 @@ define(function (require) {
             this.video = document.getElementById('video');
             this.ui = document.getElementById('video-ui');
             this.playBtn = document.getElementById('video-play-btn');
+            this.playBtnSVG = document.getElementById('video-play-btn-svg');
             this.closeBtn = document.getElementById('video-close-btn');
+
 			this.videoVisible = false;
 			this.videoLoaded = false;
 			this.videoPlaying = false;
@@ -56,8 +58,15 @@ define(function (require) {
         },
 
         handle_play_CLICK: function (e) {
-            this.video.play();
-            this.videoPlaying = true;
+            if (this.videoPlaying !== true) {
+                this.playBtnSVG.className = 'pause';
+                this.video.play();
+                this.videoPlaying = true;
+            } else {
+                this.playBtnSVG.className = '';
+                this.video.pause();
+                this.videoPlaying = false;
+            }
         },
 
         handle_close_CLICK: function (e) {
