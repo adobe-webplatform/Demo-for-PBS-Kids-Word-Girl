@@ -9,6 +9,7 @@ define(function (require) {
         CameraPath = require('app/utils/camera-path'),
         CanvasView = require('app/views/canvas-view'),
         DomView = require('app/views/dom-view'),
+        InstructionView = require('app/views/instruction-view'),
         UserEvent = require('app/events/user-event'),
         AppEvent = require('app/events/app-event'),
         ComicView;
@@ -23,6 +24,7 @@ define(function (require) {
 			this.WIDTH = window.innerWidth;
 			this.HEIGHT = window.innerHeight;
 			this.zoomed = false;
+			this.instructions = true;
             this.position = {x: 0, y: 0};
             this.positionDelta = {x: 0, y: 0};
             this.touchDelta = {x: 0, y: 0};
@@ -40,6 +42,8 @@ define(function (require) {
             }
 
 			this.cells = new CellCollection();
+
+            new InstructionView();
 
             this.load(this.handle_CELLS_READY.bind(this)); // callback when first 3 are loaded
         },
@@ -235,6 +239,11 @@ define(function (require) {
 
             if (Vars.get('tweening') !== false || Vars.get('loading') !== true) {
                 return;
+            }
+
+            if (this.instructions !== false) {
+                $('#instructions').hide();
+                this.instructions = false;
             }
 
             this.cameraPath.currentKey = this.cameraPath.currentKey < keys.length - 1 ? this.cameraPath.currentKey + 1 : keys.length - 1;

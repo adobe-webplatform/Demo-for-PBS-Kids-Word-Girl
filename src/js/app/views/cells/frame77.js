@@ -75,10 +75,13 @@ define(function (require) {
         },
 
         handle_close_CLICK: function (e) {
-            this.holder.className = "";
-            this.video.pause();
-            this.videoVisible = false;
-            this.videoPlaying = false;	
+            this.stop();
+        },
+
+        handle_ENDED: function (e) {
+            this.stop();
+            this.video.webkitExitFullscreen();
+			this.video.currentTime = 0;
         },
 		
 		load: function (callback) {
@@ -86,6 +89,7 @@ define(function (require) {
 			this.video.addEventListener('canplaythrough', this.handle_CANPLAYTHROUGH.bind(this));
 			this.video.addEventListener('loadeddata', this.handle_LOADEDDATA.bind(this));
 			this.video.addEventListener('webkitendfullscreen', this.handle_EXITFULLSCREEN.bind(this));
+			this.video.addEventListener('ended', this.handle_ENDED.bind(this));
 			
 			if (this.ios === true) {
 				
@@ -115,12 +119,7 @@ define(function (require) {
 		
 		stop: function () {
 			this.holder.className = "";
-
-			if (this.videoLoaded !== false && this.videoPlaying !== false) {
-				this.video.pause();
-				this.video.currentTime = 0;
-			}
-			
+			this.video.pause();
 			this.videoVisible = false;
 			this.videoPlaying = false;
 		},
