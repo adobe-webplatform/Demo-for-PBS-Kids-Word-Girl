@@ -17,10 +17,17 @@ define(function (require) {
 			
             this.holder = document.getElementById('video-holder');
             this.video = document.getElementById('video');
+            this.ui = document.getElementById('video-ui');
+            this.playBtn = document.getElementById('video-play-btn');
+            this.closeBtn = document.getElementById('video-close-btn');
 			this.videoVisible = false;
 			this.videoLoaded = false;
 			this.videoPlaying = false;
 			this.firstCall = false;
+
+            this.ui.addEventListener('touchstart', this.handle_ui_TOUCHSTART.bind(this));
+            this.playBtn.addEventListener('touchstart', this.handle_play_CLICK.bind(this));
+            this.closeBtn.addEventListener('touchstart', this.handle_close_CLICK.bind(this));
 
             AppEvent.bind('domupdate', this.animationComplete.bind(this));
 
@@ -38,25 +45,27 @@ define(function (require) {
 		
 		handle_EXITFULLSCREEN: function () {
 			console.log('exitfullscreen');
-			this.video.className = "";
+			this.holder.className = "";
 			this.video.pause();
 			this.videoPlaying = false;
 		},
-		
-		click: function (e) {
-			if (this.videoPlaying !== true) {
-				e.preventDefault();
-				e.stopPropagation();
-				this.video.play();
-				this.videoPlaying = true;
-			} else {
-				this.video.className = "";
-				this.videoVisible = false;
-				this.video.webkitExitFullscreen();
-				this.video.pause();
-				this.videoPlaying = false;	
-			}
-		},
+
+        handle_ui_TOUCHSTART: function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+        },
+
+        handle_play_CLICK: function (e) {
+            this.video.play();
+            this.videoPlaying = true;
+        },
+
+        handle_close_CLICK: function (e) {
+            this.holder.className = "";
+            this.video.pause();
+            this.videoVisible = false;
+            this.videoPlaying = false;	
+        },
 		
 		load: function (callback) {
 			
@@ -67,8 +76,6 @@ define(function (require) {
 			if (this.ios === true) {
 				
 				this.video.src = "assets/videos/final.m4v";
-				this.video.addEventListener('touchstart', this.click.bind(this));
-				//document.body.appendChild(this.video);
 				
 			} else if (this.video.canPlayType) {
 				

@@ -85,6 +85,7 @@ define(function (require) {
 
 			//TODO:: waterfall in both directions
 		},
+
 		/*
 		waterfallLoad: function (callback) {
 			var instance = this,
@@ -120,15 +121,16 @@ define(function (require) {
 			//TODO:: load up and load down
 		},
 		*/
+
         animate: function () {
-	
             Vars.set('x', this.position.x);
             Vars.set('y', this.position.y);
             Vars.set('scale', this.scale);
         },
 
         handle_CELLS_READY: function () {
-			var $preloader = $('#preloader');
+			var $preloader = $('#preloader'),
+                cell;
 
             this.cameraPath = new CameraPath(this.cells);
             this.cameraPath.currentKey = Vars.get('currentFrame');
@@ -137,7 +139,7 @@ define(function (require) {
 		    this.canvasView = new CanvasView({cells: this.cells, path: this.cameraPath});
             this.domView = new DomView({cells: this.cells});
 
-            var cell = this.cells.at(Vars.get('currentFrame'));
+            cell = this.cells.at(Vars.get('currentFrame'));
             this.scale = this.checkScale();
             this.set({x: cell.center().x, y: cell.center().y});
 
