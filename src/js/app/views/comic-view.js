@@ -1,4 +1,4 @@
-/*global define $ requestAnimationFrame Modernizr*/
+/*global define $ requestAnimationFrame Modernizr TweenLite*/
 
 define(function (require) {
 	
@@ -212,14 +212,14 @@ define(function (require) {
         handle_MOUSEWHEEL: function (e) {
             if (this.animating !== false) {
 				this.animating = true;
-            	e.preventDefault();
-            	e.stopPropagation();
+                e.preventDefault();
+                e.stopPropagation();
                 				
-            	if (e.wheelDeltaY < -120 || e.wheelDeltaX < -120) {
-                	this.next();
-            	} else if (e.wheelDeltaY > 120 || e.wheelDeltaX > 120) {
-                	this.previous();
-            	}
+                if (e.wheelDeltaY < -120 || e.wheelDeltaX < -120) {
+                    this.next();
+                } else if (e.wheelDeltaY > 120 || e.wheelDeltaX > 120) {
+                    this.previous();
+                }
             }
         },
 
