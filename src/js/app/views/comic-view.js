@@ -4,7 +4,6 @@ define(function (require) {
 	
 	var Backbone = require('backbone'),
         Vars = require('app/models/vars'),
-        //Anim = require('app/utils/anim/anim'),
         CellCollection = require('app/collections/cells'),
         CameraPath = require('app/utils/camera-path'),
         CanvasView = require('app/views/canvas-view'),
@@ -159,6 +158,10 @@ define(function (require) {
             UserEvent.on('keydown', this.handle_KEYDOWN.bind(this));
             UserEvent.on('resize', this.resize.bind(this));
             UserEvent.on('orientationchange', this.orientationchange.bind(this));
+            
+            AppEvent.on('next', this.next.bind(this));
+            AppEvent.on('previous', this.previous.bind(this));
+            AppEvent.on('goto', this.goto.bind(this));
 
             //AppEvent.on('render', this.animate.bind(this));
 			setInterval(this.animate.bind(this), 60 / 1000);
@@ -265,6 +268,24 @@ define(function (require) {
             this.cameraPath.currentKey = this.cameraPath.currentKey > 0 ? this.cameraPath.currentKey - 1 : 0;
             key = keys[this.cameraPath.currentKey];
 			this.router.navigate('frame/' + this.cameraPath.currentKey);
+            Vars.set('currentFrame', this.cameraPath.currentKey);
+            this.tweento(key);
+            this.load();
+        },
+
+        goto: function (num) {
+            var key,
+                keys = this.cameraPath.keys;
+
+            console.log("goto!", num);
+
+            if (Vars.get('tweening') !== false || Vars.get('loading') !== true) {
+                return;
+            }
+
+            this.cameraPath.currentKey = num;
+            key = keys[this.cameraPath.currentKey];
+            this.router.navigate('frame/' + this.cameraPath.currentKey);
             Vars.set('currentFrame', this.cameraPath.currentKey);
             this.tweento(key);
             this.load();

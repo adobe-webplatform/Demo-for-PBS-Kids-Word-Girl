@@ -122,6 +122,9 @@ define(function (require) {
 			this.video.pause();
 			this.videoVisible = false;
 			this.videoPlaying = false;
+
+			console.log('stop');
+			AppEvent.trigger('next');
 		},
 
         animationComplete: function () {

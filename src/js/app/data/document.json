@@ -1,8 +1,8 @@
 {
     "version": "1.1.0",
-    "timeStamp": 1397683931.2,
-    "count": 1019,
-    "id": 2597,
+    "timeStamp": 1398972019.78,
+    "count": 117,
+    "id": 37,
     "file": "/Users/gammon/Documents/Projects/00-repos/github/adobe-webplatform/wordgirl/src/assets/images/comp.psd",
     "bounds": {
         "top": 0,
@@ -11,7 +11,7 @@
         "right": 16177
     },
     "selection": [
-        67
+        3
     ],
     "resolution": 72,
     "globalLight": {
@@ -30,14 +30,14 @@
     "layers": [
         {
             "id": 121,
-            "index": 385,
+            "index": 392,
             "type": "layerSection",
             "name": "frame0",
             "bounds": {
                 "top": 40,
-                "left": 128,
+                "left": 126,
                 "bottom": 719,
-                "right": 939
+                "right": 937
             },
             "visible": true,
             "clipped": false,
@@ -55,32 +55,32 @@
                             "type": "rect",
                             "bounds": {
                                 "top": 23,
-                                "left": 67,
+                                "left": 65,
                                 "bottom": 720,
-                                "right": 963
+                                "right": 961
                             }
                         }
                     }
                 ],
                 "bounds": {
                     "top": 23,
-                    "left": 67,
+                    "left": 65,
                     "bottom": 720,
-                    "right": 963
+                    "right": 961
                 },
                 "defaultFill": false
             },
             "layers": [
                 {
                     "id": 124,
-                    "index": 384,
+                    "index": 391,
                     "type": "layer",
                     "name": "frame0-2.png",
                     "bounds": {
                         "top": 40,
-                        "left": 132,
+                        "left": 130,
                         "bottom": 251,
-                        "right": 872
+                        "right": 870
                     },
                     "visible": true,
                     "clipped": false,
@@ -92,14 +92,14 @@
                 },
                 {
                     "id": 126,
-                    "index": 383,
+                    "index": 390,
                     "type": "layer",
                     "name": "frame0-1.png",
                     "bounds": {
                         "top": 50,
-                        "left": 531,
+                        "left": 529,
                         "bottom": 719,
-                        "right": 939
+                        "right": 937
                     },
                     "visible": true,
                     "clipped": false,
@@ -111,14 +111,14 @@
                 },
                 {
                     "id": 125,
-                    "index": 382,
+                    "index": 389,
                     "type": "layer",
                     "name": "frame0-0.png",
                     "bounds": {
                         "top": 252,
-                        "left": 128,
+                        "left": 126,
                         "bottom": 695,
-                        "right": 420
+                        "right": 418
                     },
                     "visible": true,
                     "clipped": false,
@@ -133,25 +133,25 @@
             "vectorMask": [
                 {
                     "anchor": {
-                        "x": 67.0001,
+                        "x": 65.0003,
                         "y": 23.0002
                     }
                 },
                 {
                     "anchor": {
-                        "x": 963,
+                        "x": 961,
                         "y": 23.0002
                     }
                 },
                 {
                     "anchor": {
-                        "x": 963,
+                        "x": 961,
                         "y": 720
                     }
                 },
                 {
                     "anchor": {
-                        "x": 67.0001,
+                        "x": 65.0003,
                         "y": 720
                     }
                 }
@@ -159,7 +159,7 @@
         },
         {
             "id": 10,
-            "index": 380,
+            "index": 387,
             "type": "layerSection",
             "name": "frame1",
             "bounds": {
@@ -202,7 +202,7 @@
             "layers": [
                 {
                     "id": 18,
-                    "index": 379,
+                    "index": 386,
                     "type": "layer",
                     "name": "frame1-2.png",
                     "bounds": {
@@ -211,36 +211,17 @@
                         "bottom": 709,
                         "right": 1540
                     },
-                    "boundsWithFX": {
-                        "top": 68,
-                        "left": 1066,
-                        "bottom": 709,
-                        "right": 1540
-                    },
                     "visible": true,
                     "clipped": false,
-                    "blendOptions": {
-                        "fillOpacity": {
-                            "value": 0,
-                            "units": "percentUnit"
-                        }
-                    },
                     "mask": {
                         "removed": true
                     },
                     "pixels": true,
-                    "generatorSettings": false,
-                    "layerEffects": {
-                        "frameFX": {
-                            "enabled": true,
-                            "style": "insetFrame",
-                            "size": 6
-                        }
-                    }
+                    "generatorSettings": false
                 },
                 {
                     "id": 6,
-                    "index": 378,
+                    "index": 385,
                     "type": "layer",
                     "name": "frame1-1.png",
                     "bounds": {
@@ -255,31 +236,9 @@
                         "removed": true
                     },
                     "generatorSettings": false,
-                    "path": {
-                        "pathComponents": [
-                            {
-                                "origin": {
-                                    "type": "unknown",
-                                    "bounds": {
-                                        "top": 63,
-                                        "left": 1064,
-                                        "bottom": 682,
-                                        "right": 1537
-                                    }
-                                }
-                            }
-                        ],
-                        "bounds": {
-                            "top": 63,
-                            "left": 1064,
-                            "bottom": 682,
-                            "right": 1537
-                        },
-                        "defaultFill": false
-                    },
                     "smartObject": {
-                        "ID": "913e9d4e-056c-1177-93d7-e4ca80d57eed",
-                        "placed": "913e9d4c-056c-1177-93d7-e4ca80d57eed",
+                        "ID": "8cdbd605-0676-1177-93d7-e4ca80d57eed",
+                        "placed": "8cdbd603-0676-1177-93d7-e4ca80d57eed",
                         "antiAliasType": 16,
                         "type": 2,
                         "transform": [
@@ -296,7 +255,7 @@
                 },
                 {
                     "id": 5,
-                    "index": 377,
+                    "index": 384,
                     "type": "layer",
                     "name": "frame1-0.png",
                     "bounds": {
@@ -311,31 +270,9 @@
                         "removed": true
                     },
                     "generatorSettings": false,
-                    "path": {
-                        "pathComponents": [
-                            {
-                                "origin": {
-                                    "type": "unknown",
-                                    "bounds": {
-                                        "top": 63,
-                                        "left": 1064,
-                                        "bottom": 682,
-                                        "right": 1537
-                                    }
-                                }
-                            }
-                        ],
-                        "bounds": {
-                            "top": 63,
-                            "left": 1064,
-                            "bottom": 682,
-                            "right": 1537
-                        },
-                        "defaultFill": false
-                    },
                     "smartObject": {
-                        "ID": "913e9d4d-056c-1177-93d7-e4ca80d57eed",
-                        "placed": "913e9d4b-056c-1177-93d7-e4ca80d57eed",
+                        "ID": "8cdbd604-0676-1177-93d7-e4ca80d57eed",
+                        "placed": "8cdbd602-0676-1177-93d7-e4ca80d57eed",
                         "antiAliasType": 16,
                         "type": 2,
                         "transform": [
@@ -381,7 +318,7 @@
         },
         {
             "id": 16,
-            "index": 375,
+            "index": 382,
             "type": "layerSection",
             "name": "frame2",
             "bounds": {
@@ -424,7 +361,7 @@
             "layers": [
                 {
                     "id": 15,
-                    "index": 374,
+                    "index": 381,
                     "type": "layer",
                     "name": "frame2-2.png",
                     "bounds": {
@@ -443,7 +380,7 @@
                 },
                 {
                     "id": 14,
-                    "index": 373,
+                    "index": 380,
                     "type": "layer",
                     "name": "frame2-1.png",
                     "bounds": {
@@ -462,7 +399,7 @@
                 },
                 {
                     "id": 13,
-                    "index": 372,
+                    "index": 379,
                     "type": "layer",
                     "name": "frame2-0.png",
                     "bounds": {
@@ -477,29 +414,7 @@
                         "removed": true
                     },
                     "pixels": true,
-                    "generatorSettings": false,
-                    "path": {
-                        "pathComponents": [
-                            {
-                                "origin": {
-                                    "type": "unknown",
-                                    "bounds": {
-                                        "top": 70,
-                                        "left": 1574,
-                                        "bottom": 690,
-                                        "right": 2311
-                                    }
-                                }
-                            }
-                        ],
-                        "bounds": {
-                            "top": 70,
-                            "left": 1574,
-                            "bottom": 690,
-                            "right": 2311
-                        },
-                        "defaultFill": false
-                    }
+                    "generatorSettings": false
                 }
             ],
             "atRootOfChange": true,
@@ -532,7 +447,7 @@
         },
         {
             "id": 24,
-            "index": 370,
+            "index": 377,
             "type": "layerSection",
             "name": "frame3",
             "bounds": {
@@ -575,7 +490,7 @@
             "layers": [
                 {
                     "id": 23,
-                    "index": 369,
+                    "index": 376,
                     "type": "layer",
                     "name": "frame3-4.png",
                     "bounds": {
@@ -594,7 +509,7 @@
                 },
                 {
                     "id": 22,
-                    "index": 368,
+                    "index": 375,
                     "type": "layer",
                     "name": "frame3-3.png",
                     "bounds": {
@@ -613,7 +528,7 @@
                 },
                 {
                     "id": 21,
-                    "index": 367,
+                    "index": 374,
                     "type": "layer",
                     "name": "frame3-2.png",
                     "bounds": {
@@ -632,7 +547,7 @@
                 },
                 {
                     "id": 20,
-                    "index": 366,
+                    "index": 373,
                     "type": "layer",
                     "name": "frame3-1.png",
                     "bounds": {
@@ -647,33 +562,11 @@
                         "removed": true
                     },
                     "pixels": true,
-                    "generatorSettings": false,
-                    "path": {
-                        "pathComponents": [
-                            {
-                                "origin": {
-                                    "type": "unknown",
-                                    "bounds": {
-                                        "top": 82,
-                                        "left": 2380,
-                                        "bottom": 673,
-                                        "right": 2687
-                                    }
-                                }
-                            }
-                        ],
-                        "bounds": {
-                            "top": 82,
-                            "left": 2380,
-                            "bottom": 673,
-                            "right": 2687
-                        },
-                        "defaultFill": false
-                    }
+                    "generatorSettings": false
                 },
                 {
                     "id": 19,
-                    "index": 365,
+                    "index": 372,
                     "type": "layer",
                     "name": "frame3-0.png",
                     "bounds": {
@@ -721,7 +614,7 @@
         },
         {
             "id": 286,
-            "index": 363,
+            "index": 370,
             "type": "layerSection",
             "name": "frame4",
             "bounds": {
@@ -764,7 +657,7 @@
             "layers": [
                 {
                     "id": 285,
-                    "index": 362,
+                    "index": 369,
                     "type": "layer",
                     "name": "frame4-0.png",
                     "bounds": {
@@ -812,7 +705,7 @@
         },
         {
             "id": 33,
-            "index": 360,
+            "index": 367,
             "type": "layerSection",
             "name": "frame5",
             "bounds": {
@@ -855,7 +748,7 @@
             "layers": [
                 {
                     "id": 407,
-                    "index": 359,
+                    "index": 366,
                     "type": "layer",
                     "name": "frame5-8.png",
                     "bounds": {
@@ -874,7 +767,7 @@
                 },
                 {
                     "id": 406,
-                    "index": 358,
+                    "index": 365,
                     "type": "layer",
                     "name": "frame5-7.png",
                     "bounds": {
@@ -893,7 +786,7 @@
                 },
                 {
                     "id": 405,
-                    "index": 357,
+                    "index": 364,
                     "type": "layer",
                     "name": "frame5-6.png",
                     "bounds": {
@@ -912,7 +805,7 @@
                 },
                 {
                     "id": 404,
-                    "index": 356,
+                    "index": 363,
                     "type": "layer",
                     "name": "frame5-5.png",
                     "bounds": {
@@ -931,7 +824,7 @@
                 },
                 {
                     "id": 31,
-                    "index": 355,
+                    "index": 362,
                     "type": "layer",
                     "name": "frame5-4.png",
                     "bounds": {
@@ -950,7 +843,7 @@
                 },
                 {
                     "id": 30,
-                    "index": 354,
+                    "index": 361,
                     "type": "layer",
                     "name": "frame5-3.png",
                     "bounds": {
@@ -969,7 +862,7 @@
                 },
                 {
                     "id": 29,
-                    "index": 353,
+                    "index": 360,
                     "type": "layer",
                     "name": "frame5-2.png",
                     "bounds": {
@@ -988,7 +881,7 @@
                 },
                 {
                     "id": 28,
-                    "index": 352,
+                    "index": 359,
                     "type": "layer",
                     "name": "frame5-1.png",
                     "bounds": {
@@ -1007,7 +900,7 @@
                 },
                 {
                     "id": 27,
-                    "index": 351,
+                    "index": 358,
                     "type": "layer",
                     "name": "frame5-0.png",
                     "bounds": {
@@ -1055,7 +948,7 @@
         },
         {
             "id": 38,
-            "index": 349,
+            "index": 356,
             "type": "layerSection",
             "name": "frame6",
             "bounds": {
@@ -1098,7 +991,7 @@
             "layers": [
                 {
                     "id": 45,
-                    "index": 348,
+                    "index": 355,
                     "type": "layer",
                     "name": "frame6-4.png",
                     "bounds": {
@@ -1117,7 +1010,7 @@
                 },
                 {
                     "id": 44,
-                    "index": 347,
+                    "index": 354,
                     "type": "layer",
                     "name": "frame6-3.png",
                     "bounds": {
@@ -1136,7 +1029,7 @@
                 },
                 {
                     "id": 43,
-                    "index": 346,
+                    "index": 353,
                     "type": "layer",
                     "name": "frame6-2.png",
                     "bounds": {
@@ -1155,7 +1048,7 @@
                 },
                 {
                     "id": 42,
-                    "index": 345,
+                    "index": 352,
                     "type": "layer",
                     "name": "frame6-1.png",
                     "bounds": {
@@ -1174,7 +1067,7 @@
                 },
                 {
                     "id": 40,
-                    "index": 344,
+                    "index": 351,
                     "type": "layer",
                     "name": "frame6-0.png",
                     "bounds": {
@@ -1222,7 +1115,7 @@
         },
         {
             "id": 47,
-            "index": 342,
+            "index": 349,
             "type": "layerSection",
             "name": "frame7",
             "bounds": {
@@ -1265,7 +1158,7 @@
             "layers": [
                 {
                     "id": 51,
-                    "index": 341,
+                    "index": 348,
                     "type": "layer",
                     "name": "frame7-2.png",
                     "bounds": {
@@ -1284,7 +1177,7 @@
                 },
                 {
                     "id": 50,
-                    "index": 340,
+                    "index": 347,
                     "type": "layer",
                     "name": "frame7-1.png",
                     "bounds": {
@@ -1303,7 +1196,7 @@
                 },
                 {
                     "id": 49,
-                    "index": 339,
+                    "index": 346,
                     "type": "layer",
                     "name": "frame7-0.png",
                     "bounds": {
@@ -1351,7 +1244,7 @@
         },
         {
             "id": 52,
-            "index": 337,
+            "index": 344,
             "type": "layerSection",
             "name": "frame8",
             "bounds": {
@@ -1394,7 +1287,7 @@
             "layers": [
                 {
                     "id": 58,
-                    "index": 336,
+                    "index": 343,
                     "type": "layer",
                     "name": "frame8-4.png",
                     "bounds": {
@@ -1413,7 +1306,7 @@
                 },
                 {
                     "id": 57,
-                    "index": 335,
+                    "index": 342,
                     "type": "layer",
                     "name": "frame8-3.png",
                     "bounds": {
@@ -1432,7 +1325,7 @@
                 },
                 {
                     "id": 56,
-                    "index": 334,
+                    "index": 341,
                     "type": "layer",
                     "name": "frame8-2.png",
                     "bounds": {
@@ -1451,7 +1344,7 @@
                 },
                 {
                     "id": 55,
-                    "index": 333,
+                    "index": 340,
                     "type": "layer",
                     "name": "frame8-1.png",
                     "bounds": {
@@ -1470,7 +1363,7 @@
                 },
                 {
                     "id": 54,
-                    "index": 332,
+                    "index": 339,
                     "type": "layer",
                     "name": "frame8-0.png",
                     "bounds": {
@@ -1518,7 +1411,7 @@
         },
         {
             "id": 64,
-            "index": 330,
+            "index": 337,
             "type": "layerSection",
             "name": "frame9",
             "bounds": {
@@ -1561,7 +1454,7 @@
             "layers": [
                 {
                     "id": 62,
-                    "index": 329,
+                    "index": 336,
                     "type": "layer",
                     "name": "frame9-2.png",
                     "bounds": {
@@ -1580,7 +1473,7 @@
                 },
                 {
                     "id": 61,
-                    "index": 328,
+                    "index": 335,
                     "type": "layer",
                     "name": "frame9-1.png",
                     "bounds": {
@@ -1599,7 +1492,7 @@
                 },
                 {
                     "id": 60,
-                    "index": 327,
+                    "index": 334,
                     "type": "layer",
                     "name": "frame9-0.png",
                     "bounds": {
@@ -1647,7 +1540,7 @@
         },
         {
             "id": 66,
-            "index": 325,
+            "index": 332,
             "type": "layerSection",
             "name": "frame10",
             "bounds": {
@@ -1690,7 +1583,7 @@
             "layers": [
                 {
                     "id": 70,
-                    "index": 324,
+                    "index": 331,
                     "type": "layer",
                     "name": "frame10-2.png",
                     "bounds": {
@@ -1709,7 +1602,7 @@
                 },
                 {
                     "id": 69,
-                    "index": 323,
+                    "index": 330,
                     "type": "layer",
                     "name": "frame10-1.png",
                     "bounds": {
@@ -1728,7 +1621,7 @@
                 },
                 {
                     "id": 68,
-                    "index": 322,
+                    "index": 329,
                     "type": "layer",
                     "name": "frame10-0.png",
                     "bounds": {
@@ -1776,7 +1669,7 @@
         },
         {
             "id": 72,
-            "index": 320,
+            "index": 327,
             "type": "layerSection",
             "name": "frame11",
             "bounds": {
@@ -1819,7 +1712,7 @@
             "layers": [
                 {
                     "id": 80,
-                    "index": 319,
+                    "index": 326,
                     "type": "layer",
                     "name": "frame11-5.png",
                     "bounds": {
@@ -1838,7 +1731,7 @@
                 },
                 {
                     "id": 79,
-                    "index": 318,
+                    "index": 325,
                     "type": "layer",
                     "name": "frame11-4.png",
                     "bounds": {
@@ -1857,7 +1750,7 @@
                 },
                 {
                     "id": 78,
-                    "index": 317,
+                    "index": 324,
                     "type": "layer",
                     "name": "frame11-3.png",
                     "bounds": {
@@ -1876,7 +1769,7 @@
                 },
                 {
                     "id": 77,
-                    "index": 316,
+                    "index": 323,
                     "type": "layer",
                     "name": "frame11-2.png",
                     "bounds": {
@@ -1895,7 +1788,7 @@
                 },
                 {
                     "id": 76,
-                    "index": 315,
+                    "index": 322,
                     "type": "layer",
                     "name": "frame11-1.png",
                     "bounds": {
@@ -1914,7 +1807,7 @@
                 },
                 {
                     "id": 75,
-                    "index": 314,
+                    "index": 321,
                     "type": "layer",
                     "name": "frame11-0.png",
                     "bounds": {
@@ -1962,7 +1855,7 @@
         },
         {
             "id": 84,
-            "index": 312,
+            "index": 319,
             "type": "layerSection",
             "name": "frame12",
             "bounds": {
@@ -2005,7 +1898,7 @@
             "layers": [
                 {
                     "id": 99,
-                    "index": 311,
+                    "index": 318,
                     "type": "layer",
                     "name": "frame12-5.png",
                     "bounds": {
@@ -2024,7 +1917,7 @@
                 },
                 {
                     "id": 98,
-                    "index": 310,
+                    "index": 317,
                     "type": "layer",
                     "name": "frame12-4.png",
                     "bounds": {
@@ -2043,7 +1936,7 @@
                 },
                 {
                     "id": 97,
-                    "index": 309,
+                    "index": 316,
                     "type": "layer",
                     "name": "frame12-3.png",
                     "bounds": {
@@ -2062,7 +1955,7 @@
                 },
                 {
                     "id": 93,
-                    "index": 308,
+                    "index": 315,
                     "type": "layer",
                     "name": "frame12-2.png",
                     "bounds": {
@@ -2081,7 +1974,7 @@
                 },
                 {
                     "id": 91,
-                    "index": 307,
+                    "index": 314,
                     "type": "layer",
                     "name": "frame12-1.png",
                     "bounds": {
@@ -2100,7 +1993,7 @@
                 },
                 {
                     "id": 87,
-                    "index": 306,
+                    "index": 313,
                     "type": "layer",
                     "name": "frame12-0.png",
                     "bounds": {
@@ -2148,7 +2041,7 @@
         },
         {
             "id": 101,
-            "index": 304,
+            "index": 311,
             "type": "layerSection",
             "name": "frame13",
             "bounds": {
@@ -2191,7 +2084,7 @@
             "layers": [
                 {
                     "id": 115,
-                    "index": 303,
+                    "index": 310,
                     "type": "layer",
                     "name": "frame13-2.png",
                     "bounds": {
@@ -2210,7 +2103,7 @@
                 },
                 {
                     "id": 114,
-                    "index": 302,
+                    "index": 309,
                     "type": "layer",
                     "name": "frame13-1.png",
                     "bounds": {
@@ -2229,7 +2122,7 @@
                 },
                 {
                     "id": 116,
-                    "index": 301,
+                    "index": 308,
                     "type": "layer",
                     "name": "frame13-0.png",
                     "bounds": {
@@ -2277,7 +2170,7 @@
         },
         {
             "id": 129,
-            "index": 299,
+            "index": 306,
             "type": "layerSection",
             "name": "frame14",
             "bounds": {
@@ -2320,7 +2213,7 @@
             "layers": [
                 {
                     "id": 134,
-                    "index": 298,
+                    "index": 305,
                     "type": "layer",
                     "name": "frame14-4.png",
                     "bounds": {
@@ -2339,7 +2232,7 @@
                 },
                 {
                     "id": 518,
-                    "index": 297,
+                    "index": 304,
                     "type": "layer",
                     "name": "frame14-3.png",
                     "bounds": {
@@ -2358,7 +2251,7 @@
                 },
                 {
                     "id": 517,
-                    "index": 296,
+                    "index": 303,
                     "type": "layer",
                     "name": "frame14-2.png",
                     "bounds": {
@@ -2377,7 +2270,7 @@
                 },
                 {
                     "id": 132,
-                    "index": 295,
+                    "index": 302,
                     "type": "layer",
                     "name": "frame14-1.png",
                     "bounds": {
@@ -2396,7 +2289,7 @@
                 },
                 {
                     "id": 131,
-                    "index": 294,
+                    "index": 301,
                     "type": "layer",
                     "name": "frame14-0.png",
                     "bounds": {
@@ -2444,7 +2337,7 @@
         },
         {
             "id": 203,
-            "index": 292,
+            "index": 299,
             "type": "layerSection",
             "name": "frame15",
             "bounds": {
@@ -2487,7 +2380,7 @@
             "layers": [
                 {
                     "id": 160,
-                    "index": 291,
+                    "index": 298,
                     "type": "layer",
                     "name": "frame15-2.png",
                     "bounds": {
@@ -2506,7 +2399,7 @@
                 },
                 {
                     "id": 153,
-                    "index": 290,
+                    "index": 297,
                     "type": "layer",
                     "name": "frame15-1.png",
                     "bounds": {
@@ -2525,7 +2418,7 @@
                 },
                 {
                     "id": 140,
-                    "index": 289,
+                    "index": 296,
                     "type": "layer",
                     "name": "frame15-0.png",
                     "bounds": {
@@ -2573,7 +2466,7 @@
         },
         {
             "id": 525,
-            "index": 287,
+            "index": 294,
             "type": "layerSection",
             "name": "frame16",
             "bounds": {
@@ -2616,7 +2509,7 @@
             "layers": [
                 {
                     "id": 527,
-                    "index": 286,
+                    "index": 293,
                     "type": "layer",
                     "name": "frame16-9.png",
                     "bounds": {
@@ -2635,7 +2528,7 @@
                 },
                 {
                     "id": 528,
-                    "index": 285,
+                    "index": 292,
                     "type": "layer",
                     "name": "frame16-8.png",
                     "bounds": {
@@ -2654,7 +2547,7 @@
                 },
                 {
                     "id": 529,
-                    "index": 284,
+                    "index": 291,
                     "type": "layer",
                     "name": "frame16-7.png",
                     "bounds": {
@@ -2673,7 +2566,7 @@
                 },
                 {
                     "id": 530,
-                    "index": 283,
+                    "index": 290,
                     "type": "layer",
                     "name": "frame16-6.png",
                     "bounds": {
@@ -2692,7 +2585,7 @@
                 },
                 {
                     "id": 531,
-                    "index": 282,
+                    "index": 289,
                     "type": "layer",
                     "name": "frame16-5.png",
                     "bounds": {
@@ -2711,7 +2604,7 @@
                 },
                 {
                     "id": 532,
-                    "index": 281,
+                    "index": 288,
                     "type": "layer",
                     "name": "frame16-4.png",
                     "bounds": {
@@ -2730,7 +2623,7 @@
                 },
                 {
                     "id": 183,
-                    "index": 280,
+                    "index": 287,
                     "type": "layer",
                     "name": "frame16-3.png",
                     "bounds": {
@@ -2749,7 +2642,7 @@
                 },
                 {
                     "id": 181,
-                    "index": 279,
+                    "index": 286,
                     "type": "layer",
                     "name": "frame16-2.png",
                     "bounds": {
@@ -2768,7 +2661,7 @@
                 },
                 {
                     "id": 172,
-                    "index": 278,
+                    "index": 285,
                     "type": "layer",
                     "name": "frame16-1.png",
                     "bounds": {
@@ -2787,7 +2680,7 @@
                 },
                 {
                     "id": 146,
-                    "index": 277,
+                    "index": 284,
                     "type": "layer",
                     "name": "frame16-0.png",
                     "bounds": {
@@ -2835,7 +2728,7 @@
         },
         {
             "id": 205,
-            "index": 275,
+            "index": 282,
             "type": "layerSection",
             "name": "frame17",
             "bounds": {
@@ -2878,7 +2771,7 @@
             "layers": [
                 {
                     "id": 231,
-                    "index": 274,
+                    "index": 281,
                     "type": "layer",
                     "name": "frame17-4.png",
                     "bounds": {
@@ -2897,7 +2790,7 @@
                 },
                 {
                     "id": 229,
-                    "index": 273,
+                    "index": 280,
                     "type": "layer",
                     "name": "frame17-3.png",
                     "bounds": {
@@ -2916,7 +2809,7 @@
                 },
                 {
                     "id": 223,
-                    "index": 272,
+                    "index": 279,
                     "type": "layer",
                     "name": "frame17-2.png",
                     "bounds": {
@@ -2935,7 +2828,7 @@
                 },
                 {
                     "id": 208,
-                    "index": 271,
+                    "index": 278,
                     "type": "layer",
                     "name": "frame17-1.png",
                     "bounds": {
@@ -2954,7 +2847,7 @@
                 },
                 {
                     "id": 367,
-                    "index": 270,
+                    "index": 277,
                     "type": "layer",
                     "name": "frame17-0.png",
                     "bounds": {
@@ -3002,7 +2895,7 @@
         },
         {
             "id": 237,
-            "index": 268,
+            "index": 275,
             "type": "layerSection",
             "name": "frame18",
             "bounds": {
@@ -3045,7 +2938,7 @@
             "layers": [
                 {
                     "id": 255,
-                    "index": 267,
+                    "index": 274,
                     "type": "layer",
                     "name": "frame18-8.png",
                     "bounds": {
@@ -3064,7 +2957,7 @@
                 },
                 {
                     "id": 254,
-                    "index": 266,
+                    "index": 273,
                     "type": "layer",
                     "name": "frame18-7.png",
                     "bounds": {
@@ -3083,7 +2976,7 @@
                 },
                 {
                     "id": 248,
-                    "index": 265,
+                    "index": 272,
                     "type": "layer",
                     "name": "frame18-6.png",
                     "bounds": {
@@ -3102,7 +2995,7 @@
                 },
                 {
                     "id": 247,
-                    "index": 264,
+                    "index": 271,
                     "type": "layer",
                     "name": "frame18-5.png",
                     "bounds": {
@@ -3121,7 +3014,7 @@
                 },
                 {
                     "id": 245,
-                    "index": 263,
+                    "index": 270,
                     "type": "layer",
                     "name": "frame18-4.png",
                     "bounds": {
@@ -3140,7 +3033,7 @@
                 },
                 {
                     "id": 244,
-                    "index": 262,
+                    "index": 269,
                     "type": "layer",
                     "name": "frame18-3.png",
                     "bounds": {
@@ -3159,7 +3052,7 @@
                 },
                 {
                     "id": 243,
-                    "index": 261,
+                    "index": 268,
                     "type": "layer",
                     "name": "frame18-2.png",
                     "bounds": {
@@ -3178,7 +3071,7 @@
                 },
                 {
                     "id": 246,
-                    "index": 260,
+                    "index": 267,
                     "type": "layer",
                     "name": "frame18-1.png",
                     "bounds": {
@@ -3197,7 +3090,7 @@
                 },
                 {
                     "id": 240,
-                    "index": 259,
+                    "index": 266,
                     "type": "layer",
                     "name": "frame18-0.png",
                     "bounds": {
@@ -3245,7 +3138,7 @@
         },
         {
             "id": 269,
-            "index": 257,
+            "index": 264,
             "type": "layerSection",
             "name": "frame19",
             "bounds": {
@@ -3288,7 +3181,7 @@
             "layers": [
                 {
                     "id": 265,
-                    "index": 256,
+                    "index": 263,
                     "type": "layer",
                     "name": "frame19-7.png",
                     "bounds": {
@@ -3307,7 +3200,7 @@
                 },
                 {
                     "id": 262,
-                    "index": 255,
+                    "index": 262,
                     "type": "layer",
                     "name": "frame19-6.png",
                     "bounds": {
@@ -3326,7 +3219,7 @@
                 },
                 {
                     "id": 261,
-                    "index": 254,
+                    "index": 261,
                     "type": "layer",
                     "name": "frame19-5.png",
                     "bounds": {
@@ -3345,7 +3238,7 @@
                 },
                 {
                     "id": 260,
-                    "index": 253,
+                    "index": 260,
                     "type": "layer",
                     "name": "frame19-4.png",
                     "bounds": {
@@ -3364,7 +3257,7 @@
                 },
                 {
                     "id": 259,
-                    "index": 252,
+                    "index": 259,
                     "type": "layer",
                     "name": "frame19-3.png",
                     "bounds": {
@@ -3383,7 +3276,7 @@
                 },
                 {
                     "id": 258,
-                    "index": 251,
+                    "index": 258,
                     "type": "layer",
                     "name": "frame19-2.png",
                     "bounds": {
@@ -3402,7 +3295,7 @@
                 },
                 {
                     "id": 257,
-                    "index": 250,
+                    "index": 257,
                     "type": "layer",
                     "name": "frame19-1.png",
                     "bounds": {
@@ -3421,7 +3314,7 @@
                 },
                 {
                     "id": 256,
-                    "index": 249,
+                    "index": 256,
                     "type": "layer",
                     "name": "frame19-0.png",
                     "bounds": {
@@ -3469,7 +3362,7 @@
         },
         {
             "id": 271,
-            "index": 247,
+            "index": 254,
             "type": "layerSection",
             "name": "frame20",
             "bounds": {
@@ -3512,7 +3405,7 @@
             "layers": [
                 {
                     "id": 284,
-                    "index": 246,
+                    "index": 253,
                     "type": "layer",
                     "name": "frame20-3.png",
                     "bounds": {
@@ -3531,7 +3424,7 @@
                 },
                 {
                     "id": 283,
-                    "index": 245,
+                    "index": 252,
                     "type": "layer",
                     "name": "frame20-2.png",
                     "bounds": {
@@ -3550,7 +3443,7 @@
                 },
                 {
                     "id": 279,
-                    "index": 244,
+                    "index": 251,
                     "type": "layer",
                     "name": "frame20-1.png",
                     "bounds": {
@@ -3569,7 +3462,7 @@
                 },
                 {
                     "id": 274,
-                    "index": 243,
+                    "index": 250,
                     "type": "layer",
                     "name": "frame20-0.png",
                     "bounds": {
@@ -3617,7 +3510,7 @@
         },
         {
             "id": 296,
-            "index": 241,
+            "index": 248,
             "type": "layerSection",
             "name": "frame21",
             "bounds": {
@@ -3660,7 +3553,7 @@
             "layers": [
                 {
                     "id": 294,
-                    "index": 240,
+                    "index": 247,
                     "type": "layer",
                     "name": "frame21-1.png",
                     "bounds": {
@@ -3679,7 +3572,7 @@
                 },
                 {
                     "id": 289,
-                    "index": 239,
+                    "index": 246,
                     "type": "layer",
                     "name": "frame21-0.png",
                     "bounds": {
@@ -3727,7 +3620,7 @@
         },
         {
             "id": 309,
-            "index": 237,
+            "index": 244,
             "type": "layerSection",
             "name": "frame22",
             "bounds": {
@@ -3770,7 +3663,7 @@
             "layers": [
                 {
                     "id": 306,
-                    "index": 236,
+                    "index": 243,
                     "type": "layer",
                     "name": "frame22-2.png",
                     "bounds": {
@@ -3789,7 +3682,7 @@
                 },
                 {
                     "id": 305,
-                    "index": 235,
+                    "index": 242,
                     "type": "layer",
                     "name": "frame22-1.png",
                     "bounds": {
@@ -3808,7 +3701,7 @@
                 },
                 {
                     "id": 299,
-                    "index": 234,
+                    "index": 241,
                     "type": "layer",
                     "name": "frame22-0.png",
                     "bounds": {
@@ -3856,7 +3749,7 @@
         },
         {
             "id": 326,
-            "index": 232,
+            "index": 239,
             "type": "layerSection",
             "name": "frame23",
             "bounds": {
@@ -3899,7 +3792,7 @@
             "layers": [
                 {
                     "id": 321,
-                    "index": 231,
+                    "index": 238,
                     "type": "layer",
                     "name": "frame23-2.png",
                     "bounds": {
@@ -3918,7 +3811,7 @@
                 },
                 {
                     "id": 320,
-                    "index": 230,
+                    "index": 237,
                     "type": "layer",
                     "name": "frame23-1.png",
                     "bounds": {
@@ -3937,7 +3830,7 @@
                 },
                 {
                     "id": 313,
-                    "index": 229,
+                    "index": 236,
                     "type": "layer",
                     "name": "frame23-0.png",
                     "bounds": {
@@ -3985,7 +3878,7 @@
         },
         {
             "id": 332,
-            "index": 227,
+            "index": 234,
             "type": "layerSection",
             "name": "frame24",
             "bounds": {
@@ -4028,7 +3921,7 @@
             "layers": [
                 {
                     "id": 553,
-                    "index": 226,
+                    "index": 233,
                     "type": "layer",
                     "name": "frame24-4.png",
                     "bounds": {
@@ -4047,7 +3940,7 @@
                 },
                 {
                     "id": 554,
-                    "index": 225,
+                    "index": 232,
                     "type": "layer",
                     "name": "frame24-3.png",
                     "bounds": {
@@ -4066,7 +3959,7 @@
                 },
                 {
                     "id": 329,
-                    "index": 224,
+                    "index": 231,
                     "type": "layer",
                     "name": "frame24-2.png",
                     "bounds": {
@@ -4085,7 +3978,7 @@
                 },
                 {
                     "id": 555,
-                    "index": 223,
+                    "index": 230,
                     "type": "layer",
                     "name": "frame24-1.png",
                     "bounds": {
@@ -4104,7 +3997,7 @@
                 },
                 {
                     "id": 328,
-                    "index": 222,
+                    "index": 229,
                     "type": "layer",
                     "name": "frame24-0.png",
                     "bounds": {
@@ -4152,7 +4045,7 @@
         },
         {
             "id": 334,
-            "index": 220,
+            "index": 227,
             "type": "layerSection",
             "name": "frame25",
             "bounds": {
@@ -4195,7 +4088,7 @@
             "layers": [
                 {
                     "id": 535,
-                    "index": 219,
+                    "index": 226,
                     "type": "layer",
                     "name": "frame25-1.png",
                     "bounds": {
@@ -4214,7 +4107,7 @@
                 },
                 {
                     "id": 536,
-                    "index": 218,
+                    "index": 225,
                     "type": "layer",
                     "name": "frame25-0.png",
                     "bounds": {
@@ -4262,7 +4155,7 @@
         },
         {
             "id": 337,
-            "index": 216,
+            "index": 223,
             "type": "layerSection",
             "name": "frame26",
             "bounds": {
@@ -4305,7 +4198,7 @@
             "layers": [
                 {
                     "id": 560,
-                    "index": 215,
+                    "index": 222,
                     "type": "layer",
                     "name": "frame26-2.png",
                     "bounds": {
@@ -4324,7 +4217,7 @@
                 },
                 {
                     "id": 559,
-                    "index": 214,
+                    "index": 221,
                     "type": "layer",
                     "name": "frame26-1.png",
                     "bounds": {
@@ -4343,7 +4236,7 @@
                 },
                 {
                     "id": 558,
-                    "index": 213,
+                    "index": 220,
                     "type": "layer",
                     "name": "frame26-0.png",
                     "bounds": {
@@ -4391,7 +4284,7 @@
         },
         {
             "id": 340,
-            "index": 211,
+            "index": 218,
             "type": "layerSection",
             "name": "frame27",
             "bounds": {
@@ -4434,7 +4327,7 @@
             "layers": [
                 {
                     "id": 565,
-                    "index": 210,
+                    "index": 217,
                     "type": "layer",
                     "name": "frame27-2.png",
                     "bounds": {
@@ -4453,7 +4346,7 @@
                 },
                 {
                     "id": 563,
-                    "index": 209,
+                    "index": 216,
                     "type": "layer",
                     "name": "frame27-1.png",
                     "bounds": {
@@ -4472,7 +4365,7 @@
                 },
                 {
                     "id": 562,
-                    "index": 208,
+                    "index": 215,
                     "type": "layer",
                     "name": "frame27-0.png",
                     "bounds": {
@@ -4520,7 +4413,7 @@
         },
         {
             "id": 345,
-            "index": 206,
+            "index": 213,
             "type": "layerSection",
             "name": "frame28",
             "bounds": {
@@ -4563,7 +4456,7 @@
             "layers": [
                 {
                     "id": 568,
-                    "index": 205,
+                    "index": 212,
                     "type": "layer",
                     "name": "frame28-1.png",
                     "bounds": {
@@ -4582,7 +4475,7 @@
                 },
                 {
                     "id": 567,
-                    "index": 204,
+                    "index": 211,
                     "type": "layer",
                     "name": "frame28-0.png",
                     "bounds": {
@@ -4630,7 +4523,7 @@
         },
         {
             "id": 347,
-            "index": 202,
+            "index": 209,
             "type": "layerSection",
             "name": "frame29",
             "bounds": {
@@ -4673,7 +4566,7 @@
             "layers": [
                 {
                     "id": 349,
-                    "index": 201,
+                    "index": 208,
                     "type": "layer",
                     "name": "frame29-1.png",
                     "bounds": {
@@ -4692,7 +4585,7 @@
                 },
                 {
                     "id": 538,
-                    "index": 200,
+                    "index": 207,
                     "type": "shapeLayer",
                     "name": "frame29-0.png",
                     "bounds": {
@@ -4769,7 +4662,7 @@
         },
         {
             "id": 350,
-            "index": 198,
+            "index": 205,
             "type": "layerSection",
             "name": "frame30",
             "bounds": {
@@ -4812,7 +4705,7 @@
             "layers": [
                 {
                     "id": 572,
-                    "index": 197,
+                    "index": 204,
                     "type": "layer",
                     "name": "frame30-3.png",
                     "bounds": {
@@ -4831,7 +4724,7 @@
                 },
                 {
                     "id": 571,
-                    "index": 196,
+                    "index": 203,
                     "type": "layer",
                     "name": "frame30-2.png",
                     "bounds": {
@@ -4850,7 +4743,7 @@
                 },
                 {
                     "id": 570,
-                    "index": 195,
+                    "index": 202,
                     "type": "layer",
                     "name": "frame30-1.png",
                     "bounds": {
@@ -4869,7 +4762,7 @@
                 },
                 {
                     "id": 569,
-                    "index": 194,
+                    "index": 201,
                     "type": "layer",
                     "name": "frame30-0.png",
                     "bounds": {
@@ -4917,7 +4810,7 @@
         },
         {
             "id": 355,
-            "index": 192,
+            "index": 199,
             "type": "layerSection",
             "name": "frame31",
             "bounds": {
@@ -4938,7 +4831,7 @@
             "layers": [
                 {
                     "id": 359,
-                    "index": 191,
+                    "index": 198,
                     "type": "layer",
                     "name": "frame31-0.png",
                     "bounds": {
@@ -4960,7 +4853,7 @@
         },
         {
             "id": 357,
-            "index": 189,
+            "index": 196,
             "type": "layerSection",
             "name": "frame32",
             "bounds": {
@@ -5003,7 +4896,7 @@
             "layers": [
                 {
                     "id": 577,
-                    "index": 188,
+                    "index": 195,
                     "type": "layer",
                     "name": "frame32-1.png",
                     "bounds": {
@@ -5022,7 +4915,7 @@
                 },
                 {
                     "id": 576,
-                    "index": 187,
+                    "index": 194,
                     "type": "layer",
                     "name": "frame32-0.png",
                     "bounds": {
@@ -5070,7 +4963,7 @@
         },
         {
             "id": 362,
-            "index": 185,
+            "index": 192,
             "type": "layerSection",
             "name": "frame33",
             "bounds": {
@@ -5091,7 +4984,7 @@
             "layers": [
                 {
                     "id": 361,
-                    "index": 184,
+                    "index": 191,
                     "type": "layer",
                     "name": "frame33-0.png",
                     "bounds": {
@@ -5113,7 +5006,7 @@
         },
         {
             "id": 364,
-            "index": 182,
+            "index": 189,
             "type": "layerSection",
             "name": "frame34",
             "bounds": {
@@ -5156,7 +5049,7 @@
             "layers": [
                 {
                     "id": 580,
-                    "index": 181,
+                    "index": 188,
                     "type": "layer",
                     "name": "frame34-1.png",
                     "bounds": {
@@ -5175,7 +5068,7 @@
                 },
                 {
                     "id": 578,
-                    "index": 180,
+                    "index": 187,
                     "type": "layer",
                     "name": "frame34-0.png",
                     "bounds": {
@@ -5223,7 +5116,7 @@
         },
         {
             "id": 368,
-            "index": 178,
+            "index": 185,
             "type": "layerSection",
             "name": "frame35",
             "bounds": {
@@ -5244,7 +5137,7 @@
             "layers": [
                 {
                     "id": 370,
-                    "index": 177,
+                    "index": 184,
                     "type": "layer",
                     "name": "frame35-0.png",
                     "bounds": {
@@ -5266,7 +5159,7 @@
         },
         {
             "id": 371,
-            "index": 175,
+            "index": 182,
             "type": "layerSection",
             "name": "frame36",
             "bounds": {
@@ -5309,7 +5202,7 @@
             "layers": [
                 {
                     "id": 581,
-                    "index": 174,
+                    "index": 181,
                     "type": "layer",
                     "name": "frame36-2.png",
                     "bounds": {
@@ -5328,7 +5221,7 @@
                 },
                 {
                     "id": 583,
-                    "index": 173,
+                    "index": 180,
                     "type": "layer",
                     "name": "frame36-1.png",
                     "bounds": {
@@ -5347,7 +5240,7 @@
                 },
                 {
                     "id": 582,
-                    "index": 172,
+                    "index": 179,
                     "type": "layer",
                     "name": "frame36-0.png",
                     "bounds": {
@@ -5395,7 +5288,7 @@
         },
         {
             "id": 374,
-            "index": 170,
+            "index": 177,
             "type": "layerSection",
             "name": "frame37",
             "bounds": {
@@ -5438,7 +5331,7 @@
             "layers": [
                 {
                     "id": 584,
-                    "index": 169,
+                    "index": 176,
                     "type": "layer",
                     "name": "frame37-1.png",
                     "bounds": {
@@ -5457,7 +5350,7 @@
                 },
                 {
                     "id": 376,
-                    "index": 168,
+                    "index": 175,
                     "type": "layer",
                     "name": "frame37-0.png",
                     "bounds": {
@@ -5505,7 +5398,7 @@
         },
         {
             "id": 378,
-            "index": 166,
+            "index": 173,
             "type": "layerSection",
             "name": "frame38",
             "bounds": {
@@ -5548,7 +5441,7 @@
             "layers": [
                 {
                     "id": 585,
-                    "index": 165,
+                    "index": 172,
                     "type": "layer",
                     "name": "frame38-1.png",
                     "bounds": {
@@ -5567,7 +5460,7 @@
                 },
                 {
                     "id": 377,
-                    "index": 164,
+                    "index": 171,
                     "type": "layer",
                     "name": "frame38-0.png",
                     "bounds": {
@@ -5615,7 +5508,7 @@
         },
         {
             "id": 381,
-            "index": 162,
+            "index": 169,
             "type": "layerSection",
             "name": "frame39",
             "bounds": {
@@ -5658,7 +5551,7 @@
             "layers": [
                 {
                     "id": 586,
-                    "index": 161,
+                    "index": 168,
                     "type": "layer",
                     "name": "frame39-3.png",
                     "bounds": {
@@ -5677,7 +5570,7 @@
                 },
                 {
                     "id": 587,
-                    "index": 160,
+                    "index": 167,
                     "type": "layer",
                     "name": "frame39-2.png",
                     "bounds": {
@@ -5696,7 +5589,7 @@
                 },
                 {
                     "id": 588,
-                    "index": 159,
+                    "index": 166,
                     "type": "layer",
                     "name": "frame39-1.png",
                     "bounds": {
@@ -5715,7 +5608,7 @@
                 },
                 {
                     "id": 380,
-                    "index": 158,
+                    "index": 165,
                     "type": "layer",
                     "name": "frame39-0.png",
                     "bounds": {
@@ -5763,7 +5656,7 @@
         },
         {
             "id": 408,
-            "index": 156,
+            "index": 163,
             "type": "layerSection",
             "name": "frame40",
             "bounds": {
@@ -5784,7 +5677,7 @@
             "layers": [
                 {
                     "id": 385,
-                    "index": 155,
+                    "index": 162,
                     "type": "layer",
                     "name": "frame40-0.png",
                     "bounds": {
@@ -5806,7 +5699,7 @@
         },
         {
             "id": 410,
-            "index": 153,
+            "index": 160,
             "type": "layerSection",
             "name": "frame41",
             "bounds": {
@@ -5827,7 +5720,7 @@
             "layers": [
                 {
                     "id": 386,
-                    "index": 152,
+                    "index": 159,
                     "type": "layer",
                     "name": "frame41-0.png",
                     "bounds": {
@@ -5849,7 +5742,7 @@
         },
         {
             "id": 412,
-            "index": 150,
+            "index": 157,
             "type": "layerSection",
             "name": "frame42",
             "bounds": {
@@ -5870,7 +5763,7 @@
             "layers": [
                 {
                     "id": 387,
-                    "index": 149,
+                    "index": 156,
                     "type": "layer",
                     "name": "frame42-0.png",
                     "bounds": {
@@ -5892,7 +5785,7 @@
         },
         {
             "id": 414,
-            "index": 147,
+            "index": 154,
             "type": "layerSection",
             "name": "frame43",
             "bounds": {
@@ -5913,7 +5806,7 @@
             "layers": [
                 {
                     "id": 388,
-                    "index": 146,
+                    "index": 153,
                     "type": "layer",
                     "name": "frame43-0.png",
                     "bounds": {
@@ -5935,7 +5828,7 @@
         },
         {
             "id": 416,
-            "index": 144,
+            "index": 151,
             "type": "layerSection",
             "name": "frame44",
             "bounds": {
@@ -5978,7 +5871,7 @@
             "layers": [
                 {
                     "id": 591,
-                    "index": 143,
+                    "index": 150,
                     "type": "layer",
                     "name": "frame44-4.png",
                     "bounds": {
@@ -5997,7 +5890,7 @@
                 },
                 {
                     "id": 590,
-                    "index": 142,
+                    "index": 149,
                     "type": "layer",
                     "name": "frame44-3.png",
                     "bounds": {
@@ -6016,7 +5909,7 @@
                 },
                 {
                     "id": 589,
-                    "index": 141,
+                    "index": 148,
                     "type": "layer",
                     "name": "frame44-2.png",
                     "bounds": {
@@ -6035,7 +5928,7 @@
                 },
                 {
                     "id": 604,
-                    "index": 140,
+                    "index": 147,
                     "type": "layer",
                     "name": "frame44-1.png",
                     "bounds": {
@@ -6059,7 +5952,7 @@
                 },
                 {
                     "id": 592,
-                    "index": 139,
+                    "index": 146,
                     "type": "layer",
                     "name": "frame44-0.png",
                     "bounds": {
@@ -6107,7 +6000,7 @@
         },
         {
             "id": 418,
-            "index": 137,
+            "index": 144,
             "type": "layerSection",
             "name": "frame45",
             "bounds": {
@@ -6128,7 +6021,7 @@
             "layers": [
                 {
                     "id": 390,
-                    "index": 136,
+                    "index": 143,
                     "type": "layer",
                     "name": "frame45-0.png",
                     "bounds": {
@@ -6150,7 +6043,7 @@
         },
         {
             "id": 420,
-            "index": 134,
+            "index": 141,
             "type": "layerSection",
             "name": "frame46",
             "bounds": {
@@ -6171,7 +6064,7 @@
             "layers": [
                 {
                     "id": 391,
-                    "index": 133,
+                    "index": 140,
                     "type": "layer",
                     "name": "frame46-0.png",
                     "bounds": {
@@ -6193,7 +6086,7 @@
         },
         {
             "id": 424,
-            "index": 131,
+            "index": 138,
             "type": "layerSection",
             "name": "frame47",
             "bounds": {
@@ -6236,7 +6129,7 @@
             "layers": [
                 {
                     "id": 650,
-                    "index": 130,
+                    "index": 137,
                     "type": "layer",
                     "name": "frame47-2.png",
                     "bounds": {
@@ -6255,7 +6148,7 @@
                 },
                 {
                     "id": 649,
-                    "index": 129,
+                    "index": 136,
                     "type": "layer",
                     "name": "frame47-1.png",
                     "bounds": {
@@ -6274,7 +6167,7 @@
                 },
                 {
                     "id": 392,
-                    "index": 128,
+                    "index": 135,
                     "type": "layer",
                     "name": "frame47-0.png",
                     "bounds": {
@@ -6322,7 +6215,7 @@
         },
         {
             "id": 428,
-            "index": 126,
+            "index": 133,
             "type": "layerSection",
             "name": "frame48",
             "bounds": {
@@ -6365,7 +6258,7 @@
             "layers": [
                 {
                     "id": 607,
-                    "index": 125,
+                    "index": 132,
                     "type": "layer",
                     "name": "frame48-1.png",
                     "bounds": {
@@ -6384,7 +6277,7 @@
                 },
                 {
                     "id": 430,
-                    "index": 124,
+                    "index": 131,
                     "type": "layer",
                     "name": "frame48-0.png",
                     "bounds": {
@@ -6432,7 +6325,7 @@
         },
         {
             "id": 431,
-            "index": 122,
+            "index": 129,
             "type": "layerSection",
             "name": "frame49",
             "bounds": {
@@ -6475,7 +6368,7 @@
             "layers": [
                 {
                     "id": 646,
-                    "index": 121,
+                    "index": 128,
                     "type": "layer",
                     "name": "frame49-2.png",
                     "bounds": {
@@ -6494,7 +6387,7 @@
                 },
                 {
                     "id": 647,
-                    "index": 120,
+                    "index": 127,
                     "type": "layer",
                     "name": "frame49-1.png",
                     "bounds": {
@@ -6513,7 +6406,7 @@
                 },
                 {
                     "id": 433,
-                    "index": 119,
+                    "index": 126,
                     "type": "layer",
                     "name": "frame49-0.png",
                     "bounds": {
@@ -6561,7 +6454,7 @@
         },
         {
             "id": 434,
-            "index": 117,
+            "index": 124,
             "type": "layerSection",
             "name": "frame50",
             "bounds": {
@@ -6604,7 +6497,7 @@
             "layers": [
                 {
                     "id": 648,
-                    "index": 116,
+                    "index": 123,
                     "type": "layer",
                     "name": "frame50-1.png",
                     "bounds": {
@@ -6623,7 +6516,7 @@
                 },
                 {
                     "id": 436,
-                    "index": 115,
+                    "index": 122,
                     "type": "layer",
                     "name": "frame50-0.png",
                     "bounds": {
@@ -6671,7 +6564,7 @@
         },
         {
             "id": 437,
-            "index": 113,
+            "index": 120,
             "type": "layerSection",
             "name": "frame51",
             "bounds": {
@@ -6692,7 +6585,7 @@
             "layers": [
                 {
                     "id": 439,
-                    "index": 112,
+                    "index": 119,
                     "type": "layer",
                     "name": "frame51-0.png",
                     "bounds": {
@@ -6714,7 +6607,7 @@
         },
         {
             "id": 440,
-            "index": 110,
+            "index": 117,
             "type": "layerSection",
             "name": "frame52",
             "bounds": {
@@ -6735,7 +6628,7 @@
             "layers": [
                 {
                     "id": 442,
-                    "index": 109,
+                    "index": 116,
                     "type": "layer",
                     "name": "frame52-0.png",
                     "bounds": {
@@ -6757,7 +6650,7 @@
         },
         {
             "id": 443,
-            "index": 107,
+            "index": 114,
             "type": "layerSection",
             "name": "frame53",
             "bounds": {
@@ -6778,7 +6671,7 @@
             "layers": [
                 {
                     "id": 445,
-                    "index": 106,
+                    "index": 113,
                     "type": "layer",
                     "name": "frame53-0.png",
                     "bounds": {
@@ -6800,7 +6693,7 @@
         },
         {
             "id": 446,
-            "index": 104,
+            "index": 111,
             "type": "layerSection",
             "name": "frame54",
             "bounds": {
@@ -6843,7 +6736,7 @@
             "layers": [
                 {
                     "id": 643,
-                    "index": 103,
+                    "index": 110,
                     "type": "layer",
                     "name": "frame54-2.png",
                     "bounds": {
@@ -6862,7 +6755,7 @@
                 },
                 {
                     "id": 644,
-                    "index": 102,
+                    "index": 109,
                     "type": "layer",
                     "name": "frame54-1.png",
                     "bounds": {
@@ -6881,7 +6774,7 @@
                 },
                 {
                     "id": 448,
-                    "index": 101,
+                    "index": 108,
                     "type": "layer",
                     "name": "frame54-0.png",
                     "bounds": {
@@ -6929,7 +6822,7 @@
         },
         {
             "id": 449,
-            "index": 99,
+            "index": 106,
             "type": "layerSection",
             "name": "frame55",
             "bounds": {
@@ -6972,7 +6865,7 @@
             "layers": [
                 {
                     "id": 614,
-                    "index": 98,
+                    "index": 105,
                     "type": "layer",
                     "name": "frame55-3.png",
                     "bounds": {
@@ -6991,7 +6884,7 @@
                 },
                 {
                     "id": 616,
-                    "index": 97,
+                    "index": 104,
                     "type": "layer",
                     "name": "frame55-2.png",
                     "bounds": {
@@ -7010,7 +6903,7 @@
                 },
                 {
                     "id": 615,
-                    "index": 96,
+                    "index": 103,
                     "type": "layer",
                     "name": "frame55-1.png",
                     "bounds": {
@@ -7029,7 +6922,7 @@
                 },
                 {
                     "id": 451,
-                    "index": 95,
+                    "index": 102,
                     "type": "layer",
                     "name": "frame55-0.png",
                     "bounds": {
@@ -7077,7 +6970,7 @@
         },
         {
             "id": 452,
-            "index": 93,
+            "index": 100,
             "type": "layerSection",
             "name": "frame56",
             "bounds": {
@@ -7120,7 +7013,7 @@
             "layers": [
                 {
                     "id": 454,
-                    "index": 92,
+                    "index": 99,
                     "type": "layer",
                     "name": "frame56-1.png",
                     "bounds": {
@@ -7139,7 +7032,7 @@
                 },
                 {
                     "id": 544,
-                    "index": 91,
+                    "index": 98,
                     "type": "shapeLayer",
                     "name": "frame56-0.png",
                     "bounds": {
@@ -7216,7 +7109,7 @@
         },
         {
             "id": 455,
-            "index": 89,
+            "index": 96,
             "type": "layerSection",
             "name": "frame57",
             "bounds": {
@@ -7259,7 +7152,7 @@
             "layers": [
                 {
                     "id": 609,
-                    "index": 88,
+                    "index": 95,
                     "type": "layer",
                     "name": "frame57-4.png",
                     "bounds": {
@@ -7278,7 +7171,7 @@
                 },
                 {
                     "id": 610,
-                    "index": 87,
+                    "index": 94,
                     "type": "layer",
                     "name": "frame57-3.png",
                     "bounds": {
@@ -7297,7 +7190,7 @@
                 },
                 {
                     "id": 611,
-                    "index": 86,
+                    "index": 93,
                     "type": "layer",
                     "name": "frame57-2.png",
                     "bounds": {
@@ -7316,7 +7209,7 @@
                 },
                 {
                     "id": 612,
-                    "index": 85,
+                    "index": 92,
                     "type": "layer",
                     "name": "frame57-1.png",
                     "bounds": {
@@ -7335,7 +7228,7 @@
                 },
                 {
                     "id": 613,
-                    "index": 84,
+                    "index": 91,
                     "type": "layer",
                     "name": "frame57-0.png",
                     "bounds": {
@@ -7383,7 +7276,7 @@
         },
         {
             "id": 458,
-            "index": 82,
+            "index": 89,
             "type": "layerSection",
             "name": "frame58",
             "bounds": {
@@ -7404,7 +7297,7 @@
             "layers": [
                 {
                     "id": 460,
-                    "index": 81,
+                    "index": 88,
                     "type": "layer",
                     "name": "frame58-0.png",
                     "bounds": {
@@ -7426,7 +7319,7 @@
         },
         {
             "id": 461,
-            "index": 79,
+            "index": 86,
             "type": "layerSection",
             "name": "frame59",
             "bounds": {
@@ -7469,7 +7362,7 @@
             "layers": [
                 {
                     "id": 463,
-                    "index": 78,
+                    "index": 85,
                     "type": "layer",
                     "name": "frame59-0.png",
                     "bounds": {
@@ -7517,7 +7410,7 @@
         },
         {
             "id": 464,
-            "index": 76,
+            "index": 83,
             "type": "layerSection",
             "name": "frame60",
             "bounds": {
@@ -7560,7 +7453,7 @@
             "layers": [
                 {
                     "id": 634,
-                    "index": 75,
+                    "index": 82,
                     "type": "layer",
                     "name": "frame60-2.png",
                     "bounds": {
@@ -7579,7 +7472,7 @@
                 },
                 {
                     "id": 635,
-                    "index": 74,
+                    "index": 81,
                     "type": "layer",
                     "name": "frame60-1.png",
                     "bounds": {
@@ -7598,7 +7491,7 @@
                 },
                 {
                     "id": 466,
-                    "index": 73,
+                    "index": 80,
                     "type": "layer",
                     "name": "frame60-0.png",
                     "bounds": {
@@ -7646,7 +7539,7 @@
         },
         {
             "id": 467,
-            "index": 71,
+            "index": 78,
             "type": "layerSection",
             "name": "frame61",
             "bounds": {
@@ -7689,7 +7582,7 @@
             "layers": [
                 {
                     "id": 642,
-                    "index": 70,
+                    "index": 77,
                     "type": "layer",
                     "name": "frame61-1.png",
                     "bounds": {
@@ -7708,7 +7601,7 @@
                 },
                 {
                     "id": 469,
-                    "index": 69,
+                    "index": 76,
                     "type": "layer",
                     "name": "frame61-0.png",
                     "bounds": {
@@ -7756,7 +7649,7 @@
         },
         {
             "id": 470,
-            "index": 67,
+            "index": 74,
             "type": "layerSection",
             "name": "frame62",
             "bounds": {
@@ -7799,7 +7692,7 @@
             "layers": [
                 {
                     "id": 659,
-                    "index": 66,
+                    "index": 73,
                     "type": "layer",
                     "name": "frame62-2.png",
                     "bounds": {
@@ -7818,7 +7711,7 @@
                 },
                 {
                     "id": 660,
-                    "index": 65,
+                    "index": 72,
                     "type": "layer",
                     "name": "frame62-1.png",
                     "bounds": {
@@ -7837,7 +7730,7 @@
                 },
                 {
                     "id": 472,
-                    "index": 64,
+                    "index": 71,
                     "type": "layer",
                     "name": "frame62-0.png",
                     "bounds": {
@@ -7885,7 +7778,7 @@
         },
         {
             "id": 473,
-            "index": 62,
+            "index": 69,
             "type": "layerSection",
             "name": "frame63",
             "bounds": {
@@ -7906,7 +7799,7 @@
             "layers": [
                 {
                     "id": 475,
-                    "index": 61,
+                    "index": 68,
                     "type": "layer",
                     "name": "frame63-0.png",
                     "bounds": {
@@ -7928,7 +7821,7 @@
         },
         {
             "id": 476,
-            "index": 59,
+            "index": 66,
             "type": "layerSection",
             "name": "frame64",
             "bounds": {
@@ -7949,7 +7842,7 @@
             "layers": [
                 {
                     "id": 478,
-                    "index": 58,
+                    "index": 65,
                     "type": "layer",
                     "name": "frame64-0.png",
                     "bounds": {
@@ -7971,7 +7864,7 @@
         },
         {
             "id": 479,
-            "index": 56,
+            "index": 63,
             "type": "layerSection",
             "name": "frame65",
             "bounds": {
@@ -7992,7 +7885,7 @@
             "layers": [
                 {
                     "id": 481,
-                    "index": 55,
+                    "index": 62,
                     "type": "layer",
                     "name": "frame65-0.png",
                     "bounds": {
@@ -8014,7 +7907,7 @@
         },
         {
             "id": 482,
-            "index": 53,
+            "index": 60,
             "type": "layerSection",
             "name": "frame66",
             "bounds": {
@@ -8035,7 +7928,7 @@
             "layers": [
                 {
                     "id": 484,
-                    "index": 52,
+                    "index": 59,
                     "type": "layer",
                     "name": "frame66-0.png",
                     "bounds": {
@@ -8057,7 +7950,7 @@
         },
         {
             "id": 485,
-            "index": 50,
+            "index": 57,
             "type": "layerSection",
             "name": "frame67",
             "bounds": {
@@ -8078,7 +7971,7 @@
             "layers": [
                 {
                     "id": 487,
-                    "index": 49,
+                    "index": 56,
                     "type": "layer",
                     "name": "frame67-0.png",
                     "bounds": {
@@ -8100,7 +7993,7 @@
         },
         {
             "id": 488,
-            "index": 47,
+            "index": 54,
             "type": "layerSection",
             "name": "frame68",
             "bounds": {
@@ -8143,7 +8036,7 @@
             "layers": [
                 {
                     "id": 617,
-                    "index": 46,
+                    "index": 53,
                     "type": "layer",
                     "name": "frame68-5.png",
                     "bounds": {
@@ -8162,7 +8055,7 @@
                 },
                 {
                     "id": 618,
-                    "index": 45,
+                    "index": 52,
                     "type": "layer",
                     "name": "frame68-4.png",
                     "bounds": {
@@ -8181,7 +8074,7 @@
                 },
                 {
                     "id": 619,
-                    "index": 44,
+                    "index": 51,
                     "type": "layer",
                     "name": "frame68-3.png",
                     "bounds": {
@@ -8200,7 +8093,7 @@
                 },
                 {
                     "id": 620,
-                    "index": 43,
+                    "index": 50,
                     "type": "layer",
                     "name": "frame68-2.png",
                     "bounds": {
@@ -8219,7 +8112,7 @@
                 },
                 {
                     "id": 621,
-                    "index": 42,
+                    "index": 49,
                     "type": "layer",
                     "name": "frame68-1.png",
                     "bounds": {
@@ -8238,7 +8131,7 @@
                 },
                 {
                     "id": 622,
-                    "index": 41,
+                    "index": 48,
                     "type": "layer",
                     "name": "frame68-0.png",
                     "bounds": {
@@ -8286,7 +8179,7 @@
         },
         {
             "id": 491,
-            "index": 39,
+            "index": 46,
             "type": "layerSection",
             "name": "frame69",
             "bounds": {
@@ -8329,7 +8222,7 @@
             "layers": [
                 {
                     "id": 631,
-                    "index": 38,
+                    "index": 45,
                     "type": "layer",
                     "name": "frame69-4.png",
                     "bounds": {
@@ -8348,7 +8241,7 @@
                 },
                 {
                     "id": 630,
-                    "index": 37,
+                    "index": 44,
                     "type": "layer",
                     "name": "frame69-3.png",
                     "bounds": {
@@ -8367,7 +8260,7 @@
                 },
                 {
                     "id": 632,
-                    "index": 36,
+                    "index": 43,
                     "type": "layer",
                     "name": "frame69-2.png",
                     "bounds": {
@@ -8386,7 +8279,7 @@
                 },
                 {
                     "id": 629,
-                    "index": 35,
+                    "index": 42,
                     "type": "layer",
                     "name": "frame69-1.png",
                     "bounds": {
@@ -8405,7 +8298,7 @@
                 },
                 {
                     "id": 633,
-                    "index": 34,
+                    "index": 41,
                     "type": "layer",
                     "name": "frame69-0.png",
                     "bounds": {
@@ -8453,7 +8346,7 @@
         },
         {
             "id": 494,
-            "index": 32,
+            "index": 39,
             "type": "layerSection",
             "name": "frame70",
             "bounds": {
@@ -8496,7 +8389,7 @@
             "layers": [
                 {
                     "id": 623,
-                    "index": 31,
+                    "index": 38,
                     "type": "layer",
                     "name": "frame70-4.png",
                     "bounds": {
@@ -8515,7 +8408,7 @@
                 },
                 {
                     "id": 624,
-                    "index": 30,
+                    "index": 37,
                     "type": "layer",
                     "name": "frame70-3.png",
                     "bounds": {
@@ -8534,7 +8427,7 @@
                 },
                 {
                     "id": 626,
-                    "index": 29,
+                    "index": 36,
                     "type": "layer",
                     "name": "frame70-2.png",
                     "bounds": {
@@ -8553,7 +8446,7 @@
                 },
                 {
                     "id": 628,
-                    "index": 28,
+                    "index": 35,
                     "type": "layer",
                     "name": "frame70-1.png",
                     "bounds": {
@@ -8572,7 +8465,7 @@
                 },
                 {
                     "id": 627,
-                    "index": 27,
+                    "index": 34,
                     "type": "layer",
                     "name": "frame70-0.png",
                     "bounds": {
@@ -8620,7 +8513,7 @@
         },
         {
             "id": 497,
-            "index": 25,
+            "index": 32,
             "type": "layerSection",
             "name": "frame71",
             "bounds": {
@@ -8663,7 +8556,7 @@
             "layers": [
                 {
                     "id": 641,
-                    "index": 24,
+                    "index": 31,
                     "type": "layer",
                     "name": "frame71-1.png",
                     "bounds": {
@@ -8682,7 +8575,7 @@
                 },
                 {
                     "id": 499,
-                    "index": 23,
+                    "index": 30,
                     "type": "layer",
                     "name": "frame71-0.png",
                     "bounds": {
@@ -8730,7 +8623,7 @@
         },
         {
             "id": 500,
-            "index": 21,
+            "index": 28,
             "type": "layerSection",
             "name": "frame72",
             "bounds": {
@@ -8751,7 +8644,7 @@
             "layers": [
                 {
                     "id": 502,
-                    "index": 20,
+                    "index": 27,
                     "type": "layer",
                     "name": "frame72-0.png",
                     "bounds": {
@@ -8773,7 +8666,7 @@
         },
         {
             "id": 503,
-            "index": 18,
+            "index": 25,
             "type": "layerSection",
             "name": "frame73",
             "bounds": {
@@ -8816,7 +8709,7 @@
             "layers": [
                 {
                     "id": 636,
-                    "index": 17,
+                    "index": 24,
                     "type": "layer",
                     "name": "frame73-4.png",
                     "bounds": {
@@ -8835,7 +8728,7 @@
                 },
                 {
                     "id": 637,
-                    "index": 16,
+                    "index": 23,
                     "type": "layer",
                     "name": "frame73-3.png",
                     "bounds": {
@@ -8854,7 +8747,7 @@
                 },
                 {
                     "id": 638,
-                    "index": 15,
+                    "index": 22,
                     "type": "layer",
                     "name": "frame73-2.png",
                     "bounds": {
@@ -8873,7 +8766,7 @@
                 },
                 {
                     "id": 639,
-                    "index": 14,
+                    "index": 21,
                     "type": "layer",
                     "name": "frame73-1.png",
                     "bounds": {
@@ -8892,7 +8785,7 @@
                 },
                 {
                     "id": 640,
-                    "index": 13,
+                    "index": 20,
                     "type": "layer",
                     "name": "frame73-0.png",
                     "bounds": {
@@ -8940,7 +8833,7 @@
         },
         {
             "id": 506,
-            "index": 11,
+            "index": 18,
             "type": "layerSection",
             "name": "frame74",
             "bounds": {
@@ -8958,10 +8851,32 @@
                 "removed": true
             },
             "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "rect",
+                            "bounds": {
+                                "top": 7089,
+                                "left": 14750,
+                                "bottom": 7468,
+                                "right": 15924
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 7089,
+                    "left": 14750,
+                    "bottom": 7468,
+                    "right": 15924
+                },
+                "defaultFill": false
+            },
             "layers": [
                 {
                     "id": 508,
-                    "index": 10,
+                    "index": 17,
                     "type": "layer",
                     "name": "frame74-0.png",
                     "bounds": {
@@ -8979,11 +8894,37 @@
                     "generatorSettings": false
                 }
             ],
-            "atRootOfChange": true
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 14750,
+                        "y": 7091
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 15924,
+                        "y": 7089
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 15923,
+                        "y": 7467
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 14750,
+                        "y": 7468
+                    }
+                }
+            ]
         },
         {
             "id": 509,
-            "index": 8,
+            "index": 15,
             "type": "layerSection",
             "name": "frame75",
             "bounds": {
@@ -9004,7 +8945,7 @@
             "layers": [
                 {
                     "id": 511,
-                    "index": 7,
+                    "index": 14,
                     "type": "layer",
                     "name": "frame75-0.png",
                     "bounds": {
@@ -9026,7 +8967,7 @@
         },
         {
             "id": 512,
-            "index": 5,
+            "index": 12,
             "type": "layerSection",
             "name": "frame76",
             "bounds": {
@@ -9047,7 +8988,7 @@
             "layers": [
                 {
                     "id": 514,
-                    "index": 4,
+                    "index": 11,
                     "type": "layer",
                     "name": "frame76-0.png",
                     "bounds": {
@@ -9069,14 +9010,14 @@
         },
         {
             "id": 546,
-            "index": 2,
+            "index": 9,
             "type": "layerSection",
             "name": "frame77",
             "bounds": {
-                "top": 8023,
-                "left": 15048,
-                "bottom": 8443,
-                "right": 15608
+                "top": 7987,
+                "left": 14762,
+                "bottom": 8407,
+                "right": 15322
             },
             "visible": true,
             "clipped": false,
@@ -9090,14 +9031,14 @@
             "layers": [
                 {
                     "id": 656,
-                    "index": 1,
+                    "index": 8,
                     "type": "layer",
                     "name": "frame77-0.png",
                     "bounds": {
-                        "top": 8023,
-                        "left": 15048,
-                        "bottom": 8443,
-                        "right": 15608
+                        "top": 7987,
+                        "left": 14762,
+                        "bottom": 8407,
+                        "right": 15322
                     },
                     "visible": true,
                     "clipped": false,
@@ -9109,6 +9050,350 @@
                 }
             ],
             "atRootOfChange": true
+        },
+        {
+            "id": 661,
+            "index": 6,
+            "type": "layerSection",
+            "name": "frame78",
+            "bounds": {
+                "top": 7836,
+                "left": 15272,
+                "bottom": 8694,
+                "right": 15943
+            },
+            "visible": true,
+            "clipped": false,
+            "blendOptions": {
+                "mode": "passThrough"
+            },
+            "mask": {
+                "removed": true
+            },
+            "generatorSettings": false,
+            "path": {
+                "pathComponents": [
+                    {
+                        "origin": {
+                            "type": "rect",
+                            "bounds": {
+                                "top": 7991,
+                                "left": 15366,
+                                "bottom": 8417,
+                                "right": 15920
+                            }
+                        }
+                    }
+                ],
+                "bounds": {
+                    "top": 7991,
+                    "left": 15366,
+                    "bottom": 8417,
+                    "right": 15920
+                },
+                "defaultFill": false
+            },
+            "layers": [
+                {
+                    "id": 668,
+                    "index": 5,
+                    "type": "textLayer",
+                    "name": "frame78-4.png",
+                    "bounds": {
+                        "top": 8217,
+                        "left": 15706,
+                        "bottom": 8302,
+                        "right": 15874
+                    },
+                    "boundsWithFX": {
+                        "top": 8213,
+                        "left": 15702,
+                        "bottom": 8307,
+                        "right": 15878
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "generatorSettings": false,
+                    "layerEffects": {
+                        "dropShadow": {
+                            "enabled": true,
+                            "opacity": {
+                                "value": 100,
+                                "units": "percentUnit"
+                            },
+                            "useGlobalAngle": false,
+                            "localLightingAngle": {
+                                "value": 62,
+                                "units": "angleUnit"
+                            },
+                            "distance": 6,
+                            "blur": 0
+                        },
+                        "bevelEmboss": {
+                            "enabled": true,
+                            "shadowOpacity": {
+                                "value": 0,
+                                "units": "percentUnit"
+                            },
+                            "useGlobalAngle": false,
+                            "blur": 0,
+                            "pattern": {
+                                "name": "$$$/Presets/Patterns/GrayscalePaper_pat/GrayGranite=Gray Granite",
+                                "ID": "355d60e2-11f1-1177-a5fd-8e43f887664f"
+                            }
+                        },
+                        "solidFill": {
+                            "enabled": true,
+                            "color": {
+                                "red": 227.996521,
+                                "green": 101.998444,
+                                "blue": 97.002411
+                            }
+                        },
+                        "frameFX": {
+                            "enabled": true,
+                            "size": 2,
+                            "color": {
+                                "red": 241.996307,
+                                "green": 195.000916,
+                                "blue": 51.999207
+                            }
+                        }
+                    },
+                    "text": {
+                        "textKey": "Return \u0003to Start",
+                        "transform": {
+                            "xx": 0.958367,
+                            "xy": -0.285541,
+                            "yx": 0.285541,
+                            "yy": 0.958367,
+                            "tx": 0,
+                            "ty": 0
+                        },
+                        "textClickPoint": {
+                            "horizontal": {
+                                "value": 97.581909,
+                                "units": "percentUnit"
+                            },
+                            "vertical": {
+                                "value": 94.3981,
+                                "units": "percentUnit"
+                            }
+                        },
+                        "boundingBox": {
+                            "left": {
+                                "value": -86.635742,
+                                "units": "pointsUnit"
+                            },
+                            "top": {
+                                "value": -16.84375,
+                                "units": "pointsUnit"
+                            },
+                            "right": {
+                                "value": 86.633438,
+                                "units": "pointsUnit"
+                            },
+                            "bottom": {
+                                "value": 29.284378,
+                                "units": "pointsUnit"
+                            }
+                        },
+                        "bounds": {
+                            "left": {
+                                "value": -87.479492,
+                                "units": "pointsUnit"
+                            },
+                            "top": {
+                                "value": -20.39978,
+                                "units": "pointsUnit"
+                            },
+                            "right": {
+                                "value": 89.279755,
+                                "units": "pointsUnit"
+                            },
+                            "bottom": {
+                                "value": 33.984085,
+                                "units": "pointsUnit"
+                            }
+                        },
+                        "textShape": [
+                            {
+                                "char": "paint",
+                                "orientation": "horizontal",
+                                "transform": {
+                                    "xx": 1,
+                                    "xy": 0,
+                                    "yx": 0,
+                                    "yy": 1,
+                                    "tx": 0,
+                                    "ty": 0
+                                },
+                                "rowCount": 1,
+                                "columnCount": 1,
+                                "rowMajorOrder": true,
+                                "rowGutter": {
+                                    "value": 0,
+                                    "units": "pointsUnit"
+                                },
+                                "columnGutter": {
+                                    "value": 0,
+                                    "units": "pointsUnit"
+                                },
+                                "spacing": {
+                                    "value": 0,
+                                    "units": "pointsUnit"
+                                },
+                                "frameBaselineAlignment": "alignByAscent",
+                                "firstBaselineMinimum": {
+                                    "value": 0,
+                                    "units": "pointsUnit"
+                                },
+                                "base": {
+                                    "horizontal": 0,
+                                    "vertical": 0
+                                }
+                            }
+                        ],
+                        "textStyleRange": [
+                            {
+                                "from": 0,
+                                "to": 17,
+                                "textStyle": {
+                                    "fontName": "Chango",
+                                    "fontStyleName": "Regular",
+                                    "size": {
+                                        "value": 24,
+                                        "units": "pointsUnit"
+                                    },
+                                    "tracking": 75
+                                }
+                            }
+                        ],
+                        "paragraphStyleRange": [
+                            {
+                                "from": 0,
+                                "to": 8,
+                                "paragraphStyle": {
+                                    "align": "center"
+                                }
+                            },
+                            {
+                                "from": 8,
+                                "to": 17,
+                                "paragraphStyle": {
+                                    "align": "center"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 666,
+                    "index": 4,
+                    "type": "layer",
+                    "name": "frame78-3.png",
+                    "bounds": {
+                        "top": 8233,
+                        "left": 15720,
+                        "bottom": 8330,
+                        "right": 15878
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 663,
+                    "index": 3,
+                    "type": "layer",
+                    "name": "frame78-2.png",
+                    "bounds": {
+                        "top": 8020,
+                        "left": 15392,
+                        "bottom": 8160,
+                        "right": 15882
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 664,
+                    "index": 2,
+                    "type": "layer",
+                    "name": "frame78-1.png",
+                    "bounds": {
+                        "top": 8025,
+                        "left": 15272,
+                        "bottom": 8694,
+                        "right": 15680
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                },
+                {
+                    "id": 665,
+                    "index": 1,
+                    "type": "layer",
+                    "name": "frame78-0.png",
+                    "bounds": {
+                        "top": 7836,
+                        "left": 15366,
+                        "bottom": 8417,
+                        "right": 15943
+                    },
+                    "visible": true,
+                    "clipped": false,
+                    "mask": {
+                        "removed": true
+                    },
+                    "pixels": true,
+                    "generatorSettings": false
+                }
+            ],
+            "atRootOfChange": true,
+            "vectorMask": [
+                {
+                    "anchor": {
+                        "x": 15366,
+                        "y": 7991
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 15920,
+                        "y": 7991
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 15920,
+                        "y": 8417
+                    }
+                },
+                {
+                    "anchor": {
+                        "x": 15366,
+                        "y": 8417
+                    }
+                }
+            ]
         }
     ]
 }
