@@ -169,6 +169,7 @@
 		path = resolve(documentContext.assetGenerationDir, '../../../', 'js/app/data/', "document.json");
 
 		function writeFile() {
+
 			content = stringify(document);
 
 			fs.writeFile(path, content, function(err) {
@@ -1370,6 +1371,7 @@
                 console.error("Menu creation failed", MENU_ID);
             }
         );
+
         _generator.onPhotoshopEvent("generatorMenuChanged", handleGeneratorMenuClicked);
 
         // Plugins should do as little as possible synchronously in init(). That way, all plugins get a
