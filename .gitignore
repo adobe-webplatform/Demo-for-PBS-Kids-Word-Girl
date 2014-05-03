@@ -1,17 +1,3 @@
 .DS_Store
 .sass-cache
-generator/generator-core-master/test/
-generator/generator-core-master/lib/
-generator/comp-assets/
-generator/generator-core-master/.gitignore
-generator/generator-core-master/.jshintrc
-generator/generator-core-master/.travis.yml
-generator/generator-core-master/AUTHORS
-generator/generator-core-master/Gruntfile.js
-generator/generator-core-master/LICENSE
-generator/generator-core-master/README.md
-generator/generator-core-master/TODO.md
-generator/generator-core-master/app.js
-generator/generator-core-master/npm-shrinkwrap.json
-generator/generator-core-master/package.json
 src/wordgirl.tmproj
