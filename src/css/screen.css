@@ -1321,9 +1321,10 @@ body {
 /* line 127, ../sass/screen.scss */
 #preloader-svg {
   display: block;
+  margin: 0 auto;
 }
 
-/* line 131, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 #canvas-view {
   position: fixed;
   top: 0;
@@ -1332,7 +1333,7 @@ body {
   height: 100%;
 }
 
-/* line 139, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 #dom-container {
   position: fixed;
   top: 0;
@@ -1342,14 +1343,14 @@ body {
   overflow: hidden;
 }
 
-/* line 148, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 #dom-view {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* line 154, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 .frame {
   position: absolute;
   opacity: 0;
@@ -1358,7 +1359,7 @@ body {
   -o-transition: none;
   transition: none;
 }
-/* line 159, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .frame.in {
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
@@ -1367,7 +1368,7 @@ body {
   opacity: 1;
 }
 
-/* line 165, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 #credits {
   position: absolute;
   top: 140px;
@@ -1378,7 +1379,7 @@ body {
   text-align: center;
 }
 
-/* line 175, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 #video-holder {
   display: none;
   position: fixed;
@@ -1389,12 +1390,12 @@ body {
   background: black;
   z-index: 100;
 }
-/* line 185, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 #video-holder.in {
   display: block;
 }
 
-/* line 190, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 #video {
   position: absolute;
   top: 0;
@@ -1403,7 +1404,7 @@ body {
   height: 100%;
 }
 
-/* line 198, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 #video-ui {
   position: absolute;
   top: 0;
@@ -1412,7 +1413,7 @@ body {
   height: 100%;
 }
 
-/* line 206, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 #video-close-btn {
   position: absolute;
   left: 20px;
@@ -1423,7 +1424,7 @@ body {
   border-radius: 10px;
 }
 
-/* line 216, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 #video-play-btn {
   position: absolute;
   left: 20px;
@@ -1434,24 +1435,24 @@ body {
   border-radius: 10px;
 }
 
-/* line 227, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 #video-play-btn-svg #video-play {
   opacity: 1;
 }
-/* line 231, ../sass/screen.scss */
+/* line 232, ../sass/screen.scss */
 #video-play-btn-svg #video-pause {
   opacity: 0;
 }
-/* line 236, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 #video-play-btn-svg.pause #video-play {
   opacity: 0;
 }
-/* line 240, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 #video-play-btn-svg.pause #video-pause {
   opacity: 1;
 }
 
-/* line 246, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 #home-btn {
   position: absolute;
   left: 330px;
