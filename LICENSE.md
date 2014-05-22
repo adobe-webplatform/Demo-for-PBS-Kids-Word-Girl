@@ -1,0 +1,1 @@
+©2014 PBS Kids. All rights reserved. Any use of Word Girl or PBS Kids assets, including but not limited to all logos, trademarks, illustrations, images, and designs requires a written license.
